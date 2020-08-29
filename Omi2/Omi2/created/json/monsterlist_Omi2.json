@@ -1,0 +1,30 @@
+[
+    {
+        "id":"mountain_wolf_2",
+        "name":"Trained mountain wolf",
+        "iconID":"monsters_rltiles2:109",
+        "maxHP":61,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":5,
+            "max":11
+        },
+        "spawnGroup":"primwolf2",
+        "droplistID":"primcanine",
+        "attackCost":4,
+        "attackChance":155,
+        "blockChance":75,
+        "damageResistance":3,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"haste",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    }
+]

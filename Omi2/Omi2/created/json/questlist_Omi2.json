@@ -1,0 +1,41 @@
+[
+    {
+        "id":"Thieves04",
+        "name":"Honor and plunder",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Temporary placeholder."
+            }
+        ]
+    },
+    {
+        "id":"bwm17_heights",
+        "name":"Heights change in bwm_17 (Actually 70)",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Level 0"
+            },
+            {
+                "progress":2,
+                "logText":"Level 1"
+            }
+        ]
+    },
+    {
+        "id":"bwm17_vine",
+        "name":"Vines in bwm_17",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Vine taken."
+            },
+            {
+                "progress":2,
+                "logText":"Vine placed."
+            }
+        ]
+    }
+]

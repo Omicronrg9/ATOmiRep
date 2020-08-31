@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="10" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="30">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="10" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="34">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="andors-trail-master/AndorsTrail/res/drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -182,12 +182,12 @@
  </tileset>
  <layer id="1" name="Ground" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlM0NgCAMRo03F3Bll3AFUG/edAVgBQYREhu/NLb0YOLhJf48sOVrjH3XxUIqLAUvkG/SfT8LkCftQ5wAf7ePz3UEnOJlgHsenm3Dw8HqOAUvvNRBa9Gr8DpoLfcQBz1o3gH9aF4Q+kB4blpdvvHdvzzMT/MwPyfkxr1VyQ29qZEvzcJkyK1i9SxzQOe4GOfqKy80zhm9ul8y9Ev/pguVV9q/
+   eJzFkkEKgCAQRaNdF+j0XUGjXbu6gnaFDpKBg59PMxoELR5YPnOmP7Hvupg4EnPCK5yZIz9PCuJp3xF2gPfWsawj4AzvBNjz8G4ZChvVsSteeKhDzqJ3w3XIWfYQBz1Y3gb9WF5Q+kA4N6suX7n3Lw/zszzMzym5safly14tX5yFWr7Su3Yv4hs8V/kvb+fqy/njGlu9C6yj21Y=
   </data>
  </layer>
  <layer id="2" name="Objects" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJyFlLFOw0AMhq2TUAYGSFIu6gAL8Ao8AhszEyMvAa/Ao3RmYUCIIW1gYigq3YiECkhQMURlQMLWnXU+J4FfshKdP/vsOycAbd2lAAcFwGHR9h2L9xcLsBB2ZYNvZMJ7g+tztNPCPUvBsZ4zgK/M+S7R3j2XJwADtK0k5hvPfaNd4F676N9D20/auSfITJB5yFzcysd1ibgp9j9BexrGPmNjjvSKzJvn5t6fCa7yHDGUc5mGGlY2xLBK9H+m8dpHGp/ZwMT7RvEqHzGSHavcJndPOnuppeDobrK83a/WTMTUw252fSPk5Pp0TayRZ6c25Cp7WBYxVdruQete1NW3P2nxz34sPSskfbdcn1bTMQvbeD47/oyoD+57LGbh1sb96rkhnW/+3cePWuc57dPZmru7xw6G7+gI5/Ma7caEfuVd8KydoL827l9Rqe9tJuan9t8Qcb9fKG6Z
+   eJyFk7FOxDAMhq1KqAMDJD1S3QAL8Ao8AhszT8BLwCvwKMfKwgP0WpgYDh23cRI6QIITQ3UMSNhKrDhuK37Jahp/duLEAejq3gCclACnZdd3LsavDmAl7M5F3ySL4xbnF2gXpf9WgmO9WIBv6323aB+BK3KAEdpenvJt4H7QrnGtQ/QfoR3n3dw1MjUyj9bHbUJcn4ibYf012vM49WUu5UhvyLwHbhH8VnBN4IihnGsT97BxMYZVof/LpHOfJj2zUZaum8SrfMRIdqpyZ4X/0tlLrQVHd2OLbr1acxGzHPez2zsxJ+9P74k1CezMxVzVAMsipjHdGrQexL6G1iet/lmPpXuFJO92KfpAq+3phX08n4NwRlQH1z0VvUDvT9ar+4Z0tevzD9Xxq+a5T4d0ueXv7qmH4Ts6E2+f65V3wb3GZ0L/jXpvc9U/N4H9A/Arbjw=
   </data>
  </layer>
  <layer id="12" name="Objects_1" width="10" height="30">
@@ -197,7 +197,7 @@
  </layer>
  <layer id="3" name="Above" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYECAw2IMBEE4EF9CUpcizsDgAsShQBwmjqr2CZK6o0IMDMeA2BSoxg1NHYYdQHVmUHXl7AwMFUBcyY6pLlUIYn8aELcD5TuAuBOLOmTwShK/PAzcJFLdLSR1j5mI0wMCj0QZGJSg4fNICKEXZO8tAnanMkHUEFJ7SQi7+Gws7iTGXlLUUsOs/0juJ9a8PUSqIwbA8sMnHOGIrA6b+9DTA6H8dVMQv3kwAIu/uSSkN2LDD6u7kOLomCB1zUMWQwfIaRycR4DhAgDBJTlS
+   eJxjYECAw2IMBEE4EF9CUpcizsDgAsShQBwmjqr2CZK6o0IMDMeA2BSoxg1NHYYdQHVmUHXl7AwMFUBcyY6pLlUIYn8aELcD5TuAuBOLOmTwShK/PAzcJFLdLSR1j5mI0wMCj0QZGJSg4fNICKEXZO8tAnanMkHUEFJ7SQi7+Gws7iTGXlLUUsOs/0juJ9a8PUSqIwV8whGOyACb+0hJDyBwUxC/eTCALf4IAWLDDxtAjqNjgtQzL5YJVQwdIKfxR9A4AACqxDS1
   </data>
  </layer>
  <layer id="13" name="Above_1" width="10" height="30">
@@ -210,17 +210,17 @@
    eJxjYKAMbBViYNgmBGGHClFoGBlgNhMDwxwgviVJf7tHAelAiX+gXTDywFe+gXYB9QAAeK4FWQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="10" height="30">
+ <layer id="4" name="Walkable" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGGOJwBgqmtlhIMAyD2VSj/Kh612NjkqMMFiFULk6vix6+WGH8TUgNThy9O0NWRYm8aA357YfgJFBOjjhjziA03dP8Qo47UeCBGPT51+OzGpo6QvbjUobuJ2upISaMAJZCftg==
+   eJzbKMbAsJGGOJwBgqmtlhIMAyD2VSj/Kh612NjkqMMFiFULk6vix6+WGH8TUgNThy9O0NWRYm8aA357YfgJFBOjjhjziA03dP8Qo47UeMClHp2NTR0I4LMbmzp89uJThyutU0sdKWkUAB03m+w=
   </data>
  </layer>
  <layer id="10" name="Walkable_1" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFEjAyooe4pkWrRAbHqcKklVh2yemQaF06jsjp095IaXzDszoDdLGQzQWrcGVDVEPI3tcObGuqQ/YEvDPGpIzZO6KEOX7yQow5XOFJDHXo4fxaD5PGnUDYlaRwAh/ancQ==
+   eJzbKMbAsJFEjAyooe4pkWrRAbHqcKklVh2yemQaF06jsjp095IaXzDszoDdLGQzQWrcGVDVEPI3tcObGuqQ/YEvDHGpewLF5IY1uRiXf/HFCznqcIUjNdSh++OzGCSPP4Wy0dWRksYBge2ong==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="5" name="Mapevents">
   <object id="4" name="south" type="mapchange" x="64" y="928" width="64" height="32">
    <properties>
     <property name="map" value="blackwater_mountain14"/>
@@ -252,6 +252,13 @@
    </properties>
   </object>
   <object id="22" name="bwm70_sign" type="script" x="128" y="288" width="32" height="32"/>
+  <object id="30" name="bwm17_heights2_1" type="script" x="256" y="736" width="32" height="96"/>
+  <object id="31" name="east2" type="mapchange" x="288" y="704" width="32" height="96">
+   <properties>
+    <property name="map" value="blackwater_mountain15"/>
+    <property name="place" value="west2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
   <object id="23" name="forestboar4" type="spawn" x="64" y="512" width="96" height="320">
@@ -272,12 +279,6 @@
     <property name="spawngroup" value="gornaud_2"/>
    </properties>
   </object>
-  <object id="26" name="gornaud_3" type="spawn" x="256" y="608" width="32" height="128">
-   <properties>
-    <property name="quantity" value="1"/>
-    <property name="spawngroup" value="gornaud_3"/>
-   </properties>
-  </object>
   <object id="27" name="forestboar4" type="spawn" x="32" y="288" width="96" height="160">
    <properties>
     <property name="quantity" value="1"/>
@@ -292,7 +293,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys" visible="0"/>
- <objectgroup id="8" name="Replace">
+ <objectgroup id="8" name="Replace" visible="0">
   <object id="3" name="bwm17_vine:2" type="replace" x="288" y="320" width="32" height="64">
    <properties>
     <property name="Object" value="Object_1"/>
@@ -312,6 +313,16 @@
   <object id="10" name="bwm17_heights:2" type="replace" x="32" y="0" width="256" height="960">
    <properties>
     <property name="Walkable" value="Walkable_1"/>
+   </properties>
+  </object>
+  <object id="32" name="bwm17_heights:2" type="replace" x="288" y="384" width="32" height="256">
+   <properties>
+    <property name="Walkable" value="Walkable_1"/>
+   </properties>
+  </object>
+  <object id="33" name="bwm17_heights:1" type="replace" x="288" y="384" width="32" height="256">
+   <properties>
+    <property name="Walkable_1" value="Walkable"/>
    </properties>
   </object>
  </objectgroup>

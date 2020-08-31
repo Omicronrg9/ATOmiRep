@@ -215,12 +215,12 @@
    eJzbKMbAsJGGOJwBgqmtlhIMAyD2VSj/Kh612NjkqMMFiFULk6vix6+WGH8TUgNThy9O0NWRYm8aA357YfgJFBOjjhjziA03dP8Qo47UeMClHp2NTR0I4LMbmzp89uJThyutU0sdKWkUAB03m+w=
   </data>
  </layer>
- <layer id="10" name="Walkable_1" width="10" height="30">
+ <layer id="10" name="Walkable_1" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJFEjAyooe4pkWrRAbHqcKklVh2yemQaF06jsjp095IaXzDszoDdLGQzQWrcGVDVEPI3tcObGuqQ/YEvDHGpewLF5IY1uRiXf/HFCznqcIUjNdSh++OzGCSPP4Wy0dWRksYBge2ong==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="4" name="south" type="mapchange" x="64" y="928" width="64" height="32">
    <properties>
     <property name="map" value="blackwater_mountain14"/>
@@ -293,10 +293,10 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys" visible="0"/>
- <objectgroup id="8" name="Replace" visible="0">
+ <objectgroup id="8" name="Replace">
   <object id="3" name="bwm17_vine:2" type="replace" x="288" y="320" width="32" height="64">
    <properties>
-    <property name="Object" value="Object_1"/>
+    <property name="Objects" value="Objects_1"/>
     <property name="Walkable_1" value="Walkable"/>
    </properties>
   </object>

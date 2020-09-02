@@ -37,5 +37,39 @@
                 "logText":"Vine placed."
             }
         ]
+    },
+    {
+        "id":"bwm72_beginning",
+        "name":"Hidden: events in bwm72",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"First corpse discovered "
+            },
+            {
+                "progress":2,
+                "logText":"Second corpse discovered"
+            },
+            {
+                "progress":3,
+                "logText":"Third corpse discovered"
+            },
+            {
+                "progress":4,
+                "logText":"Torture signs discovered",
+                "rewardExperience":300
+            }
+        ]
+    },
+    {
+        "id":"Omi2_bwm1",
+        "name":"Climbing up is forbidden",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Down in a hole, in the mountain lside near Prim I've found signs of a heinous torture. At least three corpses were there. I felt the need to get out of there as far as I could and report the events to Guthbered, chief of the village."
+            }
+        ]
     }
 ]

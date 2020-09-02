@@ -183,5 +183,277 @@
                 "nextPhraseID":"bwm17_vine2_1"
             }
         ]
+    },
+    {
+        "id":"bwm70_corpse",
+        "message":"[This must be the remains of some imprudent villager who ventured into the mountain despite the warnings. There are signs of a former camp down the mountain.]",
+        "replies":[
+            {
+                "text":"I'd better be cautious.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse1_1",
+        "message":"[You see another corpse, much more decomposed than the one you saw in the hillside, and wrapped up in cobweb. What kind of spider would be able to do such a thing?]",
+        "replies":[
+            {
+                "text":"It's plundering time!",
+                "nextPhraseID":"bwm72_corpse1_2"
+            },
+            {
+                "text":"Leave it be.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse1_2",
+        "message":"[A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them.]",
+        "replies":[
+            {
+                "text":"Ugh, great. This one had nothing but ugly spiders.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"*looking at the corpse*. Poor man, no match for a couple of arachnids... Rest in peace.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"plaguesp_cr"
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"poison_blood",
+                "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse1_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse1_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse1_3",
+        "message":"Nothing interesting here."
+    },
+    {
+        "id":"bwm72_corpse2_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse2_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse2_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse2_3",
+        "message":"You have already looked at this corpse."
+    },
+    {
+        "id":"bwm72_corpse2_1",
+        "message":"[Yet another corpse in the same state as the previous one. One of its tibiae seems fractured.]",
+        "replies":[
+            {
+                "text":"Take a closer look.",
+                "nextPhraseID":"bwm72_corpse2_2"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse2_2",
+        "message":"[That is certainly not a wound one of these spiders would cause. There's something strange about all this.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse3_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse3_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse3_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse3_3",
+        "message":"There's certainly nothing but rotten flesh and bones here."
+    },
+    {
+        "id":"bwm72_corpse3_1",
+        "message":"[This one is the most decayed of all corpses you saw here. Who are these people?]",
+        "replies":[
+            {
+                "text":"Rest in peace, whoever you were. (Leave it be)",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"*looking at the dead body* Well, I don't think you need your belongings anymore, right? (Plunder the corpse)",
+                "nextPhraseID":"bwm72_corpse3_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse3_2",
+        "message":"YOU! We will pursue you for your crimes!",
+        "switchToNPC":"unknown",
+        "rewards":[
+            {
+                "rewardType":"spawnAll"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":32
+            }
+        ]
+    },
+    {
+        "id":"bwm72_torture_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_torture_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_torture_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":3
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bwm72_torture_3",
+        "message":"You throw another quick glance at the blood-stained chair. Horrible."
+    },
+    {
+        "id":"bwm72_torture_1",
+        "message":"[One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope. Someone has been tortured here, no doubt about it.]",
+        "replies":[
+            {
+                "text":"Examine the scene.",
+                "nextPhraseID":"bwm72_torture_2"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_torture_2",
+        "message":"[After several minutes of careful but fruitless search, you decide to take one of the ropes that were presumably used by the torturer.]",
+        "replies":[
+            {
+                
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":4
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bwm72_rope",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":5
+            }
+        ]
     }
 ]

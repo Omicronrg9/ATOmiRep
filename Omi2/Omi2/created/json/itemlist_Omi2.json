@@ -7,5 +7,41 @@
         "baseMarketCost":1,
         "category":"other",
         "description":"Several meters of vine. It can be used as a reliable rope."
+    },
+    {
+        "id":"bwm_fish",
+        "iconID":"items_japozero:527",
+        "name":"Raw inkyfish",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":22,
+        "category":"animal_e",
+        "description":"When threatened, these fishes secret a dense black substance that darkens the surrounding water, allowing them to escape.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":0
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":10,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":10,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bwm72_rope",
+        "iconID":"items_misc_2:73",
+        "name":"Blood-stained rope",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]

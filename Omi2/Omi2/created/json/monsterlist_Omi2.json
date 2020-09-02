@@ -26,5 +26,70 @@
                 }
             ]
         }
+    },
+    {
+        "id":"slippery_venomfang",
+        "name":"Slippery Venomfang",
+        "iconID":"monsters_omi2:8",
+        "maxHP":38,
+        "moveCost":3,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"venomfang_2",
+        "droplistID":"cave_serpent",
+        "attackCost":3,
+        "attackChance":140,
+        "blockChance":100,
+        "damageResistance":3,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"40"
+                }
+            ]
+        }
+    },
+    {
+        "id":"noxious_venomfang",
+        "name":"Noxious venomfang",
+        "iconID":"monsters_omi2:8",
+        "maxHP":44,
+        "moveCost":3,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"venomfang_2",
+        "attackCost":3,
+        "attackChance":155,
+        "blockChance":85,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"60"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
     }
 ]

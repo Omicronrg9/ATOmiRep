@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="32">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="33">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -223,12 +223,6 @@
   </object>
   <object id="12" name="bwm73_drop" type="container" x="256" y="576" width="32" height="32"/>
   <object id="13" name="bwm73_drop" type="container" x="576" y="288" width="32" height="32"/>
-  <object id="31" name="bwm76_monster2" type="spawn" x="448" y="352" width="96" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="venomfang_2"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="30" name="bwm76_monster1" type="spawn" x="64" y="128" width="288" height="384">
@@ -236,6 +230,12 @@
     <property name="active" value="false"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="shadowfang"/>
+   </properties>
+  </object>
+  <object id="32" name="bwm76_monster2" type="spawn" x="448" y="352" width="96" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="venomfang_2"/>
    </properties>
   </object>
  </objectgroup>

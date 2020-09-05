@@ -43,5 +43,80 @@
         "name":"Blood-stained rope",
         "displaytype":"quest",
         "category":"other"
+    },
+    {
+        "id":"bwm_pick",
+        "iconID":"items_japozero:280",
+        "name":"Blackwater rusted pickaxe",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":598,
+        "category":"pole",
+        "description":"An old, rusted and heavy pickaxe.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":10
+            },
+            "increaseMoveCost":0,
+            "increaseReequipCost":0,
+            "increaseAttackCost":7,
+            "increaseAttackChance":35,
+            "increaseBlockChance":5,
+            "setNonWeaponDamageModifier":100,
+            "addedConditions":[
+                {
+                    "condition":"blackwater_misery",
+                    "magnitude":1
+                }
+            ]
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bwm_olm_drop",
+        "iconID":"items_misc:53",
+        "name":"thin amphibian skin",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":15,
+        "category":"animal"
+    },
+    {
+        "id":"bwm_olm_drop2",
+        "iconID":"items_omi2:6",
+        "name":"Wizened amphibian boots",
+        "displaytype":"ordinary",
+        "category":"feet_lthr",
+        "equipEffect":{
+            "increaseMaxHP":-2,
+            "increaseAttackChance":1,
+            "increaseBlockChance":7
+        }
+    },
+    {
+        "id":"bwm_olm_drop3",
+        "iconID":"items_omi2:0",
+        "name":"Battered amphibian gloves",
+        "displaytype":"ordinary",
+        "category":"hnd_lthr",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":1
+            },
+            "increaseMaxHP":-1,
+            "increaseAttackChance":-1,
+            "increaseBlockChance":7
+        }
     }
 ]

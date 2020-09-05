@@ -1,7 +1,7 @@
 [
     {
         "id":"bwm17_vine_1",
-        "message":"[There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it.]",
+        "message":"[There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it]",
         "replies":[
             {
                 "text":"Leave it be.",
@@ -15,7 +15,7 @@
     },
     {
         "id":"bwm17_vine_2",
-        "message":"[Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it.]",
+        "message":"[Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it]",
         "replies":[
             {
                 "text":"Leave",
@@ -152,7 +152,7 @@
     },
     {
         "id":"bwm17_vine2_2",
-        "message":"[Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole.]",
+        "message":"[Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole]",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -186,7 +186,7 @@
     },
     {
         "id":"bwm70_corpse",
-        "message":"[This must be the remains of some imprudent villager who ventured into the mountain despite the warnings. There are signs of a former camp down the mountain.]",
+        "message":"[This must be the remains of some imprudent villager who ventured into the mountain despite the warnings. There are signs of a former camp down the mountain]",
         "replies":[
             {
                 "text":"I'd better be cautious.",
@@ -210,7 +210,7 @@
     },
     {
         "id":"bwm72_corpse1_2",
-        "message":"[A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them.]",
+        "message":"[A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them]",
         "replies":[
             {
                 "text":"Ugh, great. This one had nothing but ugly spiders.",
@@ -290,7 +290,7 @@
     },
     {
         "id":"bwm72_corpse2_1",
-        "message":"[Yet another corpse in the same state as the previous one. One of its tibiae seems fractured.]",
+        "message":"[Yet another corpse in the same state as the previous one. One of its tibiae seems fractured]",
         "replies":[
             {
                 "text":"Take a closer look.",
@@ -304,7 +304,7 @@
     },
     {
         "id":"bwm72_corpse2_2",
-        "message":"[That is certainly not a wound one of these spiders would cause. There's something strange about all this.]",
+        "message":"[That is certainly not a wound one of these spiders would cause. There's something strange about all this]",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -418,11 +418,11 @@
     },
     {
         "id":"bwm72_torture_3",
-        "message":"You throw another quick glance at the blood-stained chair. Horrible."
+        "message":"You throw another quick glance at the blood-stained chair. What an horrible scene."
     },
     {
         "id":"bwm72_torture_1",
-        "message":"[One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope. Someone has been tortured here, no doubt about it.]",
+        "message":"[One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope. Someone has been tortured here, no doubt about it]",
         "replies":[
             {
                 "text":"Examine the scene.",
@@ -432,7 +432,7 @@
     },
     {
         "id":"bwm72_torture_2",
-        "message":"[After several minutes of careful but fruitless search, you decide to take one of the ropes that were presumably used by the torturer.]",
+        "message":"[After several minutes of careful but fruitless search, you decide to take one of the ropes that were presumably used by the torturer]",
         "replies":[
             {
                 
@@ -455,5 +455,22 @@
                 "value":5
             }
         ]
+    },
+    {
+        "id":"bwm74_h_warning",
+        "message":"[The very few rays of light that barely illuminate this small tunnel get lost in the inmense darkness of this hole. There's neither ropes nor vines that could help you to go down. Furthermore, you can neither figure out how far away the floor is. Assured of not being prepared to explore whatever would be down there, you decide to avoid the hole and continue your way to the other shore]",
+        "replies":[
+            {
+                
+            }
+        ]
+    },
+    {
+        "id":"bwm74_waterfall",
+        "message":"[From this place you can spot a numerous couple of slopes the current follows loyally. Further away, the stream ends abruptly in what seems to be a waterfall and after that, just darkness. It is definitely not a good idea to keep going this way without any reason] "
+    },
+    {
+        "id":"bwm75_sign",
+        "message":"[There's nothing written here anymore. The wood is rotten, dried and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here]"
     }
 ]

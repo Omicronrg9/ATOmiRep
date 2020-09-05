@@ -1,198 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="18">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_bed_1.png" width="512" height="256"/>
+  <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="129" name="map_border_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_border_1.png" width="512" height="256"/>
+  <image source="../drawable/map_border_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="257" name="map_bridge_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_bridge_1.png" width="512" height="256"/>
+  <image source="../drawable/map_bridge_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="385" name="map_bridge_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_bridge_2.png" width="512" height="256"/>
+  <image source="../drawable/map_bridge_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="513" name="map_broken_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_broken_1.png" width="512" height="256"/>
+  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="641" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_cavewall_1.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="749" name="map_cavewall_2" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_cavewall_2.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_2.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="857" name="map_cavewall_3" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_cavewall_3.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_3.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="965" name="map_cavewall_4" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_cavewall_4.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_4.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="1073" name="map_chair_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_chair_table_1.png" width="512" height="256"/>
+  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1201" name="map_chair_table_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_chair_table_2.png" width="512" height="256"/>
+  <image source="../drawable/map_chair_table_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1329" name="map_crate_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_crate_1.png" width="512" height="256"/>
+  <image source="../drawable/map_crate_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1457" name="map_cupboard_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_cupboard_1.png" width="512" height="256"/>
+  <image source="../drawable/map_cupboard_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1585" name="map_curtain_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_curtain_1.png" width="512" height="256"/>
+  <image source="../drawable/map_curtain_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1713" name="map_entrance_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_entrance_1.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1841" name="map_entrance_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_entrance_2.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_fence_1.png" width="512" height="256"/>
+  <image source="../drawable/map_fence_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2097" name="map_fence_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_fence_2.png" width="512" height="256"/>
+  <image source="../drawable/map_fence_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2225" name="map_fence_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_fence_3.png" width="512" height="256"/>
+  <image source="../drawable/map_fence_3.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2353" name="map_fence_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_fence_4.png" width="512" height="256"/>
+  <image source="../drawable/map_fence_4.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2481" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_1.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2609" name="map_ground_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_2.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2737" name="map_ground_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_3.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_3.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2865" name="map_ground_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_4.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_4.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2993" name="map_ground_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_5.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3121" name="map_ground_6" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_6.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_6.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3249" name="map_ground_7" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_7.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_7.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3377" name="map_ground_8" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_ground_8.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_8.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3505" name="map_house_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_house_1.png" width="512" height="256"/>
+  <image source="../drawable/map_house_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3633" name="map_house_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_house_2.png" width="512" height="256"/>
+  <image source="../drawable/map_house_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3761" name="map_indoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_indoor_1.png" width="512" height="256"/>
+  <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="3889" name="map_indoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_indoor_2.png" width="512" height="256"/>
+  <image source="../drawable/map_indoor_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4017" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_kitchen_1.png" width="512" height="256"/>
+  <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4145" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_outdoor_1.png" width="512" height="256"/>
+  <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4273" name="map_pillar_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_pillar_1.png" width="512" height="256"/>
+  <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4401" name="map_pillar_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_pillar_2.png" width="512" height="256"/>
+  <image source="../drawable/map_pillar_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4529" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_plant_1.png" width="512" height="256"/>
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4657" name="map_plant_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_plant_2.png" width="512" height="256"/>
+  <image source="../drawable/map_plant_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4785" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_rock_1.png" width="512" height="256"/>
+  <image source="../drawable/map_rock_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="4913" name="map_rock_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_rock_2.png" width="512" height="256"/>
+  <image source="../drawable/map_rock_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5041" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_roof_1.png" width="512" height="256"/>
+  <image source="../drawable/map_roof_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5169" name="map_roof_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_roof_2.png" width="512" height="256"/>
+  <image source="../drawable/map_roof_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5297" name="map_roof_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_roof_3.png" width="512" height="256"/>
+  <image source="../drawable/map_roof_3.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5425" name="map_shop_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_shop_1.png" width="512" height="256"/>
+  <image source="../drawable/map_shop_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5553" name="map_sign_ladder_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_sign_ladder_1.png" width="512" height="256"/>
+  <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5681" name="map_table_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_table_1.png" width="512" height="256"/>
+  <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_transition_1.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6065" name="map_transition_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_transition_2.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6193" name="map_transition_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_transition_3.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_3.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6321" name="map_transition_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_transition_4.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_4.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_transition_5.png" width="512" height="256"/>
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6705" name="map_tree_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_tree_2.png" width="512" height="256"/>
+  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6833" name="map_wall_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_wall_1.png" width="512" height="256"/>
+  <image source="../drawable/map_wall_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="6961" name="map_wall_2" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_wall_2.png" width="480" height="256"/>
+  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
  </tileset>
  <tileset firstgid="7081" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_wall_3.png" width="480" height="256"/>
+  <image source="../drawable/map_wall_3.png" width="480" height="256"/>
  </tileset>
  <tileset firstgid="7201" name="map_wall_4" tilewidth="32" tileheight="32" tilecount="120" columns="15">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_wall_4.png" width="480" height="256"/>
+  <image source="../drawable/map_wall_4.png" width="480" height="256"/>
  </tileset>
  <tileset firstgid="7321" name="map_window_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_window_1.png" width="512" height="256"/>
+  <image source="../drawable/map_window_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="andors-trail-master/AndorsTrail/res/drawable/map_window_2.png" width="512" height="256"/>
+  <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJyllDEOgzAMRSO23n/lCglDukO2roUr9CAlIla/vmwTyvAVELaf/WORhhDSrqmdoveu1dC8a2kqkJ8fIbya6nMcDiWDUfUxhPztBmNxhPz0J6M4Pq1tjhl4VxlTm9/yqer5+PklrNLBKHDWGj3Cu9kchvSwwQxcK5M0lsRpDNwNniFTHuZrc1kM3A2cQat9xvG8WmgGrs9eaRztG3q1wgwc19Ov5acwtHvV+hyHQ2deYp3Ydlv7zgzc8WRwtL2Lbbexbi9jUjiap5Ln+XmHMVLO2V1cZfD/2+J4OR6D++F3jcEx1r1n6kf2UOvPyrFmwfho9O4xvFjslXvmvC8XOXQj
+   eJyllLEOwyAMRBFb/n/NL0AGujdsXZv8Qj6kiYKl09UGVx1ObRTjx50JOYawNGXQ+9Rm6Hlqbaqt/lpfphBeTdf/FG9JHTMuHYaQvzsYUseMdSDhZQfjgBqpr52cOC8PIxNjab6snDgvYVUHo8LvY/IJWbtj5jt44F6FpLGkrjdzzUOhdbhe8zWaeSYPWu8Rp5fVSh64P2elcbR3mNUGHrjOs18rT2Foc9X2OcdboyyxT2pnW3vPjETfaM8P7iu1s419vYxF4WiZyvfXy/Mfxkz332gWvzL4/rY4vMbLSNSXnzVGit8Mbe6FPMg5ZC94P/MaZogXrE/G3nsM7e5HzSQrnw8fFnUM
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJytk01OwzAQha1I3aMg2edoBez5aW5AT9B2D2foLSpOALfogp4BVgUpArqv2h0zkke8TMZxG/GkURzHnu/NxHbu/3QVnHv1zq0pqpBf/1n0YwwHzo0G3YzivD33Uab5LzBmxpKeq0wdpcHokvDZ27EM7c2S1ceyB+OB/C0oalr/peLb25xTGBvIvaW4D834iRz2ISw+TzmG9IefNeQex7VDyjeiuKW4A454Esbjmc3A/kv+sVpzTXlu4HwhR/Ywo45zqV6l8l/Q+yzGJXwTDta8o/GhgyFedO43mt/HePdtjvbEQgb+y0loMqqY/+D/5nYGx6p5nvheGYy1b6+zOJhb6hZhj3XdKYbFqSA31v1M5+mpaHpHX/MOxgLOK/rhO7M07ufUODPWv9CyGDo/vnM909Cs3doj2iTqyAn7ltvDdznFSPkSneJLM45Vnz05/QK4a4R0
+   eJytlE1uwjAQha1IXCBI9jlAwL4/5AbtCaD73oFbVD1BuUUX5Qx0VZCitnSNYNcZ1SM9JmMHoo40InHs970Z2zj3fzEJzr1551aUVWifvy26MQY954a9PKPoN8c2ZZq/hOcJ6GoGzisNRi6Ez95yDB3LDn0qOzAeyd+Csqb9+1T55e39uoTxAdo7yrtwmt+Rwz6ExeepjSH94d8atKdx7oD0hpQ3lLfAEU9tDOy/6E/VnCvSuYbzhRxZw4w6jqV6ldIf0fs85hi+CQdr3tPzMcPYqXpFe03jh5jvvsnRnjiQgXt5H5o9XUdfz7Gfe4Nj1fyQ+F4ZjJVvzrM4qC11S2CPdd0phsWpQPsIa16Kvx6w9x/1nzSKnlKMhTqv4ofvzJNxP2fGmcG9SIXF0Pr4zvXMwmnt1hoJfe9yfcWQvp2z5tWnGSlfEpf40oxzo8uatvgFqq19Ow==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYECAw2IMZAGYPmL0k2vHJSQ7ZgPpmTSw4wuaP4i14zIZ9pFiB8j8SzS2gxzzkfXhswOkBj2MQsQZGIKFEHwQO0wcv1347EB2SwgBc9DtEQLyCwUYGOYC2fPw6LtMpPnY7BGCst8I4tezhol485HtQQ/PZ3jswRXXaUj2ppDoBhDYxwTBID/gArOR5OYykWcPqYCQPRuB4bZJCFXsDoF4wgVw2XMQaP4hIexypABSy7a5eOKCWnaQA+hhBza/zyYyPJDLK0J6tgPjdYcQgiYW0CIMAN/zN4Y=
+   eJxjYICAw2IQTA6A6SOknxI7LhFpxyUK7PhCpB3oai6TYR8pdoDMv0RjO8gxn1h9IDXoYRQizsAQLITgg9hh4uS5Ad0tIQTMQbdHiEh7LxNpPjZ7YHa8EcSvZw0T8eYj24Mens/w2IMrztKQ7E0hIy72MUEwyA+4wGwkublM5NlDLIDFFyF7NgLDbZMQqtgdAvEEA+h5DJc9B4HmHxLCLkeKHaSWbXPxxAW17CAWELKjkMzwwWUHNr/PJiI81jOhllfoetDdvh3o7h1CCJoYALID2Zy1BOwgFgAAGGs9nw==
   </data>
  </layer>
  <layer id="9" name="Top" width="25" height="20">
@@ -200,13 +200,13 @@
    eJxjYBgFo2DwgjVMtLfjohDt7SAWHBYbaBeMAnLB5dG4G5FgMMU7ADOgBD0=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20" visible="0">
+ <layer id="4" name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGKGAaoaeaoHfSxgxCg1A5SALXsQBejxJ/YzMLnPnxuITXO8LmRVDuIMZ+QG0lNd9jMfArFtLSDGHvcGSCYmLRGqhzMbHQ7YOo/E5m+iLGD1HAi1Q5S4gOf+ZTYAdNLjB3Iaimxg9z0ORB2AAB6oiSU
+   eJzbKMbAsJFKGBlQy0xsdtDK7JFuB0w9LkCpHdjMw8ZGN5NaduDyHyl24HMjLjFsgBg7CPkLl3pCdhDrVkrTHiE3PYViWtpBjD3uDBBMTPiRKoduNrr6z0SmL3z5AZ8d+MKJVH+QEh/E+IEcO5D9T8gOXGFFqh3kps+BsAMAs/gu6A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="2" name="north" type="mapchange" x="640" y="0" width="64" height="32">
+  <object id="2" name="north" type="mapchange" x="608" y="0" width="96" height="32">
    <properties>
     <property name="map" value="blackwater_mountain71"/>
     <property name="place" value="south"/>
@@ -224,10 +224,10 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="6" name="west" type="mapchange" x="0" y="416" width="32" height="32">
+  <object id="6" name="west1" type="mapchange" x="0" y="416" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain75"/>
-    <property name="place" value="east"/>
+    <property name="place" value="east1"/>
    </properties>
   </object>
   <object id="7" name="bwm73_drop" type="container" x="448" y="512" width="32" height="32"/>

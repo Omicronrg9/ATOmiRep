@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="omi2_bwmhole" x="-2" y="50">
+  <segment id="omi2_bwmhole" x="-28" y="50">
     <map id="blackwater_mountain71" x="11" y="50"/>
     <map id="blackwater_mountain72" x="-2" y="50"/>
     <map id="blackwater_mountain73" x="-2" y="71"/>
+    <map id="blackwater_mountain74" x="-2" y="92"/>
+    <map id="blackwater_mountain75" x="-28" y="71"/>
+    <map id="blackwater_mountain76" x="-28" y="50"/>
   </segment>
 </worldmap>

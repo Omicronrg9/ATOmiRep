@@ -265,5 +265,75 @@
                 }
             ]
         }
+    },
+    {
+        "id":"ehrenfest",
+        "name":"Ehrenfest",
+        "iconID":"monsters_tometik1:86",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ehrenfest",
+        "phraseID":"ehrenfest_selector_2"
+    },
+    {
+        "id":"ortholion",
+        "name":"General Ortholion",
+        "iconID":"monsters_omi2:10",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ortholion"
+    },
+    {
+        "id":"prim_guard5",
+        "name":"Prim guard captain",
+        "iconID":"monsters_rltiles1:65",
+        "monsterClass":"humanoid",
+        "spawnGroup":"prim_guard5",
+        "phraseID":"prim_guard5_1"
+    },
+    {
+        "id":"ortholion_guard0",
+        "name":"General's henchman",
+        "iconID":"monsters_rltiles3:14",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ortholion_01",
+        "phraseID":"ortholion_guard_selector"
+    },
+    {
+        "id":"prim_guard6",
+        "name":"Prim guard",
+        "iconID":"monsters_rltiles1:76",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"prim_guard6",
+        "phraseID":"prim_guard6_1"
+    },
+    {
+        "id":"ortholion_guard1",
+        "name":"Feygard mountain scout",
+        "iconID":"monsters_omi2:10"
+    },
+    {
+        "id":"ortholion_guard2",
+        "name":"Feygard scout",
+        "iconID":"monsters_omi2:12",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ortholion_02",
+        "faction":"",
+        "phraseID":"ortholion_guard_selector"
+    },
+    {
+        "id":"ortholion_guard_3",
+        "name":"Feygard patrol guard",
+        "iconID":"monsters_rltiles3:14",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ortholion_03",
+        "phraseID":"ortholion_guard3_selector"
     }
 ]

@@ -1,0 +1,29 @@
+[
+    {
+        "id":"prim_tailor",
+        "message":"Welcome traveller, what can I do for you?",
+        "replies":[
+            {
+                "text":"Let me see what you have available to sell.",
+                "nextPhraseID":"prim_tailor_1"
+            },
+            {
+                "text":"What do you know about Lorn's crew accident?",
+                "nextPhraseID":"prim_tailor_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":21,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]

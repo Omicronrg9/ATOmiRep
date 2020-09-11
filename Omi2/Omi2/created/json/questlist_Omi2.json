@@ -58,6 +58,32 @@
                 "progress":4,
                 "logText":"Torture signs discovered",
                 "rewardExperience":300
+            },
+            {
+                "progress":5,
+                "logText":"Keyfield on Bwm29"
+            },
+            {
+                "progress":6,
+                "logText":"Conversation with Ehrenfest starts before Ortholion appears."
+            },
+            {
+                "progress":7,
+                "logText":"Conversation with Ehrenfest starts after Ortholion leaves."
+            },
+            {
+                "progress":8,
+                "logText":"Ehrenfest notices your presence in the mine and calls you."
+            },
+            {
+                "progress":10,
+                "logText":"Prim's Evoker info.",
+                "rewardExperience":75
+            },
+            {
+                "progress":9,
+                "logText":"Moyra's info.",
+                "rewardExperience":125
             }
         ]
     },
@@ -68,7 +94,50 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"Down in a hole, in the mountain lside near Prim I've found signs of a heinous torture. At least three corpses were there. I felt the need to get out of there as far as I could and report the events to Guthbered, chief of the village."
+                "logText":"Down in a hole, in the mountain side near Prim I've found signs of a heinous torture. At least three corpses were there. I felt the urge of getting out of there as far as I could and report the events to someone in the village inmediately."
+            },
+            {
+                "progress":6,
+                "logText":"A mysterious looking guy appeared on a sudden in my way to report the guards. He has recommended me not to tell them."
+            },
+            {
+                "progress":7,
+                "logText":"I ignored the advices of the strange guy that almost stumbled upon me. I must see some guards."
+            },
+            {
+                "progress":8,
+                "logText":"Somehow, a Feygard general and his men reached Prim. They are kind of extorting the people in charge to get the full control of the Elm mine."
+            },
+            {
+                "progress":9,
+                "logText":"The man in charge is not willing to hear me. They seem to have bigger problems right now. Maybe the guy I met earlier was right."
+            },
+            {
+                "progress":10,
+                "logText":"A Feygard general and two henchmen of him appeared. They must be up to no good."
+            },
+            {
+                "progress":11,
+                "logText":"Ehrenfest is uneasy. He said we must meet in Elm mine, West of prim. We should talk no more about this inside the village."
+            },
+            {
+                "progress":15,
+                "logText":"Ehrenfest told me his story, and why he knew about what I saw on the mountain side, but he didn't dare to go down the hole.",
+                "rewardExperience":0
+            },
+            {
+                "progress":16,
+                "logText":"I explained to Ehrenfest the horrible scene, and showed him a proof of the torture. Poor guys...",
+                "rewardExperience":500
+            },
+            {
+                "progress":20,
+                "logText":"I must ask the villagers about Lorn and his partners, maybe I can gather some useful information from the common gossip."
+            },
+            {
+                "progress":21,
+                "logText":"It seems Lorn was a regular client of the tavern. I should ask there.",
+                "rewardExperience":125
             }
         ]
     }

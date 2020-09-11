@@ -472,5 +472,2384 @@
     {
         "id":"bwm75_sign",
         "message":"[There's nothing written here anymore. The wood is rotten, dried and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here]"
+    },
+    {
+        "id":"ehrenfest_selector",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm72_rope",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_selector_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_34"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_30c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":16
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_25b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":11
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_3b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_2b2",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_0"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_0",
+        "message":"Damn it, kid! Watch your step. You almost ran me over.",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"Sorry sir, I am on a rush.",
+                "nextPhraseID":"ehrenfest_1a"
+            },
+            {
+                "text":"Watch my step? You'd better watch your tongue.",
+                "nextPhraseID":"ehrenfest_1b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_1a",
+        "message":"Uhm, what's the matter?",
+        "replies":[
+            {
+                "text":"As I said, I don't have time to talk. I need to report something important.",
+                "nextPhraseID":"ehrenfest_2a"
+            },
+            {
+                "text":"Nothing of your concern. I must go inside.",
+                "nextPhraseID":"ehrenfest_2a"
+            },
+            {
+                "text":"I have discovered something shady inside the mountain.",
+                "nextPhraseID":"ehrenfest_2b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_1b",
+        "message":"Not only blind but bad-mannered too! You remind me of myself when I was younger. I was not blind, though, ha ha ha!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_1b2"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_1b2",
+        "message":"I'll leave it be. But tell me, why that urge of going inside so quickly?",
+        "replies":[
+            {
+                "text":"I don't trust you, so nothing.",
+                "nextPhraseID":"ehrenfest_2a"
+            },
+            {
+                "text":"I have information related to the recent disappearings.",
+                "nextPhraseID":"ehrenfest_2b"
+            },
+            {
+                "text":"Sorry, I must go.",
+                "nextPhraseID":"ehrenfest_2a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_2a",
+        "message":"I see. But keep in mind that no one inside there will pay attention to whatever you have to say.",
+        "replies":[
+            {
+                "text":"How not?",
+                "nextPhraseID":"ehrenfest_2b2"
+            },
+            {
+                "text":"You never know...",
+                "nextPhraseID":"ehrenfest_3a"
+            },
+            {
+                "text":"Whatever, I will try anyway.",
+                "nextPhraseID":"ehrenfest_3a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_2b",
+        "message":"Have you? *He gets closer*",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_2b2"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_2b2",
+        "message":"Look, I personally don't think that telling the guards is a good choice.",
+        "replies":[
+            {
+                "text":"Care to explain?",
+                "nextPhraseID":"ehrenfest_3b"
+            },
+            {
+                "text":"I will try anyway, thanks.",
+                "nextPhraseID":"ehrenfest_3a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_3a",
+        "message":"Ok, kid. Do it, I'll wait here for your return, heh.",
+        "replies":[
+            {
+                "text":"Do whatever you want, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"OK, sir.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":7
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"general_ortholion",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard1",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard2",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"prim_guard5",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"prim_guard6",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"prim_guard5_1",
+        "message":"This is no place for kids.",
+        "replies":[
+            {
+                "text":"I will report your bad-manners to your chief.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I might have some information about the recent disappearings.",
+                "nextPhraseID":"prim_guard5_2"
+            }
+        ]
+    },
+    {
+        "id":"prim_guard5_2",
+        "message":"Yeah, we already know about the gornauds.",
+        "replies":[
+            {
+                "text":"No, I did not mean...",
+                "nextPhraseID":"prim_guard5_3a"
+            },
+            {
+                "text":"The gornauds?",
+                "nextPhraseID":"prim_guard5_3b"
+            }
+        ]
+    },
+    {
+        "id":"prim_guard5_3a",
+        "message":"Look, I have more important things to do that babysitting a kid, ok?",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmpf, when the gornauds get the village surrounded I'll be the one babysitting you all.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":9
+            }
+        ]
+    },
+    {
+        "id":"prim_guard5_3b",
+        "message":"Yes. They seem to be learning from every attack and their numbers are increasing.",
+        "replies":[
+            {
+                "text":"Can I help?",
+                "nextPhraseID":"prim_guard5_4"
+            },
+            {
+                "text":"Will you hear what I have to say then?",
+                "nextPhraseID":"prim_guard5_3a"
+            }
+        ]
+    },
+    {
+        "id":"prim_guard5_4",
+        "message":"Of course you can. Go back home and let me and the rest do our job. Understood?",
+        "replies":[
+            {
+                "text":"But I have important information!",
+                "nextPhraseID":"prim_guard5_3a"
+            },
+            {
+                "text":"Whatever, you won't stand up after a Gornaud blow.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Understood, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_guard6_1",
+        "message":"[The guard is mumbling something to itself and seems not to be either feeling your presence or ignoring you completely]"
+    },
+    {
+        "id":"ortholion_conversation_1",
+        "message":"[In front of you, some guys seem to be hearing carefully or rather gingerly a charismatic voice]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_2",
+        "message":"I am a very reasonable man, but the problems between this village and Blackwater settlement have delayed the tax collection of this region.",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_3"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_3",
+        "message":"Taxes are the solid pillar that maintain our and your lands. Other villages will rightly complain if we continue to be as amiable as before.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_4"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_4",
+        "message":"...",
+        "switchToNPC":"prim_guard5",
+        "replies":[
+            {
+                "nextPhraseID":"ortholion_conversation_5"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_5",
+        "message":"With all due respect, general, the problems our village is passing through are wider and more complex than a simple disagreement with the people of Blackwater Settlement.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_6"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_6",
+        "message":"Yes...The mines are closed due to lack of workers. We are scarce of resources and isolated from the rest of the world because of the collapsed tunnels. On the other hand, monster attacks are increasing in frequency and proximity to the village.",
+        "switchToNPC":"prim_guard6",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_7"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_7",
+        "message":"Yeah, yeah. I'm aware of the current situation. \n\nOk, first of all, I will leave some of my men here to reinforce the village. They are reliable...Most of them at least.",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_8"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_8",
+        "message":"I will travel to Blackwater settlement, and in the meanwhile, you must think about this offer:",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_9"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_9",
+        "message":"Feygard will consider that the villagers of Prim will have fullfilled and exceeded their duties with the kingdom if, and only if Prim leaves the full managment of the mines to the capital.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_10"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_10",
+        "message":"What?! You can't...!",
+        "switchToNPC":"prim_guard6",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_11"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_11",
+        "message":"HOW YOU DARE TO INTERRUPT MY GENERAL?! \n\n[Guards of both sides get more and more tensed up]",
+        "switchToNPC":"ortholion_guard0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_12"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_12",
+        "message":"Calm down you all. Where's all that temperance of you, soldiers of the glorious Feygard?",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_13"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_13",
+        "message":"I am leaving now. You have a few days to think about it, but I'm afraid this is the best solution. Feygard will also take charge of the rebuilding and cleaning tasks of the tunnel if you accept.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_14"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_14",
+        "message":"...We will truly consider your proposal. Best of luck in your travel, general.",
+        "switchToNPC":"prim_guard5",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"general_ortholion",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"general_ortholion",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard1",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard1",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard2",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard2",
+                "mapName":"blackwater_mountain29"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":8
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain11"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_2",
+                "mapName":"blackwater_mountain11"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_2",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_3",
+                "mapName":"blackwater_mountain10"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_0a",
+        "message":"I'm on duty, youngster. Go play somewhere else.",
+        "replies":[
+            {
+                "text":"Hah! Good one. Go buy a better sword, rookie.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"sword_flagstone",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Sorry, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How does it feel that a kid killed more gornauds than you?",
+                "nextPhraseID":"ortholion_guard_1a",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gornaud",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_1a",
+        "message":"Bah! I said I AM ON DUTY! ",
+        "replies":[
+            {
+                "text":"Ok, ok. Such boring...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sorry. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard_0a",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard_0b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard_0c",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard_0d"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_0b",
+        "message":"Beware kid, it's dangerous out there.",
+        "replies":[
+            {
+                "text":"I'm well prepared, thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Of course. I am sometimes out there.",
+                "nextPhraseID":"ortholion_guard_1b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_1b",
+        "message":"Ha ha! Hilarious, but seriously be careful out there.",
+        "replies":[
+            {
+                "text":"No promises!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ok, sir. Thank you for the advice.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_0c",
+        "message":"Hey kid! Can you do me a favor?",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor? He looks similar to me.",
+                "nextPhraseID":"ortholion_guard_1c"
+            },
+            {
+                "text":"No, sorry. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What is it?",
+                "nextPhraseID":"ortholion_guard_2c"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_1c",
+        "message":"Yes, can you... Eh? Your brother? No idea. Is he from this village?",
+        "replies":[
+            {
+                "text":"Never mind, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No, he is not. But thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No...But tell me about the favor you were talking before.",
+                "nextPhraseID":"ortholion_guard_2c"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2c",
+        "message":"Well. Do you mind bringing me some food? I have not eaten anything decent since we arrived to this village.",
+        "replies":[
+            {
+                "text":"Go buy your own food.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Here's a pork pie.",
+                "nextPhraseID":"ortholion_guard_2c_pork",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pie_pork",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Here's some cheese.",
+                "nextPhraseID":"ortholion_guard_2c_cheese",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"I don't have food, but here's 50 gold.",
+                "nextPhraseID":"ortholion_guard_2c_gold",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"What about a cooked meat?",
+                "nextPhraseID":"ortholion_guard_2c_meat",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat_cooked",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2c_pork",
+        "message":"Oh, looks good! Thank you, kid. Here's something shiny I've found.",
+        "replies":[
+            {
+                "text":"Gems...? Whatever, thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh! Thank you. Good luck in your duties.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gem3",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2c_cheese",
+        "message":"Cheese! It is rare to taste cheese out of home. In exchange, take this strawberries I gathered in the Stoutford outskirts. They are fresh, but I don't like its taste.",
+        "replies":[
+            {
+                "text":"So you already had food? I traveled long to bring you that cheese. Goodbye, hmpf.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you. Have a good day.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"strawberry",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2c_gold",
+        "message":"Well. It is said that money doesn't bring happiness but gets it closer. Thank you.",
+        "replies":[
+            {
+                "text":"Anything for the glory of Feygard!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"50 gold is a bargain to me. No worries.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2c_meat",
+        "message":"Here, here! I won't be in shape for much time if you keep bringing me this. Take a couple of these \"Izthiel\" claws. They might keep you alive in case of exterme neccessity.",
+        "replies":[
+            {
+                "text":"I am grateful, sir. Have a nice day.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Don't stand at the same place the full beat if you want to get in shape. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll keep that in mind. Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"izthiel_claw",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_0d",
+        "message":"It's good to see vigorous youngsters wandering around here and there. You sure could become a soldier of Feygard.",
+        "replies":[
+            {
+                "text":"Thanks for the compliment, sir.",
+                "nextPhraseID":"ortholion_guard_1d"
+            },
+            {
+                "text":"And ending like you, guarding the outskirts of a village? Zero action jobs aren't my type.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sorry, but I am a follower of the Shadow.",
+                "nextPhraseID":"ortholion_guard_1d2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_1d",
+        "message":"And good-mannered too! Keep going like this.",
+        "replies":[
+            {
+                "text":"Thank you. Have a good day, sir.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I will. How is the patrol going?",
+                "nextPhraseID":"ortholion_guard_2d2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_1d2",
+        "message":"The Shadow? Probably your parents inculcated those ideas to you. Let me tell you they are wrong. Followers of the shadow only promote chaos and anarchy.",
+        "replies":[
+            {
+                "text":"Chaos and anarchy? Have you ever met with a priest of the shadow?",
+                "nextPhraseID":"ortholion_guard_2d"
+            },
+            {
+                "text":"Hmmm, probably your parents inculcated those ideas to you, but I won't try to change your mind. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2d",
+        "message":"Oh yes. Good speakers with poison in their tongues. They conspire with the savages of the South against our righteous lord, just for putting some order in all the chaos left after the war.",
+        "replies":[
+            {
+                "text":"Uh oh, I never saw it that way.",
+                "nextPhraseID":"ortholion_guard_3d"
+            },
+            {
+                "text":"Or maybe just good speakers who don't like their rituals to be banned nonsensically...",
+                "nextPhraseID":"ortholion_guard_3d2"
+            },
+            {
+                "text":"Every flock has their black sheeps.",
+                "nextPhraseID":"ortholion_guard_3d3"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_3d",
+        "message":"Neither your shadow is trustworthy, this is the best advice I can give you.",
+        "replies":[
+            {
+                "text":"May Shadow not be with you, then.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I will remember it...Thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It'd better be. My shadow knows what I can do with unwanted ghosts.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"hirathil2",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_3d2",
+        "message":"Whatever, kid. My round is ending and I don't like your tone. You will see how I am right when you got older.",
+        "replies":[
+            {
+                "text":"Yeah, I won't waste my time anymore with a close-minded Feygard soldier. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I did not want to offend you... Sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe, but I certainly won't see is myself as a Feygard soldier.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_3d3",
+        "message":"Maybe you are right...But it's the duty of the shepherd getting rid of those black sheeps.",
+        "replies":[
+            {
+                "text":"Is your general a good shepherd?",
+                "nextPhraseID":"ortholion_guard_4d"
+            },
+            {
+                "text":"Maybe you are right too. How is the round going?",
+                "nextPhraseID":"ortholion_guard_2d2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_4d",
+        "message":"Absolutely. He is the smartest and strongest man I ever had the honor to meet and serve.",
+        "replies":[
+            {
+                "text":"I bet he won't survive the wyrms.",
+                "nextPhraseID":"ortholion_guard_5d",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"wyrm_trainer",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I think I will leave you and your fanatism.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_5d",
+        "message":"HOW DARE YOU?! ",
+        "replies":[
+            {
+                "text":"I'd better leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes, pure fanatism. ",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_2d2",
+        "message":"About to end for me. The people of this village is exaggerating. There are not so many monsters, they are just weak.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard_3d4"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_3d4",
+        "message":"These gornauds are no match for us, soldiers of the great Feygard.",
+        "replies":[
+            {
+                "text":"Said the heavily armored guy...",
+                "nextPhraseID":"ortholion_guard_4d2"
+            },
+            {
+                "text":"Sure. How many have you killed?",
+                "nextPhraseID":"ortholion_guard_4d3"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_4d2",
+        "message":"Heh, you have a point there, kid.",
+        "replies":[
+            {
+                "text":"Have you seen anything out of normal?",
+                "nextPhraseID":"ortholion_guard_5d2"
+            },
+            {
+                "text":"I guess. Well, see you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you mind selling me some of your shiny armor? You know, I need protection.",
+                "nextPhraseID":"ortholion_guard_5d3"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_4d3",
+        "message":"Well...I...Actually, I should not be talking with you during my patrol. Leave me now."
+    },
+    {
+        "id":"ortholion_guard_5d2",
+        "message":"Not really. Guard patrolling tends to be a boring work, but someone has to do it. ",
+        "replies":[
+            {
+                "text":"I see. Hope you finish it soon, sir. ",
+                "nextPhraseID":"ortholion_guard_6d"
+            },
+            {
+                "text":"Have you find anything...for me to play with?",
+                "nextPhraseID":"ortholion_guard_6d2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_5d3",
+        "message":"Your protection inside the village is granted by us. A kid like you does not need an armor, but some friends to play with.",
+        "replies":[
+            {
+                "text":"Bah, i give up. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Tell me some interesting story to tell my friends then. Did something happen during your round?",
+                "nextPhraseID":"ortholion_guard_5d2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_6d",
+        "message":"Thank you, kid."
+    },
+    {
+        "id":"ortholion_guard_6d2",
+        "message":"Huh? No. But if you have some gold to spare, I could sell you some bargains I've found during my duties.",
+        "replies":[
+            {
+                "text":"Never mind, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sure, let me have a look.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"I am not looking for bargains.",
+                "nextPhraseID":"ortholion_guard_7d"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard_7d",
+        "message":"I might have even some shiny gems...",
+        "replies":[
+            {
+                "text":"I have tons, sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmm, ok. Let's trade.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_selector",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard3_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard3_1b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_1",
+        "message":"Out of my sight kid. I'm on duty."
+    },
+    {
+        "id":"ortholion_guard3_1b",
+        "message":"We soldiers of Feygard have come to this lonely place by direct command of General Ortholion, and don't have time to play with a kid."
+    },
+    {
+        "id":"ehrenfest_3b",
+        "message":"This is not a good place to talk about this. But trust me, there is much at stake and Prim's situation is only going to get worse. Let me...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_conversation_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_conversation_1",
+        "message":"OUT OF THE WAY, COMMONERS!\n\n[You and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence]",
+        "switchToNPC":"ortholion_guard0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_conversation_2"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_conversation_2",
+        "message":"I will say it only once. No taverns, no exploring, no dramas with those untrained Prim guards and for the glory of our homeland don't pursue any injured monster.",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_conversation_3"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_conversation_3",
+        "message":"I have a bad feeling about all this. These villagers might hide something. Tell the mountain scouts to wait for me at the tunnel entrance, they will escort me up to Blackwater settlement.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_conversation_4"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_conversation_4",
+        "message":"Yes, my general.\n\n[The three guys continue his way out of the village, completely ignoring your presence]",
+        "switchToNPC":"ortholion_guard0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":10
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_2",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_3",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain11"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard_2",
+                "mapName":"blackwater_mountain11"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_4",
+        "message":"[Once the guards pass by, you resume the conversation]\n\n*looks nervious* I told you. Something big is about to happen and I believe it is somehow related with what you've seen up in the mountain.",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"How they reached this place?",
+                "nextPhraseID":"ehrenfest_5a"
+            },
+            {
+                "text":"How do you know what I've seen?",
+                "nextPhraseID":"ehrenfest_5b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_5a",
+        "message":"I presume the same way as you did.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_6a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_5b",
+        "message":"'Cause I've seen you climbing up the mountain side and going down the hole, of course!\n\nI was waiting for your comeback.",
+        "replies":[
+            {
+                "text":"All of this is getting too shady. I'd better leave.",
+                "nextPhraseID":"ehrenfest_6b"
+            },
+            {
+                "text":"Continue, please.",
+                "nextPhraseID":"ehrenfest_6a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_6a",
+        "message":"Look, this is not a safe place to talk. Meet me in the Elm mine, west of here, ok?",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"I will think about it.",
+                "nextPhraseID":"ehrenfest_7a"
+            },
+            {
+                "text":"Ok, we meet there.",
+                "nextPhraseID":"ehrenfest_7b"
+            },
+            {
+                "text":"I hope this won't get shadier.",
+                "nextPhraseID":"ehrenfest_7c"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_6b",
+        "message":"Do whatever you want, youngster. But two minds sometimes work better than one, and four eyes better than two...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_6a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_7a",
+        "message":"Ok, I'll be waiting for you there.",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":11
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_7b",
+        "message":"Excellent. Try not to raise suspicion.",
+        "replies":[
+            {
+                "text":"You're the suspicious guy here.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Ok, bye.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":11
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_7c",
+        "message":"I'm afraid It will. Farewell.",
+        "replies":[
+            {
+                "text":"Uhh, great. Bye.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"See you later then.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":11
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_selector_3",
+        "replies":[
+            {
+                "nextPhraseID":"ehrenfest_calling_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":8,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_calling_1",
+        "message":"Psst! Come, come here.\n\n[The voice is coming from the dining-room]",
+        "switchToNPC":"ehrenfest",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_8",
+        "message":"Well, how did it go?",
+        "replies":[
+            {
+                "text":"Nothing of your concern. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Good, don't bother me.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No luck, but I heard a tense conversation between a Feygard general and one of the patrol captains.",
+                "nextPhraseID":"ehrenfest_9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_9",
+        "message":"I did see that general leaving. Now his henchmen are patrolling the village entrance.",
+        "replies":[
+            {
+                "text":"They are up to no good.",
+                "nextPhraseID":"ehrenfest_10a"
+            },
+            {
+                "text":"It's good to see they are protecting the villagers.",
+                "nextPhraseID":"ehrenfest_10b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_10a",
+        "message":"Most probably.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_6a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_10b",
+        "message":"I severly doubt they are there just for that.",
+        "replies":[
+            {
+                "text":"Are you accusing the great soldiers of Feygard of anything? I'd better leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What do you think?",
+                "nextPhraseID":"ehrenfest_6a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_11",
+        "message":"Hello again my little friend. Here will be safe from prying ears.",
+        "replies":[
+            {
+                "text":"Care to explain your reasons to be here and stalk me?",
+                "nextPhraseID":"ehrenfest_12"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_12",
+        "message":"I definitely saw you by chance. Please, let me explain what happened.",
+        "replies":[
+            {
+                "text":"Sure, go on.",
+                "nextPhraseID":"ehrenfest_13a"
+            },
+            {
+                "text":"I'm all ears.",
+                "nextPhraseID":"ehrenfest_13a"
+            },
+            {
+                "text":"Go straight to the point.",
+                "nextPhraseID":"ehrenfest_13b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_13a",
+        "message":"I arrived here several weeks ago for no particular reason. I am part of a family of explorers and travelers, and the story of a ruined tunnel infested by dangerous beasts was something I wanted to see with my own eyes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_14"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_14",
+        "message":"The rumours were true. Those gornauds are not natural creatures, they made me have a really bad time.",
+        "replies":[
+            {
+                "text":"Please go on.",
+                "nextPhraseID":"ehrenfest_15"
+            },
+            {
+                "text":"What happened then?",
+                "nextPhraseID":"ehrenfest_15"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_15",
+        "message":"I managed to reach the other entrance of the tunnel, but with no potions or fresh food I thought it was the end. Luckily, a guy called Lorn rescued me and brought me here.",
+        "replies":[
+            {
+                "text":"That name seems familiar to me, somehow.",
+                "nextPhraseID":"ehrenfest_16"
+            },
+            {
+                "text":"Now to the point, please.",
+                "nextPhraseID":"ehrenfest_16"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_16",
+        "message":"Due to my exhaustion, I lied in a bed for days. I could hear the constant noise of the workers chatting, toasting with their mead jugs...",
+        "replies":[
+            {
+                "text":"Have you finished?",
+                "nextPhraseID":"ehrenfest_17a"
+            },
+            {
+                "text":"...",
+                "nextPhraseID":"ehrenfest_17"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_17",
+        "message":"But the day I got up, completely recovered, the first thing I noticed was precisely the absence of those noises. The rooms next to me was dirty and empty. No one was in the dining-room and the mine entrance was closed.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_18"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_18",
+        "message":"Arghest, the only guy left here pointed me out where the village was, so I decided to go and ask for my savior. Lamentably, he was no longer there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_19"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_19",
+        "message":"Some villagers said he and his patrol crew had left three days ago in search of a couple that climbed up the mountain. So I went to the local shop, I got some supplies and...",
+        "replies":[
+            {
+                "text":"Got any luck?",
+                "nextPhraseID":"ehrenfest_20a"
+            },
+            {
+                "text":"Aren't you done yet?",
+                "nextPhraseID":"ehrenfest_20b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_20b",
+        "message":"Are you gonna stop interrupting me? ",
+        "replies":[
+            {
+                "text":"If that makes you finish sooner...",
+                "nextPhraseID":"ehrenfest_21"
+            },
+            {
+                "text":"Sorry, continue.",
+                "nextPhraseID":"ehrenfest_21"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_21",
+        "message":"Well. After nearly two days of restless searching, I figured out they could have returned, so I started to climb down.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_22"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_20a",
+        "message":"I suppose, if you want to call it like that.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_21"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_22",
+        "message":"I fell off a cliff on a narrow path of the mountain side and ended up at the same plateau you climbed up, where the corpse was. I could not believe what I was seeing.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_23"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_23",
+        "message":"Lorn lied next to me, just a few meters of distance. His armor was entirely covered by blood, which was flowing slowly to the ground, out of his body.",
+        "replies":[
+            {
+                "text":"What about the campfire?",
+                "nextPhraseID":"ehrenfest_24a"
+            },
+            {
+                "text":"What about the hole?",
+                "nextPhraseID":"ehrenfest_24b"
+            },
+            {
+                "text":"Was he dead?",
+                "nextPhraseID":"ehrenfest_24c"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_24a",
+        "message":"There was a campfire, yes. Now I think about it, it could have belonged either to the couple or to the patrol crew.",
+        "replies":[
+            {
+                "text":"Was Lorn dead?",
+                "nextPhraseID":"ehrenfest_24c"
+            },
+            {
+                "text":"What about the hole?",
+                "nextPhraseID":"ehrenfest_24b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_24b",
+        "message":"I didn't dare to go down the hole...",
+        "replies":[
+            {
+                "text":"What about the campfire?",
+                "nextPhraseID":"ehrenfest_24a"
+            },
+            {
+                "text":"Was Lorn dead when you found him?",
+                "nextPhraseID":"ehrenfest_24a"
+            },
+            {
+                "text":"I found some dead bodies inside.",
+                "nextPhraseID":"ehrenfest_25a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_24c",
+        "message":"Almost... I put his armor out. His injuries were severe. I tried to cure him using my potions but they weren't strong enough. He died, failing to express his latest thoughts with words.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_24c2"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_24c2",
+        "message":"But everything he couldn't say with words was said by the terrifying glance he threw to that dark hole, just before his last breath.",
+        "replies":[
+            {
+                "text":"What about the hole?",
+                "nextPhraseID":"ehrenfest_24b"
+            },
+            {
+                "text":"What about the campfire?",
+                "nextPhraseID":"ehrenfest_24a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_25a",
+        "message":"Yes, I was about to ask you... Continue.",
+        "replies":[
+            {
+                "text":"The corpses were covered by cobweb, but I could see torture signs.",
+                "nextPhraseID":"ehrenfest_26a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_25b",
+        "message":"Anything more you can tell me about that place?",
+        "replies":[
+            {
+                "text":"Give me some time to remind.",
+                "nextPhraseID":"ehrenfest_26b"
+            },
+            {
+                "text":"The corpses were covered by cobweb. They were probably tortured.",
+                "nextPhraseID":"ehrenfest_26a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_26b",
+        "message":"Fine, I'll be waiting here."
+    },
+    {
+        "id":"ehrenfest_26a",
+        "message":"Tortured you say? That makes no sense!",
+        "replies":[
+            {
+                "text":"That's what I saw.",
+                "nextPhraseID":"ehrenfest_27a"
+            },
+            {
+                "text":"I took some ropes to demonstrate what I saw to the guards...",
+                "nextPhraseID":"ehrenfest_27b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bwm72_rope",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_27a",
+        "message":"Are you sure?",
+        "replies":[
+            {
+                "text":"Yes, look at this blood-stained rope.",
+                "nextPhraseID":"ehrenfest_27b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bwm72_rope",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_27b",
+        "message":"...Just after witnessing my savior's death I ran away and came back to the village.",
+        "replies":[
+            {
+                "text":"Did you tell the guards what you saw?",
+                "nextPhraseID":"ehrenfest_28a"
+            },
+            {
+                "text":"Shame on you! You should have buried him at least.",
+                "nextPhraseID":"ehrenfest_28b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":16
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_28a",
+        "message":"I tried, but they considered it an accident. My constant babbling did not help...",
+        "replies":[
+            {
+                "text":"Why the guards did not bury their partner?",
+                "nextPhraseID":"ehrenfest_29a"
+            },
+            {
+                "text":"An accident?",
+                "nextPhraseID":"ehrenfest_29a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_29a",
+        "message":"Strange, isn't it? Really, they didn't really seem to care about Lorn, neither the other missing people. It was all monsters' fault and that's all.",
+        "replies":[
+            {
+                "text":"There's something too shady in all of this.",
+                "nextPhraseID":"ehrenfest_30a"
+            },
+            {
+                "text":"Guards, lazy as hell in every place I go.",
+                "nextPhraseID":"ehrenfest_30b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_28b",
+        "message":"You are honestly right, but It's too late to come back...",
+        "replies":[
+            {
+                "text":"No, It's not.",
+                "nextPhraseID":"ehrenfest_29b"
+            },
+            {
+                "text":"You didn't bury him, but why the guards didn't either?",
+                "nextPhraseID":"ehrenfest_29a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_30a",
+        "message":"Yes. And that's why I need your help.",
+        "replies":[
+            {
+                "text":"What can I do?",
+                "nextPhraseID":"ehrenfest_31a"
+            },
+            {
+                "text":"You should give me a reward just for hearing this whole story.",
+                "nextPhraseID":"ehrenfest_31b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_29b",
+        "message":"[Ehrenfest stays quiet with his head down]",
+        "replies":[
+            {
+                "text":"So...Why the guards did not bring Lorn's remains to the village?",
+                "nextPhraseID":"ehrenfest_29a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_30b",
+        "message":"Sometimes. heh. But still, something that doesn't fit.",
+        "replies":[
+            {
+                "text":"Are you sure?",
+                "nextPhraseID":"ehrenfest_30a"
+            },
+            {
+                "text":"Indeed. There's something shady in all of this.",
+                "nextPhraseID":"ehrenfest_30a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_17a",
+        "message":"[He seems to be completely absorbed by his own monologue]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_17"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_13b",
+        "message":"Hmm, I will try.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_13a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_30c",
+        "message":"Now that everything is told, let's find some answers.",
+        "replies":[
+            {
+                "text":"More chatting? No thanks.",
+                "nextPhraseID":"ehrenfest_31b"
+            },
+            {
+                "text":"What's your proposal?",
+                "nextPhraseID":"ehrenfest_31a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_31b",
+        "message":"Okay, okay. Let's take a break. We'll talk later.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"ehrenfest_32b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_32b",
+        "message":"I'm afraid not.",
+        "replies":[
+            {
+                "text":"Ok, we talk later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_31a",
+        "message":"We must gather information, I am convinced Lorn's death has to do with what you saw down the hole.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_32a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_32a",
+        "message":"You will talk with the villagers, we have to find out what happened to Lorn's partners, about whom we know nothing yet.",
+        "replies":[
+            {
+                "text":"What will you do?",
+                "nextPhraseID":"ehrenfest_33a"
+            },
+            {
+                "text":"Sounds boring, but I'll do it.",
+                "nextPhraseID":"ehrenfest_33b"
+            },
+            {
+                "text":"Fine. Let's go.",
+                "nextPhraseID":"ehrenfest_33b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_33a",
+        "message":"I will ask in the inn about the couple who got lost and whose trace Lorn and his partners followed.",
+        "replies":[
+            {
+                "text":"I'd complain, but I prefer not to hear your explanation.",
+                "nextPhraseID":"ehrenfest_33b"
+            },
+            {
+                "text":"Fine.",
+                "nextPhraseID":"ehrenfest_33b"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_33b",
+        "message":"Excellent. Let's meet again later, best of luck.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Same to you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_34",
+        "message":"$playername, how is it going?",
+        "replies":[
+            {
+                "text":"Nothing interesting yet.",
+                "nextPhraseID":"ehrenfest_35a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_35a",
+        "message":"Don't give up. We'll eventually get some answers."
+    },
+    {
+        "id":"moyra_8",
+        "message":"Lorn? N...No. Why I would know about that?",
+        "replies":[
+            {
+                "text":"I promise I won't say anything.",
+                "nextPhraseID":"moyra_9a"
+            },
+            {
+                "text":"I can make you talk one way or another.",
+                "nextPhraseID":"moyra_9b"
+            }
+        ]
+    },
+    {
+        "id":"moyra_9b",
+        "message":"Alright! I will tell you, but please don't hurt me.",
+        "replies":[
+            {
+                "text":"Good kid.",
+                "nextPhraseID":"moyra_10"
+            },
+            {
+                "text":"Don't worry, hah. But tell me.",
+                "nextPhraseID":"moyra_10"
+            }
+        ]
+    },
+    {
+        "id":"moyra_9a",
+        "message":"You promise?",
+        "replies":[
+            {
+                "text":"I do.",
+                "nextPhraseID":"moyra_10"
+            },
+            {
+                "text":"[Lie] I do",
+                "nextPhraseID":"moyra_10"
+            }
+        ]
+    },
+    {
+        "id":"moyra_10",
+        "message":"I heard about Lorn's accident, but I didn't believe he fell off the mountain. \\n He is the most skilled guy when it comes up to climb up and down the mountain.",
+        "replies":[
+            {
+                "text":"What about his partners?",
+                "nextPhraseID":"moyra_11"
+            }
+        ]
+    },
+    {
+        "id":"moyra_11",
+        "message":"They're still missing, but I don't know...",
+        "replies":[
+            {
+                "text":"Thank you for your honest words.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Bah, useless kid.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":9
+            }
+        ]
+    },
+    {
+        "id":"moyra_12",
+        "message":"I told you everything I knew, sorry.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ok, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner3_2",
+        "message":"Oh, poor Lorn. I heard that he fell off the mountain.",
+        "replies":[
+            {
+                "text":"Anything more?",
+                "nextPhraseID":"prim_commoner3_3"
+            },
+            {
+                "text":"People say he was so skilled climbing.",
+                "nextPhraseID":"prim_commoner3_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner3_3",
+        "message":"No, sorry. I didn't know him much.",
+        "replies":[
+            {
+                "text":"Thank you anyway, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you. Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner3_4",
+        "message":"Was he? Well, I think he might had bad luck...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_commoner3_5"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner3_5",
+        "message":"You might ask in the Tavern. He was a regular there, like most guards.",
+        "replies":[
+            {
+                "text":"Thank you. Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Finally some hint. Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":21
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner4_4",
+        "message":"Lorn? Nothing, I barely know him, neither his comrades, Dualia and... No idea. \\n What's wrong with him?",
+        "replies":[
+            {
+                "text":"He was killed several days ago.",
+                "nextPhraseID":"prim_commoner4_5a"
+            },
+            {
+                "text":"He had an accident while climbing down the mountain.",
+                "nextPhraseID":"prim_commoner4_5b"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner4_5a",
+        "message":"Oh. I'm sorry. May the shadow guide his way to a better world.",
+        "replies":[
+            {
+                "text":"Right, uhm...Don't you remember anything about him?",
+                "nextPhraseID":"prim_commoner4_6"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner4_5b",
+        "message":"Yes, that's why climbing up the mountain is forbidden now.",
+        "replies":[
+            {
+                "text":"Anything more?",
+                "nextPhraseID":"prim_commoner4_6"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner4_6",
+        "message":"Uhm, well. I heard Lorn was popular among the children here in Prim because his scary stories about, you know, the monsters.",
+        "replies":[
+            {
+                "text":"Gonna ask some child. Thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"My father probably told me scarier stories. Bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner1_5",
+        "message":"Lorn's crew accident you say? No idea. They are still missing, officially.",
+        "replies":[
+            {
+                "text":"And unofficially?",
+                "nextPhraseID":"prim_commoner1_6"
+            },
+            {
+                "text":"I see, thanks for nothing.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_commoner1_6",
+        "message":"Sorry child, I do not pay attention to the local gossip. Try luck asking someone else.",
+        "replies":[
+            {
+                "text":"Thank you, Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What a waste of time, tsch.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tailor_2",
+        "message":"I have heard about an accident, yes, but I've been very busy lately.",
+        "replies":[
+            {
+                "text":"Busy? You're out of stock!",
+                "nextPhraseID":"prim_tailor_3"
+            },
+            {
+                "text":"Ok, thanks anyway.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tailor_3",
+        "message":"*staring you comptemptuously* I also take various repairing orders, kid. Now get out of my shop."
+    },
+    {
+        "id":"prim_tavern_guest4_4",
+        "message":"*sob* Leave me alone...",
+        "replies":[
+            {
+                "text":"Cheap mead won't make you forget.",
+                "nextPhraseID":"prim_tavern_guest4_5"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_5",
+        "message":"Th..then buy me an expensive one. Ha, ha. ",
+        "replies":[
+            {
+                "text":"Stop joking, Lorn is dead."
+            },
+            {
+                "text":"I won't waste my time with you anymore.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

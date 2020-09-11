@@ -1,0 +1,10 @@
+[
+    {
+        "id":"moyra",
+        "name":"Moyra",
+        "iconID":"monsters_rltiles1:74",
+        "monsterClass":"humanoid",
+        "spawnGroup":"moyra",
+        "phraseID":"moyra_1"
+    }
+]

@@ -118,5 +118,69 @@
             "increaseAttackChance":-1,
             "increaseBlockChance":7
         }
+    },
+    {
+        "id":"bwm_water1",
+        "iconID":"items_omi2:13",
+        "name":"Bottle of mountain water",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":65,
+        "category":"healing",
+        "description":"Picked up directly from the heart of the mountain.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":20
+            },
+            "conditionsSource":[
+                {
+                    "condition":"satiety",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bwm_water2",
+        "iconID":"items_omi2:12",
+        "name":"Large bottle of mountain water",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":126,
+        "category":"healing",
+        "description":"Picked up directly from the heart of the mountain.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":35
+            },
+            "conditionsSource":[
+                {
+                    "condition":"satiety",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bwm_water1_quest",
+        "iconID":"items_omi2:13",
+        "name":"Cold bottle of mountain water",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Picked up directly from the heart of the mountain."
+    },
+    {
+        "id":"bwm_water2_quest",
+        "iconID":"items_omi2:12",
+        "name":"Cold jar of mountain water",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Picked up directly from the heart of the mountain."
     }
 ]

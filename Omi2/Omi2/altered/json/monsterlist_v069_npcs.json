@@ -6,5 +6,13 @@
         "monsterClass":"humanoid",
         "spawnGroup":"moyra",
         "phraseID":"moyra_1"
+    },
+    {
+        "id":"prim_bar_regular",
+        "name":"Jern",
+        "iconID":"monsters_rltiles1:106",
+        "monsterClass":"humanoid",
+        "spawnGroup":"prim_tavern_guest4",
+        "phraseID":"prim_tavern_guest4_selector"
     }
 ]

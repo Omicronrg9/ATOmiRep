@@ -252,5 +252,31 @@
                 }
             }
         ]
+    },
+    {
+        "id":"bwm_wellspring2",
+        "items":[
+            {
+                "itemID":"bwm_water2_quest",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring1",
+        "items":[
+            {
+                "itemID":"bwm_water1_quest",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

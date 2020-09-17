@@ -17,5 +17,22 @@
             "increaseCriticalSkill":10,
             "increaseBlockChance":10
         }
+    },
+    {
+        "id":"satiety",
+        "iconID":"actorconditions_1:86",
+        "name":"Satiety",
+        "category":"physical",
+        "isPositive":1,
+        "roundEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseCurrentHP":{
+                "min":0,
+                "max":2
+            }
+        },
+        "abilityEffect":{
+            "increaseMaxHP":2
+        }
     }
 ]

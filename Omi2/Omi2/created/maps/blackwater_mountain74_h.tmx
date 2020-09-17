@@ -207,9 +207,9 @@
    eJxjYGBgOCzGMAqoBAAatQDa
   </data>
  </layer>
- <layer name="Walkable" width="12" height="7" visible="0">
+ <layer name="Walkable" width="12" height="7">
   <data encoding="base64" compression="zlib">
-   eJzbKMYABhvF8GNkNYNRPTY+sji6mdjUoIsTcgM2DABYQzAz
+   eJzbKMYABhvF8GNkNYNRPYyfzoAJsJmJTQ26OCE3YMMAKFkv0w==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -223,11 +223,6 @@
    <properties>
     <property name="map" value="blackwater_mountain74"/>
     <property name="place" value="down2"/>
-   </properties>
-  </object>
-  <object name="bwm74_h_warning" type="script" x="160" y="128" width="32" height="64">
-   <properties>
-    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
@@ -244,6 +239,15 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="bwm74_h_warning" type="key" x="128" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="bwm74_h_warning"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="11"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace"/>
 </map>

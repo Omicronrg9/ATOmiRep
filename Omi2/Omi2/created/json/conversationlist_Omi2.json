@@ -2844,10 +2844,934 @@
         "message":"Th..then buy me an expensive one. Ha, ha. ",
         "replies":[
             {
-                "text":"Stop joking, Lorn is dead."
+                "text":"Stop joking, Lorn is dead.",
+                "nextPhraseID":"prim_tavern_guest4_6"
             },
             {
                 "text":"I won't waste my time with you anymore.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_6",
+        "message":"Lorn t...too? We will all die!",
+        "replies":[
+            {
+                "nextPhraseID":"prim_tavern_guest4_7"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_7",
+        "message":"Why? *sob* What have we d...done to deserve this!",
+        "replies":[
+            {
+                "text":"People say he fell off the mountain side.",
+                "nextPhraseID":"prim_tavern_guest4_8a"
+            },
+            {
+                "text":"Probably you didn't train enough.",
+                "nextPhraseID":"prim_tavern_guest4_8b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_8b",
+        "message":"[The robust guy ducks his head]",
+        "replies":[
+            {
+                "text":"Pft, I'm wasting time. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Anyway, Lorn died by falling off the mountain.",
+                "nextPhraseID":"prim_tavern_guest4_8a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_8a",
+        "message":"Yeah, good one kid. *sob* Leave me alone.",
+        "replies":[
+            {
+                "text":"As you wish, drunkard.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What do you mean?",
+                "nextPhraseID":"prim_tavern_guest4_9"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_9",
+        "message":"Pft...Lorn has been cl...climbing up and down these mountains since...Forever.",
+        "replies":[
+            {
+                "text":"Accidents occur.",
+                "nextPhraseID":"prim_tavern_guest4_10"
+            },
+            {
+                "text":"I saw his corpse. It wasn't a monster neither a falling.",
+                "nextPhraseID":"prim_tavern_guest4_11"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_10",
+        "message":"No, no, no. The monsters...They did it! They killed my friends!!",
+        "replies":[
+            {
+                "text":"We'll talk later, when you be less drunken and nervous.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No, neither gornauds nor a falling killed him.",
+                "nextPhraseID":"prim_tavern_guest4_11"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_11",
+        "message":"What then?!",
+        "replies":[
+            {
+                "text":"That's what I'm trying to figure out.",
+                "nextPhraseID":"prim_tavern_guest4_12a"
+            },
+            {
+                "text":"Nobody seems to know, or care about it.",
+                "nextPhraseID":"prim_tavern_guest4_12b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_12b",
+        "message":"WHAT?! *hits the table and gets up* \\n Is that what we get in exchange of...?!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_13"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_13",
+        "message":"...these years...Uuugh.\n\\n\n[The smelly guy gets dizzy, sits down again next to the table and puts his head over his muscled arms]",
+        "replies":[
+            {
+                "text":"You seem tired. We'll talk later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Are you okay?",
+                "nextPhraseID":"prim_tavern_guest4_14b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":22
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_36c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_33a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":13
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_19",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_17b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_14a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":22
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_14a",
+        "message":"[The robust man is still tired and drunken, sat next to an unfinished jar of mead]",
+        "replies":[
+            {
+                "text":"I'd better come back later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hey, don't drink anymore. I need you to get better.",
+                "nextPhraseID":"prim_tavern_guest4_15a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_12a",
+        "message":"And the g...guards? ",
+        "replies":[
+            {
+                "text":"They considered it an accident and left it be.",
+                "nextPhraseID":"prim_tavern_guest4_12b"
+            },
+            {
+                "text":"The guards? Those lazy guys won't do anything.",
+                "nextPhraseID":"prim_tavern_guest4_12b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_14b",
+        "message":"Uuugh... I'm, I'm not. I drank too much mead. Day by day, since... since Kirg's dea...death.",
+        "replies":[
+            {
+                "text":"You'd better stop drinking. We talk later whenever you get better.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Is there something I can do?",
+                "nextPhraseID":"prim_tavern_guest4_15b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_15a",
+        "message":"M...Maybe some water. Yes, from the moun...tains. That'd be a relief!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_16"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_15b",
+        "message":"You could get me some coo...cool water. Yes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_16"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_16",
+        "message":"Do you mind bringing me a good and large bottle of water f...from the streams?",
+        "replies":[
+            {
+                "text":"No, go buy yourself a bottle. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"The streams?",
+                "nextPhraseID":"prim_tavern_guest4_17a"
+            },
+            {
+                "text":"Ok, I'll be back with the water.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":23
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_17a",
+        "message":"Yes, East of he..re. There's a hole. Under the mountain side...",
+        "replies":[
+            {
+                "text":"Sounds vague, but I'll try.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Fine. I will come back with the water.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_17b",
+        "message":"Uhmm, It's you... Have you brought the water?",
+        "replies":[
+            {
+                "text":"I haven't, be patient.",
+                "nextPhraseID":"prim_tavern_guest4_17c"
+            },
+            {
+                "text":"Yes, here are 2 bottles.",
+                "nextPhraseID":"prim_tavern_guest4_18b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bwm_water1_quest",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"Here you are, a large bottle of fresh water.",
+                "nextPhraseID":"prim_tavern_guest4_18b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bwm_water2_quest",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Where could I find the streams?",
+                "nextPhraseID":"prim_tavern_guest4_18a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_17c",
+        "message":"I will be righ...right here, kid. Thank you.",
+        "replies":[
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ok, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_18a",
+        "message":"Ag...Again?! East of here. Underground. Deep in those caverns.",
+        "replies":[
+            {
+                "text":"Hmpf, ok. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll bring the water, don't worry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_1",
+        "message":"[A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent]",
+        "replies":[
+            {
+                "text":"Fill a bottle of water.",
+                "nextPhraseID":"bwm_wellspring_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Fill another bottle of water.",
+                "nextPhraseID":"bwm_wellspring_2b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":12
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Fill a large bottle.",
+                "nextPhraseID":"bwm_wellspring_2c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vial_empty4",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":12,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_2a",
+        "message":"[You fill the bottle with water]",
+        "replies":[
+            {
+                "text":"Pick up another bottle.",
+                "nextPhraseID":"bwm_wellspring_2b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":12
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bwm_wellspring1"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_2b",
+        "message":"[You fill another bottle]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":24
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bwm_wellspring1"
+            }
+        ]
+    },
+    {
+        "id":"bwm_wellspring_2c",
+        "message":"[You fill a large bottle]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":24
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bwm_wellspring2"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_18b",
+        "message":"[The stout guy looks through the water you have brought to him. His eyes open widely. He starts to drink the water straight off and finishes in the blink of an eye, taking a deep breath just after putting the glass over the table]",
+        "replies":[
+            {
+                "text":"How was it?",
+                "nextPhraseID":"prim_tavern_guest4_19"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_19",
+        "message":"Woah, I feel really good now.",
+        "replies":[
+            {
+                "text":"What about a reward?",
+                "nextPhraseID":"prim_tavern_guest4_20a"
+            },
+            {
+                "text":"I'm glad to see you're better.",
+                "nextPhraseID":"prim_tavern_guest4_20b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_20a",
+        "message":"A reward? Isn't the satisfaction of aiding a lost soul enough reward?",
+        "replies":[
+            {
+                "text":"No, It's not.",
+                "nextPhraseID":"prim_tavern_guest4_21a"
+            },
+            {
+                "text":"I can see you're much better.",
+                "nextPhraseID":"prim_tavern_guest4_20b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_20b",
+        "message":"And all thanks to you! Tell me, what did you need?",
+        "replies":[
+            {
+                "text":"Anything you could tell me about Lorn and his partners. That'd be fine.",
+                "nextPhraseID":"prim_tavern_guest4_21b"
+            },
+            {
+                "text":"I'll tell you later. I have things to do now.",
+                "nextPhraseID":"prim_tavern_guest4_21c"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_21a",
+        "message":"HA, HA! Such a pity! But weren't you here to ask me something?",
+        "replies":[
+            {
+                "text":"Yes. People told me Lorn was a regular in this tavern.",
+                "nextPhraseID":"prim_tavern_guest4_21b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_21c",
+        "message":"Have a good day then. I surely will!"
+    },
+    {
+        "id":"prim_tavern_guest4_21b",
+        "message":"I see...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_22"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_22",
+        "message":"Well, I was part of a patrol crew formed by five people. Kamelio, Kirg, Duala, Lorn and me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_23"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_23",
+        "message":"Mountain patrol crews were created because of the monster activity. Some people still think they are somehow sent by the people from Blackwater Settlement...",
+        "replies":[
+            {
+                "text":"No. They are suffering a siege for even more powerful monsters.",
+                "nextPhraseID":"prim_tavern_guest4_24a",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"white_wyrm",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"And?",
+                "nextPhraseID":"prim_tavern_guest4_24b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_24a",
+        "message":"I know! We faced white wyrms on the mountain heights. I'm afraid political problems is something leaders of each place must deal with. We at least tried to keep Prim safe from monster attacks.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_25a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_24b",
+        "message":"And that is not true. Or would they send monsters to their own dominion? Of course they wouldn't. There are monsters up there in the mountain heights too, possibly even more dangerous than gornauds.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_25b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_25b",
+        "message":"We tried to keep the threat in the mountains, but gornauds invaded mountain wolves' homes and forced them to establish in the small fir forest around Prim.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_26b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_25a",
+        "message":"But since the gornauds invaded the mountain sides, wolves went down to the fir forest and the path between Prim and the Elm mine got more and more unsafe.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_26a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_26b",
+        "message":"Attacks by wolves got more and more frequent. While we were taking care of the gornauds, miners died by packs of wolves.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_27b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_26a",
+        "message":"Several miners were killed by the wolves, so the mine eventually closed. Furthermore, the main mining tunnel between Elm mine and Stoutford collapsed and the relations with Blackwater Settlement tensed up.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_28"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_27b",
+        "message":"Obviously, the mine had to close. Days after that, the tunnel that lead to Stoutford through the mountain collapsed and people from Blackwater Settlement blamed Prim.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_28"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_28",
+        "message":"Finally, like if a mastermind were behind all of this, a coordinated group of gornauds moved towards Prim from the East.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_29"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_29",
+        "message":"We got rid of them, but at what cost...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_30"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_30",
+        "message":"One of those beasts...Squashed Kirg's head with a single blow. We were...are always underestimating their intelligence.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_31"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_31",
+        "message":"I got severly injured when the mysterious disappearings started. The mine was the first place when it occurred. But then, some villagers disappeared too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_32"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_32",
+        "message":"Gornauds are smart, but kidnapping people?",
+        "replies":[
+            {
+                "text":"Hmm, you have a point there.",
+                "nextPhraseID":"prim_tavern_guest4_33a"
+            },
+            {
+                "text":"Why not?",
+                "nextPhraseID":"prim_tavern_guest4_33b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_33b",
+        "message":"Why would they?",
+        "replies":[
+            {
+                "text":"You mentioned a mastermind.",
+                "nextPhraseID":"prim_tavern_guest4_34b"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_33a",
+        "message":"Lorn must have discovered something. Just a week or two ago we were right here bantering and chatting, trying to forget that horrible scene of Kirg's death.",
+        "replies":[
+            {
+                "text":"Why didn't you come along with them?",
+                "nextPhraseID":"prim_tavern_guest4_34a"
+            },
+            {
+                "text":"Did he mention anything unusual?",
+                "nextPhraseID":"prim_tavern_guest4_34c"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":13
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_34b",
+        "message":"Yes, someone behind the attacks and the following disappearings.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"prim_tavern_guest4_33a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_34a",
+        "message":"I was too afflicted. Lorn thought I was not gonna focus in the exploration...",
+        "replies":[
+            {
+                "text":"Did the mention anything at the tavern?",
+                "nextPhraseID":"prim_tavern_guest4_34c"
+            },
+            {
+                "text":"Where Lorn's crew started looking for the missing couple?",
+                "nextPhraseID":"prim_tavern_guest4_35"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_34c",
+        "message":"No, I don't think so. He was so drunk, and me too! \\n We passed the whole night singing, chatting, forgetting...",
+        "replies":[
+            {
+                "text":"What about the missing couple?",
+                "nextPhraseID":"prim_tavern_guest4_35"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_35",
+        "message":"What couple? I know nothing about a couple.",
+        "replies":[
+            {
+                "text":"A guy called Ehrenfest told me that was the mission.",
+                "nextPhraseID":"prim_tavern_guest4_36a"
+            },
+            {
+                "text":"I heard they were looking for a missing couple.",
+                "nextPhraseID":"prim_tavern_guest4_36b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_36b",
+        "message":"They went to the mountain side, just another patrol round...Who told you that? ",
+        "replies":[
+            {
+                "text":"Never mind. I really need to go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"A guy called Ehrenfest said that to me.",
+                "nextPhraseID":"prim_tavern_guest4_36a"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_36a",
+        "message":"Ehrenfest? Who is he? What does he know? It's public domain guard patrols are not actively searching missing villagers due to lack of resources.",
+        "replies":[
+            {
+                "text":"So he lied to me? Why?",
+                "nextPhraseID":"prim_tavern_guest4_36c"
+            },
+            {
+                "text":"Uhm...I will ask him about this incoherence.",
+                "nextPhraseID":"prim_tavern_guest4_36c"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_36c",
+        "message":"Look, you should leave this be, maybe this is too shady for a kid like you.",
+        "replies":[
+            {
+                "text":"I will discover the whole truth about this.",
+                "nextPhraseID":"prim_tavern_guest4_37a"
+            },
+            {
+                "text":"I can handle myself.",
+                "nextPhraseID":"prim_tavern_guest4_37b"
+            },
+            {
+                "text":"A couple of Gornauds aren't a problem for me. Why a thin man would?",
+                "nextPhraseID":"prim_tavern_guest4_37c",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gornaud",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_37a",
+        "message":"If that is your determination, I will not interfere. You're valiant, kid!",
+        "replies":[
+            {
+                "text":"Thanks, shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Things need to be cleared out. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_37b",
+        "message":"Hah! *holds up the empty mead jar* I'm pretty sure of that, but beware anyway!",
+        "replies":[
+            {
+                "text":"Shadow be with you, my drunken friend.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"We'll meet later. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_37c",
+        "message":"This is no joke, OK? If that guy has really something to do with the missing people or Lorn's death, He won't surely be just a \"thin man\".",
+        "replies":[
+            {
+                "text":"I'll keep that in mind. Thank you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Pfft, whatever.",
                 "nextPhraseID":"X"
             }
         ]

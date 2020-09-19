@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="22" height="16" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="none"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -191,6 +194,11 @@
    eJy1UUEKwjAQXGgVD2oqonjQU9W7KOipUBSPfUJfpfgAX+PRg+AH9Ad68uAOaWgMjSkVB5bZ3aST2S3R/zCvE0Ucr6HkgZA52NZfcO01ZH1pE7WEZNQKa76TcDRHkgHkgK2/yXRR3wLZuwf5OeBVnBO6wIP1tj7Rk/ncryhWoGtDmPHR/+xfO7/pega7oN6D7p7nPmSz67kLM4MBtUPoxr4MQM+B0GAdscG6btexh6p+Q9Ydc0y0mJZ8Cz6xT+V3VyNa+cV3Xf/5m1/onkT5720w9xux16XFL/qR5cwEfGI+5TcxdPXZ0U9K6sJnT+R+U4fftKRuVbwBt3gqVg==
   </data>
  </layer>
+ <layer name="Objects_2" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A4sIafgaGYf6BdMQpGwfABACKaAT4=
+  </data>
+ </layer>
  <layer name="Above" width="22" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYKAdOCxGf3MjWVFpXMCMhTRzM1lRaVIAvcKBFHve8jEwvOODsMX4GRh0+aljLj5AK3MvieHmE7JThAOVL4bGxwWGWhgNFnNP8uOXJ9dcCyz5GRvAl1YGAgAAf7Ebvw==
@@ -199,6 +207,11 @@
  <layer name="Walkable" width="22" height="16">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEUwzE2QKw+bDS6ubjswGUvIfcg80kxF5t+WpuLrg4bn5QwI+ReapiLz0/4zEU3m9Q0SChNkmP2YDCXVuEwGMwlBwMAPuKzkg==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="22" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALygNtAO2CIAwBdAABH
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -213,6 +226,22 @@
    <properties>
     <property name="map" value="stoutford_castle_barrack2"/>
     <property name="place" value="base_beamto_prim"/>
+   </properties>
+  </object>
+  <object name="Omi2_bwm1:36" type="replace" x="224" y="192" width="64" height="32">
+   <properties>
+    <property name="Objects" value="Objects_2"/>
+    <property name="requireId" value="Omi2_bwm1"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="36"/>
+   </properties>
+  </object>
+  <object name="Omi2_bwm1:36" type="replace" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="Omi2_bwm1"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="36"/>
    </properties>
   </object>
  </objectgroup>
@@ -280,6 +309,18 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="prim_guard6"/>
+   </properties>
+  </object>
+  <object name="prim_guard7" type="spawn" x="256" y="384" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="prim_guard7"/>
+   </properties>
+  </object>
+  <object name="jern" type="spawn" x="192" y="128" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="prim_tavern_guest4"/>
    </properties>
   </object>
  </objectgroup>

@@ -39,7 +39,7 @@
             "max":6
         },
         "spawnGroup":"venomfang_2",
-        "droplistID":"cave_serpent",
+        "droplistID":"bwm_venomfang2",
         "attackCost":3,
         "attackChance":140,
         "blockChance":100,
@@ -67,6 +67,7 @@
             "max":6
         },
         "spawnGroup":"venomfang_2",
+        "droplistID":"bwm_venomfang2",
         "attackCost":3,
         "attackChance":155,
         "blockChance":85,
@@ -291,7 +292,7 @@
         "iconID":"monsters_rltiles1:65",
         "monsterClass":"humanoid",
         "spawnGroup":"prim_guard5",
-        "phraseID":"prim_guard5_1"
+        "phraseID":"prim_guard5_s"
     },
     {
         "id":"ortholion_guard0",
@@ -300,7 +301,8 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"ortholion_01",
-        "phraseID":"ortholion_guard_selector"
+        "phraseID":"ortholion_guard_selector",
+        "droplistID":"ortholion_guard0"
     },
     {
         "id":"prim_guard6",
@@ -314,8 +316,12 @@
     },
     {
         "id":"ortholion_guard1",
-        "name":"Feygard mountain scout",
-        "iconID":"monsters_omi2:10"
+        "name":"Wounded Feygard mountain scout",
+        "iconID":"monsters_omi2:11",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"ortholion_guard_wounded",
+        "phraseID":"ortholion_gw_selector"
     },
     {
         "id":"ortholion_guard2",
@@ -325,7 +331,8 @@
         "movementAggressionType":"none",
         "spawnGroup":"ortholion_02",
         "faction":"",
-        "phraseID":"ortholion_guard_selector"
+        "phraseID":"ortholion_guard_selector",
+        "droplistID":"ortholion_guard2"
     },
     {
         "id":"ortholion_guard_3",
@@ -335,5 +342,14 @@
         "movementAggressionType":"none",
         "spawnGroup":"ortholion_03",
         "phraseID":"ortholion_guard3_selector"
+    },
+    {
+        "id":"prim_guard7",
+        "name":"Wounded Prim guard",
+        "iconID":"monsters_rltiles1:76",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"prim_guard7_sleeping"
     }
 ]

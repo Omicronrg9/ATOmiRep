@@ -182,5 +182,65 @@
         "displaytype":"quest",
         "category":"other",
         "description":"Picked up directly from the heart of the mountain."
+    },
+    {
+        "id":"venomfang_dagger",
+        "iconID":"items_omi2:18",
+        "name":"Venomfang dirk",
+        "displaytype":"extraordinary",
+        "category":"dagger",
+        "description":"Fast and accurate, just like serpent's fangs.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":5
+            },
+            "increaseMaxHP":-5,
+            "increaseAttackCost":4,
+            "increaseAttackChance":16,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":-2,
+            "setCriticalMultiplier":1.75,
+            "setNonWeaponDamageModifier":107
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_weak",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bwm_olm_boots1",
+        "iconID":"items_omi2:6",
+        "name":"Amphibian boots",
+        "displaytype":"ordinary",
+        "category":"feet_lthr",
+        "equipEffect":{
+            "increaseMaxHP":3,
+            "increaseMoveCost":0,
+            "increaseAttackChance":3,
+            "increaseBlockChance":9
+        }
+    },
+    {
+        "id":"bwm_olm_gloves1",
+        "iconID":"items_omi2:0",
+        "name":"Amphibian gloves",
+        "displaytype":"ordinary",
+        "category":"hnd_lthr",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":2
+            },
+            "increaseMaxHP":2,
+            "increaseAttackChance":2,
+            "increaseBlockChance":10
+        }
     }
 ]

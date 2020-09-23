@@ -116,6 +116,18 @@
             {
                 "progress":18,
                 "logText":"Jern & Guard Cap. convo."
+            },
+            {
+                "progress":20,
+                "logText":"Subdued Feygard mountain scout"
+            },
+            {
+                "progress":21,
+                "logText":"Ortholion's kick."
+            },
+            {
+                "progress":22,
+                "logText":"Arghest small talk."
             }
         ]
     },
@@ -225,6 +237,24 @@
                 "progress":40,
                 "logText":"It seems Ehrenfest lied to me in more than one thing. He's probably related with the missing people and Lorn's death. I must find General Ortholion and warn him about Ehrenfest.",
                 "rewardExperience":100
+            },
+            {
+                "progress":41,
+                "logText":"One of the general's henchmen attacked me without provocation. There was something wrong with her. Better hurry up and meet with the Feygar general."
+            },
+            {
+                "progress":45,
+                "logText":"Ehrenfest revealed his true intentions, but fled before getting surrounded. According with his own words, he will be waiting for General Ortholion in the Elm mine.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":46,
+                "logText":"After a brief conversation with the general, he left Blackwater settlement in a rush to reach Elm mine. He seemed really worried about the mine, so he asked me to warn his soldiers, settled South of Prim."
+            },
+            {
+                "progress":47,
+                "logText":"I reported general's henchmen about his plans. Now, I should hurry up to the Elm mine.",
+                "rewardExperience":300
             }
         ]
     }

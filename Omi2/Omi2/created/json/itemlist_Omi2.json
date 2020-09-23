@@ -242,5 +242,142 @@
             "increaseAttackChance":2,
             "increaseBlockChance":10
         }
+    },
+    {
+        "id":"armor5",
+        "iconID":"items_feygard1:6",
+        "name":"Iced leather armor",
+        "displaytype":"extraordinary",
+        "category":"bdy_lthr",
+        "description":"This armor has a permanent layer of snow and ice which somehow never melts.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-2,
+                "max":-1
+            },
+            "increaseMaxHP":-5,
+            "increaseMaxAP":0,
+            "increaseMoveCost":2,
+            "increaseUseItemCost":1,
+            "increaseReequipCost":2,
+            "increaseAttackChance":-5,
+            "increaseCriticalSkill":-10,
+            "increaseBlockChance":20,
+            "increaseDamageResistance":2,
+            "addedConditions":[
+                {
+                    "condition":"fire",
+                    "magnitude":-99
+                }
+            ]
+        }
+    },
+    {
+        "id":"shield8",
+        "iconID":"items_feygard1:7",
+        "name":"Iced broken wooden buckler",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":441,
+        "category":"buckler",
+        "description":"Quite resistant despite its apparent frailness and its state. Maybe it's worth fixing.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":-1
+            },
+            "increaseMaxHP":-2,
+            "increaseMaxAP":0,
+            "increaseAttackChance":-6,
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":8,
+            "increaseDamageResistance":0
+        }
+    },
+    {
+        "id":"boots7",
+        "iconID":"items_omi2:7",
+        "name":"Iced leather boots",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":788,
+        "category":"feet_lthr",
+        "description":"These leather boots bright like if they were metallic.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-1,
+                "max":0
+            },
+            "increaseMaxHP":-3,
+            "increaseMoveCost":0,
+            "increaseUseItemCost":0,
+            "increaseReequipCost":0,
+            "increaseAttackCost":0,
+            "increaseAttackChance":-9,
+            "increaseBlockChance":6,
+            "increaseDamageResistance":0,
+            "addedConditions":[
+                {
+                    "condition":"frozen1",
+                    "magnitude":1
+                }
+            ]
+        }
+    },
+    {
+        "id":"gloves5",
+        "iconID":"items_omi2:1",
+        "name":"Iced leather gloves",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":524,
+        "category":"hnd_lthr",
+        "description":"You wonder how to lift any weapon while wearing them.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-3,
+                "max":-2
+            },
+            "increaseMaxHP":-2,
+            "increaseUseItemCost":2,
+            "increaseAttackChance":1,
+            "increaseBlockChance":8,
+            "setNonWeaponDamageModifier":100
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"frozen2",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
+        "id":"feygard_necklace1",
+        "iconID":"items_jewelry:9",
+        "name":"Broken Feygard medallion",
+        "displaytype":"ordinary",
+        "category":"neck",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":-3,
+                "max":4
+            },
+            "increaseMaxHP":3,
+            "increaseAttackChance":5,
+            "increaseBlockChance":2,
+            "setNonWeaponDamageModifier":100
+        }
+    },
+    {
+        "id":"ortholion_signet",
+        "iconID":"items_misc_2:3",
+        "name":"Ortholion's signet",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"A signet with a blue sapphire mark of Feygard."
     }
 ]

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,107 +181,140 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="20">
+ <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEE4TlMEEwt8w4wQfBBKpl5iQmCL1PJvCdMEDzQ4U7LeFgLNGcdFFPbPGq4cy2SWTBz1wOxISsEk2Meshth5hmRYRa6eeuR6DBW8szEZR4l4Udr83DF8WYoxmfeOibccYLNPGxmwNIZTC82N2JzJ7p5c9DcsA7NTGRz1mHho9Po+QBdHAB2xhwC
+   eJzNlr1twzAQRgUHKuT0KrSFkQmSyiljeASNlREcWUWAtO7UewZt4AWig/jBZ4Y83klWkuLBAv+eyeORbFZZdjLSOKa2ofLjwFlJ734/XL+vKo7UBnW9EfTrqjhSG9R9FjbQ71LEkdrcw7sps+yp/Pm9tPev5vsf1vk3vJSD7wEsXmm9Yv1i54U/9j4fQfkun+6Vzgu/je99M3of1tfvjo1H8DOBtyHqfATlzzPmS2A8Pmbq/xIvM71T2A7O13zcByFvbB9b40Ecylsey/FusXp5XP09EwI+XtYLeWglFq+Ql0jd39p3gNWbur81SPtT8kr3twaLt0msj4WQF2Xw4kxf2tu6+MGLeCzh5bnbuvjB2y3o9ecbuz8lL50HLauTcjc0zr28qRzWeDX5XjsvYqbJ45QX7/9UfPl8NXmc8uLdb/FaCXk177O5SONS3Tc63eFP
   </data>
  </layer>
- <layer name="Objects" width="20" height="20">
+ <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyFlMFKw0AQhpdA8CbdgAt9Mr35CB682GcpvoFnaw+ehDSRXNpDQmj1GIiiloJHwRkzw04mGzsw7GZn98u/M5Nsp8a8g2/B38DZGmvMwvnn3Pp5BvND0p3hs6GR7YfOSp62doTRki4eM6FD8jjeiHhIVwnxCvw2MuYExrUL86Sldlxfaft7c+u1SN7S9XOxSYZ3a6fmX5O8ve1zZX0wlipdd9FwLaeznFOMr898vIT4PXlNex/dcX9VeVyq53lEfOvfwfxSzNl2bshAa21379r6OhzTlbqOh/n/Y1DuuS6HZPgeNOyX2aTvyFkQT8ekcw4qeket6nAd+3syD+0m9rpChhydF+znMR7aOei5mHTcFdw1G7mvZoZ4z6QNv7nvU2MKWC+IJ78Lnl/Gfu0F9n4S74Nqg31YCK07wQvZVdzf24A/gLdCI458T83D3NWiJk+u66cN7V05/819UQ/tRT+hfu5laaFelbxM1YQZrKVSNZfP/O8K8Zijz4f06N7RZ6Qe3if38NovXMHH7A==
+   eJxjYBg4cJWPvvrQwXZ2/GwhJtLNfMiPyn+ExH8kxMBwGOj24+yE2SAaGZizQDA6GwY+8iPwZyiNbK8wE8R8GB9mFwiA2CB5bHYSYt8QxB8eMPPR2dcFUcXR7Q0UY2AIFsNkI4NgVkj4wjAyQDcfF/s6mvsJhTMIJAPt/cSPwNj8CzMXl73odmJjo4MWoL2trAgaGYCsu85OmE0MICZO6QUiWTHF7JDihRK3HhTFLZcJtPeiGKqYH470QKk7CNkbh8deYgC6ecQCOzR71TkYGFSAWBWK1TggYqQAYsIJPZw3A8vDy0hl/k0g+wqeOoDcuEAO56NUqmNGASbg44fU4buAeDcQ74GyQWJvgfgdH255XbTylpi4ng2tx0Wgek8BzTkNxGf4IGx0QEieWPsGGixkgeR9XDQhNbgAcvsLW1sMuf5Ep2HxhU8NuYBW/gWBh0K45YTYyHczJUAJaK8yG8JvjFRyRyKSmYlEmDkdWGfNQKunD4niTie42u/XoGkDV57egaZvOdDOFVjaB8QCYuuJE3yINlcaEGdAMbUAchv0N542CT0AAA9Ejcw=
   </data>
  </layer>
- <layer name="Above" width="20" height="20">
+ <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAP3JQkrOYWHjUg/fjkKQXEuI/abrksRrkZyOASlc0bDoDW6YZWYDYTphgsvVzEE8/uAgwMHgIQ9nYhBoYdQqjyc5HMPUzl9DJQ5mHzJyXm4QLocTIXSxyRA5DNoXaZgAzmMaHSuAC2tAcCxPoXm36YGAAt2xsX
+   eJxjYBg4cFiMgYGTCcK+yofK5kJiY9P3Hij+gQ8ij8xGVgPjo5sBkpOEmg+yB8aWAdJSUDYnkjyyPmL8xCjAwMAExMxALC2AXT8xbFLtJUaOVHuP8wNpIL4MZB8B0iehbFz6klipYy8MXMLBhqmRAIavKBBL0TGcS4B+LGVF0NSw9wQ0bPHZS4wcrvC6RITfKLGXUoBuFjXt3SgKoZHLARgbZhaIv1UUEU6RSPFKrr34ACnxgW7vY3YGhifsCD6I/YKdgWJgAfSzJY70DALMHJh6ODioGy60tPeeAHY2re09J4CdPVwAeniQGs7UspdQOOOzV40fgvHJE2MONkAr/xKrXhTNXyJIfHQ5GBDD418Qnx71AjZ78ZWb6OrF8MQnLn/jshcfAMkLsyH4H7HUHcQAdHsC2bCziXEXKXFAjn+RwXSgf2ew0sde9DYXsXqRAXoaItW/5NpLTb20AgCR+nnZ
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEJEws2ihHGpABizMNnJjZ5ersPn1soMY8SQG3zqAEGgx9hanHFHanxQ4o+YuManzg18gmleY4ct5EKqGEeKX6GqRkI95GaXrDR9MYAIGiWCA==
+   eJztk9sNwCAIRZ2i+6/ghk3/GsO9PATb2JIQUQMHUPrRWv91iV5itcczJFbuPS6zPTlKua3kVtSLpJqr9bOCq8VCPbH0i/lZuGhuIuyvcUf/mZylO7SPCutPJVfiaww2iyw+sjM1WvMu3Lf0eXZ2UTx2xnJFK7vzzuLO9aL8tL/o/YMRLmLMcL3vm8W11PsU1xLLI8zXw8/WE5byi7s=
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="entrance1" type="mapchange" x="192" y="576" width="32" height="32">
+  <object name="west" type="mapchange" x="896" y="896" width="32" height="32">
    <properties>
-    <property name="map" value="blackwater_mountain9"/>
-    <property name="place" value="exit1"/>
-   </properties>
-  </object>
-  <object name="north" type="mapchange" x="128" y="0" width="320" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain11"/>
+    <property name="map" value="blackwater_mountain38"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="224" width="32" height="96">
+  <object name="south" type="mapchange" x="896" y="448" width="32" height="32">
    <properties>
-    <property name="map" value="blackwater_mountain12"/>
-    <property name="place" value="east"/>
+    <property name="map" value="blackwater_mountain44"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="608" y="160" width="32" height="64">
+  <object name="east" type="mapchange" x="928" y="512" width="32" height="64">
    <properties>
-    <property name="map" value="blackwater_mountain14"/>
+    <property name="map" value="blackwater_mountain52"/>
     <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object name="exit" type="mapchange" x="96" y="96" width="32" height="32"/>
-  <object name="sign_blackwater10" type="sign" x="384" y="192" width="32" height="32"/>
-  <object name="entrance2" type="mapchange" x="256" y="576" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain9"/>
-    <property name="place" value="exit2"/>
-   </properties>
-  </object>
-  <object name="entrance3" type="mapchange" x="320" y="576" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain9"/>
-    <property name="place" value="exit3"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="forestboar4" type="spawn" x="320" y="64" width="224" height="256">
+  <object name="blackwater_guest1" type="spawn" x="480" y="96" width="192" height="160">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="forestboar4"/>
+    <property name="spawngroup" value="blackwater_guest1"/>
    </properties>
   </object>
-  <object name="primwolf1" type="spawn" x="64" y="160" width="384" height="320">
+  <object name="blackwater_guest2" type="spawn" x="512" y="96" width="224" height="192">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="primwolf1"/>
+    <property name="spawngroup" value="blackwater_guest2"/>
    </properties>
   </object>
-  <object name="tonis" type="spawn" x="160" y="64" width="96" height="64">
+  <object name="blackwater_cook" type="spawn" x="832" y="128" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="tonis"/>
+    <property name="spawngroup" value="blackwater_cook"/>
    </properties>
   </object>
-  <object name="ortholion_guard_1" type="spawn" x="192" y="352" width="160" height="32">
+  <object name="mazeg" type="spawn" x="832" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="mazeg"/>
+   </properties>
+  </object>
+  <object name="keneg" type="spawn" x="384" y="384" width="320" height="256">
+   <properties>
+    <property name="spawngroup" value="keneg"/>
+   </properties>
+  </object>
+  <object name="waeges" type="spawn" x="224" y="448" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="waeges"/>
+   </properties>
+  </object>
+  <object name="blackwater_fighter" type="spawn" x="160" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_fighter"/>
+   </properties>
+  </object>
+  <object name="blackwater_fighter_1" type="spawn" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_fighter"/>
+   </properties>
+  </object>
+  <object name="blackwater_pupil" type="spawn" x="160" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_pupil"/>
+   </properties>
+  </object>
+  <object name="ungorm" type="spawn" x="128" y="640" width="320" height="32">
+   <properties>
+    <property name="spawngroup" value="ungorm"/>
+   </properties>
+  </object>
+  <object name="blackwater_pupil_1" type="spawn" x="384" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_pupil"/>
+   </properties>
+  </object>
+  <object name="blackwater_pupil_2" type="spawn" x="320" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_pupil"/>
+   </properties>
+  </object>
+  <object name="blackwater_fighter_2" type="spawn" x="64" y="320" width="96" height="192">
+   <properties>
+    <property name="spawngroup" value="blackwater_fighter"/>
+   </properties>
+  </object>
+  <object name="blackwater_entranceguard" type="spawn" x="704" y="736" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="blackwater_entranceguard"/>
+   </properties>
+  </object>
+  <object name="burhczyd6" type="spawn" x="480" y="128" width="32" height="64">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd6"/>
+   </properties>
+  </object>
+  <object name="burhczyd6e" type="spawn" x="480" y="128" width="32" height="64">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_02"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="burhczyd6e"/>
    </properties>
   </object>
-  <object name="ortholion_guard_2" type="spawn" x="128" y="448" width="32" height="128">
+  <object name="ortholion" type="spawn" x="640" y="192" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_03"/>
+    <property name="spawngroup" value="ortholion"/>
    </properties>
   </object>
-  <object name="ortholion_guard_3" type="spawn" x="384" y="352" width="128" height="128">
+  <object name="ehrenfest" type="spawn" x="640" y="224" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="ortholion_03"/>
-   </properties>
-  </object>
-  <object name="ortholion_guard_4" type="spawn" x="224" y="480" width="96" height="64">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_guard5"/>
+    <property name="spawngroup" value="ehrenfest"/>
    </properties>
   </object>
  </objectgroup>

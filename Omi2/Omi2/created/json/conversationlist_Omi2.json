@@ -512,6 +512,28 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ortholion_conversation2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":34
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ehrenfest_46b",
                 "requires":[
                     {
@@ -700,7 +722,7 @@
     },
     {
         "id":"ehrenfest_2a",
-        "message":"I see. But keep in mind that no one inside there will pay attention to whatever you have to say.",
+        "message":"I see. But keep in mind that no one inside there will pay attention to you, whatever you say.",
         "replies":[
             {
                 "text":"How not?",
@@ -4933,6 +4955,949 @@
             {
                 "text":"Shadow be with you.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_1",
+        "message":"Hmmm... Hmmm....",
+        "replies":[
+            {
+                "text":"Hey! I need to talk with the general, now!",
+                "nextPhraseID":"ortholion_subdued_2"
+            },
+            {
+                "text":"Step aside, lowly minion. I have business with your boss.",
+                "nextPhraseID":"ortholion_subdued_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_2",
+        "message":"[The scout stares at you wich an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm]",
+        "switchToNPC":"ortholion_guard4",
+        "replies":[
+            {
+                "text":"Argh! What the...?",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"How you dare?! Prepare to die, Feygard scum.",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":10
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"feebleness_minor",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_3",
+        "message":"[A slim girl stands in front of you. Her armor seems to be made from leather, but it seems to rigid, like frozen, just like her face. The Feygard coat of arms gleams in her suit, but it's overshadowed by her eyes, nailed in you]"
+    },
+    {
+        "id":"ortholion_subdued_s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_subdued_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":41,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_4",
+        "message":"[You hear steps up in the mountain. It seems a Feygard soldier is guarding the cave entrance. General Ortholion must have already reached Blackwater Settlement]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":20
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion_guard4_2",
+                "mapName":"blackwater_mountain32"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard4_2",
+                "mapName":"blackwater_mountain32"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_s2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_subdued_5",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ortholion_guard4",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":41,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_5",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":41
+            }
+        ]
+    },
+    {
+        "id":"ortholion_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_8a",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ortholion_signet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_1",
+        "message":"So you have come this far just to get rid of me...",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":34
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ortholion_conversation2_2b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":40
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain31"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_2a",
+        "message":"The crimes you have commited must be punished!",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_3a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_3a",
+        "message":"Hmmm... What crimes, evil creature?\n\nOr you even dared to think you had a chance to trick a general of the glorious Feygard?!",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_4a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_4a",
+        "message":"I'm... *stares at you* \n\n$playername! It's time to end with all of this!",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_5a"
+            },
+            {
+                "text":"Gladly. Prepare to die!",
+                "nextPhraseID":"ortholion_conversation2_5a2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":35
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_5a",
+        "message":"My lord... A kid? You come with a kid accusing me of something I never heard about?",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "nextPhraseID":"ortholion_conversation2_6a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_5a2",
+        "message":"[Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow]",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_5a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"confusion",
+                "value":75
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":21
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_6a",
+        "message":"Ok, you bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"These guards are no match for...",
+                "nextPhraseID":"ortholion_conversation2_7a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":21,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"Die!",
+                "nextPhraseID":"ortholion_conversation2_6a2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":21,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_7a",
+        "message":"Bah! This is enough. $playername, weren't you so strong?! Pathetic.\n\nYou only had to distract him and take the blame!",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"W...What?!",
+                "nextPhraseID":"ortholion_conversation2_8a"
+            },
+            {
+                "text":"Hah. I always knew you were too much shady to be a good guy.",
+                "nextPhraseID":"ortholion_conversation2_8a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_6a2",
+        "message":"[Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_7a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":21
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"confusion",
+                "value":75
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_8a",
+        "message":"Ortholion! How much is your life worth? Hoy many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above me, and disappears before the blink of an eye]",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"Coward....",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Uh, I got trickied.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":45
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain43"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain43"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_2b",
+        "message":"I hoped someone else would take blame of this. But don't worry, soon we would be unstoppable.",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"Stop!",
+                "nextPhraseID":"ortholion_conversation2_3b"
+            },
+            {
+                "text":"Do you always talk that much, liar?",
+                "nextPhraseID":"ortholion_conversation2_3b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_3b",
+        "message":"*unsheathes his sword* Well, enough talk. I won't ignore your threats, evil creature.",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"Hey, stop you two!",
+                "nextPhraseID":"ortholion_conversation2_4b"
+            },
+            {
+                "text":"Ehrenfest, you have many things to explain!",
+                "nextPhraseID":"ortholion_conversation2_4b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_4b",
+        "message":"[People from the tavern start looking at the place where Ortholion and Ehrenfest were about to have a fight]\n\n*looks around* No...Not yet. Argh! You kid, betrayer! You are about to discover how wrong you have chosen!",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation2_5b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_5b",
+        "message":"[The general tries to land a strike on Ehrenfest, but he just cuts a piece of his cloak. Ehrenfest is gone]\n\nHmpf...",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"Eh... Greetings, general.",
+                "nextPhraseID":"ortholion_1"
+            },
+            {
+                "text":"I thought Feygard generals were faster swinging their blades.",
+                "nextPhraseID":"ortholion_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":45
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain43"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain43"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_1",
+        "message":"Look, I don't have time for you, but I don't kill kids, not yet. So step aside.",
+        "replies":[
+            {
+                "text":"Are you threatening me?",
+                "nextPhraseID":"ortholion_4c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":34
+                    }
+                ]
+            },
+            {
+                "text":"I'm here to inform you about Ehrenfest. He's probably behind some disappearings in Prim.",
+                "nextPhraseID":"ortholion_2b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_2b",
+        "message":"You mean that weakling is responsible of those missing people from Prim of whom I've been informed recently? ",
+        "replies":[
+            {
+                "text":"I do.",
+                "nextPhraseID":"ortholion_3b2"
+            },
+            {
+                "text":"Weakling? Haven't you seen how he escaped?",
+                "nextPhraseID":"ortholion_3b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_3b",
+        "message":"Nothing impressive. Loyal followers of the Shadow have their tricks, just as I have my own.",
+        "replies":[
+            {
+                "text":"The Shadow? Do you believe in that?",
+                "nextPhraseID":"ortholion_4b"
+            },
+            {
+                "text":"Hope those tricks are better than your chasing abilities.",
+                "nextPhraseID":"ortholion_4c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":21
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_3b2",
+        "message":"It's definitely something off with him. Another Shadow fanatic to get rid of, tsch.",
+        "replies":[
+            {
+                "text":"Shadow fanatic? Do you know him?",
+                "nextPhraseID":"ortholion_4d"
+            },
+            {
+                "text":"Can I be of help?",
+                "nextPhraseID":"ortholion_4a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_4b",
+        "message":"*laughs quietly* Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind.",
+        "replies":[
+            {
+                "text":"...Ok, now that you're aware of the situation, I'd better leave.",
+                "nextPhraseID":"ortholion_5a"
+            },
+            {
+                "text":"What about \"I don't have time to...\"?",
+                "nextPhraseID":"ortholion_4c"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_4c",
+        "message":"I have no time for this absurd talk. I must be sure this guy's road ends in the Elm mine.",
+        "replies":[
+            {
+                "text":"Do you need anything?",
+                "nextPhraseID":"ortholion_4a"
+            },
+            {
+                "text":"Good luck then, bye.",
+                "nextPhraseID":"ortholion_5a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_4d",
+        "message":"No. But It's quite obvious by the way he accused me.",
+        "replies":[
+            {
+                "text":"And what will you do, general slowness?",
+                "nextPhraseID":"ortholion_4c"
+            },
+            {
+                "text":"Well, this is not really my problem. Bye.",
+                "nextPhraseID":"ortholion_5a"
+            },
+            {
+                "text":"Do you need any help?",
+                "nextPhraseID":"ortholion_4a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_4a",
+        "message":"Hmm...Maybe. You came up this far after all. Go warn my soldiers. They are settled in the tunnel entrance, South of Prim.",
+        "replies":[
+            {
+                "text":"This is getting too complicated. I'd better leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I bet they'll pay attention to a kid like me, right?",
+                "nextPhraseID":"ortholion_6b"
+            },
+            {
+                "text":"Ok, I will.",
+                "nextPhraseID":"ortholion_6b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_5a",
+        "message":"Not so fast. Seeing that you reached this place but my scouts couldn't, I think you will be of use.",
+        "replies":[
+            {
+                "text":"What if I don't want to help you?",
+                "nextPhraseID":"ortholion_6a"
+            },
+            {
+                "text":"What is it?",
+                "nextPhraseID":"ortholion_6b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_6a",
+        "message":"Then I'll oficially accuse you of betray and murder intent against a Feygard general. I'll bring you to Feygard and you will never see your family again.",
+        "replies":[
+            {
+                "text":"How you dare?! Prepare to die!",
+                "nextPhraseID":"ortholion_7a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_7a",
+        "message":"*starts laughing after landing you to the ground effortlessly* \n\nLook, take this signet. With this, my soldiers settled outside the mining tunnel entrance will believe in your words. Tell them I went to the Elm mine.",
+        "replies":[
+            {
+                "text":"Hmpf...",
+                "nextPhraseID":"ortholion_8a"
+            },
+            {
+                "text":"Ok, ok. I will but please don't hurt me anymore.",
+                "nextPhraseID":"ortholion_8a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"confusion",
+                "value":15
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ortholion_signet",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":46
+            }
+        ]
+    },
+    {
+        "id":"ortholion_6b",
+        "message":"Take this, and show it to the soldiers settled on the mining tunnel entrance. Tell them I went to the Elm mine.",
+        "replies":[
+            {
+                "text":"Consider it done.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Hope they can understand. Bye.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ortholion_signet",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":46
+            }
+        ]
+    },
+    {
+        "id":"ortholion_8a",
+        "message":"Are you still here?! Go, go now!",
+        "replies":[
+            {
+                "text":"Eh...Right.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Someday you will regret your manners...",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Ok, ok! I'm going.",
+                "nextPhraseID":"R"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_checker1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_checker1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":41
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_checker1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":34
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":46,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_checker1_1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain43"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion",
+                "mapName":"blackwater_mountain43"
+            }
+        ]
+    },
+    {
+        "id":"fms_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fms_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":47
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"fms_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":46
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fms_1",
+        "message":"Hey! You alright?",
+        "replies":[
+            {
+                "text":"Yeah, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I lost 10000 gold over here.",
+                "nextPhraseID":"fms_2a"
+            },
+            {
+                "text":"*shows the signet* your general has gone to Elm mine. He could be in trouble.",
+                "nextPhraseID":"fms_2b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ortholion_signet",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"fms_2a",
+        "message":"Yeah, sure. We are here settled by command of General Orhtolion of Feygard. You have no business here.",
+        "replies":[
+            {
+                "text":"*shows the signet* Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine.",
+                "nextPhraseID":"fms_2b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ortholion_signet",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"What a boring girl! Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"fms_2b",
+        "message":"*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, general needs us!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fms_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard_1",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard_2",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard_2",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard_3",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion_guard_3",
+                "mapName":"blackwater_mountain10"
+            }
+        ]
+    },
+    {
+        "id":"fms_3",
+        "message":"I'll lead the way. Thank you kid, now go back to the village. It's safer there.",
+        "replies":[
+            {
+                "text":"I can handle myself, thanks.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Be careful, I heard mountain wolves are a trouble for Feygard soldiers.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"I will. Bye.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":47
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert",
+        "message":"Hey, do you know what's happening here? These serious-looking soldiers entered the mine without permission.",
+        "replies":[
+            {
+                "text":"They're soldiers of Feygard. I come along them, don't worry.",
+                "nextPhraseID":"arghest_alert_2"
+            },
+            {
+                "text":"I'll investigate. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert_2",
+        "message":"You'd better telling me the truth. I will report it later.",
+        "replies":[
+            {
+                "text":"Have you seen a guy with a cloak over here?",
+                "nextPhraseID":"arghest_alert_3"
+            },
+            {
+                "text":"Yeah, whatever. We talk later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert_3",
+        "message":"I was taking a break in the beds over there, so no idea, sorry. No one usually comes here but you and those...Noisy soldiers.",
+        "replies":[
+            {
+                "text":"Thank you for the information.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Don't worry, we won't cause much trouble. ",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":22
             }
         ]
     }

@@ -196,12 +196,17 @@
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VktOwzAQNalCw66FtlAp4hKwgRvADTgC696Ai8ANWLBCIFVQNnwkpEQqSnd8FqxBYs1YziiDM5PYIfAky7Iz8ZufZ6xUgZVAsUjHZp73lZqN6uVdkfXLe3NmTyPJeZ+s76hbm+D0aiLL+ee5W957YfYQ1N8u8rZ/FuCfTqTUUlSWDSJZn4ThleQlnTqMPMpJ+mgcx2Z8Lpu19gEnj/9EMFKQycYFry0fWGt99gw4buLCx6exGQjqAyqPOmleGh/J3gvQa9Ir9q7gjOuY9zEHlEedON46e9sAx4vAWF0OzbwD9u4SmzVewRdvHuO9W8+LQF/uAed+r/xdylsOOmap4GcbE4brIDRDunccNgdKfXTlvHLBYWjGKsifQxym+R2qs72KV7q/VXjMc7XO9iCSeX+bz9NYnjUX5V2QuoHAfL4dyhxcXNB2bk5G7vGltWELYrodFus1kF/3GBsVftY4Ime3Dale/QfayuemvGcO/cinn7ryVuXzQ57PVf3Ut1ZSP+N7wwbm892w6KN2D3atlainb17RPkp78L2lk8aPXl/T9/E+fjWIGdXpJOZ11ODukc0/sOwfMbWgiY4c78Lz3e1bs2jdsuHL3QSubzMJ+BbNWtD1L+zVetFzcf0NUnKl1w==
+   eJy9VktOwzAQNalKw66FNlAp4hKwgRvADTgC696Ai8AJYMEKgVRB2fCRkFqpVbvjs2ANEmvGckYenJnEDoEnjSK7U7/5ecZKWaxEisWkb77TjlKjpFzfF/NOfm/K7GmMM94Z/H4aWUHb6gRnVxVdLj7PrfzeC7OHoPH20Z859iwgPo1YqaU4rxvFsj1jhlfSl2xqMPqoJ9mjcZwa+Vw2ax0DTh//E4NMQGfet7yufuSs9dkj4LhNbYzPUiMIGgOqjzZpXpofyd9LsGvQtnvXcMZNyseYA+qjTRxvmb91gONFYK6ueua7A/7uEp81XiEWbwHy3irnRWAs94Bzv53/XapbDjpnEyHOLgYM10HTiHTvOGx2lfpoyXXlg8OmkVXQv4A8DLM7VOZ7Ea90f4vwlNVqme9RLPP+tp6HqfzVXJR3QfoGAuv5ridzcHlB37nvOPHPL+0NW5DT7aZdr4H+eoBsFMRZ44icXTekfvUfqKueq/Kee8yjkHnqy1tUz49ZPRfN09BeSeOM7w0XWM/3PTtH3Rns2yvRztC6onOUzuAHxyaNH7O+ZO7jffyqkDNq00nK26jB3SOXv+v4nzC9oIqNHO8i8N0d2rNo33IRyl0Fvm8zCfgWnddg61/4q+2i5+L6G9mBp+c=
   </data>
  </layer>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk0sOwCAIRD1F738Fb9h0RwyMQ/m0C0lI/Qw+BDuvMebx40X+WKXeOsNzzqpnY1cdw9ViUCyzhmKz7W9cubeLi74hxLXG3hwQl61RNhflgtYiXKT11MLD3Wmt+0a5cq6NPXwrJ4sr93f1r/qPKo3peQfXqg1bQ20uv2/u29Xfr96VpY3kgbhrHxhjc9K42nuoMrYuSJvFzco50v9udhf3Bj8Av9A=
+   eJztk90NwCAIhJ2i+6/ghn0lBo6jCLZJSUz9OfwQ6LzGmB8b0k7H8g+/VpV6647IPaue9V11DFfzQb7MHvLdbW/jyjPPL9tDiGvNozEgLpuj3VwUC9rLcJE2kosI19Na781y5VqbR/hWTBZXnnv5r/qPKo2peQfXyg2bQ20tv0/e21XfU31laTNxIO5aB8bYmDSu1g9VxuYFaXdxd8WcqX83u4t7Ax85vXs=
+  </data>
+ </layer>
+ <layer name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6BnsH80wxjDfYMEJJ12vgcAAADdDnaCAO8=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -321,6 +326,11 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ortholion_01"/>
+   </properties>
+  </object>
+  <object name="ortholion_hidden" type="spawn" x="480" y="32" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="ortholion"/>
    </properties>
   </object>
  </objectgroup>

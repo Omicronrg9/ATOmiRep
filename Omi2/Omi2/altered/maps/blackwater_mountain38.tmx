@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.0" orientation="orthogonal" width="30" height="19" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,109 +181,84 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="20">
+ <layer name="Ground" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEE4TlMEEwt8w4wQfBBKpl5iQmCL1PJvCdMEDzQ4U7LeFgLNGcdFFPbPGq4cy2SWTBz1wOxISsEk2Meshth5hmRYRa6eeuR6DBW8szEZR4l4Udr83DF8WYoxmfeOibccYLNPGxmwNIZTC82N2JzJ7p5c9DcsA7NTGRz1mHho9Po+QBdHAB2xhwC
+   eJy1VTsSglAQY+gce0/vFUAKe8AbPPUIHkQodiYTN/uWAYs0sCT7y9K3TdMTJgC/+wdWnXnBEzDu4MLcVR2m91rwAZQFXYWXwbk/RB030LuffsG6zMvg3N+ijlnoebqzw8uIuIzPao3icPa12AxMN4oZafZ7NbO6pTJ7y23tyZWwRzeDAnvKfsnodkFsRnsgv0yCrxe6Xs8y/RvIL+hX+xa96+mq2xD1b6DnrD8J3bHVN8frH9eudsWrH2NLq2+O6p/pG9f5oueA94pzzNwc+x77Yz06yr+1Hea7nNXN+Cba5S132bi83VIxiK19YQ8h2KO1/3rk7wzPFydLpBE=
   </data>
  </layer>
- <layer name="Objects" width="20" height="20">
+ <layer name="Objects" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJyFlMFKw0AQhpdA8CbdgAt9Mr35CB682GcpvoFnaw+ehDSRXNpDQmj1GIiiloJHwRkzw04mGzsw7GZn98u/M5Nsp8a8g2/B38DZGmvMwvnn3Pp5BvND0p3hs6GR7YfOSp62doTRki4eM6FD8jjeiHhIVwnxCvw2MuYExrUL86Sldlxfaft7c+u1SN7S9XOxSYZ3a6fmX5O8ve1zZX0wlipdd9FwLaeznFOMr898vIT4PXlNex/dcX9VeVyq53lEfOvfwfxSzNl2bshAa21379r6OhzTlbqOh/n/Y1DuuS6HZPgeNOyX2aTvyFkQT8ekcw4qeket6nAd+3syD+0m9rpChhydF+znMR7aOei5mHTcFdw1G7mvZoZ4z6QNv7nvU2MKWC+IJ78Lnl/Gfu0F9n4S74Nqg31YCK07wQvZVdzf24A/gLdCI458T83D3NWiJk+u66cN7V05/819UQ/tRT+hfu5laaFelbxM1YQZrKVSNZfP/O8K8Zijz4f06N7RZ6Qe3if38NovXMHH7A==
+   eJzNVDtuwkAQXVmEggYZyUhB6SPlGhyBI6SlyRE4BBWiIJT4FjlCJMwJqOlp8AuzYnieXa+FlGQky2tr9s2bNx/n/pc9Z78fc1THPD09hjEh3m/DsO+g9i3rZ46Yfee29XsXydtrAp44vxL2KEEzxFv2nKvy6/dB3vvc9oce3+MrVwtro/Q6Kh/OQ+MverfzKoALPdiYsz4Xw2acMmv6A6MwalIqHh4D3NYtmoZ0S7GyY49bXM5F85/Fe5fd4nnOlp5tsasOvqnacK9wH+tcuF+66K9xfM7WvLXtnhS9YrE1Z8z8p8y9n7XYzgjZVPBD3Ncyq6zfTz379zrE8uedMxNfaz+kGLTAPrLqUFGNPqSHoddcHtzftOxNbaid3j/eUu7jLu8S6z5rFMLi3v0ah/uZ66b7CbFf5PtdNIrNqbVzYdiLhzzuw7G98UzsE3D+wi77EVCE
   </data>
  </layer>
- <layer name="Above" width="20" height="20">
+ <layer name="Above" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYCAP3JQkrOYWHjUg/fjkKQXEuI/abrksRrkZyOASlc0bDoDW6YZWYDYTphgsvVzEE8/uAgwMHgIQ9nYhBoYdQqjyc5HMPUzl9DJQ5mHzJyXm4QLocTIXSxyRA5DNoXaZgAzmMaHSuAC2tAcCxPoXm36YGAAt2xsX
+   eJxjYBg84LDYwNh3CUpfpsB+YvWC1F1CU4vORwaEwgSfXmzmXCRCPTY3kgNIMQdZLaV2E5OO0OOeGoAYe6lpHyn20gJQ015SzBq1l3QzcOkhp+whJw3jMgtbeUSMv4gpx4g1ixy1hAApYTSXiXr2kgooqfOGEgAAGhooIg==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20">
+ <layer name="Walkable" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBEJEws2ihHGpABizMNnJjZ5ersPn1soMY8SQG3zqAEGgx9hanHFHanxQ4o+YuManzg18gmleY4ct5EKqGEeKX6GqRkI95GaXrDR9MYAIGiWCA==
+   eJzbKMbAsHEUjxiMDVBqFjobl3341BFyIzGAGDOIsY9UdxCjntJ4IMZeXGFOqttIDR9y447UNIZPjFw/kJve6Wk3JW4mlB8Hwl5C5hJjL6npB6YenxvIAaT4lxy7SQ0fUt1KrH9IDSNqpBlqYgBnHi5z
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="entrance1" type="mapchange" x="192" y="576" width="32" height="32">
+  <object name="north" type="mapchange" x="896" y="224" width="32" height="32">
    <properties>
-    <property name="map" value="blackwater_mountain9"/>
-    <property name="place" value="exit1"/>
-   </properties>
-  </object>
-  <object name="north" type="mapchange" x="128" y="0" width="320" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain11"/>
+    <property name="map" value="blackwater_mountain37"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="224" width="32" height="96">
+  <object name="south" type="mapchange" x="640" y="416" width="32" height="32">
    <properties>
-    <property name="map" value="blackwater_mountain12"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object name="east" type="mapchange" x="608" y="160" width="32" height="64">
-   <properties>
-    <property name="map" value="blackwater_mountain14"/>
+    <property name="map" value="blackwater_mountain43"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="exit" type="mapchange" x="96" y="96" width="32" height="32"/>
-  <object name="sign_blackwater10" type="sign" x="384" y="192" width="32" height="32"/>
-  <object name="entrance2" type="mapchange" x="256" y="576" width="32" height="32">
+  <object name="burhczyd_check6" type="script" x="640" y="384" width="64" height="96"/>
+  <object name="sign_blackwater38_1" type="sign" x="832" y="160" width="32" height="32"/>
+  <object name="sign_blackwater38_2" type="sign" x="224" y="192" width="32" height="32"/>
+  <object name="sign_blackwater38_3" type="sign" x="96" y="544" width="32" height="32"/>
+  <object name="ortholion_checker1" type="script" x="608" y="544" width="32" height="32">
    <properties>
-    <property name="map" value="blackwater_mountain9"/>
-    <property name="place" value="exit2"/>
-   </properties>
-  </object>
-  <object name="entrance3" type="mapchange" x="320" y="576" width="32" height="32">
-   <properties>
-    <property name="map" value="blackwater_mountain9"/>
-    <property name="place" value="exit3"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="forestboar4" type="spawn" x="320" y="64" width="224" height="256">
+  <object name="wyrm_4" type="spawn" x="576" y="160" width="32" height="32">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="forestboar4"/>
+    <property name="spawngroup" value="wyrm_4"/>
    </properties>
   </object>
-  <object name="primwolf1" type="spawn" x="64" y="160" width="384" height="320">
+  <object name="wyrm_4_1" type="spawn" x="256" y="288" width="64" height="32">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="primwolf1"/>
+    <property name="spawngroup" value="wyrm_4"/>
    </properties>
   </object>
-  <object name="tonis" type="spawn" x="160" y="64" width="96" height="64">
+  <object name="wyrm_4_2" type="spawn" x="32" y="288" width="64" height="160">
    <properties>
-    <property name="spawngroup" value="tonis"/>
+    <property name="spawngroup" value="wyrm_4"/>
    </properties>
   </object>
-  <object name="ortholion_guard_1" type="spawn" x="192" y="352" width="160" height="32">
+  <object name="bwm_agent_6" type="spawn" x="768" y="480" width="32" height="32">
    <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_02"/>
+    <property name="spawngroup" value="bwm_agent_6"/>
    </properties>
   </object>
-  <object name="ortholion_guard_2" type="spawn" x="128" y="448" width="32" height="128">
+  <object name="wyrm_4_3" type="spawn" x="352" y="160" width="192" height="224">
    <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_03"/>
-   </properties>
-  </object>
-  <object name="ortholion_guard_3" type="spawn" x="384" y="352" width="128" height="128">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="ortholion_03"/>
-   </properties>
-  </object>
-  <object name="ortholion_guard_4" type="spawn" x="224" y="480" width="96" height="64">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_guard5"/>
+    <property name="spawngroup" value="wyrm_4"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="bwm_agent:60" type="key" x="640" y="384" width="64" height="96">
+   <properties>
+    <property name="phrase" value="keyarea_bwm_agent_60"/>
+    <property name="requireId" value="bwm_agent"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="60"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -136,9 +136,19 @@
    eJxjYICAcAEGvICDhYGBkwW/GhBIB5qTRsAsYgEhN4HAcWYGhhPMhNX58jIw+PFS7iYQIMZdpJhFLbdR2ywQoIZ51Awv9LQVxAahS4F0GRCXs5FuZqoAKj2cQDqV0yq1gCwT9czCBQY6PkkJL0LxhM+s58wIDAKEyl90syhJ/7jMIgdg8yO55lG7jAaB7VQqVy8h1VcfgexPRNRf+NyFbha55g0EoFf5BAAFRR07
   </data>
  </layer>
+ <layer name="Above_2" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
+  </data>
+ </layer>
  <layer name="Walkable" width="19" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJzN0sENACEIBEBLsCn6b+k+Pgy5I7uwepD48MFoFmyOYetEZZM/Ksv3VczIUv4rm9GXhZi+vzKHNysqJqcTu6bczejOVKa38t5uIDmzlp+lysqYlRmzDuIr97GLlc1KmbvKQkvl/GGhbpf9umk9m45qlg==
+  </data>
+ </layer>
+ <layer name="Walkable_2" width="19" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -175,4 +185,15 @@
   </object>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
+  <object name="bwm72_beginning:22" type="replace" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="Above" value="Above_2"/>
+    <property name="Walkable" value="Walkable_2"/>
+    <property name="requireId" value="bwm72_beginning"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="22"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -284,7 +284,8 @@
         "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion"
+        "spawnGroup":"ortholion",
+        "phraseID":"ortholion_selector"
     },
     {
         "id":"prim_guard5",
@@ -351,5 +352,47 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"prim_guard7_sleeping"
+    },
+    {
+        "id":"ortholion_guard4",
+        "name":"Subdued Feygard mountain scout",
+        "iconID":"monsters_omi2:11",
+        "maxHP":191,
+        "maxAP":10,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":2,
+            "max":5
+        },
+        "spawnGroup":"ortholion_subdued",
+        "phraseID":"ortholion_subdued_1",
+        "droplistID":"ortholion_guard4",
+        "attackCost":3,
+        "attackChance":150,
+        "criticalSkill":20,
+        "criticalMultiplier":3.0,
+        "blockChance":95,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"frozen2",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ortholion_guard5",
+        "name":"Feygard mountain scout",
+        "iconID":"monsters_omi2:11",
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"ortholion_guard5",
+        "phraseID":"fms_selector"
     }
 ]

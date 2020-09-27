@@ -158,7 +158,7 @@
     },
     {
         "id":"bwm_olm3",
-        "name":"Hard skin olm",
+        "name":"Hard-skinned olm",
         "iconID":"monsters_rltiles2:22",
         "maxHP":68,
         "maxAP":12,
@@ -226,6 +226,7 @@
         "iconID":"monsters_omi2:7",
         "maxHP":98,
         "moveCost":2,
+        "unique":1,
         "monsterClass":"demon",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -234,6 +235,8 @@
         },
         "spawnGroup":"shadowfang",
         "faction":"",
+        "phraseID":"shadowfang_1",
+        "droplistID":"shadowfang1",
         "attackCost":5,
         "attackChance":130,
         "criticalSkill":10,
@@ -394,5 +397,34 @@
         "movementAggressionType":"none",
         "spawnGroup":"ortholion_guard5",
         "phraseID":"fms_selector"
+    },
+    {
+        "id":"ortholion_guard6",
+        "name":"Feygard scout",
+        "iconID":"monsters_omi2:12",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"ortholion_guard6_1"
+    },
+    {
+        "id":"ortholion_guard7",
+        "name":"Confused Feygard soldier",
+        "iconID":"monsters_rltiles3:14",
+        "maxHP":211,
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":2,
+            "max":18
+        },
+        "spawnGroup":"ortholion_guard7",
+        "phraseID":"ortholion_guard7",
+        "droplistID":"ortholion_guard7",
+        "attackCost":7,
+        "attackChance":91,
+        "blockChance":110,
+        "damageResistance":2
     }
 ]

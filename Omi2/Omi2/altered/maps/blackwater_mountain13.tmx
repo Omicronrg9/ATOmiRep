@@ -128,7 +128,7 @@
  </layer>
  <layer name="Objects" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJytlTtPwzAQx10nqmiTiEwIhKpuoAJfgJGhDHSgj4GpVXlkpxXqhgRiQKwMDHwTPgEMTJWQGJgYQGpVMTAghgJn+Sw/miZN6UmnxLH9899355gQaYFPSMYhpOfy9jG0Sz5/JrFqmpAaeAvmVdBPFNaiTciSHc/ZoDDek1qOgPmYnU5XETjbyDpD1suUrDpwGp7Uto/7VVmVNI+DapepaG7H47oG1qiuInxbp7x/nDE9QhszNnYYwmJWtcaztqi+T8Fac3SWqJODCFaNynfBE2NNXQXgtyNYAeUxVb2NrrJaRr9qh6in78pvLO4E6rFg87kqi83/zsqxTV9vR1ne1lmdednH1g+ruZwSr56r94Xlcc6RfWLOssIoWaNr9FzJOlfOqHpWM87ovBtL8vKKNsZqgO8YvhtxrvZ8XVsd1nu3wvW0JzijLG6btvQvS+b4FGu47+ox/HH0WCUxh+qsMM4drntrnPtrpf2B73H/oTfYzwP4Ez4H6MKugPM7IeseGeI5RG96PG7CJ2Gp6wsLcGw5pK6S/mtZzp4xjw9GzSVhBcq4pLo+IRZd8AXlzupgbi+M3MbpsoDxCqwV4/4TtVpOoGsVWV3MVQra1OD+9y43LUdnx5qlrjjWH2m9giU=
+   eJytlTtPAkEQx5e9CxHuLl5lNIbQaVC/gKUFFlLIo7CC4INeiKEzwVgYWwsLv4mfQAorEhMLKwtNIMTCwligzmZnsw+OOw6ZZHK3t7u//e/M7C0h0joeISmHkL7L26c+IQWfP+NYOUlIBbwJ80roZwpr2SZkxY7mbFEY70ktJ8B8TM+mKw+cXWR1kPUyI6sKnJontR3iflVWKcnjoNpVIpzb9riuoTWuKw/fNinvn2RMj9DGjI0dBbCYla3JrB2q71OwNhydJerkKIRVofJd8MRYU1cO+K0QVoPymKreQldZTaNftWPUM3DlNxZ3AvWYs/lclcXmf6fl2Lqvt8Msa+us9qLsY+sH1VxGiVff1fuC8rjgyD4xZ1VhFKzxNfquZF0oZ1Q9qylnfN6tJXlZRRtj1cD3DN8POVcHvq6tCuu9W8F6WlOcURa3bVv6lyVzfI41PHD1GP44eqzimEN1VhDnHte9M879jdL+wPeo/9Ab7KcL/oTPIbqwa+D8Tsl6QIZ4jtDrHo+b8GlY6vrCGji2GFBXcf+1LGfPmMeuUXNxWA1lXFxdnxCLHviScme1MbeXRm6jdFnAeAXWmnH/iVotxtC1jqwe5ioBbWpw/3uXm5ah82PNU1cU6w8+b4I9
   </data>
  </layer>
  <layer name="Above" width="19" height="30">
@@ -141,9 +141,9 @@
    eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="19" height="30" visible="0">
+ <layer name="Walkable" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJzN0sENACEIBEBLsCn6b+k+Pgy5I7uwepD48MFoFmyOYetEZZM/Ksv3VczIUv4rm9GXhZi+vzKHNysqJqcTu6bczejOVKa38t5uIDmzlp+lysqYlRmzDuIr97GLlc1KmbvKQkvl/GGhbpf9umk9m45qlg==
+   eJzN0tEJACAIBFBHaCn3X6nfkJLzPCrBj6BecebDzEPvKu5B+lSso3hfZinfxWZ0shAznu/MYWdlVcmpY6k6uztbV4o527lvNZCcq1acpcpizM6Mqw7iK//jLxablTJ3lYWWynlhoe4v/+umNQF8jGtA
   </data>
  </layer>
  <layer name="Walkable_2" width="19" height="30">
@@ -174,6 +174,12 @@
   <object name="ehrenfest_selector_3" type="script" x="512" y="320" width="32" height="160">
    <properties>
     <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="160" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="elm_mine2"/>
+    <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>

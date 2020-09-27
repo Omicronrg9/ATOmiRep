@@ -8,4 +8,13 @@
     <map id="blackwater_mountain75" x="-28" y="71"/>
     <map id="blackwater_mountain76" x="-28" y="50"/>
   </segment>
+  <segment id="elmmine" x="-39" y="-76">
+    <map id="blackwater_mountain13" x="-13" y="-19"/>
+    <map id="elm_mine0" x="-39" y="-22"/>
+    <map id="elm_mine1" x="7" y="-19"/>
+    <map id="elm_mine2" x="-13" y="-50"/>
+    <map id="elm_mine3" x="-33" y="-50"/>
+    <map id="elm_mine4" x="7" y="-50"/>
+    <map id="elm_mine5" x="-13" y="-76"/>
+  </segment>
 </worldmap>

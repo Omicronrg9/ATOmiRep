@@ -379,5 +379,140 @@
         "displaytype":"quest",
         "category":"other",
         "description":"A signet with a blue sapphire mark of Feygard."
+    },
+    {
+        "id":"torch",
+        "iconID":"items_misc:19",
+        "name":"Torch",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":348,
+        "category":"other",
+        "description":"Useful for pitch black tunnels, caves and passages."
+    },
+    {
+        "id":"gland2",
+        "iconID":"items_omi2:20",
+        "name":"Contaminated poison gland",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":84,
+        "category":"animal",
+        "description":"Unlike normal poison glands, this one is unnaturally cold to the touch. "
+    },
+    {
+        "id":"elm2_key",
+        "iconID":"items_japozero:394",
+        "name":"Rusted key",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":18,
+        "category":"other",
+        "description":"A small, rusted key. Judging by its look, it's probably not a door key."
+    },
+    {
+        "id":"bwm_olm_weapon1",
+        "iconID":"items_omi2:19",
+        "name":"Amphibian whip",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":901,
+        "category":"whip",
+        "description":"Made of stretched olm skin.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":6
+            },
+            "increaseMaxHP":2,
+            "increaseMaxAP":0,
+            "increaseMoveCost":1,
+            "increaseReequipCost":0,
+            "increaseAttackCost":5,
+            "increaseAttackChance":18,
+            "increaseCriticalSkill":12,
+            "increaseBlockChance":-6,
+            "increaseDamageResistance":1,
+            "setCriticalMultiplier":2.25,
+            "setNonWeaponDamageModifier":109
+        }
+    },
+    {
+        "id":"elm_gem",
+        "iconID":"items_omi2:21",
+        "name":"Blob of kazarite",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":116,
+        "category":"gem",
+        "description":"The shadow is even in the most unexpected places."
+    },
+    {
+        "id":"elm_gem_u",
+        "iconID":"items_omi2:21",
+        "name":"Unknown gem (extracted from the Elm mine)",
+        "displaytype":"quest",
+        "category":"gem",
+        "description":"It is very cold and very sticky to the touch. It gives a feel of dizziness when you stare at it."
+    },
+    {
+        "id":"bwm_fish2",
+        "iconID":"items_omi2:22",
+        "name":"Cooked inkyfish",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":80,
+        "category":"food",
+        "description":"Typical Blackwater mountain food.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":5
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":9,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bwm_fish3",
+        "iconID":"items_omi2:23",
+        "name":"Toasted inkyfish",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":108,
+        "category":"food",
+        "description":"There are those who prefere it like this.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":10
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":7,
+                    "chance":"100"
+                },
+                {
+                    "condition":"str",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"10"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":2,
+                    "duration":7,
+                    "chance":"5"
+                }
+            ]
+        }
     }
 ]

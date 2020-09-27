@@ -87,7 +87,7 @@
             },
             {
                 "progress":11,
-                "logText":"Wellspring dialogue & hole."
+                "logText":"Wellspring dialogue & hole. (Never-true condition)"
             },
             {
                 "progress":12,
@@ -128,6 +128,40 @@
             {
                 "progress":22,
                 "logText":"Arghest small talk."
+            },
+            {
+                "progress":23,
+                "logText":"Torch secret",
+                "rewardExperience":100
+            },
+            {
+                "progress":24,
+                "logText":"Elm3 corpse."
+            },
+            {
+                "progress":25,
+                "logText":"Elm2 chest.",
+                "rewardExperience":250
+            },
+            {
+                "progress":26,
+                "logText":"Elm4 sign (north)"
+            },
+            {
+                "progress":27,
+                "logText":"Elm4 sign (south)"
+            },
+            {
+                "progress":28,
+                "logText":"Elm4 hole\n"
+            },
+            {
+                "progress":29,
+                "logText":"Elm5 first ore."
+            },
+            {
+                "progress":30,
+                "logText":"Elm5 hole."
             }
         ]
     },
@@ -255,6 +289,10 @@
                 "progress":47,
                 "logText":"I reported general's henchmen about his plans. Now, I should hurry up to the Elm mine.",
                 "rewardExperience":300
+            },
+            {
+                "progress":48,
+                "logText":"Once in the mine I saw corpses and collapsed tunnels. I tried to go further away and reached some more tunnels. Fortunately, they were not collapsed, but there was something strange there that scared even the venomfangs. Something evil."
             }
         ]
     }

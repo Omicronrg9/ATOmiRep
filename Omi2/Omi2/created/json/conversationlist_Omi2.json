@@ -1677,6 +1677,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ortholion_guard3_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":47
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ortholion_guard3_1",
                 "requires":[
                     {
@@ -5898,6 +5909,787 @@
                 "rewardType":"questProgress",
                 "rewardID":"bwm72_beginning",
                 "value":22
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage1",
+        "message":"[There's a horrid smell inside that passage. On top of that, it's completely dark]"
+    },
+    {
+        "id":"elm2_passage2_s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm2_passage2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":23
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm2_passage2_2"
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage2_1",
+        "message":"[Fortunately, the torch is still burning, but unfortunately, the passage is still collapsed]",
+        "replies":[
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage2_2",
+        "message":"[Another pitch black tunnel. This one has an old, consumed torch in the wall]",
+        "replies":[
+            {
+                "text":"Replace it for a burning torch.",
+                "nextPhraseID":"elm2_passage2_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"torch",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage2_3",
+        "message":"[A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor]",
+        "replies":[
+            {
+                "text":"Yay, bones!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":23
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"elm2_passage2"
+            }
+        ]
+    },
+    {
+        "id":"elm2_c1",
+        "message":"[This corpse is not old. It is probably one of the missing miners. He has a single large wound in his chest]"
+    },
+    {
+        "id":"elm3_corpse_s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm3_corpse_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":24
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm3_corpse_2"
+            }
+        ]
+    },
+    {
+        "id":"elm3_corpse_1",
+        "message":"You've already checked this corpse."
+    },
+    {
+        "id":"elm3_corpse_2",
+        "message":"[Yet another corpse of a miner. This one seems to have been killed during job]",
+        "replies":[
+            {
+                "text":"Plunder the corpse.",
+                "nextPhraseID":"elm3_corpse_3a"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"May the shadow be with your soul.",
+                "nextPhraseID":"elm3_corpse_3b"
+            }
+        ]
+    },
+    {
+        "id":"elm3_corpse_3b",
+        "message":"[After a few seconds, you feel a little dumb talking with a corpse and leave]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":24
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadow_prot",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"elm3_corpse_3a",
+        "message":"[Everything seems too old and stinky to be worth a penny, but after half a minute of search you see a strange pendant behind miner's shirt]",
+        "replies":[
+            {
+                "text":"I need to take a bath.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":24
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"elm3_corpse_3a"
+            }
+        ]
+    },
+    {
+        "id":"elm3_water1",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"frozen1",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"elm3_hole",
+        "message":"[This hole's smell is particular. The floor is limp, and you can see a bunch of olm larvae there. Searching here doesn't worth it]"
+    },
+    {
+        "id":"venomfang_warning",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"venomfang_warning_1"
+            }
+        ]
+    },
+    {
+        "id":"venomfang_warning_1",
+        "message":"[The passage in front of you isn't dark enough to ignore the constant dripping of the walls, limp and deformed. For some reason, animals don't get closer to you as you get closer to the tunnel, which is surprising and worrying at the same time]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":48
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"shadowfang_1",
+                "mapName":"elm_mine3"
+            }
+        ]
+    },
+    {
+        "id":"shadowfang_1",
+        "message":"Sssssh...\n",
+        "replies":[
+            {
+                "text":"What the...?",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Hey, have you seen my brother Andor?",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"For the shadow!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_2",
+        "message":"Hey kid! You shouldn't be here, there are dangerous animals.",
+        "replies":[
+            {
+                "text":"Are you scared of the snakes?",
+                "nextPhraseID":"ortholion_guard3_3"
+            },
+            {
+                "text":"Ok, goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll handle myself.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_3",
+        "message":"Eh? No. We are...Uhm, keeping the rearguard safe. After all, this is the mine only entrance.",
+        "replies":[
+            {
+                "text":"Yeah, sure. See you later, cowards.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Where's the general?",
+                "nextPhraseID":"ortholion_guard3_4"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_4",
+        "message":"Our... mighty general has already caught that Shadow fanatic...Yes. Deep in the mine that's where he is. He's coming back...Probably.",
+        "replies":[
+            {
+                "text":"Aha, so no idea. Thanks anyway.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Good. Gonna check that out, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard6_1",
+        "message":"*looks nervous* Kid! Go back now, it's really dangerous past here.",
+        "replies":[
+            {
+                "text":"Come with me, we'll cover each other's back.",
+                "nextPhraseID":"ortholion_guard6_2"
+            },
+            {
+                "text":"Can you clear me the way then?",
+                "nextPhraseID":"ortholion_guard6_2"
+            },
+            {
+                "text":"Where's general?",
+                "nextPhraseID":"ortholion_guard6_5"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard6_2",
+        "message":"No way! I have a home to come back you know? And you probably too.",
+        "replies":[
+            {
+                "text":"Step aside then, you're on my way.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What are you scared of? ",
+                "nextPhraseID":"ortholion_guard6_3"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard6_3",
+        "message":"*stares at the tunnels* They're dark, stinky, and narrow. We were going to pass in line through them.\n\nBut seconds after the other scout entered, an horrible scream came from inside there... It was him, I'm sure!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard6_4"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard6_4",
+        "message":"...I ran away. I am sure there's something dangerous inside there. Really dangerous! Dangerous enough to make a Feygard soldier scream that way.",
+        "replies":[
+            {
+                "text":"I'll be careful. Thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It was surely a cave rat. I will find out now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard6_5",
+        "message":"We...We haven't seen him. The other scout entered the tunnel... *looks back*\n\nTwo men are guarding the rearback. Something's off with this place.",
+        "replies":[
+            {
+                "text":"What's wrong with those passages?",
+                "nextPhraseID":"ortholion_guard6_3"
+            },
+            {
+                "text":"I will look for him, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm2_passage2b",
+        "message":"[There was a tunnel entrance here, but a landslide brought it down]"
+    },
+    {
+        "id":"ortholion_guard7",
+        "message":"HAH! I SPOTTED YOU, EVIL BEING! *raises his sword*",
+        "replies":[
+            {
+                "text":"I'm not a threat, stop!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"This one won't be my fault.",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Hah! I spotted you, useless soldier!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"elm2_c2",
+        "message":"[Something horrible has happened in this mine. Did Ehrenfest do all of this?]"
+    },
+    {
+        "id":"elm2_c3",
+        "message":"[There's blood all over the wall! It's like something threw this guy against it with an enormous force. Unfortunately, there's nothing to plunder here]"
+    },
+    {
+        "id":"elm2_bed",
+        "message":"You wouldn't sleep here."
+    },
+    {
+        "id":"elm2_chest",
+        "message":"[This large chest is locked with a simple but robust lock with a small keyhole in its center]",
+        "replies":[
+            {
+                "text":"Use Jern's rusty key.",
+                "nextPhraseID":"elm2_chest_open",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"elm2_key",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hit the lock.",
+                "nextPhraseID":"elm2_chest_hit"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm2_chest_open",
+        "message":"[Despite the rust, you introduce the key in the lock without major trouble. It results to fit well enough. The chest is now open]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"elm2_chest_hit",
+        "message":"[The chest stays inmutable]",
+        "replies":[
+            {
+                "text":"Try again.",
+                "nextPhraseID":"elm2_chest_hit"
+            },
+            {
+                "text":"Try using Jern's key.",
+                "nextPhraseID":"elm2_chest_open",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"elm2_key",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"elm4_sign",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm4_sign1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":26
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":27,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm4_sign2"
+            }
+        ]
+    },
+    {
+        "id":"elm4_sign1",
+        "message":"You cannot read the sign from here."
+    },
+    {
+        "id":"elm4_sign2",
+        "message":"MINERS: this zone has been declared unstable. No further excavations must be done here.\n\nSigned by Guthbered of Prim."
+    },
+    {
+        "id":"elm4_sign_north",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":26
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":27
+            }
+        ]
+    },
+    {
+        "id":"elm4_sign_south",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":26
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":27
+            }
+        ]
+    },
+    {
+        "id":"elm4_hole_s",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":28
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm4_hole"
+            }
+        ]
+    },
+    {
+        "id":"elm4_hole",
+        "message":"[The floor collapses below you, and you fall onto a muddy terrain]",
+        "replies":[
+            {
+                "text":"Ouch!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ugh, never thought I was gonna get so dirty.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":28
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":4
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":4
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":4
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore",
+        "message":"[The scarce vegetation here, mostly moss, is strangely glued to that orange glowing ore]",
+        "replies":[
+            {
+                "text":"Touch the moss.",
+                "nextPhraseID":"elm5_ore_glued"
+            },
+            {
+                "text":"Take the ore.",
+                "nextPhraseID":"elm5_ore_s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_pick",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_glued",
+        "message":"[When you get your fingers closer to the moss, it somehow turns to dust. Your finger gets glued to the seemingly solid ore, but you rapidly take it off from there. It's not a serious injury, but you feel like that ore has taken away part of your life essence]",
+        "replies":[
+            {
+                "text":"Uff, I need some rest.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":8
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":8
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"nausea",
+                "value":6
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"nausea",
+                "value":6
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm5_ore_pbroken",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bwm_pick",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm5_ore_fail",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm5_ore_success"
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_pbroken",
+        "message":"[You try to use a pickaxe you grabbed earlier, but it obviously breaks due to its excessive rust]",
+        "replies":[
+            {
+                "text":"Try again with another pick.",
+                "nextPhraseID":"elm5_ore_s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_pick",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Leave",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_fail",
+        "message":"[You get tired after a few strikes; the ore is still there]",
+        "replies":[
+            {
+                "text":"Use your hand",
+                "nextPhraseID":"elm5_ore_glued"
+            },
+            {
+                "text":"Take a break.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Try again.",
+                "nextPhraseID":"elm5_ore_s",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_pick",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_success",
+        "message":"[After some minutes of intense mining you finally get a gem and put it in a safe pocket in your backpack]",
+        "replies":[
+            {
+                "text":"Yay!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ugh...I don't feel so good.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":29
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"elm_gem_u",
+                "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"nausea",
+                "value":12
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"nausea",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_s2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm5_ore_mined",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":29
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm5_ore"
+            }
+        ]
+    },
+    {
+        "id":"elm5_ore_mined",
+        "message":"You have already mined here."
+    },
+    {
+        "id":"elm5_hole",
+        "message":"[There was a hole in the floor just below you and the rails. You stumble upon a crossbar and flat on your face, making the rails break]",
+        "replies":[
+            {
+                "text":"Oh, c'mon!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":30
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":6
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":6
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":6
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"concussion",
+                "value":5
             }
         ]
     }

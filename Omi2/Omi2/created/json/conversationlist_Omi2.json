@@ -6692,5 +6692,121 @@
                 "value":5
             }
         ]
+    },
+    {
+        "id":"ortholion_guard8",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard8_consumed",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"elm5_corpse",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard8_dead",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":32,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard8_1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard8_dead",
+        "message":"[He is no longer breathing]",
+        "replies":[
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Plunder.",
+                "nextPhraseID":"ortholion_guard8_plunder",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":31,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard8_plunder",
+        "message":"[You try to put off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":31
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"elm5_corpse"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard8_consumed",
+        "message":"[From the soldier you met inside here, only dust remains]",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"elm5_ally1",
+                "mapName":"elm_mine5"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"elm5_ally1",
+                "mapName":"elm_mine5"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard8_1",
+        "message":"Wh... *cough* ...at the heck?! *cough*, *cough*, *cough* Kid, go away. This thing... *cough*, *cough*... GO AWAY!",
+        "replies":[
+            {
+                "text":"What's wrong?",
+                "nextPhraseID":"ortholion_guard8_2"
+            },
+            {
+                "text":"Whatever, I'll go down anyway.",
+                "nextPhraseID":"ortholion_guard8_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard8_2",
+        "message":"*ignoring you*... You idiot kid... *cough*. It's a trap, THE WHOLE THING *cough*, *cough* is...\n\n...This mine is... cur... ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard8_dead"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":32
+            }
+        ]
     }
 ]

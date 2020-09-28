@@ -514,5 +514,40 @@
                 }
             ]
         }
+    },
+    {
+        "id":"meat3",
+        "iconID":"items_misc:43",
+        "name":"Worm meat",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":42,
+        "category":"animal_e",
+        "description":"Gelatinous, stinky, but nutritious.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":0
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":2,
+                    "chance":"75"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":6,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":7,
+                    "chance":"30"
+                }
+            ]
+        }
     }
 ]

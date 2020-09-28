@@ -162,6 +162,14 @@
             {
                 "progress":30,
                 "logText":"Elm5 hole."
+            },
+            {
+                "progress":31,
+                "logText":"Elm5 plunder."
+            },
+            {
+                "progress":32,
+                "logText":"Elm5 corpse."
             }
         ]
     },

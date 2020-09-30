@@ -170,6 +170,10 @@
             {
                 "progress":32,
                 "logText":"Elm5 corpse."
+            },
+            {
+                "progress":33,
+                "logText":"Elm2f2 chest"
             }
         ]
     },
@@ -301,6 +305,11 @@
             {
                 "progress":48,
                 "logText":"Once in the mine I saw corpses and collapsed tunnels. I tried to go further away and reached some more tunnels. Fortunately, they were not collapsed, but there was something strange there that scared even the venomfangs. Something evil."
+            },
+            {
+                "progress":49,
+                "logText":"One of the unexploited areas of the mine had a walled up passage and lots of those strange glowing gems. They seem to consume living beings to grow and bring life to inanimated things or corpses. I must be really careful.",
+                "rewardExperience":250
             }
         ]
     }

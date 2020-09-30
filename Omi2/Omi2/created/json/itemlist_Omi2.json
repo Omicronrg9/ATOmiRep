@@ -549,5 +549,85 @@
                 }
             ]
         }
+    },
+    {
+        "id":"bwm_water0",
+        "iconID":"items_omi2:14",
+        "name":"Small vial of mountain water",
+        "displaytype":"ordinary",
+        "category":"pot",
+        "description":"Picked up directly from the heart of the mountain.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":10
+            },
+            "conditionsSource":[
+                {
+                    "condition":"satiety",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"elm_mushroom1",
+        "iconID":"items_japozero:501",
+        "name":"Boletus spelunca",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":191,
+        "category":"food",
+        "description":"Rare mushroom only found in caves with high humidity and  temperature.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":18,
+                "max":20
+            },
+            "conditionsSource":[
+                {
+                    "condition":"nausea",
+                    "magnitude":-99,
+                    "duration":75,
+                    "chance":"100"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":30,
+                    "chance":"100"
+                },
+                {
+                    "condition":"confusion",
+                    "magnitude":-99,
+                    "duration":10,
+                    "chance":"50"
+                }
+            ]
+        }
+    },
+    {
+        "id":"mace2",
+        "iconID":"items_omi2:24",
+        "name":"Elm steel mace",
+        "displaytype":"ordinary",
+        "category":"mace",
+        "description":"Elm steel is usually too coarse to make sharp weapons with it, but blunt ones are robust and durable.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":7
+            },
+            "increaseMaxHP":0,
+            "increaseMaxAP":0,
+            "increaseAttackCost":6,
+            "increaseAttackChance":16,
+            "increaseCriticalSkill":-5,
+            "increaseBlockChance":1,
+            "setCriticalMultiplier":0.0,
+            "setNonWeaponDamageModifier":161
+        }
     }
 ]

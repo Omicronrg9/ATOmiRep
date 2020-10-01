@@ -74,7 +74,7 @@
         }
     },
     {
-        "id":"Relaxation",
+        "id":"Requiescence",
         "iconID":"actorconditions_omi2:4",
         "name":"relax",
         "category":"mental",

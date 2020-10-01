@@ -1353,5 +1353,66 @@
                 }
             }
         ]
+    },
+    {
+        "id":"elm_golem",
+        "items":[
+            {
+                "itemID":"gem2",
+                "chance":"1/5",
+                "quantity":{
+                    "min":0,
+                    "max":9
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"1/5",
+                "quantity":{
+                    "min":0,
+                    "max":9
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"1/3",
+                "quantity":{
+                    "min":3,
+                    "max":9
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"1/100",
+                "quantity":{
+                    "min":45,
+                    "max":90
+                }
+            },
+            {
+                "itemID":"rock2",
+                "chance":"1/10",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"bwm_pick",
+                "chance":"1/100",
+                "quantity":{
+                    "min":0,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"armor6",
+                "chance":"1/100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

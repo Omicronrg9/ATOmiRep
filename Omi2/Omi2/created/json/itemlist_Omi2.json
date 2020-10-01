@@ -629,5 +629,31 @@
             "setCriticalMultiplier":0.0,
             "setNonWeaponDamageModifier":161
         }
+    },
+    {
+        "id":"rock2",
+        "iconID":"items_japozero:337",
+        "name":"Large rock",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":9,
+        "category":"other"
+    },
+    {
+        "id":"armor6",
+        "iconID":"items_armours:20",
+        "name":"Dented bronze plate",
+        "displaytype":"ordinary",
+        "category":"bdy_hv",
+        "description":"This armor has definitely seen better days.",
+        "equipEffect":{
+            "increaseMaxHP":6,
+            "increaseMoveCost":1,
+            "increaseAttackCost":0,
+            "increaseAttackChance":-8,
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":13,
+            "increaseDamageResistance":0
+        }
     }
 ]

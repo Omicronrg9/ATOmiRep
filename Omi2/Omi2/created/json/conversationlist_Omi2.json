@@ -7029,7 +7029,7 @@
         "rewards":[
             {
                 "rewardType":"actorCondition",
-                "rewardID":"Relaxation",
+                "rewardID":"Requiescence",
                 "value":1
             }
         ]
@@ -7135,6 +7135,388 @@
                 "rewardType":"activateMapObjectGroup",
                 "rewardID":"elm2f2_chest",
                 "mapName":"elm_2f_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_1",
+        "message":"Be quiet. ",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"ortholion_guard9_1"
+            },
+            {
+                "text":"Why?",
+                "nextPhraseID":"orhtolion_guard9_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":34,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"orhtolion_guard9_2",
+        "message":"Look *points to the large crystals*...It grows.",
+        "replies":[
+            {
+                "text":"[Look]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":34
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"elm3f_grow"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_look",
+        "message":"Psst! No, don't leave! Come here, quick!",
+        "switchToNPC":"ortholion_guard9"
+    },
+    {
+        "id":"ortholion_guard9_s",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_3",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"elm3f_grow",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_3",
+        "message":"Unbelievable...",
+        "replies":[
+            {
+                "text":"Where's general?",
+                "nextPhraseID":"ortholion_guard9_4"
+            },
+            {
+                "text":"Uhm, whatever. I have to go.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_4",
+        "message":"General...Oh! That's right. I don't think this is the right way. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_5"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_5",
+        "message":"This no longer seems to be part of the Elm mine. Look at all these strange creatures... \n\nUh, I'm the only one that have gone this far. My partners must have discovered the right path.",
+        "replies":[
+            {
+                "text":"Half of your partners are dead and the other half are too scared to even going inside the mine.",
+                "nextPhraseID":"ortholion_guard9_6b"
+            },
+            {
+                "text":"I haven't seen any other way. This is the right one.",
+                "nextPhraseID":"ortholion_guard9_6a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_6a",
+        "message":"You sure?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_7"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_7",
+        "message":"Where are my partners then?",
+        "replies":[
+            {
+                "text":"Dead...Most of them.",
+                "nextPhraseID":"ortholion_guard9_6b"
+            },
+            {
+                "text":"They were all consumed by those crystals you were amazed with.",
+                "nextPhraseID":"ortholion_guard9_6b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_6b",
+        "message":"That cannot be... Damn it! I knew those screams were not from these creatures.",
+        "replies":[
+            {
+                "text":"I'm sorry.",
+                "nextPhraseID":"ortholion_guard9_8c"
+            },
+            {
+                "text":"Save your breath. We still have a mission, and monsters to slay.",
+                "nextPhraseID":"ortholion_guard9_8b"
+            },
+            {
+                "text":"It was their fault.",
+                "nextPhraseID":"ortholion_guard9_8a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_8a",
+        "message":"But...Ugh, you're dead right. Soliders of Feygard MUST NOT SHRINK FROM DANGER!",
+        "replies":[
+            {
+                "text":"Calm down, please.",
+                "nextPhraseID":"ortholion_guard9_9"
+            },
+            {
+                "text":"HONOR!!",
+                "nextPhraseID":"ortholion_guard9_9"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_8b",
+        "message":"Yes...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_9"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_8c",
+        "message":"No, It's not your fault. You could have done nothing.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard9_9"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_9",
+        "message":"Ok...You're strong and valiant, but are you reliable enough?\n\nI will go all the way back and call for reinforcements. I want you to explore this cavern. If you find something too dangerous, please return to the mine, will you?",
+        "replies":[
+            {
+                "text":"That was my plan until you distracted me.",
+                "nextPhraseID":"ortholion_guard9_10b"
+            },
+            {
+                "text":"Anything for the glory of Feygard!",
+                "nextPhraseID":"ortholion_guard9_10a"
+            },
+            {
+                "text":"Hmpf, just this time.",
+                "nextPhraseID":"ortholion_guard9_10a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_10a",
+        "message":"I knew I could count on you!\n\nThis sign of bravery won't be forgotten.",
+        "replies":[
+            {
+                "text":"See you soon, sir.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Whatever, step aside I'm leading the way!",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":34
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"elm3f_locked",
+        "message":"[The Feygard soldier you were trying to ignore wawes his hands brusquely, like warning you from some inminent danger]"
+    },
+    {
+        "id":"ortholion_guard9_10b",
+        "message":"Will you help me or not?",
+        "replies":[
+            {
+                "text":"Hmpf, ok.",
+                "nextPhraseID":"ortholion_guard9_10b"
+            },
+            {
+                "text":"Maybe some other time.",
+                "nextPhraseID":"ortholion_guard9_11"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard9_11",
+        "message":"I will leave this place right now and come back with more men anyway!\n\nKids these days...Annoying.",
+        "replies":[
+            {
+                "text":"Goodbye!",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Whatever, I'm leaving.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":34
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"elm4f_up",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elmf4_up_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":36,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":36
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"elmf4_up_1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":36
+            }
+        ]
+    },
+    {
+        "id":"elm4f_down",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm4f_down_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":36
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":36,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"elm4f_down_1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":36
             }
         ]
     }

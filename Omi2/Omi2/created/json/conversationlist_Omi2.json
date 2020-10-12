@@ -7519,5 +7519,17 @@
                 "value":36
             }
         ]
+    },
+    {
+        "id":"elm4f6_blocked",
+        "message":"The path is blocked in this direction."
+    },
+    {
+        "id":"elm4f5_locked",
+        "message":"[A couple of fences don't let you exit the tunnel this way. This place is clearly out of Elm mine's extension, who else has been here?]"
+    },
+    {
+        "id":"elm4f3_cage",
+        "message":"The cage is locked."
     }
 ]

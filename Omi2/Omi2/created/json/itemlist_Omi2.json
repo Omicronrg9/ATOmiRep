@@ -655,5 +655,71 @@
             "increaseBlockChance":13,
             "increaseDamageResistance":0
         }
+    },
+    {
+        "id":"elm4f3_key",
+        "iconID":"items_japozero:391",
+        "name":"Cage passkey",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":74,
+        "category":"other",
+        "description":"Heavy, ancient key with a small head, thick shaft and a wide end."
+    },
+    {
+        "id":"skull1",
+        "iconID":"items_misc_3:194",
+        "name":"Human skull",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":33,
+        "category":"animal"
+    },
+    {
+        "id":"spear1",
+        "iconID":"items_omi2:25",
+        "name":"Pine spear",
+        "displaytype":"ordinary",
+        "category":"pole",
+        "description":"Prim guard's most common weapon.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":9
+            },
+            "increaseMoveCost":0,
+            "increaseReequipCost":0,
+            "increaseAttackCost":6,
+            "increaseAttackChance":13,
+            "increaseCriticalSkill":5,
+            "increaseBlockChance":-5,
+            "increaseDamageResistance":0,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":143
+        }
+    },
+    {
+        "id":"elm_fern",
+        "iconID":"items_japozero:579",
+        "name":"Cave fern",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":132,
+        "category":"food",
+        "description":"A fern inside a cave is something out of normal, not seen everyday.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":3,
+                "max":12
+            },
+            "conditionsSource":[
+                {
+                    "condition":"putrefaction",
+                    "magnitude":-99,
+                    "duration":10,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

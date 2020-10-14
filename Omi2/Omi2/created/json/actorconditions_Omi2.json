@@ -104,5 +104,23 @@
             "increaseBlockChance":-80,
             "increaseDamageResistance":-2
         }
+    },
+    {
+        "id":"kazarite_misery",
+        "iconID":"actorconditions_1:91",
+        "name":"Kazaul possession",
+        "category":"spiritual",
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-3,
+                "max":-2
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":10,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":1
+        }
     }
 ]

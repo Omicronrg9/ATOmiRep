@@ -512,6 +512,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ehrenfest_49",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":52
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ortholion_conversation2_1",
                 "requires":[
                     {
@@ -5116,6 +5127,51 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ortholion_c3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":39
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":54,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conscious",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kamelio",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":39,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_unconscious",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":51
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ortholion_8a",
                 "requires":[
                     {
@@ -5324,7 +5380,7 @@
     },
     {
         "id":"ortholion_conversation2_8a",
-        "message":"Ortholion! How much is your life worth? Hoy many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above me, and disappears before the blink of an eye]",
+        "message":"Ortholion! How much is your life worth? Hoy many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above me, and disappears in the blink of an eye]",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -7531,5 +7587,663 @@
     {
         "id":"elm4f3_cage",
         "message":"The cage is locked."
+    },
+    {
+        "id":"elm5f2_deep",
+        "message":"This pool is deeper than it seemed from further distance. You cannot swim."
+    },
+    {
+        "id":"elm5f_final",
+        "message":"The battle has already started. Iluminated by the orangish glow of the crystals, Ortholion steps towards Ehrenfest, slowly making him retreat to the border of the hill. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":51
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_1",
+        "message":"This is the end, evil being! Surrender now!",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_2"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_2",
+        "message":"*puts hands on his head* Oh? ",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_3"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_3",
+        "message":"Me? Are you referring to me? *starts laughing uncontrollably*",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_4"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_4",
+        "message":"Cut it out! For your crimes commited against the people and the kingdom of Feygard I sentence you...",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_5"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_5",
+        "message":"TO DIE!!!\n\n*Orhtolion throws his sword directly to Ehrenfest's chest*",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_6"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_6",
+        "message":"Wh...What...\n\n*Ehrenfest emits a brilliant flash of orangish light from his eyes, and the sword suddenly stops its way towards him, remaning suspended in the midair*",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_7"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_7",
+        "message":"W...Woah! This is impressive. *opens his arms and looks to his hands* To think one or two weeks ago I would have died against a gornaud... This is really impres...!",
+        "switchToNPC":"ehrenfest",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_8"
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_8",
+        "message":"In the blink of an eye, Ortholion approaches Ehrenfest and draws his second sword. When the general is about to rapidly sever Ehrenfest's head, he reacts grabbing Ortholion's hand. \n\nDesperately, Ortholion tries to let his hand go, but It's Ehrenfest who stops grabbing and takes advantage of the moment to land a tremendous kick on the general's chest, unbelievably denting his armor and bouncing him against the wall. The sword falls to the ground, and Ehrenfest takes it.",
+        "switchToNPC":"unknown",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenvorth_9"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion1",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion1",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion2",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion2",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":52
+            }
+        ]
+    },
+    {
+        "id":"ehrenvorth_9",
+        "message":"Interesting...So you hypocrites use weapons you yourself ban. Ha, ha! *coughs* \n\nUh...What's wrong with me...I'm sorry general, but you're no longer valuable. Why hunting a sheep when you can own the flock? \n\n*keeps staring at the sword, handling it with ease.*",
+        "switchToNPC":"ehrenfest"
+    },
+    {
+        "id":"ortholion_unconscious",
+        "message":"The kick was such brutal Ortholion fell unconscious."
+    },
+    {
+        "id":"ehrenfest_49",
+        "message":"Hmm... $playername, I wonder how your brother Andor would react if he knew I had to kill you.",
+        "replies":[
+            {
+                "text":"What do you know about him?!",
+                "nextPhraseID":"ehrenfest_50a"
+            },
+            {
+                "text":"So you're the guy whom Lodar told me about.",
+                "nextPhraseID":"ehrenfest_50b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "text":"I won't hear your lies. I'll finish you right here.",
+                "nextPhraseID":"ehrenfest_50c"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_50a",
+        "message":"Only if you were stronger...Maybe I could convince you to join us, *cough* but I have to admit my plan was blaming you of Ortholion's death.\n\nYou know, we're tired of you asking questions here and there, *cough* *cough*.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_51"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_50b",
+        "message":"Lodar, right. He sins of double moraility! His poisons killed hundreds, but he prefered to hide in that dirty forest and elude any responsibility like a retired farmer.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_50a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_50c",
+        "message":"No you won't, sorry. \n\nMy mission is done here. It was done weeks ago, but I...Someone decided I should stay and draw Feygard's attention here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_50a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_51",
+        "message":"Don't look at me that way, kid...*laughs*. This is too complicated for a young mind.",
+        "replies":[
+            {
+                "text":"Die!",
+                "nextPhraseID":"ehrenfest_52"
+            },
+            {
+                "text":"How you dare!",
+                "nextPhraseID":"ehrenfest_52"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_52",
+        "message":"How tetchy! The guards I tortured eventually understood my words... \n\nMaybe you should try that orangish substance too.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_53"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_53",
+        "message":"Ehrenfest jumps off the cliff, sinking in the dark streams, leaving you in the middle of a word.\n\nYou soon begin to hear steps. Someone's comming, might be the reinforcements?",
+        "switchToNPC":"unknown",
+        "replies":[
+            {
+                "text":"Check it out.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Leave.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":53
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"kamelio",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_1",
+        "message":"Hello, unfortunate soul. I'm Kamelio.",
+        "replies":[
+            {
+                "text":"Kamelio? You are one of those missing people in Prim!",
+                "nextPhraseID":"kamelio_2a"
+            },
+            {
+                "text":"Jern will be glad you're alright.",
+                "nextPhraseID":"kamelio_2b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":23
+                    }
+                ]
+            },
+            {
+                "text":"I need your help! There's a man lying unconscious there.",
+                "nextPhraseID":"kamelio_2c"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_2c",
+        "message":"Ah...Yes. Don't worry, yo go first. *approaches you*",
+        "replies":[
+            {
+                "text":"For the shadow!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Wh...What?",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Don't beg me later.",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":37
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_s",
+        "replies":[
+            {
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":37
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"kamelio_1"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_2b",
+        "message":"Alright? My body has not seen better days. But that drunkard will never get to know it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kamelio_3b"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_3b",
+        "message":"*approaching you* He's not going to see you alive again.",
+        "replies":[
+            {
+                "text":"Betrayer, die!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"For the shadow!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Wanna bet, weakling?",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":37
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_2a",
+        "message":"Yes. Lorn, Duala and me were caught and tortured. Lorn... He spat everything out like the coward he was.",
+        "replies":[
+            {
+                "text":"Who tortured you?",
+                "nextPhraseID":"kamelio_3a"
+            },
+            {
+                "text":"What did he say?",
+                "nextPhraseID":"kamelio_3c"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_3a",
+        "message":"That guy you were talking to before. ",
+        "replies":[
+            {
+                "text":"Ehrenfest! What has he done to you?!",
+                "nextPhraseID":"kamelio_4a"
+            },
+            {
+                "text":"What Lorn told him?",
+                "nextPhraseID":"kamelio_3c"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_3c",
+        "message":"Everything. From where the shirne was to how to enter and pass through the pitch black tunnels.",
+        "replies":[
+            {
+                "text":"Who tortured you?",
+                "nextPhraseID":"kamelio_3a"
+            },
+            {
+                "text":"How did you escape?",
+                "nextPhraseID":"kamelio_4b"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_4b",
+        "message":"Escape? When the torturer came back, he behaved totally different. He freed us and brought us some food and recovery potions. Since then, I feel like I have reborn!\n\nAll my injuries were cured, and my mind was set free. Now I know the truth, and what I must do.",
+        "replies":[
+            {
+                "text":"You're starting to sound very murky. I'd better leave and seek help,",
+                "nextPhraseID":"kamelio_5a"
+            },
+            {
+                "text":"What must you do?",
+                "nextPhraseID":"kamelio_5b"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_4a",
+        "message":"He just wanted to know where an old shirne location. And I forgive him everything. He came back and freed Duala and me and gave us food and a marvelous elixir he called \"recovery potion\".\n\nNow my body is reborn and my mind is set free. I know what's wrong and what's right, and I know what I must do.",
+        "replies":[
+            {
+                "text":"Hmm, yeah sure. Goodbye.",
+                "nextPhraseID":"kamelio_5a"
+            },
+            {
+                "text":"What do you have to do?",
+                "nextPhraseID":"kamelio_5b"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_5a",
+        "message":"Not so fast. My mind is clear, you need to die now along that Feygard scum.",
+        "replies":[
+            {
+                "text":"Oh? Let's see if you can stand a single blow!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"This hatred against Feygard is injuring you; I'll be your cure.",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"For Feygard!!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":37
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_5b",
+        "message":"Killing you first, then killing the guy over there. That's it.",
+        "replies":[
+            {
+                "text":"Ok, you're completely out of your mind.",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Killing me? How you dare, die!",
+                "nextPhraseID":"F"
+            },
+            {
+                "text":"Bad idea. For the Shadow!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":37
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio_minion",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"elm5f_kamelio",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm5f_kamelio_d2",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kamelio2",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"elm5f_kamelio_d",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kamelio",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm5f_kamelio_d",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":38
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conscious",
+        "message":"Uhm... What a thwack. $playername, where's the...",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"(Lie) I got rid of him.",
+                "nextPhraseID":"ortholion_c2"
+            },
+            {
+                "text":"He fell off the hill.",
+                "nextPhraseID":"ortholion_c2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_c2",
+        "message":"...Oh. Alright, we will chat later. Now we're going out of he...\n\nWatch out!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"kamelio_undead"
+            }
+        ]
+    },
+    {
+        "id":"kamelio_undead",
+        "message":"...D...Die...",
+        "switchToNPC":"kamelio2",
+        "replies":[
+            {
+                "text":"Aah! ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Hmpf, I will kill you ten more times if needed.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"putrefaction",
+                "value":5
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"putrefaction",
+                "value":5
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"putrefaction",
+                "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":39
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"kamelio2",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"kamelio2",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_c3",
+        "message":"Tsch, you cannot lose! I'm still recovering."
+    },
+    {
+        "id":"elm5f_kamelio_d2",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"bwm72_beginning",
+                "value":38
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":54
+            }
+        ]
     }
 ]

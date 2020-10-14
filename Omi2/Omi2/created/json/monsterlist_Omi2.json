@@ -531,7 +531,7 @@
         "maxHP":70,
         "unique":1,
         "monsterClass":"construct",
-        "movementAggressionType":"none",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":1,
             "max":9
@@ -926,6 +926,7 @@
             "max":16
         },
         "spawnGroup":"elm_mine5",
+        "droplistID":"elm_miner2",
         "attackCost":5,
         "attackChance":172,
         "criticalSkill":10,
@@ -958,6 +959,192 @@
         },
         "deathEffect":{
             
+        }
+    },
+    {
+        "id":"elm_yczorah1",
+        "name":"Yczorah marauder",
+        "iconID":"monsters_tometik10:7",
+        "maxHP":256,
+        "maxAP":14,
+        "moveCost":7,
+        "monsterClass":"demon",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":6,
+            "max":7
+        },
+        "spawnGroup":"elm_mine6",
+        "droplistID":"elm_yczorah",
+        "attackCost":4,
+        "attackChance":81,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":161,
+        "damageResistance":7,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":0
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":5,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":5,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"elm_yzczorah2",
+        "name":"Yczorah",
+        "iconID":"monsters_tometik10:9",
+        "maxHP":231,
+        "maxAP":14,
+        "moveCost":7,
+        "monsterClass":"demon",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":6,
+            "max":7
+        },
+        "spawnGroup":"elm_mine6",
+        "droplistID":"elm_yczorah",
+        "attackCost":4,
+        "attackChance":78,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":155,
+        "damageResistance":7,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":6,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":5,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"kamelio",
+        "name":"Kamelio",
+        "iconID":"monsters_tometik1:2",
+        "maxHP":177,
+        "moveCost":2,
+        "unique":1,
+        "monsterClass":"demon",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":17,
+            "max":20
+        },
+        "spawnGroup":"kamelio",
+        "phraseID":"kamelio_s",
+        "droplistID":"kamelio",
+        "attackCost":3,
+        "attackChance":171,
+        "criticalSkill":0,
+        "criticalMultiplier":0.0,
+        "blockChance":123,
+        "damageResistance":12,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":4
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"vulnerability",
+                    "magnitude":7,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"kamelio2",
+        "name":"Undead Kamelio",
+        "iconID":"monsters_omi2:20",
+        "maxHP":304,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"undead",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":12,
+            "max":18
+        },
+        "droplistID":"kamelio2",
+        "attackCost":5,
+        "attackChance":181,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":140,
+        "damageResistance":12,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":6
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":4,
+                    "duration":4,
+                    "chance":"30"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
         }
     }
 ]

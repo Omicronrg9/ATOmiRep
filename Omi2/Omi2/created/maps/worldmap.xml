@@ -29,4 +29,8 @@
     <map id="elm_4f_6" x="2" y="-33"/>
     <map id="elm_4f_5" x="-35" y="3"/>
   </segment>
+  <segment id="elm5f" x="7" y="-17">
+    <map id="elm5f_1" x="10" y="14"/>
+    <map id="elm5f_2" x="7" y="-17"/>
+  </segment>
 </worldmap>

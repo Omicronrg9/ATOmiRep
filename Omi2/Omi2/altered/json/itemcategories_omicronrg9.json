@@ -1,3 +1,9 @@
 [
-    
+    {
+        "id":"gauntlet",
+        "name":"Gauntlet",
+        "actionType":"equip",
+        "size":"large",
+        "inventorySlot":"weapon"
+    }
 ]

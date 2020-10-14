@@ -721,5 +721,149 @@
                 }
             ]
         }
+    },
+    {
+        "id":"yczorah",
+        "iconID":"items_omi2:26",
+        "name":"Yczorah tentacle",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":44,
+        "category":"animal",
+        "description":"It spasms."
+    },
+    {
+        "id":"bone2",
+        "iconID":"items_omi2:27",
+        "name":"Contaminated bone",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":13,
+        "category":"animal"
+    },
+    {
+        "id":"yczorah2",
+        "iconID":"items_misc_6:1",
+        "name":"Yczorah nucleus",
+        "displaytype":"legendary",
+        "category":"scepter",
+        "description":"The spherical, polished stone on its tip drags your glance unavoidably towards it.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":5
+            },
+            "increaseMaxHP":12,
+            "increaseMaxAP":2,
+            "increaseMoveCost":-1,
+            "increaseAttackCost":7,
+            "increaseAttackChance":14,
+            "increaseCriticalSkill":12,
+            "increaseBlockChance":-3,
+            "increaseDamageResistance":-2,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":188
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"5"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":5
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"nausea",
+                    "magnitude":4,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"kamelio_drop1",
+        "iconID":"items_japozero:53",
+        "name":"Prim arming sword",
+        "displaytype":"ordinary",
+        "category":"rapier",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":6
+            },
+            "increaseMaxHP":-2,
+            "increaseAttackCost":5,
+            "increaseAttackChance":13,
+            "increaseCriticalSkill":8,
+            "increaseBlockChance":8,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":113
+        }
+    },
+    {
+        "id":"kamelio_drop2",
+        "iconID":"items_japozero:262",
+        "name":"Fire opal necklace",
+        "displaytype":"ordinary",
+        "category":"neck",
+        "equipEffect":{
+            "increaseCriticalSkill":12,
+            "setCriticalMultiplier":0.0
+        }
+    },
+    {
+        "id":"kamelio_drop3",
+        "iconID":"items_japozero:133",
+        "name":"Kazarite cloak",
+        "displaytype":"extraordinary",
+        "category":"bdy_hide",
+        "description":"This cloak is gelid to the touch and unbearable during long periods of time.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":5
+            },
+            "increaseMaxHP":-10,
+            "increaseAttackChance":8,
+            "increaseBlockChance":8,
+            "increaseDamageResistance":2,
+            "addedConditions":[
+                {
+                    "condition":"nausea",
+                    "magnitude":-99
+                },
+                {
+                    "condition":"kazarite_misery",
+                    "magnitude":1
+                }
+            ]
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"regen2",
+                    "magnitude":5,
+                    "duration":1,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]

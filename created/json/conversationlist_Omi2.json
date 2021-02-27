@@ -44,7 +44,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm17_heights",
-                        "value":2
+                        "value":1,
+						"negate":true
                     }
                 ]
             },

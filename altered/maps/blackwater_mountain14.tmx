@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="10">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="10">
  <properties>
   <property name="colorfilter" value="none"/>
   <property name="outdoors" value="1"/>
@@ -199,9 +199,9 @@
    eJy9VtsNgzAMtNggP0jMjjoNGzQSEd2gTFFc1cK48SOp1PuCONi+yzkCoA2PCWCb6rEtAazpuraM9jvPa2E/4k9nj1YnH893pa4Hry8JXkfj2pPXQ2a1ern2wOJogXuIa4HrEW3+xZH68frakh5D0FzkADdtvng/HIVyj9/75gHgNpzruUG3qEc1DxBX5G75xOIrgVxIy1rO4tw/Mm71dPFlOnW0uBBnrTfUX3o/4nn8LjJry1jPF51Trs/64cz9o0HOo3VGiIi3kHOLXzmoruct6rOI822914rBdxc90F0xM12xNn4b0bqGGt9f5/edj+lTi/X4iteV5yv/HxCk003oFcEs9tFdRH3LuAbPh5wfz/kClD9oWQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="20" visible="0">
+ <layer id="4" name="Walkable" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJzFksERgDAIBKnCkuw3Hfrwk8l4ciuozPBJDpYjGVvEALnHma4+gPYvbqZ9gzuH2+9OS/sotgrFUFwnVm1W18FVelX/5H0Jl86p7ju4lT+a6Sp+3Z5kNkfvasj865nDI/NRv127znbV8beo36yG7lpFp9+Mq3Z91Z8wK1n1W+E6b/K19zkPRRwy7Q==
+   eJzFklEOgDAIQ3cK73+F3dAvk8Wsti+gkvDjKo8C8xhjgryC6En9P7hO+wZ3jbTek5bWUWwViqG4Sex2m+grXHdXiZ7s1nFpn+q9g1u5Uaer+E1rkt4Sfaoh/d+/JTzSH/XbNWs3q47bon7dP3TWKjr9Oq6a9a4+YVay6rfCTXbytfc1TztQMY8=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -225,7 +225,7 @@
   </object>
   <object id="9" name="north2" type="mapchange" x="384" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="blackwater_mountain_17"/>
+    <property name="map" value="blackwater_mountain70"/>
     <property name="place" value="south"/>
    </properties>
   </object>

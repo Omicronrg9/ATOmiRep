@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="18">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="18">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,8 +180,8 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="36" columns="6">
-  <image source="../../../../andors-trail-master/AndorsTrail/res/drawable/map_cavewall_5.png" width="192" height="192"/>
+ <tileset firstgid="7577" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="0" columns="6">
+  <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
  </tileset>
  <layer id="1" name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJztktEJgDAMRItDuP8K3cQhOogIBkrI3SWl/hk4FIx5d0372Vqf9NT8/EI/Y41htXu+z8EYqlh/lIdlRkzmBWVTDPQP8r+TwTJGO/I13r6R2KHyFOWNGMhrleE5EcPPuQ7+Xd3TSg4032aYunuv7ENxmNRZecbsGSnKmPFYreh+KTEPipE9U9WPGCv7q2TOMG615hRh
+   eJztk8ENwCAMA5mi+6/AhlUflRDC5yTQXyMhHi0+O4R+tdaH9dS4f7F+Ro3x1mn9OQcxXNH/qzyUWTHJi8rmGOqM8n+SQRlXd6Ryk8+oJ6VJ/B2G8u706bub00wOpU+9obflNKrvt9oL14eI/g4nqu1mKzLD2Z5mep7Rr9xxlHED9RP7Fg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

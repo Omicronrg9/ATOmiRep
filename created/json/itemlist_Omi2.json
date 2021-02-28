@@ -19,7 +19,8 @@
         "description":"When threatened, these fishes secret a dense black substance that darkens the surrounding water, allowing them to escape.",
         "useEffect":{
             "increaseCurrentHP":{
-                "min":0
+                "min":0,
+                "max":2
             },
             "conditionsSource":[
                 {

@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJyFk8FKxDAQhoeC9OBBk64te9CL+go+gjfPPoEvoa/go6xXLz5At/XmYUXWk4KsCroolF1BcIZkyGTS4g9D08w3k0wyAUh1awCOKoDjKvWdivFLCbAQdlMG3yQL4w7n52hnlfvWgmM9WYAv63zXaO+eK3KAEdpOHvOd59Zol7jWPvoP0A7zNHeDTIPMnXVxKx/XJ+JmWH+D9jaOfVkZc6Q1Mj+em3u/FVzrOWIo59KEPazKEMOq0f9p4rkPE5/ZKIvXjeJVPmIkO1W5s8J96eylloKju7FFWq/Wg4j5Hvezm1shJ+9P74k18eysDLnqAZZFTGvSGrQexb6G1ict/lmPpXuFJO/2WfSBVtfTC7t4Pnv+jKgOrnsqeoHen6xX9w3pYtvlH6rjV81znw7pfMPd3X0Pw3d0It4+1yvvgnuNz4T+W/XeXlX/XHn2D2hncBw=
+   eJyFk8FKw0AQhoeA5OBBs2kTetCL9RV8BG+efQJfQl/BR6lXL32ANPHWQ0X0VEGqghaF0AqCM+wOOzub4A9DNjvfzu7MzgLEussATkqA0zL2nYvxSwGwEjYtvG+S+HGL849oF6X9VoJjLQ3Al7G+W7R3x+UpwABtmIZ867gt2jXudYT+MdpxGseukamRmRu7buPWdYm4BeZfo72NQl9ShBxpi8yP4yi35RDACK5xHDEUc535M2xcXaQq9H9m4dxHFtZskIT7ButVPGIkO1Oxk9x+qfZSa8HR3Zg8zlfrQaz5HnWzu3s+Jp9Pn4k1ceyi8LGqHpZFTJPFOWg9iXP17U9a/bMfS/cKSd7ts+gDrbajFw6wPoeuRpQH5z0TvUDvT+ar+4Z0tW/j9+Xxq+a5T/t0uWPv7r6D4Ts6E2+f85V3wb3GNaH/Rr23V9U/N479A6ofcRM=
   </data>
  </layer>
  <layer id="3" name="Objects_1" width="10" height="30">
@@ -197,7 +197,7 @@
  </layer>
  <layer id="4" name="Above" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYECAw2IMBEE4EF9CUpcizsDgAsShQBwmjqr2CZK6o0IMDMeA2BSoxg1NHYYdQHVmUHXl7AwMFUBcyY6pLlUIYn8aELcD5TuAuBOLOmTwSxK/PAy8JFLdKyR1j5mI0wMCj0QZGJSg4fNICKEXZO8rAnanMkHUEFJ7SQi7+Gws7iTGXlLUUsOs/0juJ9a8M0SqIwV8whGOyACb+0hJDyBwUxC/eTCALf4IAWLDDxtAjqNjgtQzL5YJVQwdIKfxR9A4AADwsTaF
+   eJxjYECAw2IMBEE4EF9CUpcizsDgAsShQBwmjqr2CZK6o0IMDM+AfFOgGjc0dRh2ANWaQdWVszMwVABxJTumulQhiP1pQNwOlO8A4k4s6pDBL0n88jDwkkh1r5DUPWYiTg8MKEHD55EQQi/I3lcE7E5lgqghpPaSEHbx2VjcSYy9pKilhln/kdxPrHlniFRHCviEIxyRATb3kZoebgriNw8GsMUfIUBs+GEDyHF0TJB65sUyoYqhA+Q0/ggaBwBvLDWy
   </data>
  </layer>
  <layer id="5" name="Above_1" width="10" height="30">
@@ -207,32 +207,32 @@
  </layer>
  <layer id="6" name="Top" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMbBViYNgmBGGHClFoGBlgNhMDwxwgfiVJf7tHAelAiX+gXTDywFe+gXYB9QAAty4FaQ==
+   eJxjYKAMbBViYNgmBGGHCuFXe4yAPDlgNhMDwxwgfiVJfbNHAfWBEv9Au2Dkga98A+0C6gEAULgGQQ==
   </data>
  </layer>
  <layer id="7" name="Walkable" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGGGAaorZZabkIGuNRiY5OjDhcgVi0u84kxj9jwRTeHGDcSEzbY3IzPXlx68akjxjxiw40U95EbD7jU4zMTJodNDyF1+OzFpw5XWqeWOlLSKADhopIl
+   eJy1kkEKACAIBH1F//+CP+wkRLjrGiZ0ahxF9WXmH1/ENIvyu3XOqJzMr3AoVBb5FZ8639uj9KjMJuuZ1UW5jFN86tw6/b3uAfHMGX9ZTsWxuoxDtz7FdW50A9tPkV4=
   </data>
  </layer>
- <layer id="8" name="Walkable_2" width="10" height="30">
+ <layer id="8" name="Walkable_2" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGGGAaorZZabkIGuNRiY5OjDhcgVi0u84kxj9jwRTeHGDcSEzbY3IzPXlx68akjxjxiw40U95EbD7jU4zMTJodNDyF1+OzFpw5XWqeWOlLSKADhopIl
+   eJy1kkEKACAIBH1F//+CP+wkRLjrGiZ0ahxF9WXmH1/ENIvyu3XOqJzMr3AoVBb5FZ8639uj9KjMJuuZ1UW5jFN86tw6/b3uAfHMGX9ZTsWxuoxDtz7FdW50A9tPkV4=
   </data>
  </layer>
  <layer id="9" name="Walkable_1" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFEjAyorQ6fWnLV4VJLrDpk9cg0vdShu5fU+EK3D90sfOK41NEyvKmhDpc+ctXRCxPjHnzhQqw6XOFIDXX43IGuFxsfn/kAYjudzg==
+   eJzbKMbAsJFEjAyorQ6fWkLqYGLYADHmEeNOZJpe6tDdS2p8oduHbhY+cVzqyAlHeqrDpY9cdfTCxLgHX7gQqw5XOFJDHT53oOvFxsdnPgBb6J0H
   </data>
  </layer>
- <objectgroup id="10" name="Mapevents" visible="0">
+ <objectgroup id="10" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="64" y="928" width="64" height="32">
    <properties>
     <property name="map" value="blackwater_mountain14"/>
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="2" name="bwm17_vine_1" type="script" x="224" y="800" width="96" height="32">
+  <object id="2" name="bwm17_vine_selector" type="script" x="224" y="800" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -253,11 +253,6 @@
    </properties>
   </object>
   <object id="6" name="bwm17_heights_1" type="script" x="160" y="256" width="32" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
-  <object id="7" name="bwm17_vine2_1" type="script" x="256" y="320" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -330,7 +325,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="Keys" visible="0"/>
+ <objectgroup id="12" name="Keys" visible="0">
+  <object id="57" name="bwm17_hole" type="key" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="bwm17_vine2_1"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="13" name="Replace" visible="0">
   <object id="20" name="bwm17_vine:2" type="replace" x="288" y="320" width="32" height="64">
    <properties>

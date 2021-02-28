@@ -187,22 +187,22 @@
  </layer>
  <layer id="2" name="Objects" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdrGEirOYxATWcUHkuIC2GR60QVE4SSkvhUIvspiYBVLmHQpjueSbGwPACiF8CsZAwVFCYASf4BlT3A4h/ikH4n4Sg7gPqWcMPYcPswBY+3PyY9iK7D2ZWiDgDQygQh4lD1N5CsxcdmAHVXQLqdxOHuBGkbjYW+2HuTQGqSwXiNHFUu0EAXZ8QnvBAB/+EEH57gcWPyAAWP7Aw/YHmR1xp5zTQjjnAcHRkgWAQ4MPhxrlQM44DzTwhBokjbOEyhwmhFuYmkDuQwwXd3PVQ9YeB6nr4IW5CNhvdHpCew1jCApt7YGA9mhwutQCfID/f
+   eJxjYCAdrGEirOYxATWcUHkuIC2GR60QVE4SSkvhUIvspiYBVLmHQpjueSbGwPACiF8CsZAwVFCYASf4BlT3A4h/ikH4n4Sg7gPqWcMPYcPswBY+3PyY9iK7D2ZWiDgDQygQh4lD1N5CsxcdmAHVXQLqdxOHuBGkbjYW+2HuTQGqSwXiNHFUu0EAXZ8QnvBAB/+EEH57gcWPyAAWP7Aw/YHmR1xp57QQphgfDjfOhZpxHGjmCTFIHGELlzlMCLUwN4Hc8RCLXTBz10PVHwaq6wGaOwfNbHR7QHoOYwkLbO6BgfVocrjUAgBaFD6q
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYICAS2IMNAeXSbADpJYUNx1GUsskTJz6bAFUMWVh7HphbrkuSJpbcLmjCc1eZLc/Q7MjUxK3+cQCdPe8ANrxBo9fyDFfHWq2IQsCE2N+DlBdLhDnAfFpIcLqNwLVbEJSB7IXlz4QOAiUO4RHHhmQmj7nMjEwOALd/YSPsHqQWlIAyHxi3AMASLMhQw==
+   eJxjYICAS2IMNAeXSbADpJYUNx1GUsskTJz6bAFMcWx6YW65LkiaW3C5ownNXmS3P0OzI1MSt/nEAnT3vADa8QaPX8g1HwQMWRCYGPU5QHW5QJwHxKeFCKt3ZEFgEFAXxq0PBA4C5Q7hkUcGpKbPuUwQdzzhI6wepJYUADKfGPcAAJ3/IBs=
   </data>
  </layer>
  <layer id="10" name="Top" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DggAULhFbnH1h3DFUAAJB9AHM=
+   eJxjYBgFo2DggAULhFbnJ079RiEGhk1CtHPPUAMALNcB+g==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="12" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGYYBhAZiOLYVOLSz26Hmxy6HrxqcdlHyF349OLSwybX/GZTUo44lNPrPn4zKWGe9D9jctcQm4iNc0NBAYA59F0mw==
+   eJzbKMbAsHGYYBhAZiOLoatFp/HpwSaHrhefemx68bGJ0YtLDJ9fcZlJbDjiU48uh0s9PjlquAebWfjU4YtjUtLcQGAAP+J6DA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -233,7 +233,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="9" name="restless_dead_1" type="spawn" x="64" y="128" width="224" height="416">
    <properties>
     <property name="active" value="false"/>

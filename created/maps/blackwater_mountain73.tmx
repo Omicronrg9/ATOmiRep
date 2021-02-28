@@ -192,7 +192,7 @@
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYICAw2IQTA6A6SOknxI7LhFpxyUK7PhCpB3oai6TYR8pdoDMv0RjO8gxn1h9IDXoYRQizsAQLITgg9hh4uS5Ad0tIQTMQbdHiEh7LxNpPjZ7YHa8EcSvZw0T8eYj24Mens/w2IMrztKQ7E0hIy72MUEwyA+4wGwkublM5NlDLIDFFyF7NgLDbZMQqtgdAvEEA+h5DJc9B4HmHxLCLkeKHaSWbXPxxAW17CAWELKjkMzwwWUHNr/PJiI81jOhllfoetDdvh3o7h1CCJoYALID2Zy1BOwgFgAAGGs9nw==
+   eJxjYICAw2IQTA6A6SOknxI7LhFpxyUK7PhCpB3oai6TYR8pdoDMv0RjOyiNF0Jq0P0QIs7AECyE4IPYYeLkuQEGYH4IIWAOuj1CRNoL8wMh87HZA7PjjSB+PWuYiDcf2R708HyGxx5ccZaGZG8KGXGxjwmCQX7ABWYjyc1lIs8eYgEsXxKyZyMw3DYJ4ZbHB9DzDS57DgLNP0QFO0jNp3PxxAW17CAWELKjkMzwwWUHNr/PJiI81jOhlunoetDdvh3o7h1CCJoYALID2Zy1BOwgFgAABf4+ZA==
   </data>
  </layer>
  <layer id="9" name="Top" width="25" height="20">
@@ -200,12 +200,12 @@
    eJxjYBgFo2DwgjVMtLfjohDt7SAWHBYbaBeMAnLB5dG4G5FgMMU7ADOgBD0=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20">
+ <layer id="4" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzlksEJACAMA53C/VdwQ1+CSGMaW/FhQRANvaTaaiktac2V1dNi3Or9O2PoUUUZVj9rv/bMYqB8CmPnEZ1Z5WGwXEjPGF6v0b/HPEU53tzqPHZ69e5Uz/xm5FN9Ke+hevIyZh1joFmpjNP/+YLRAQChJ3Q=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="2" name="north" type="mapchange" x="608" y="0" width="96" height="32">
    <properties>
     <property name="map" value="blackwater_mountain71"/>
@@ -234,7 +234,7 @@
   <object id="8" name="bwm73_drop" type="container" x="160" y="192" width="32" height="32"/>
   <object id="9" name="bwm73_drop" type="container" x="672" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="10" name="bwm73_monster1" type="spawn" x="224" y="160" width="288" height="64">
    <properties>
     <property name="quantity" value="2"/>

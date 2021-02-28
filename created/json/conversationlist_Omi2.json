@@ -1,40 +1,5 @@
 [
     {
-        "id":"bwm17_vine_1",
-        "message":"[There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it]",
-        "replies":[
-            {
-                "text":"Leave it be.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"Take a better look.",
-                "nextPhraseID":"bwm17_vine_2"
-            }
-        ]
-    },
-    {
-        "id":"bwm17_vine_2",
-        "message":"[Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it]",
-        "replies":[
-            {
-                "text":"Leave",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"bwm17_vine",
-                "value":1
-            },
-            {
-                "rewardType":"dropList",
-                "rewardID":"bwm17_vine"
-            }
-        ]
-    },
-    {
         "id":"bwm17_heights_1",
         "replies":[
             {
@@ -113,8 +78,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm17_vine",
-                        "value":1,
-                        "negate":true
+                        "value":1
                     }
                 ]
             },
@@ -125,8 +89,43 @@
         ]
     },
     {
+        "id":"bwm17_vine_1",
+        "message":"There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it.",
+        "replies":[
+            {
+                "text":"Leave it be.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Take a better look.",
+                "nextPhraseID":"bwm17_vine_2"
+            }
+        ]
+    },
+    {
+        "id":"bwm17_vine_2",
+        "message":"Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it.",
+        "replies":[
+            {
+                "text":"Leave",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm17_vine",
+                "value":1
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bwm17_vine"
+            }
+        ]
+    },
+    {
         "id":"bwm17_vine_3",
-        "message":"[You have already plundered the basket]",
+        "message":"You have already plundered the basket.",
         "replies":[
             {
                 "text":"Leave it be.",
@@ -136,7 +135,7 @@
     },
     {
         "id":"bwm17_vine2_1",
-        "message":"[You find a hole next to a large rock which seems decently nailed on the floor]",
+        "message":"You find a hole next to a large rock which seems decently nailed on the floor.",
         "replies":[
             {
                 "text":"Tie the vine to the rock.",
@@ -148,12 +147,16 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Haha. This rock looks like my brother Andor. \nI think I've been on the trail too long... I'm going crazy.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"bwm17_vine2_2",
-        "message":"[Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole]",
+        "message":"Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -197,7 +200,7 @@
     },
     {
         "id":"bwm72_corpse1_1",
-        "message":"[You see another corpse, much more decomposed than the one you saw in the hillside, and wrapped up in cobweb. What kind of spider would be able to do such a thing?]",
+        "message":"You see another corpse, much more decomposed than the one you saw in the hillside, and wrapped up in cobweb. What kind of spider would be able to do such a thing?",
         "replies":[
             {
                 "text":"It's plundering time!",
@@ -211,7 +214,7 @@
     },
     {
         "id":"bwm72_corpse1_2",
-        "message":"[A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them]",
+        "message":"A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them.",
         "replies":[
             {
                 "text":"Ugh, great. This one had nothing but ugly spiders.",
@@ -291,7 +294,7 @@
     },
     {
         "id":"bwm72_corpse2_1",
-        "message":"[Yet another corpse in the same state as the previous one. One of its tibiae seems fractured]",
+        "message":"Yet another corpse in the same state as the previous one. One of its tibiae seems fractured.",
         "replies":[
             {
                 "text":"Take a closer look.",
@@ -305,7 +308,7 @@
     },
     {
         "id":"bwm72_corpse2_2",
-        "message":"[That is certainly not a wound one of these spiders would cause. There's something strange about all this]",
+        "message":"That is certainly not a wound one of these spiders would cause. There's something strange about all this.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -340,7 +343,7 @@
     },
     {
         "id":"bwm72_corpse3_1",
-        "message":"[This one is the most decayed of all corpses you saw here. Who are these people?]",
+        "message":"This one is the most decayed of all corpses you saw here. Who are these people?",
         "replies":[
             {
                 "text":"Rest in peace, whoever you were. (Leave it be)",
@@ -365,7 +368,9 @@
         "switchToNPC":"unknown",
         "rewards":[
             {
-                "rewardType":"spawnAll"
+                "rewardType":"spawnAll",
+                "rewardID":"restless_dead_1",
+                "mapName":"blackwater_mountain71"
             },
             {
                 "rewardType":"giveItem",

@@ -192,7 +192,7 @@
  </layer>
  <layer id="3" name="Above" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEh8WwCOIBqkL45dHNuwTkMwqjit2EmvFICLv9glD1h4Byl9HkkdXrIbnlEpCty87AoM+Oaf9moNwWIA4RR5UzA/Ld0MTAdiCpnc3EwHBGCLvfYACmtpMJ024QeIwmDgPI4muA7GAcYTsXKJcijtBzSJBwvKGH20Ggvsd49MxFcstqJoh7YMAESxjB7NDG4mb0MIWZvRWodpsQJNxhwBnIT8NhPsyPZjjk0cFDIVT1dwSxxy+6u5ABPvUggB6uaXjiDJcdhAC6HTAAAOb1K1o=
+   eJxjYMAEh8WwCOIBqkL45S+jmXcJyGcURhW7CTXjkRB2+wWh6g+JYZqHrF4PyS2XgGxddgYGfXZM+zcD5bYAcYg4qpwZkO+GJga2A0ntbCYGhjNCmHYjA5jaTiZMu0HgMZo4DCCLrwGyg3GE7VygXIo4Qs8hQcLxhh5uB4H6HuPRMxfJLauZIO6BARMsYYTNDhhAD1OY2VuB/tsmBAl3GHAG8tNwmA/zoxkOeXTwUAhV/R1B7PGL7i5kgE89CKD7OQ1PnOGygxDAFa4AxgsrLQ==
   </data>
  </layer>
  <layer id="9" name="Top" width="12" height="20">
@@ -205,7 +205,7 @@
    eJzbKMbAsBGIQWCjGPF4oNTDADYxbHoIqSfGXaS4nRyzSVFPyG/E2kVrO4jViw0QG+bE2IPNTELuIjVOyI07cuIaXR8A0qSMtA==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="up" type="mapchange" x="64" y="0" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain70"/>
@@ -227,7 +227,7 @@
   <object id="4" name="bwm_fish" type="container" x="128" y="480" width="32" height="32"/>
   <object id="9" name="bwm73_drop" type="container" x="320" y="480" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="5" name="bwm71_monster1" type="spawn" x="96" y="288" width="128" height="224">
    <properties>
     <property name="quantity" value="2"/>

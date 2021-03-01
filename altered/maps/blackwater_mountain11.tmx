@@ -315,16 +315,16 @@
     <property name="spawngroup" value="ehrenfest"/>
    </properties>
   </object>
-  <object id="22" name="ortholion_guard_1" type="spawn" x="96" y="864" width="96" height="32">
+  <object id="22" name="ortholion_guard1" type="spawn" x="96" y="864" width="96" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_01"/>
+    <property name="spawngroup" value="ortholion_guard1"/>
    </properties>
   </object>
-  <object id="23" name="ortholion_guard_2" type="spawn" x="288" y="864" width="128" height="32">
+  <object id="23" name="ortholion_guard1a" type="spawn" x="288" y="864" width="128" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_01"/>
+    <property name="spawngroup" value="ortholion_guard1"/>
    </properties>
   </object>
   <object id="24" name="ortholion_hidden" type="spawn" x="480" y="32" width="32" height="32">
@@ -332,10 +332,10 @@
     <property name="spawngroup" value="ortholion"/>
    </properties>
   </object>
-  <object id="25" name="ortholion_guard_0" type="spawn" x="512" y="32" width="32" height="32">
+  <object id="25" name="ortholion_guard0" type="spawn" x="512" y="32" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_guard_0"/>
+    <property name="spawngroup" value="ortholion_guard0"/>
    </properties>
   </object>
  </objectgroup>

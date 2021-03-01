@@ -298,14 +298,14 @@
         "phraseID":"prim_guard5_s"
     },
     {
-        "id":"ortholion_guard0",
+        "id":"ortholion_guard1",
         "name":"General's henchman",
         "iconID":"monsters_rltiles3:14",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion_01",
+        "spawnGroup":"ortholion_guard1",
         "phraseID":"ortholion_guard_selector",
-        "droplistID":"ortholion_guard0"
+        "droplistID":"ortholion_guard1"
     },
     {
         "id":"prim_guard6",
@@ -318,7 +318,7 @@
         "phraseID":"prim_guard6_1"
     },
     {
-        "id":"ortholion_guard1",
+        "id":"ortholion_guard_wounded",
         "name":"Wounded Feygard mountain scout",
         "iconID":"monsters_omi2:11",
         "unique":1,
@@ -332,18 +332,18 @@
         "iconID":"monsters_omi2:12",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion_02",
+        "spawnGroup":"ortholion_guard2",
         "faction":"",
         "phraseID":"ortholion_guard_selector",
         "droplistID":"ortholion_guard2"
     },
     {
-        "id":"ortholion_guard_3",
+        "id":"ortholion_guard3",
         "name":"Feygard patrol guard",
         "iconID":"monsters_rltiles3:14",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion_03",
+        "spawnGroup":"ortholion_guard3",
         "phraseID":"ortholion_guard3_selector"
     },
     {
@@ -356,7 +356,7 @@
         "phraseID":"prim_guard7_sleeping"
     },
     {
-        "id":"ortholion_guard4",
+        "id":"ortholion_subdued",
         "name":"Subdued Feygard mountain scout",
         "iconID":"monsters_omi2:11",
         "maxHP":191,
@@ -369,7 +369,7 @@
         },
         "spawnGroup":"ortholion_subdued",
         "phraseID":"ortholion_subdued_1",
-        "droplistID":"ortholion_guard4",
+        "droplistID":"ortholion_subdued",
         "attackCost":3,
         "attackChance":150,
         "criticalSkill":20,

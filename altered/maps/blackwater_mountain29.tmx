@@ -280,7 +280,7 @@
     <property name="spawngroup" value="prim_guard4"/>
    </properties>
   </object>
-  <object id="13" name="general_ortholion" type="spawn" x="192" y="160" width="32" height="32">
+  <object id="13" name="ortholion" type="spawn" x="192" y="160" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ortholion"/>
@@ -295,13 +295,13 @@
   <object id="15" name="ortholion_guard1" type="spawn" x="160" y="128" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_01"/>
+    <property name="spawngroup" value="ortholion_guard1"/>
    </properties>
   </object>
   <object id="16" name="ortholion_guard2" type="spawn" x="160" y="192" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_01"/>
+    <property name="spawngroup" value="ortholion_guard2"/>
    </properties>
   </object>
   <object id="17" name="prim_guard6" type="spawn" x="224" y="192" width="32" height="32">

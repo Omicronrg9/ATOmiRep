@@ -188,17 +188,17 @@
  </tileset>
  <layer id="1" name="Ground" width="12" height="7">
   <data encoding="base64" compression="zlib">
-   eJzbKcvAcASID0NpbPgolN4OxDvJUH+KCPWnkNRv5oTgU7LYMUweXT0hDFK/gwT1O2QReBMBDFMHACetRT0=
+   eJzbKcvAcASID0NpbPgolN4OxDvJUH+KCPWnkNRv5oTgU7LYMUweXT0hDFK/gwz1ILyJCAxSBwAnSUU2
   </data>
  </layer>
  <layer id="2" name="Objects" width="12" height="7">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgYBZjAANWJgYUkIzEPyKGYMPUJ0LluaB0MZJ6JiT1wkhsEJACqstDs0sISY0ykH1SloFBFklNHRL7NFBOCc1MsP1CDAzeTJjijUKo/EtY9JYD1VQgqdsoi6kGBtqB6jqEsMsBAPcdC5E=
+   eJxjYGBgYBZjAANWJgYUkIzEPyKGYMPUJ0LluaB0MZJ6JiT1wkhsEJACqstDs0sISY0ykH1SloFBFklNHRL7NFBOCc1MsP1CDAzeTJjijUKo/EtY9JYD1VQIYYpjA+1AdR041AIAyioKww==
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="7">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgOCrGQBAcFsPOppb6SySqx2UXMWCzLGE1G/Go2SQLwdgAAA+lChY=
+   eJxjYGBgOCrGQBAcFsPOppb6SySqx2UXMWCzLGnq0cEmWQjGBgDiowlI
   </data>
  </layer>
  <layer id="4" name="Top" width="12" height="7">
@@ -206,7 +206,7 @@
    eJxjYGBgOCzGMAqoBAAatQDa
   </data>
  </layer>
- <layer id="5" name="Walkable" width="12" height="7">
+ <layer id="5" name="Walkable" width="12" height="7" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMYABhvF8GNkNYNRPYyPDWAzE5sadHFCbsCGAfTKL2w=
   </data>
@@ -225,7 +225,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="3" name="bwm74_h_monster1" type="spawn" x="32" y="128" width="64" height="64">
    <properties>
     <property name="spawngroup" value="bwm_olm"/>

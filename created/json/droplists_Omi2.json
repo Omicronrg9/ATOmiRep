@@ -280,7 +280,7 @@
         ]
     },
     {
-        "id":"ortholion_guard0",
+        "id":"ortholion_guard1",
         "items":[
             {
                 "itemID":"health_minor2",
@@ -575,7 +575,7 @@
         ]
     },
     {
-        "id":"ortholion_guard4",
+        "id":"ortholion_subdued",
         "items":[
             {
                 "itemID":"feygard_iron_dagger",

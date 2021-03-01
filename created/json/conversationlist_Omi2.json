@@ -591,8 +591,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":99999
+                        "requireID":"Omi2_bwm1",
+                        "value":20
                     }
                 ]
             },
@@ -822,12 +822,12 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_01",
+                "rewardID":"ortholion_guard1",
                 "mapName":"blackwater_mountain29"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_02",
+                "rewardID":"ortholion_guard2",
                 "mapName":"blackwater_mountain29"
             },
             {
@@ -997,7 +997,7 @@
     },
     {
         "id":"ortholion_conversation_7",
-        "message":"Yeah, yeah. I'm aware of the current situation. \n\nOk, first of all, I will leave some of my men here to reinforce the village. They are reliable...Most of them at least.",
+        "message":"Yeah, yeah. I'm aware of the current situation. \n\nOk, first of all, I will leave some of my men here to reinforce the village. They are reliable ... Most of them at least.",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -1018,7 +1018,7 @@
     },
     {
         "id":"ortholion_conversation_9",
-        "message":"Feygard will consider that the villagers of Prim will have fullfilled and exceeded their duties with the kingdom if, and only if Prim leaves the full managment of the mines to the capital.",
+        "message":"Feygard will consider that the villagers of Prim will have fulfilled and exceeded their duties with the kingdom if, and only if Prim leaves the full managment of the mines to the capital.",
         "replies":[
             {
                 "text":"N",
@@ -1040,7 +1040,7 @@
     {
         "id":"ortholion_conversation_11",
         "message":"HOW YOU DARE TO INTERRUPT MY GENERAL?! \n\n[Guards of both sides get more and more tensed up]",
-        "switchToNPC":"ortholion_guard0",
+        "switchToNPC":"ortholion_guard1",
         "replies":[
             {
                 "text":"N",
@@ -1076,12 +1076,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"general_ortholion",
-                "mapName":"blackwater_mountain29"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"general_ortholion",
+                "rewardID":"ortholion",
                 "mapName":"blackwater_mountain29"
             },
             {
@@ -1090,17 +1085,7 @@
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard1",
-                "mapName":"blackwater_mountain29"
-            },
-            {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard2",
-                "mapName":"blackwater_mountain29"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
                 "rewardID":"ortholion_guard2",
                 "mapName":"blackwater_mountain29"
             },
@@ -1116,27 +1101,32 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_1",
+                "rewardID":"ortholion_guard1",
                 "mapName":"blackwater_mountain11"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_2",
+                "rewardID":"ortholion_guard1a",
                 "mapName":"blackwater_mountain11"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_1",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_2",
+                "rewardID":"ortholion_guard3a",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_3",
+                "rewardID":"ortholion_guard5",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard6",
                 "mapName":"blackwater_mountain10"
             }
         ]
@@ -1701,10 +1691,8 @@
     },
     {
         "id":"ortholion_guard3_selector",
-        "message":"",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_2",
                 "requires":[
                     {
@@ -1715,7 +1703,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_1",
                 "requires":[
                     {
@@ -1725,7 +1712,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_1b"
             }
         ]
@@ -1757,8 +1743,8 @@
     },
     {
         "id":"ehrenfest_conversation_1",
-        "message":"OUT OF THE WAY, COMMONERS!\n\nYou and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence.",
-        "switchToNPC":"ortholion_guard0",
+        "message":"OUT OF THE WAY, COMMONERS!\n\n[You and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence]",
+        "switchToNPC":"ortholion_guard_hidden",
         "replies":[
             {
                 "text":"N",
@@ -1769,7 +1755,7 @@
     {
         "id":"ehrenfest_conversation_2",
         "message":"I will say it only once. No taverns, no exploring, no dramas with those untrained Prim guards and for the glory of our homeland don't pursue any injured monster.",
-        "switchToNPC":"ortholion",
+        "switchToNPC":"ortholion_hidden",
         "replies":[
             {
                 "text":"N",
@@ -1790,7 +1776,7 @@
     {
         "id":"ehrenfest_conversation_4",
         "message":"Yes, my general.",
-        "switchToNPC":"ortholion_01",
+        "switchToNPC":"ortholion_guard_hidden",
         "replies":[
             {
                 "text":"N",
@@ -1820,7 +1806,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_3",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
@@ -2826,6 +2812,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":21
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"prim_tavern_guest4",
+                "mapName":"blackwater_mountain22"
             }
         ]
     },
@@ -2959,6 +2950,7 @@
         "message":"Lorn t...too? We will all die!",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"prim_tavern_guest4_7"
             }
         ]
@@ -3374,7 +3366,7 @@
     },
     {
         "id":"bwm_wellspring_1",
-        "message":"[A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent]",
+        "message":"A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent.",
         "replies":[
             {
                 "text":"Fill a bottle of water.",
@@ -3802,7 +3794,7 @@
     },
     {
         "id":"prim_tavern_guest4_34c",
-        "message":"No, I don't think so. He was so drunk, and me too! \\n We passed the whole night singing, chatting, forgetting...",
+        "message":"No, I don't think so. He was so drunk, and me too! \n We passed the whole night singing, chatting, forgetting...",
         "replies":[
             {
                 "text":"What about the missing couple?",
@@ -4269,7 +4261,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_1",
+                "rewardID":"ortholion_guard_wounded",
                 "mapName":"blackwater_mountain31"
             },
             {
@@ -4387,7 +4379,7 @@
     },
     {
         "id":"ortholion_gw_3a",
-        "message":"I don't *cough*, think anybody would be that crazy to send a kid to a place like this. \\n Sorry, *cough*, I don't have energy for holding up nonsense."
+        "message":"I don't *cough*, think anybody would be that crazy to send a kid to a place like this. \n\n Sorry, *cough*, I don't have energy for holding up nonsense."
     },
     {
         "id":"ortholion_gw_3b",
@@ -4395,7 +4387,8 @@
     },
     {
         "id":"ortholion_gw_sleeping",
-        "message":"[The scout is sleeping on the ground. His wounds don't seem to be that bad]"
+		"switchToNPC":"none",
+        "message":"The scout is sleeping on the ground. His wounds don't seem to be that bad."
     },
     {
         "id":"ortholion_gw_3c",
@@ -4413,7 +4406,7 @@
     },
     {
         "id":"ortholion_gw_4",
-        "message":"Wh..*cough* NO! \\n [You manage to land a fatal blow to the already wounded soldier. Once you're sure she's dead, you set her body aside, out of the cabin]",
+        "message":"Wh..*cough* NO! \n\n [You manage to land a fatal blow to the already wounded soldier. Once you're sure she's dead, you set her body aside, out of the cabin]",
         "replies":[
             {
                 "text":"One less. Good.",
@@ -4429,7 +4422,12 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":35
-            }
+            },
+			{
+				"rewardType":"removeSpawnArea",
+				"rewardID":"ortholion_guard_wounded",
+				"mapName":"blackwater_mountain31"
+			}
         ]
     },
     {
@@ -5010,7 +5008,7 @@
     {
         "id":"ortholion_subdued_2",
         "message":"[The scout stares at you wich an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm]",
-        "switchToNPC":"ortholion_guard4",
+        "switchToNPC":"ortholion_subdued",
         "replies":[
             {
                 "text":"Argh! What the...?",
@@ -5080,12 +5078,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard4_2",
-                "mapName":"blackwater_mountain32"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard4_2",
+                "rewardID":"ortholion_subdued",
                 "mapName":"blackwater_mountain32"
             }
         ]
@@ -5099,7 +5092,7 @@
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"ortholion_guard4",
+                        "requireID":"ortholion_subdued",
                         "value":1
                     },
                     {
@@ -5240,8 +5233,8 @@
         ],
         "rewards":[
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard_wounded",
                 "mapName":"blackwater_mountain31"
             }
         ]
@@ -5877,32 +5870,22 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard_1",
-                "mapName":"blackwater_mountain10"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_1",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard_2",
-                "mapName":"blackwater_mountain10"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_2",
+                "rewardID":"ortholion_guard3b",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard_3",
+                "rewardID":"ortholion_guard5",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_3",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard6",
                 "mapName":"blackwater_mountain10"
             }
         ]

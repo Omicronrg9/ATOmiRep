@@ -214,10 +214,10 @@
   <object id="4" name="sign_bwm31" type="sign" x="128" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="5" name="ortholion_guard_1" type="spawn" x="64" y="192" width="32" height="32">
+  <object id="5" name="ortholion_guard_wounded" type="spawn" x="64" y="192" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
-    <property name="spawngroup" value="ortholion_guard1"/>
+    <property name="spawngroup" value="ortholion_guard_wounded"/>
    </properties>
   </object>
  </objectgroup>

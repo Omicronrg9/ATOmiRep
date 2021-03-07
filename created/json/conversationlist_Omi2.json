@@ -1796,27 +1796,32 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_1",
-                "mapName":"blackwater_mountain10"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_2",
-                "mapName":"blackwater_mountain10"
-            },
-            {
-                "rewardType":"spawnAll",
                 "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_1",
+                "rewardID":"ortholion_guard3a",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard5",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard6",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard1",
                 "mapName":"blackwater_mountain11"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard_2",
+                "rewardID":"ortholion_guard1a",
                 "mapName":"blackwater_mountain11"
             }
         ]
@@ -1956,7 +1961,7 @@
                 "mapName":"elm_mine1"
             },
             {
-                "rewardType":"deactivateSpawnArea",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain11"
             }
@@ -1964,7 +1969,7 @@
     },
     {
         "id":"ehrenfest_7c",
-        "message":"I'm afraid It will. Farewell.",
+        "message":"I'm afraid it will. Farewell.",
         "replies":[
             {
                 "text":"Uhh, great. Bye.",
@@ -2030,8 +2035,7 @@
     },
     {
         "id":"ehrenfest_calling_1",
-        "message":"Psst! Come, come here.\n\n[The voice is coming from the dining-room]",
-        "switchToNPC":"ehrenfest",
+        "message":"Someone is whispering: ""Psst, come! Come here!""\n\nThe voice is coming from the dining-room.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2822,7 +2826,7 @@
     },
     {
         "id":"prim_commoner4_4",
-        "message":"Lorn? Nothing, I barely know him, neither his comrades, Dualia and... No idea. \\n What's wrong with him?",
+        "message":"Lorn? Nothing, I barely know him, neither his comrades, Dualia and... No idea. \n\n What's wrong with him?",
         "replies":[
             {
                 "text":"He was killed several days ago.",
@@ -3941,7 +3945,7 @@
     },
     {
         "id":"ehrenfest_36",
-        "message":"Remember while you were asking for Lorn, I asked some villagers precisely about that missing couple. ",
+        "message":"Remember while you were asking for Lorn, I asked some villagers precisely about that missing couple.",
         "replies":[
             {
                 "text":"I'm not going to hear your stories anymore.",
@@ -3949,7 +3953,7 @@
             },
             {
                 "text":"What I remember is you, telling me about that missing couple.",
-                "nextPhraseID":"ehrenfest_36"
+                "nextPhraseID":"ehrenfest_37a"
             }
         ]
     },
@@ -4612,11 +4616,6 @@
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"prim_guard6",
-                "mapName":"blackwater_mountain29"
-            },
-            {
                 "rewardType":"spawnAll",
                 "rewardID":"prim_guard7",
                 "mapName":"blackwater_mountain29"
@@ -4738,7 +4737,7 @@
     },
     {
         "id":"capvjern_6",
-        "message":"How can you be so sure? Accidents occur! He could have fallen off during an attack or a rock slide.\n",
+        "message":"How can you be so sure? Accidents occur! He could have fallen off during an attack or a rock slide.",
         "replies":[
             {
                 "text":"N",
@@ -5408,11 +5407,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain43"
             }
         ]
     },
@@ -5476,11 +5470,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":45
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain43"
             },
             {
                 "rewardType":"removeSpawnArea",

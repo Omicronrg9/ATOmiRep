@@ -311,7 +311,6 @@
         "id":"prim_guard6",
         "name":"Prim guard",
         "iconID":"monsters_rltiles1:76",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"prim_guard6",
@@ -350,7 +349,6 @@
         "id":"prim_guard7",
         "name":"Wounded Prim guard",
         "iconID":"monsters_rltiles1:76",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"prim_guard7_sleeping"
@@ -401,7 +399,6 @@
         "id":"ortholion_guard6",
         "name":"Feygard scout",
         "iconID":"monsters_omi2:12",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"ortholion_guard6_1"
@@ -411,7 +408,6 @@
         "name":"Confused Feygard soldier",
         "iconID":"monsters_rltiles3:14",
         "maxHP":211,
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "attackDamage":{

@@ -40,7 +40,6 @@
     },
     {
         "id":"bwm72_beginning",
-        "showInLog":1,
         "name":"Hidden: events in bwm",
         "stages":[
             {

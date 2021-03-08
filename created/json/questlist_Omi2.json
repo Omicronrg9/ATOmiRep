@@ -198,6 +198,18 @@
             {
                 "progress":39,
                 "logText":"Kamelio's resurrection"
+            },
+            {
+                "progress":40,
+                "logText":"Celebration"
+            },
+            {
+                "progress":41,
+                "logText":"Pre-celebration"
+            },
+            {
+                "progress":42,
+                "logText":"\"Climbing up is forbidden\" finished."
             }
         ]
     },
@@ -228,7 +240,7 @@
             },
             {
                 "progress":10,
-                "logText":"A Feygard general and two henchmen of him appeared. They must be up to no good."
+                "logText":"A Feygard general and two henchmen appeared. They must be up to no good."
             },
             {
                 "progress":11,
@@ -300,17 +312,17 @@
             },
             {
                 "progress":36,
-                "logText":"I talked again with Jern. Maybe guards will be more reasonable if he talks with them instead of me.",
+                "logText":"I talked again with Jern. Maybe the guards will be more reasonable if he instead of me leads the conversation.",
                 "rewardExperience":400
             },
             {
                 "progress":40,
-                "logText":"It seems Ehrenfest lied to me in more than one thing. He's probably related with the missing people and Lorn's death. I must find General Ortholion and warn him about Ehrenfest.",
+                "logText":"It seems Ehrenfest lied to me more than once. He's probably related with the missing people and Lorn's death. I must find General Ortholion and warn him about Ehrenfest.",
                 "rewardExperience":100
             },
             {
                 "progress":41,
-                "logText":"One of the general's henchmen attacked me without provocation. There was something wrong with her. Better hurry up and meet with the Feygar general."
+                "logText":"One of the general's henchmen attacked me without provocation. There was something wrong with her. Better hurry up and meet with the Feygard general."
             },
             {
                 "progress":45,
@@ -337,25 +349,61 @@
             },
             {
                 "progress":50,
-                "logText":"It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able of engulfing live beings. I even found the remaining Ortholion's henchman alive. He has gone all the way back to search for reinforcements. Hope they are better than those who neither dared to enther here.",
+                "logText":"It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able of engulfing live beings. I found last Ortholion's henchman alive. He has gone all the way back to search for reinforcements. Hope they are better than those who neither dared to enter here.",
                 "rewardExperience":600
             },
             {
                 "progress":51,
-                "logText":"Ended up trapped in a one-way path, deep into a cavern below Elm mine, general Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
+                "logText":"Ended up trapped in a one-way path and deep into a cavern below Elm mine, general Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
             },
             {
                 "progress":52,
-                "logText":"Ehrenfest reversed the situation using some kind of magic, unknown even for himself."
+                "logText":"Ehrenfest reversed the situation using some kind of magic, seemingly unknown even for himself."
             },
             {
                 "progress":53,
-                "logText":"Ehrenfest escaped again! General Ortholion is unconscious and the reinforcements didn't show yet...",
+                "logText":"Ehrenfest escaped again! General Ortholion is unconscious and the reinforcements didn't show up yet...",
                 "rewardExperience":1000
             },
             {
                 "progress":54,
                 "logText":"Kamelio, who was no longer a human being, tried to kill both the general and me, but we survived. Better get out of this cavern as soon as possible."
+            },
+            {
+                "progress":55,
+                "logText":"I got back to the Elm mine dining room. Despite saving general's life he's not eager to reward me. Maybe I should try again later when we both be more settled."
+            },
+            {
+                "progress":56,
+                "logText":"After going back to a safer place, General Ortholion asked me a question. \"What in the world is most important to you?\" I need to think about it before giving him a proper reply."
+            },
+            {
+                "progress":59,
+                "logText":"For my bravery, general Ortholion rewarded me with a lot of gold and told me to meet him in a couple of days.",
+                "rewardExperience":4500,
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"For my bravery (and my greediness), general ortholion rewarded me with a lot of...junk. He might pay me better next time if I meet him in some days.",
+                "rewardExperience":4500,
+                "finishesQuest":1
+            },
+            {
+                "progress":61,
+                "logText":"For my bravery (and my lack of honour), general ortholion rewarded me with a small bag of gold. He may have some news for me in a couple of days.",
+                "rewardExperience":6000,
+                "finishesQuest":1
+            },
+            {
+                "progress":62,
+                "logText":"For my bravery and sense of honour, general ortholion gave me a beautiful necklace, symbol of his gratitude towards me. He also told me to come back in a few days, I should take advantage of it and ask him about all the events happened.",
+                "rewardExperience":6000
+            },
+            {
+                "progress":63,
+                "logText":"For my bravery and... Ignorance?, general ortholion gave me some days to rest and urged me to come back just after that.",
+                "rewardExperience":10000
             }
         ]
     }

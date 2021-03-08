@@ -182,6 +182,11 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="ortholion_celebration" type="script" x="544" y="320" width="32" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="arghest" type="spawn" x="64" y="384" width="160" height="128">

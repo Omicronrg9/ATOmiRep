@@ -1688,6 +1688,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ortholion_guard3_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":54
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ortholion_guard3_2",
                 "requires":[
                     {
@@ -5127,6 +5138,54 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"ortholion_busy",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":42
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_16d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":56
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_16c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_13"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":54
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"ortholion_c3",
                 "requires":[
                     {
@@ -8245,5 +8304,860 @@
                 "value":54
             }
         ]
+    },
+    {
+        "id":"elm5f_kamelio_entrance",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"elm5f_kamelio_e1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"kamelio",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":54,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"elm5f_kamelio_e1",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":38
+            }
+        ]
+    },
+    {
+        "id":"ortholion_9",
+        "message":"*looks at you* This is humillating. How that guy...",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"Ehrenfest?",
+                "nextPhraseID":"ortholion_10a"
+            },
+            {
+                "text":"You're just weak.",
+                "nextPhraseID":"ortholion_10b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_10b",
+        "message":"You might not be wrong at all...But this is no place to talk, full of these odd-looking creatures.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_11"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_10a",
+        "message":"Did he tell you... *looks around* Better not here.",
+        "replies":[
+            {
+                "text":"Scared?",
+                "nextPhraseID":"ortholion_11"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_11",
+        "message":"This is humillating enough...I'll get out of this cave. I'll be at the mine entrance.",
+        "replies":[
+            {
+                "text":"You are of no interest to me. Bye.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"OK, sir.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Are you sure you don't need escort?",
+                "nextPhraseID":"ortholion_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":41
+            }
+        ]
+    },
+    {
+        "id":"ortholion_12",
+        "message":"A knight's only trusted escorts are his sword and his horse. I'm pretty sure you'll find the way out.",
+        "replies":[
+            {
+                "text":"This isn't a labyrinth, I will.",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Shad...Yeah, let's meet later.",
+                "nextPhraseID":"R"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard10_1",
+        "message":"*hic* Drink! *hic* \n\nDrink for those who've fallen!"
+    },
+    {
+        "id":"ortholion_guard3_5",
+        "message":"Ahem... General is waiting for you in the dining room.",
+        "replies":[
+            {
+                "text":"General was waiting for you down in the mine.",
+                "nextPhraseID":"ortholion_guard3_6a"
+            },
+            {
+                "text":"Thank you, sir.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"ortholion_guard3_6b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_6a",
+        "message":"What do you mean kid?! We had to... guard this place right here. We were sure our mighty general Ortholion was handling the problem!",
+        "replies":[
+            {
+                "text":"I will report your inefficiency.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It was me who solved the problem!",
+                "nextPhraseID":"ortholion_guard3_7"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard3_7",
+        "message":"HAH! Out of my sight."
+    },
+    {
+        "id":"ortholion_guard3_6b",
+        "message":"No, I'm not.",
+        "replies":[
+            {
+                "text":"So cold...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Fine. Keep the good work, hah.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"arghest_15",
+        "message":"Suit yourself...But no one else went there in weeks.",
+        "replies":[
+            {
+                "text":"Thanks, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_celebration",
+        "message":"",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_celebration_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":41
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard10_s",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard10_1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/4"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard10_2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/3"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard10_3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"1/2"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_guard10_4"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard10_2",
+        "message":"No! *looks at you* This is my beeeeeer, kid! *hic*",
+        "replies":[
+            {
+                "text":"Uh...How they did get drunk that fast?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Mead isn't my cup of tea, goodbye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Get out of my way, drunkard!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard10_3",
+        "message":"H..Halt! *hic* Kids not allowed!",
+        "replies":[
+            {
+                "text":"This is my mine, how you dare?! Hmpf...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm here to see your general, now go sleep it off.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_guard10_4",
+        "message":"[This guard drinks his jar of mead ceaselessly, ignoring your presence]"
+    },
+    {
+        "id":"ortholion_celebration_2",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"ortholion",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"guard1",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"guard2",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"guard3",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"guard4",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":40
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"guard5",
+                "mapName":"elm_mine1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_preceleb",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_preceleb_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":41
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_preceleb_2",
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"ortholion2",
+                "mapName":"elm5f_2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion2",
+                "mapName":"elm5f_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_13",
+        "message":"This isn't really the way I planned this. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_14"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_14",
+        "message":"*looking at you* But thanks to your act of bravery, I'm alive and not injured...Not severely.",
+        "replies":[
+            {
+                "text":"What will you do now?",
+                "nextPhraseID":"ortholion_15a"
+            },
+            {
+                "text":"I still don't trust you.",
+                "nextPhraseID":"ortholion_15b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_15b",
+        "message":"And you do good. Trust should be neither easy to gain nor easy to lose.",
+        "replies":[
+            {
+                "text":"Yeah, yeah. Where's my reward for saving your life?",
+                "nextPhraseID":"ortholion_16a"
+            },
+            {
+                "text":"What will you do now?",
+                "nextPhraseID":"ortholion_15a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_15a",
+        "message":"I am sorry, but that is none of your concern. As I said you've lent me a hand when I was vulnerable. That won't be forgotten.",
+        "replies":[
+            {
+                "text":"Finally, a reward.",
+                "nextPhraseID":"ortholion_16a"
+            },
+            {
+                "text":"You owe me a favour then.",
+                "nextPhraseID":"ortholion_16b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_16a",
+        "message":"A reward? This does not work that way...What Feygard would think of my assassination? Who would be blamed of that?\n\nThe reward is I'm alive and no army will chase you.",
+        "replies":[
+            {
+                "text":"*laughing* Do you think a few drunkards could beat me?",
+                "nextPhraseID":"ortholion_17a"
+            },
+            {
+                "text":"Hmpf, okay. Goodbye...",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"But at least, you owe me a favour. Where's your honour?",
+                "nextPhraseID":"ortholion_16b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_17a",
+        "message":"Doesn't matter whether they could or not. They won't come after you, and that's what my reward is.",
+        "replies":[
+            {
+                "text":"This is absurd. Bye!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":55
+            }
+        ]
+    },
+    {
+        "id":"ortholion_16b",
+        "message":"Let me settle that debt then.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_17"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_17",
+        "message":"Let me ask you a question. What in the world is most important to you? Pride and honor?, maybe power and richness?",
+        "replies":[
+            {
+                "text":"I need some time to think about it.",
+                "nextPhraseID":"ortholion_18a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":56,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"If there's gold, I'm in!",
+                "nextPhraseID":"ortholion_18b"
+            },
+            {
+                "text":"I can't conceive a life without honour.",
+                "nextPhraseID":"ortholion_18c"
+            },
+            {
+                "text":"My faith in the Shadow.",
+                "nextPhraseID":"ortholion_18e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"My father, Mikhail, and my brother Andor.",
+                "nextPhraseID":"ortholion_18d"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_18a",
+        "message":"I'm patient, but I won't be here forever. Other issues demand my presence.",
+        "replies":[
+            {
+                "text":"Cut it out and give me my reward!",
+                "nextPhraseID":"ortholion_16a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'll be back soon.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"ortholion_18b",
+        "message":"Well, yes. Every old and tired adventurer's dream I guess, but I somewhat expected more of you. Take this and don't bother me anymore. *shows you a medium-sized bag of gold and jewels*",
+        "replies":[
+            {
+                "text":"[Take the gold]",
+                "nextPhraseID":"ortholion_19a"
+            },
+            {
+                "text":"Don't be so greedy. Give me more!",
+                "nextPhraseID":"ortholion_19b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_19b",
+        "message":"I see, I see. You're a clever guy *makes signs to two soldiers*. Take this much larger bag full of jewels my men have been gathering...from the mines.",
+        "replies":[
+            {
+                "text":"Great! [Take the large bag]",
+                "nextPhraseID":"ortholion_20a"
+            },
+            {
+                "text":"Ehm... I'd rather take the small bag, thanks. [Take the gold]",
+                "nextPhraseID":"ortholion_19a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_16c",
+        "message":"Well, well. Look who's back. ",
+        "replies":[
+            {
+                "text":"...",
+                "nextPhraseID":"ortholion_17"
+            },
+            {
+                "text":"Hmpf, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_19a",
+        "message":"Fine. Now let some days pass and meet me again here. I may need your help and you may want more gold.",
+        "replies":[
+            {
+                "text":"Count on me, general!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"...I'll think about it. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":2000
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"ortholion_next1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":59
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":42
+            }
+        ]
+    },
+    {
+        "id":"ortholion_busy",
+        "message":"*mumbling* That imprudent Guynm...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_busy2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_busy2",
+        "message":"Oh, $playername...I'm sorry but I have many things to discuss and attend to here, come back later."
+    },
+    {
+        "id":"ortholion_16d",
+        "message":"I will ask you again. What in this world is the most important to you?",
+        "replies":[
+            {
+                "text":"Gold, sweet gold.",
+                "nextPhraseID":"ortholion_18b"
+            },
+            {
+                "text":"My pride and my honour!",
+                "nextPhraseID":"ortholion_18c"
+            },
+            {
+                "text":"The Shadow's teachings are the only thing that matters.",
+                "nextPhraseID":"ortholion_18e",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"My family is the most important thing to me.",
+                "nextPhraseID":"ortholion_18d"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_20a",
+        "message":"Fine, it's all for you. Maybe this way you'll learn a lesson. Come see me in some days, you might be of use.",
+        "replies":[
+            {
+                "text":"No way, trickster!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I...Will.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"junk_necklace0",
+                "value":30
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ring1",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":42
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":60
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"ortholion_next1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_18c",
+        "message":"Good anwser! That is very inline with any good Feygard soldier thoughts. Since I owe you a favour, let me repay you with this bag of gold.",
+        "replies":[
+            {
+                "text":"[Take the gold] Finally... ",
+                "nextPhraseID":"ortholion_19c"
+            },
+            {
+                "text":"I can't accept gold for saving someone's life...",
+                "nextPhraseID":"ortholion_19d"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_19c",
+        "message":"Surprised? That how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
+        "replies":[
+            {
+                "text":"You liar...! Hmpf.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll think about it, but you'd better pay me next time!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":61
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":42
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"ortholion_next1"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"ortholion_19d",
+        "message":"*retires its hand with the gold bag and makes a nod of approval* Good, good. I believe on your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude.\n\nWe'll talk later. Now we all need some rest.",
+        "replies":[
+            {
+                "text":"Your debt is settled, sir.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you, I will keep it as the most valuable treasure.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I will keep it as my most precious treasure. [Lie]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":62
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":42
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"ortholion_next1"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"ortholion_reward",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"ortholion_18d",
+        "message":"I would say that is a...very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days.",
+        "replies":[
+            {
+                "text":"So no reward...Uh, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll remember to come back, farewell.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Omi2_bwm1",
+                "value":63
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":42
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"ortholion_next1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_18e",
+        "message":"Hah! You really are either so brave or so dumb confessing that in a place full of Feygard soldiers.",
+        "replies":[
+            {
+                "text":"Those who don't believe will be eventually punished!"
+            },
+            {
+                "text":"You couldn't put a single tip on me!",
+                "nextPhraseID":"ortholion_19e"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_19e",
+        "message":"Look, this is simple. The shadow is the past. We, Feygard, are the future. Fanatism is never a good companion, but you are still young, you will need time to fully understand my words.",
+        "replies":[
+            {
+                "text":"You forbid the use of Bonemeal!",
+                "nextPhraseID":"ortholion_20c"
+            },
+            {
+                "text":"You put unfair taxes and censor people's beliefs!",
+                "nextPhraseID":"ortholion_20b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_20b",
+        "message":"Everything isn't black or white. Taxes are needed in this great kingdom in order to keep the peace and travelling roads safe."
+    },
+    {
+        "id":"ortholion_20c",
+        "message":"Would you like your bones be used in some sort of ritual to make those potions? Because in winter, where big mammals, erumen lizards and other beasts hibernate, there's only one kind of bones useful for that, ours.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_21a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_21a"
     }
 ]

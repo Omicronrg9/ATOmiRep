@@ -1146,5 +1146,22 @@
                 }
             ]
         }
+    },
+    {
+        "id":"ortholion_guard10",
+        "name":"Drunken Feygard scout",
+        "iconID":"monsters_omi2:12",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"ortholion_guard10_s"
+    },
+    {
+        "id":"ortholion_guard11",
+        "name":"Drunken Feygard patrol",
+        "iconID":"monsters_rltiles3:14",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "phraseID":"ortholion_guard10_s"
     }
 ]

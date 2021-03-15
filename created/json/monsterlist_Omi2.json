@@ -274,7 +274,6 @@
         "id":"ehrenfest",
         "name":"Ehrenfest",
         "iconID":"monsters_tometik1:86",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"ehrenfest",
@@ -299,27 +298,26 @@
         "phraseID":"prim_guard5_s"
     },
     {
-        "id":"ortholion_guard0",
+        "id":"ortholion_guard1",
         "name":"General's henchman",
         "iconID":"monsters_rltiles3:14",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion_01",
+        "spawnGroup":"ortholion_guard1",
         "phraseID":"ortholion_guard_selector",
-        "droplistID":"ortholion_guard0"
+        "droplistID":"ortholion_guard1"
     },
     {
         "id":"prim_guard6",
         "name":"Prim guard",
         "iconID":"monsters_rltiles1:76",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "spawnGroup":"prim_guard6",
         "phraseID":"prim_guard6_1"
     },
     {
-        "id":"ortholion_guard1",
+        "id":"ortholion_guard_wounded",
         "name":"Wounded Feygard mountain scout",
         "iconID":"monsters_omi2:11",
         "unique":1,
@@ -333,31 +331,30 @@
         "iconID":"monsters_omi2:12",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion_02",
+        "spawnGroup":"ortholion_guard2",
         "faction":"",
         "phraseID":"ortholion_guard_selector",
         "droplistID":"ortholion_guard2"
     },
     {
-        "id":"ortholion_guard_3",
+        "id":"ortholion_guard3",
         "name":"Feygard patrol guard",
         "iconID":"monsters_rltiles3:14",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "spawnGroup":"ortholion_03",
+        "spawnGroup":"ortholion_guard3",
         "phraseID":"ortholion_guard3_selector"
     },
     {
         "id":"prim_guard7",
         "name":"Wounded Prim guard",
         "iconID":"monsters_rltiles1:76",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"prim_guard7_sleeping"
     },
     {
-        "id":"ortholion_guard4",
+        "id":"ortholion_subdued",
         "name":"Subdued Feygard mountain scout",
         "iconID":"monsters_omi2:11",
         "maxHP":191,
@@ -370,7 +367,7 @@
         },
         "spawnGroup":"ortholion_subdued",
         "phraseID":"ortholion_subdued_1",
-        "droplistID":"ortholion_guard4",
+        "droplistID":"ortholion_subdued",
         "attackCost":3,
         "attackChance":150,
         "criticalSkill":20,
@@ -402,7 +399,6 @@
         "id":"ortholion_guard6",
         "name":"Feygard scout",
         "iconID":"monsters_omi2:12",
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"ortholion_guard6_1"
@@ -412,7 +408,6 @@
         "name":"Confused Feygard soldier",
         "iconID":"monsters_rltiles3:14",
         "maxHP":211,
-        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "attackDamage":{
@@ -1163,5 +1158,48 @@
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
         "phraseID":"ortholion_guard10_s"
+    },
+    {
+        "id":"bwm_dead",
+        "name":"Restless dead",
+        "iconID":"monsters_rltiles1:47",
+        "maxHP":25,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"ghost",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":0,
+            "max":3
+        },
+        "spawnGroup":"bwm_dead",
+        "droplistID":"restless_dead_1",
+        "attackCost":5,
+        "attackChance":50,
+        "criticalSkill":80,
+        "criticalMultiplier":2.0,
+        "blockChance":140,
+        "damageResistance":3
+    },
+    {
+        "id":"bwm_grave_spawn",
+        "name":"Grave spawn",
+        "iconID":"monsters_rltiles1:49",
+        "maxHP":45,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":2,
+            "max":5
+        },
+        "spawnGroup":"bwm_grave_spawn",
+        "droplistID":"restless_dead_1",
+        "attackCost":5,
+        "attackChance":110,
+        "criticalSkill":40,
+        "criticalMultiplier":2.0,
+        "blockChance":35,
+        "damageResistance":3
     }
 ]

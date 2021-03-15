@@ -1,40 +1,5 @@
 [
     {
-        "id":"bwm17_vine_1",
-        "message":"[There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it]",
-        "replies":[
-            {
-                "text":"Leave it be.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"Take a better look.",
-                "nextPhraseID":"bwm17_vine_2"
-            }
-        ]
-    },
-    {
-        "id":"bwm17_vine_2",
-        "message":"[Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it]",
-        "replies":[
-            {
-                "text":"Leave",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"bwm17_vine",
-                "value":1
-            },
-            {
-                "rewardType":"dropList",
-                "rewardID":"bwm17_vine"
-            }
-        ]
-    },
-    {
         "id":"bwm17_heights_1",
         "replies":[
             {
@@ -44,7 +9,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm17_heights",
-                        "value":2
+                        "value":1,
+						"negate":true
                     }
                 ]
             },
@@ -112,8 +78,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm17_vine",
-                        "value":1,
-                        "negate":true
+                        "value":1
                     }
                 ]
             },
@@ -124,8 +89,43 @@
         ]
     },
     {
+        "id":"bwm17_vine_1",
+        "message":"There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it.",
+        "replies":[
+            {
+                "text":"Leave it be.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Take a better look.",
+                "nextPhraseID":"bwm17_vine_2"
+            }
+        ]
+    },
+    {
+        "id":"bwm17_vine_2",
+        "message":"Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it.",
+        "replies":[
+            {
+                "text":"Leave",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm17_vine",
+                "value":1
+            },
+            {
+                "rewardType":"dropList",
+                "rewardID":"bwm17_vine"
+            }
+        ]
+    },
+    {
         "id":"bwm17_vine_3",
-        "message":"[You have already plundered the basket]",
+        "message":"You have already plundered the basket.",
         "replies":[
             {
                 "text":"Leave it be.",
@@ -135,7 +135,7 @@
     },
     {
         "id":"bwm17_vine2_1",
-        "message":"[You find a hole next to a large rock which seems decently nailed on the floor]",
+        "message":"You find a hole next to a large rock which seems decently nailed on the floor.",
         "replies":[
             {
                 "text":"Tie the vine to the rock.",
@@ -147,12 +147,16 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Haha. This rock looks like my brother Andor. \nI think I've been on the trail too long... I'm going crazy.",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"bwm17_vine2_2",
-        "message":"[Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole]",
+        "message":"Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -186,7 +190,7 @@
     },
     {
         "id":"bwm70_corpse",
-        "message":"[This must be the remains of some imprudent villager who ventured into the mountain despite the warnings. There are signs of a former camp down the mountain]",
+        "message":"This must be the remains of some imprudent villager who ventured into the mountain despite the warnings. There are signs of a former camp down the mountain.",
         "replies":[
             {
                 "text":"I'd better be cautious.",
@@ -195,8 +199,28 @@
         ]
     },
     {
+        "id":"bwm72_corpse1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse1_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_corpse1_1"
+            }
+        ]
+    },
+    {
         "id":"bwm72_corpse1_1",
-        "message":"[You see another corpse, much more decomposed than the one you saw in the hillside, and wrapped up in cobweb. What kind of spider would be able to do such a thing?]",
+        "message":"You see a corpse, much more decomposed than the one you saw in the hillside, and wrapped up in cobweb. What kind of spider would be able to do such a thing?",
         "replies":[
             {
                 "text":"It's plundering time!",
@@ -210,7 +234,7 @@
     },
     {
         "id":"bwm72_corpse1_2",
-        "message":"[A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them]",
+        "message":"A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them.",
         "replies":[
             {
                 "text":"Ugh, great. This one had nothing but ugly spiders.",
@@ -241,26 +265,6 @@
         ]
     },
     {
-        "id":"bwm72_corpse1_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"bwm72_corpse1_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"bwm72_corpse1_1"
-            }
-        ]
-    },
-    {
         "id":"bwm72_corpse1_3",
         "message":"Nothing interesting here."
     },
@@ -285,12 +289,8 @@
         ]
     },
     {
-        "id":"bwm72_corpse2_3",
-        "message":"You have already looked at this corpse."
-    },
-    {
         "id":"bwm72_corpse2_1",
-        "message":"[Yet another corpse in the same state as the previous one. One of its tibiae seems fractured]",
+        "message":"Yet another corpse in the same state as the previous one. One of its tibiae seems fractured.",
         "replies":[
             {
                 "text":"Take a closer look.",
@@ -304,7 +304,7 @@
     },
     {
         "id":"bwm72_corpse2_2",
-        "message":"[That is certainly not a wound one of these spiders would cause. There's something strange about all this]",
+        "message":"That is certainly not a wound one of these spiders would cause. There's something strange about all this.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -312,6 +312,10 @@
                 "value":2
             }
         ]
+    },
+    {
+        "id":"bwm72_corpse2_3",
+        "message":"You have already looked at this corpse."
     },
     {
         "id":"bwm72_corpse3_selector",
@@ -334,12 +338,8 @@
         ]
     },
     {
-        "id":"bwm72_corpse3_3",
-        "message":"There's certainly nothing but rotten flesh and bones here."
-    },
-    {
         "id":"bwm72_corpse3_1",
-        "message":"[This one is the most decayed of all corpses you saw here. Who are these people?]",
+        "message":"This one is the most decayed of all corpses you saw here. Who are these people?",
         "replies":[
             {
                 "text":"Rest in peace, whoever you were. (Leave it be)",
@@ -361,10 +361,17 @@
     {
         "id":"bwm72_corpse3_2",
         "message":"YOU! We will pursue you for your crimes!",
-        "switchToNPC":"unknown",
+        "switchToNPC":"restless_dead_1",
         "rewards":[
             {
-                "rewardType":"spawnAll"
+                "rewardType":"spawnAll",
+                "rewardID":"bwm_dead",
+                "mapName":"blackwater_mountain72"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"bwm_grave_spawn",
+                "mapName":"blackwater_mountain72"
             },
             {
                 "rewardType":"giveItem",
@@ -372,6 +379,10 @@
                 "value":32
             }
         ]
+    },
+    {
+        "id":"bwm72_corpse3_3",
+        "message":"There's certainly nothing but rotten flesh and bones here."
     },
     {
         "id":"bwm72_torture_selector",
@@ -405,12 +416,6 @@
                         "requireType":"questProgress",
                         "requireID":"bwm72_beginning",
                         "value":3
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":4,
-                        "negate":true
                     }
                 ]
             }
@@ -422,7 +427,7 @@
     },
     {
         "id":"bwm72_torture_1",
-        "message":"[One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope. Someone has been tortured here, no doubt about it]",
+        "message":"One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope. Someone has been tortured here, no doubt about it.",
         "replies":[
             {
                 "text":"Examine the scene.",
@@ -432,12 +437,7 @@
     },
     {
         "id":"bwm72_torture_2",
-        "message":"[After several minutes of careful but fruitless search, you decide to take one of the ropes that were presumably used by the torturer]",
-        "replies":[
-            {
-                
-            }
-        ],
+        "message":"After several minutes of careful but fruitless search, you decide to take one of the ropes that were presumably used by the torturer.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -453,41 +453,50 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":5
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ehrenfest",
+                "mapName":"blackwater_mountain11"
             }
         ]
     },
     {
         "id":"bwm74_h_warning",
-        "message":"[The very few rays of light that barely illuminate this small tunnel get lost in the inmense darkness of this hole. There's neither ropes nor vines that could help you to go down. Furthermore, you can neither figure out how far away the floor is. Assured of not being prepared to explore whatever would be down there, you decide to avoid the hole and continue your way to the other shore]",
+        "message":"The very few rays of light that barely illuminate this small tunnel get lost in the inmense darkness of this hole. There's neither ropes nor vines that could help you to go down. Furthermore, you can neither figure out how far away the floor is.",
         "replies":[
             {
-                
+                "text":"N",
+                "nextPhraseID":"bwm74_h_warning_2"
             }
         ]
     },
     {
+        "id":"bwm74_h_warning_2",
+        "message":"Assured of not being prepared to explore whatever would be down there, you decide to avoid the hole and continue your way to the other shore."
+    },
+    {
         "id":"bwm74_waterfall",
-        "message":"[From this place you can spot a numerous couple of slopes the current follows loyally. Further away, the stream ends abruptly in what seems to be a waterfall and after that, just darkness. It is definitely not a good idea to keep going this way without any reason] "
+        "message":"From this place you can spot a numerous couple of slopes the current follows loyally. Further away, the stream ends abruptly in what seems to be a waterfall and after that, just darkness.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm74_waterfall_2"
+            }
+        ]
+    },
+    {
+        "id":"bwm74_waterfall_2",
+        "message":"It is definitely not a good idea to keep going this way without any reason."
     },
     {
         "id":"bwm75_sign",
-        "message":"[There's nothing written here anymore. The wood is rotten, dried and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here]"
+        "message":"There's nothing written here anymore. The wood is rotten, dried and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here."
     },
     {
         "id":"ehrenfest_selector",
         "replies":[
             {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Omi2_bwm1",
-                        "value":10
-                    }
-                ]
-            },
-            {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_0",
                 "requires":[
                     {
@@ -578,7 +587,14 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"ehrenfest_34"
+                "nextPhraseID":"ehrenfest_34",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":20
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -679,7 +695,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain11"
             }
@@ -800,27 +816,27 @@
                 "value":7
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"general_ortholion",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion",
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ortholion_guard1",
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ortholion_guard2",
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"prim_guard5",
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"prim_guard6",
                 "mapName":"blackwater_mountain29"
             },
@@ -861,7 +877,7 @@
     },
     {
         "id":"prim_guard5_3a",
-        "message":"Look, I have more important things to do that babysitting a kid, ok?",
+        "message":"Look, I have more important things to do than babysitting a kid, ok?",
         "replies":[
             {
                 "text":"Bye.",
@@ -914,11 +930,12 @@
     },
     {
         "id":"prim_guard6_1",
-        "message":"[The guard is mumbling something to itself and seems not to be either feeling your presence or ignoring you completely]"
+        "message":"The guard is mumbling something to itself and seems not to be either feeling your presence or ignoring you completely.",
+        "switchToNPC":"ortholion"
     },
     {
         "id":"ortholion_conversation_1",
-        "message":"[In front of you, some guys seem to be hearing carefully or rather gingerly a charismatic voice]",
+        "message":"In front of you, some guys seem to be hearing carefully or rather gingerly a charismatic voice.",
         "replies":[
             {
                 "text":"N",
@@ -980,7 +997,7 @@
     },
     {
         "id":"ortholion_conversation_7",
-        "message":"Yeah, yeah. I'm aware of the current situation. \n\nOk, first of all, I will leave some of my men here to reinforce the village. They are reliable...Most of them at least.",
+        "message":"Yeah, yeah. I'm aware of the current situation. \n\nOk, first of all, I will leave some of my men here to reinforce the village. They are reliable ... Most of them at least.",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -1001,7 +1018,7 @@
     },
     {
         "id":"ortholion_conversation_9",
-        "message":"Feygard will consider that the villagers of Prim will have fullfilled and exceeded their duties with the kingdom if, and only if Prim leaves the full managment of the mines to the capital.",
+        "message":"Feygard will consider that the villagers of Prim will have fulfilled and exceeded their duties with the kingdom if, and only if Prim leaves the full managment of the mines to the capital.",
         "replies":[
             {
                 "text":"N",
@@ -1023,7 +1040,7 @@
     {
         "id":"ortholion_conversation_11",
         "message":"HOW YOU DARE TO INTERRUPT MY GENERAL?! \n\n[Guards of both sides get more and more tensed up]",
-        "switchToNPC":"ortholion_guard0",
+        "switchToNPC":"ortholion_guard1",
         "replies":[
             {
                 "text":"N",
@@ -1059,12 +1076,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"general_ortholion",
-                "mapName":"blackwater_mountain29"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"general_ortholion",
+                "rewardID":"ortholion",
                 "mapName":"blackwater_mountain29"
             },
             {
@@ -1073,17 +1085,7 @@
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard1",
-                "mapName":"blackwater_mountain29"
-            },
-            {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard2",
-                "mapName":"blackwater_mountain29"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
                 "rewardID":"ortholion_guard2",
                 "mapName":"blackwater_mountain29"
             },
@@ -1098,28 +1100,33 @@
                 "value":8
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard1",
                 "mapName":"blackwater_mountain11"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_2",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard1a",
                 "mapName":"blackwater_mountain11"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_2",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard3a",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_3",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard5",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard6",
                 "mapName":"blackwater_mountain10"
             }
         ]
@@ -1684,7 +1691,6 @@
     },
     {
         "id":"ortholion_guard3_selector",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -1698,7 +1704,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_2",
                 "requires":[
                     {
@@ -1709,7 +1714,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_1",
                 "requires":[
                     {
@@ -1719,7 +1723,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_1b"
             }
         ]
@@ -1752,7 +1755,7 @@
     {
         "id":"ehrenfest_conversation_1",
         "message":"OUT OF THE WAY, COMMONERS!\n\n[You and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence]",
-        "switchToNPC":"ortholion_guard0",
+        "switchToNPC":"ortholion_guard_hidden",
         "replies":[
             {
                 "text":"N",
@@ -1763,7 +1766,7 @@
     {
         "id":"ehrenfest_conversation_2",
         "message":"I will say it only once. No taverns, no exploring, no dramas with those untrained Prim guards and for the glory of our homeland don't pursue any injured monster.",
-        "switchToNPC":"ortholion",
+        "switchToNPC":"ortholion_hidden",
         "replies":[
             {
                 "text":"N",
@@ -1783,12 +1786,12 @@
     },
     {
         "id":"ehrenfest_conversation_4",
-        "message":"Yes, my general.\n\n[The three guys continue his way out of the village, completely ignoring your presence]",
-        "switchToNPC":"ortholion_guard0",
+        "message":"Yes, my general.",
+        "switchToNPC":"ortholion_guard_hidden",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ehrenfest_4"
+                "nextPhraseID":"ehrenfest_conversation_4a"
             }
         ],
         "rewards":[
@@ -1803,39 +1806,55 @@
                 "value":10
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_2",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard3a",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_3",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard5",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard6",
+                "mapName":"blackwater_mountain10"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard1",
                 "mapName":"blackwater_mountain11"
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_2",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard1a",
                 "mapName":"blackwater_mountain11"
             }
         ]
     },
     {
+        "id":"ehrenfest_conversation_4a",
+        "message":"The three guys continue their way out of the village, completely ignoring your presence.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_4"
+            }
+        ]
+    },
+    {
         "id":"ehrenfest_4",
-        "message":"[Once the guards pass by, you resume the conversation]\n\n*looks nervious* I told you. Something big is about to happen and I believe it is somehow related with what you've seen up in the mountain.",
+        "message":"*looks nervious*  I told you. Something big is about to happen and I believe it is somehow related with what you've seen up in the mountain.",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
-                "text":"How they reached this place?",
+                "text":"How did they reached this place?",
                 "nextPhraseID":"ehrenfest_5a"
             },
             {
@@ -1917,17 +1936,12 @@
                 "value":11
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ehrenfest",
                 "mapName":"elm_mine1"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain11"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain11"
             }
@@ -1953,17 +1967,12 @@
                 "value":11
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ehrenfest",
                 "mapName":"elm_mine1"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain11"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
+                "rewardType":"removeSpawnArea",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain11"
             }
@@ -1971,7 +1980,7 @@
     },
     {
         "id":"ehrenfest_7c",
-        "message":"I'm afraid It will. Farewell.",
+        "message":"I'm afraid it will. Farewell.",
         "replies":[
             {
                 "text":"Uhh, great. Bye.",
@@ -1993,17 +2002,12 @@
                 "value":11
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ehrenfest",
                 "mapName":"elm_mine1"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain11"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain11"
             }
@@ -2042,8 +2046,7 @@
     },
     {
         "id":"ehrenfest_calling_1",
-        "message":"Psst! Come, come here.\n\n[The voice is coming from the dining-room]",
-        "switchToNPC":"ehrenfest",
+        "message":"Someone is whispering: ""Psst, come! Come here!""\n\nThe voice is coming from the dining-room.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2502,7 +2505,7 @@
         "message":"[Ehrenfest stays quiet with his head down]",
         "replies":[
             {
-                "text":"So...Why the guards did not bring Lorn's remains to the village?",
+                "text":"So ... Why the guards did not bring Lorn's remains to the village?",
                 "nextPhraseID":"ehrenfest_29a"
             }
         ]
@@ -2824,12 +2827,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":21
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"prim_tavern_guest4",
+                "mapName":"blackwater_mountain22"
             }
         ]
     },
     {
         "id":"prim_commoner4_4",
-        "message":"Lorn? Nothing, I barely know him, neither his comrades, Dualia and... No idea. \\n What's wrong with him?",
+        "message":"Lorn? Nothing, I barely know him, neither his comrades, Dualia and... No idea. \n\n What's wrong with him?",
         "replies":[
             {
                 "text":"He was killed several days ago.",
@@ -2957,6 +2965,7 @@
         "message":"Lorn t...too? We will all die!",
         "replies":[
             {
+				"text":"N",
                 "nextPhraseID":"prim_tavern_guest4_7"
             }
         ]
@@ -3047,7 +3056,7 @@
     },
     {
         "id":"prim_tavern_guest4_12b",
-        "message":"WHAT?! *hits the table and gets up* \\n Is that what we get in exchange of...?!",
+        "message":"WHAT?! *hits the table and gets up* \n\n Is that what we get in exchange of...?!",
         "replies":[
             {
                 "text":"N",
@@ -3372,7 +3381,7 @@
     },
     {
         "id":"bwm_wellspring_1",
-        "message":"[A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent]",
+        "message":"A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent.",
         "replies":[
             {
                 "text":"Fill a bottle of water.",
@@ -3800,7 +3809,7 @@
     },
     {
         "id":"prim_tavern_guest4_34c",
-        "message":"No, I don't think so. He was so drunk, and me too! \\n We passed the whole night singing, chatting, forgetting...",
+        "message":"No, I don't think so. He was so drunk, and me too! \n We passed the whole night singing, chatting, forgetting...",
         "replies":[
             {
                 "text":"What about the missing couple?",
@@ -3947,7 +3956,7 @@
     },
     {
         "id":"ehrenfest_36",
-        "message":"Remember while you were asking for Lorn, I asked some villagers precisely about that missing couple. ",
+        "message":"Remember while you were asking for Lorn, I asked some villagers precisely about that missing couple.",
         "replies":[
             {
                 "text":"I'm not going to hear your stories anymore.",
@@ -3955,7 +3964,7 @@
             },
             {
                 "text":"What I remember is you, telling me about that missing couple.",
-                "nextPhraseID":"ehrenfest_36"
+                "nextPhraseID":"ehrenfest_37a"
             }
         ]
     },
@@ -4266,8 +4275,8 @@
                 "value":15
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"spawnAll",
+                "rewardID":"ortholion_guard_wounded",
                 "mapName":"blackwater_mountain31"
             },
             {
@@ -4385,7 +4394,7 @@
     },
     {
         "id":"ortholion_gw_3a",
-        "message":"I don't *cough*, think anybody would be that crazy to send a kid to a place like this. \\n Sorry, *cough*, I don't have energy for holding up nonsense."
+        "message":"I don't *cough*, think anybody would be that crazy to send a kid to a place like this. \n\n Sorry, *cough*, I don't have energy for holding up nonsense."
     },
     {
         "id":"ortholion_gw_3b",
@@ -4393,7 +4402,8 @@
     },
     {
         "id":"ortholion_gw_sleeping",
-        "message":"[The scout is sleeping on the ground. His wounds don't seem to be that bad]"
+		"switchToNPC":"none",
+        "message":"The scout is sleeping on the ground. His wounds don't seem to be that bad."
     },
     {
         "id":"ortholion_gw_3c",
@@ -4411,7 +4421,7 @@
     },
     {
         "id":"ortholion_gw_4",
-        "message":"Wh..*cough* NO! \\n [You manage to land a fatal blow to the already wounded soldier. Once you're sure she's dead, you set her body aside, out of the cabin]",
+        "message":"Wh..*cough* NO! \n\n [You manage to land a fatal blow to the already wounded soldier. Once you're sure she's dead, you set her body aside, out of the cabin]",
         "replies":[
             {
                 "text":"One less. Good.",
@@ -4427,7 +4437,12 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":35
-            }
+            },
+			{
+				"rewardType":"removeSpawnArea",
+				"rewardID":"ortholion_guard_wounded",
+				"mapName":"blackwater_mountain31"
+			}
         ]
     },
     {
@@ -4612,17 +4627,12 @@
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"prim_guard6",
-                "mapName":"blackwater_mountain29"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"prim_guard7",
                 "mapName":"blackwater_mountain29"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"jern",
                 "mapName":"blackwater_mountain29"
             }
@@ -4738,7 +4748,7 @@
     },
     {
         "id":"capvjern_6",
-        "message":"How can you be so sure? Accidents occur! He could have fallen off during an attack or a rock slide.\n",
+        "message":"How can you be so sure? Accidents occur! He could have fallen off during an attack or a rock slide.",
         "replies":[
             {
                 "text":"N",
@@ -5008,7 +5018,7 @@
     {
         "id":"ortholion_subdued_2",
         "message":"[The scout stares at you wich an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm]",
-        "switchToNPC":"ortholion_guard4",
+        "switchToNPC":"ortholion_subdued",
         "replies":[
             {
                 "text":"Argh! What the...?",
@@ -5077,13 +5087,8 @@
                 "value":20
             },
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"ortholion_guard4_2",
-                "mapName":"blackwater_mountain32"
-            },
-            {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard4_2",
+                "rewardID":"ortholion_subdued",
                 "mapName":"blackwater_mountain32"
             }
         ]
@@ -5097,7 +5102,7 @@
                 "requires":[
                     {
                         "requireType":"killedMonster",
-                        "requireID":"ortholion_guard4",
+                        "requireID":"ortholion_subdued",
                         "value":1
                     },
                     {
@@ -5286,8 +5291,8 @@
         ],
         "rewards":[
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_1",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard_wounded",
                 "mapName":"blackwater_mountain31"
             }
         ]
@@ -5461,11 +5466,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain43"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain43"
             }
         ]
     },
@@ -5529,11 +5529,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":45
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ehrenfest",
-                "mapName":"blackwater_mountain43"
             },
             {
                 "rewardType":"removeSpawnArea",
@@ -5827,12 +5822,12 @@
         ],
         "rewards":[
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ehrenfest",
                 "mapName":"blackwater_mountain43"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ortholion",
                 "mapName":"blackwater_mountain43"
             }
@@ -5923,32 +5918,22 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard_1",
-                "mapName":"blackwater_mountain10"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_1",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard_2",
-                "mapName":"blackwater_mountain10"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_2",
+                "rewardID":"ortholion_guard3b",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard_3",
+                "rewardID":"ortholion_guard5",
                 "mapName":"blackwater_mountain10"
             },
             {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion_guard_3",
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard6",
                 "mapName":"blackwater_mountain10"
             }
         ]
@@ -6885,11 +6870,6 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"elm5_ally1",
                 "mapName":"elm_mine5"
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"elm5_ally1",
-                "mapName":"elm_mine5"
             }
         ]
     },
@@ -7095,12 +7075,12 @@
                 "value":49
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"elm2f_monster1",
                 "mapName":"elm_2f_1"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"elm2f_monster2",
                 "mapName":"elm_2f_1"
             }
@@ -7247,7 +7227,7 @@
                 "value":33
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"elm2f2_chest",
                 "mapName":"elm_2f_2"
             }
@@ -7764,7 +7744,7 @@
                 "mapName":"elm5f_2"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ortholion2",
                 "mapName":"elm5f_2"
             },
@@ -7899,7 +7879,7 @@
                 "value":53
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"kamelio",
                 "mapName":"elm5f_2"
             },
@@ -7959,7 +7939,7 @@
                 "value":37
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"kamelio_minion",
                 "mapName":"elm5f_2"
             },
@@ -8023,7 +8003,7 @@
                 "value":37
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"kamelio_minion",
                 "mapName":"elm5f_2"
             },
@@ -8128,7 +8108,7 @@
                 "value":37
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"kamelio_minion",
                 "mapName":"elm5f_2"
             },
@@ -8163,7 +8143,7 @@
                 "value":37
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"kamelio_minion",
                 "mapName":"elm5f_2"
             },
@@ -8275,7 +8255,7 @@
                 "value":39
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"kamelio2",
                 "mapName":"elm5f_2"
             },
@@ -8362,7 +8342,7 @@
     },
     {
         "id":"ortholion_10b",
-        "message":"You might not be wrong at all...But this is no place to talk, full of these odd-looking creatures.",
+        "message":"You might not be wrong at all... But this is no place to talk, full of these odd-looking creatures.",
         "replies":[
             {
                 "text":"N",
@@ -8382,7 +8362,7 @@
     },
     {
         "id":"ortholion_11",
-        "message":"This is humillating enough...I'll get out of this cave. I'll be at the mine entrance.",
+        "message":"This is humilating enough... I'll get out of this cave. I'll be at the mine entrance.",
         "replies":[
             {
                 "text":"You are of no interest to me. Bye.",
@@ -8414,7 +8394,7 @@
                 "nextPhraseID":"R"
             },
             {
-                "text":"Shad...Yeah, let's meet later.",
+                "text":"Shad... Yeah, let's meet later.",
                 "nextPhraseID":"R"
             }
         ]
@@ -8468,14 +8448,14 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Fine. Keep the good work, hah.",
+                "text":"Fine. Keep the good work, hah!",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"arghest_15",
-        "message":"Suit yourself...But no one else went there in weeks.",
+        "message":"Suit yourself... But no one else went there in weeks.",
         "replies":[
             {
                 "text":"Thanks, bye.",
@@ -8561,7 +8541,7 @@
         "message":"No! *looks at you* This is my beeeeeer, kid! *hic*",
         "replies":[
             {
-                "text":"Uh...How they did get drunk that fast?",
+                "text":"Uh... How they did get drunk that fast?",
                 "nextPhraseID":"X"
             },
             {
@@ -8601,27 +8581,27 @@
         ],
         "rewards":[
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"ortholion",
                 "mapName":"elm_mine1"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"guard1",
                 "mapName":"elm_mine1"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"guard2",
                 "mapName":"elm_mine1"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"guard3",
                 "mapName":"elm_mine1"
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"guard4",
                 "mapName":"elm_mine1"
             },
@@ -8631,7 +8611,7 @@
                 "value":40
             },
             {
-                "rewardType":"activateMapObjectGroup",
+                "rewardType":"spawnAll",
                 "rewardID":"guard5",
                 "mapName":"elm_mine1"
             }
@@ -8683,7 +8663,7 @@
     },
     {
         "id":"ortholion_14",
-        "message":"*looking at you* But thanks to your act of bravery, I'm alive and not injured...Not severely.",
+        "message":"*looking at you* But thanks to your act of bravery, I'm alive and not injured... Not severely.",
         "replies":[
             {
                 "text":"What will you do now?",
@@ -8854,7 +8834,7 @@
     },
     {
         "id":"ortholion_19b",
-        "message":"I see, I see. You're a clever guy *makes signs to two soldiers*. Take this much larger bag full of jewels my men have been gathering...from the mines.",
+        "message":"I see, I see. You're a clever guy *makes signs to two soldiers*. Take this much larger bag full of jewels my men have been gathering... from the mines.",
         "replies":[
             {
                 "text":"Great! [Take the large bag]",
@@ -8868,7 +8848,7 @@
     },
     {
         "id":"ortholion_16c",
-        "message":"Well, well. Look who's back. ",
+        "message":"Well, well. Look who's back.",
         "replies":[
             {
                 "text":"...",

@@ -40,6 +40,7 @@
     },
     {
         "id":"bwm72_beginning",
+        "showInLog":1,
         "name":"Hidden: events in bwm",
         "stages":[
             {
@@ -240,7 +241,7 @@
             },
             {
                 "progress":10,
-                "logText":"A Feygard general and two henchmen appeared. They must be up to no good."
+                "logText":"A Feygard general and two of his henchmen appeared. They must be up to no good."
             },
             {
                 "progress":11,
@@ -312,7 +313,7 @@
             },
             {
                 "progress":36,
-                "logText":"I talked again with Jern. Maybe the guards will be more reasonable if he instead of me leads the conversation.",
+                "logText":"I talked again with Jern. Maybe the guards will be more reasonable if he leads the conversation instead of me.",
                 "rewardExperience":400
             },
             {
@@ -349,12 +350,12 @@
             },
             {
                 "progress":50,
-                "logText":"It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able of engulfing live beings. I found last Ortholion's henchman alive. He has gone all the way back to search for reinforcements. Hope they are better than those who neither dared to enter here.",
+                "logText":"It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able of engulfing live beings. I found the remaining Ortholion's henchman alive. He has gone all the way back to search for reinforcements. Hope they are better than those who neither dared to enther here.",
                 "rewardExperience":600
             },
             {
                 "progress":51,
-                "logText":"Ended up trapped in a one-way path and deep into a cavern below Elm mine, general Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
+                "logText":"Ended up trapped in a one-way path deep into a cavern below the Elm mine, General Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
             },
             {
                 "progress":52,
@@ -405,6 +406,7 @@
                 "logText":"For my bravery and... Ignorance?, general ortholion gave me some days to rest and urged me to come back just after that.",
                 "rewardExperience":10000
             }
+        ]
         ]
     }
 ]

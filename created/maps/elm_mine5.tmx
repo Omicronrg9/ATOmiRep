@@ -297,6 +297,8 @@
     <property name="place" value="up"/>
    </properties>
   </object>
+  <object id="17" name="elm_drop2" type="container" x="160" y="352" width="32" height="32"/>
+  <object id="18" name="elm_drop3" type="container" x="160" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="9" name="Spawn">
   <object id="5" name="elm5_monster1" type="spawn" x="256" y="192" width="32" height="128">
@@ -349,7 +351,7 @@
     <property name="spawngroup" value="elm_mine1"/>
    </properties>
   </object>
-  <object id="14" name="elm5_ally1" type="spawn" x="160" y="128" width="32" height="32">
+  <object id="14" name="ortholion_guard8" type="spawn" x="160" y="128" width="32" height="32">
    <properties>
     <property name="spawngroup" value="ortholion_guard8"/>
    </properties>
@@ -372,8 +374,6 @@
     <property name="requireValue" value="32"/>
    </properties>
   </object>
-  <object id="17" name="elm_drop2" type="container" x="160" y="352" width="32" height="32"/>
-  <object id="18" name="elm_drop2" type="container" x="160" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="11" name="Replace">
   <object id="19" name="elm5_ore" type="replace" x="416" y="608" width="32" height="32">

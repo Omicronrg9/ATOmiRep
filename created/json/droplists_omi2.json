@@ -1124,6 +1124,27 @@
         ]
     },
     {
+        "id":"elm_drop3",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"bwm_olm_drop",
+                "chance":"20",
+                "quantity":{
+                    "min":1,
+                    "max":4
+                }
+            }
+        ]
+    },
+    {
         "id":"elm_fiend",
         "items":[
             {

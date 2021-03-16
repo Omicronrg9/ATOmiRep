@@ -960,16 +960,6 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ortholion_conversation_4"
-            }
-        ]
-    },
-    {
-        "id":"ortholion_conversation_4",
-        "message":"...",
-        "switchToNPC":"prim_guard5",
-        "replies":[
-            {
                 "nextPhraseID":"ortholion_conversation_5"
             }
         ]
@@ -977,6 +967,7 @@
     {
         "id":"ortholion_conversation_5",
         "message":"With all due respect, general, the problems our village is passing through are wider and more complex than a simple disagreement with the people of Blackwater Settlement.",
+        "switchToNPC":"prim_guard5",
         "replies":[
             {
                 "text":"N",
@@ -997,8 +988,18 @@
     },
     {
         "id":"ortholion_conversation_7",
-        "message":"Yeah, yeah. I'm aware of the current situation. \n\nOk, first of all, I will leave some of my men here to reinforce the village. They are reliable ... Most of them at least.",
+        "message":"Yeah, yeah. I'm aware of the current situation.",
         "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_7a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_7a",
+        "message":"So, first of all, I will leave some of my men here to reinforce the village. They are reliable ... Most of them at least.",
         "replies":[
             {
                 "text":"N",
@@ -1008,7 +1009,7 @@
     },
     {
         "id":"ortholion_conversation_8",
-        "message":"I will travel to Blackwater settlement, and in the meanwhile, you must think about this offer:",
+        "message":"Then I will travel to Blackwater settlement. In the meanwhile, you must think about this offer:",
         "replies":[
             {
                 "text":"N",
@@ -1018,7 +1019,7 @@
     },
     {
         "id":"ortholion_conversation_9",
-        "message":"Feygard will consider that the villagers of Prim will have fulfilled and exceeded their duties with the kingdom if, and only if Prim leaves the full managment of the mines to the capital.",
+        "message":"Feygard will consider that the villagers of Prim will have fulfilled and exceeded their duties with the kingdom if - and only if - Prim leaves the full managment of the mines to the capital.",
         "replies":[
             {
                 "text":"N",
@@ -1039,8 +1040,19 @@
     },
     {
         "id":"ortholion_conversation_11",
-        "message":"HOW YOU DARE TO INTERRUPT MY GENERAL?! \n\n[Guards of both sides get more and more tensed up]",
+        "message":"HOW YOU DARE TO INTERRUPT MY GENERAL?!",
         "switchToNPC":"ortholion_guard1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_conversation_11a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation_11a",
+        "message":"Guards of both sides get more and more tensed up.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -1071,7 +1083,7 @@
     },
     {
         "id":"ortholion_conversation_14",
-        "message":"...We will truly consider your proposal. Best of luck in your travel, general.",
+        "message":"[surpressed anger] We will truly consider your proposal. Best of luck in your travel, general.",
         "switchToNPC":"prim_guard5",
         "rewards":[
             {
@@ -1101,12 +1113,12 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard1",
+                "rewardID":"ortholion_guard1a",
                 "mapName":"blackwater_mountain11"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard1a",
+                "rewardID":"ortholion_guard1b",
                 "mapName":"blackwater_mountain11"
             },
             {
@@ -1754,8 +1766,19 @@
     },
     {
         "id":"ehrenfest_conversation_1",
-        "message":"OUT OF THE WAY, COMMONERS!\n\n[You and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence]",
+        "message":"OUT OF THE WAY, COMMONERS!",
         "switchToNPC":"ortholion_guard_hidden",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_conversation_1a"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_conversation_1a",
+        "message":"You and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -1827,12 +1850,12 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard1",
+                "rewardID":"ortholion_guard1a",
                 "mapName":"blackwater_mountain11"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"ortholion_guard1a",
+                "rewardID":"ortholion_guard1b",
                 "mapName":"blackwater_mountain11"
             }
         ]
@@ -3089,7 +3112,6 @@
         "id":"prim_tavern_guest4_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"capvjern_22",
                 "requires":[
                     {
@@ -3100,7 +3122,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"capvjern_15",
                 "requires":[
                     {
@@ -3111,7 +3132,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"capvjern_1",
                 "requires":[
                     {
@@ -3138,7 +3158,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4_36c",
                 "requires":[
                     {
@@ -3149,7 +3168,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4_33a",
                 "requires":[
                     {
@@ -3160,7 +3178,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4_19",
                 "requires":[
                     {
@@ -3171,7 +3188,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4_17b",
                 "requires":[
                     {
@@ -3182,7 +3198,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4_14a",
                 "requires":[
                     {
@@ -3199,7 +3214,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4"
             }
         ]
@@ -5142,7 +5156,6 @@
         "id":"ortholion_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_busy",
                 "requires":[
                     {
@@ -5153,7 +5166,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_16d",
                 "requires":[
                     {
@@ -5164,7 +5176,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_16c",
                 "requires":[
                     {
@@ -5175,11 +5186,9 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_13"
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_9",
                 "requires":[
                     {
@@ -5190,7 +5199,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_c3",
                 "requires":[
                     {
@@ -5207,7 +5215,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_conscious",
                 "requires":[
                     {
@@ -5224,7 +5231,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_unconscious",
                 "requires":[
                     {
@@ -5235,7 +5241,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_8a",
                 "requires":[
                     {
@@ -5246,7 +5251,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_1",
                 "requires":[
                     {
@@ -5257,7 +5261,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_conversation2_1"
             }
         ]
@@ -5268,7 +5271,7 @@
         "switchToNPC":"ortholion",
         "replies":[
             {
-                "text":"N",
+                "text":"-todo-",
                 "nextPhraseID":"ortholion_conversation2_2a",
                 "requires":[
                     {
@@ -5279,6 +5282,7 @@
                 ]
             },
             {
+                "text":"-todo-",
                 "nextPhraseID":"ortholion_conversation2_2b",
                 "requires":[
                     {
@@ -5325,7 +5329,7 @@
         "switchToNPC":"ehrenfest",
         "replies":[
             {
-                "text":"N",
+                "text":"-todo-",
                 "nextPhraseID":"ortholion_conversation2_5a"
             },
             {
@@ -5837,7 +5841,6 @@
         "id":"fms_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"fms_3",
                 "requires":[
                     {
@@ -5848,7 +5851,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"fms_1",
                 "requires":[
                     {
@@ -5857,6 +5859,19 @@
                         "value":46
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"fms_0"
+            }
+        ]
+    },
+    {
+        "id":"fms_0",
+        "message":"Hey kid! Go back to your village and play inside!",
+        "replies":[
+            {
+                "text":"Play? Hah!",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -5918,7 +5933,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard3",
+                "rewardID":"ortholion_guard3a",
                 "mapName":"blackwater_mountain10"
             },
             {
@@ -6868,7 +6883,7 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"elm5_ally1",
+                "rewardID":"ortholion_guard8",
                 "mapName":"elm_mine5"
             }
         ]
@@ -8289,7 +8304,6 @@
         "id":"elm5f_kamelio_entrance",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm5f_kamelio_e1",
                 "requires":[
                     {
@@ -8469,7 +8483,6 @@
     },
     {
         "id":"ortholion_celebration",
-        "message":"",
         "replies":[
             {
                 "nextPhraseID":"X",
@@ -8482,7 +8495,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_celebration_2",
                 "requires":[
                     {
@@ -8501,7 +8513,6 @@
         "id":"ortholion_guard10_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard10_1",
                 "requires":[
                     {
@@ -8511,7 +8522,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard10_2",
                 "requires":[
                     {
@@ -8521,7 +8531,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard10_3",
                 "requires":[
                     {
@@ -8531,7 +8540,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard10_4"
             }
         ]
@@ -8587,33 +8595,33 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"guard1",
+                "rewardID":"ortholion_guard10b",
                 "mapName":"elm_mine1"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"guard2",
+                "rewardID":"ortholion_guard10a",
                 "mapName":"elm_mine1"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"guard3",
+                "rewardID":"ortholion_guard11b",
                 "mapName":"elm_mine1"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"guard4",
+                "rewardID":"ortholion_guard11a",
+                "mapName":"elm_mine1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"guard5",
                 "mapName":"elm_mine1"
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"bwm72_beginning",
                 "value":40
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"guard5",
-                "mapName":"elm_mine1"
             }
         ]
     },
@@ -8621,7 +8629,6 @@
         "id":"ortholion_preceleb",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_preceleb_2",
                 "requires":[
                     {
@@ -8639,11 +8646,6 @@
     {
         "id":"ortholion_preceleb_2",
         "rewards":[
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"ortholion2",
-                "mapName":"elm5f_2"
-            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"ortholion2",
@@ -8943,7 +8945,7 @@
         "message":"Fine, it's all for you. Maybe this way you'll learn a lesson. Come see me in some days, you might be of use.",
         "replies":[
             {
-                "text":"No way, trickster!",
+                "text":"A bag ful off junk necklaces and rings?! No way, trickster!",
                 "nextPhraseID":"X"
             },
             {
@@ -8994,7 +8996,7 @@
     },
     {
         "id":"ortholion_19c",
-        "message":"Surprised? That how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
+        "message":"Surprised? That's how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
         "replies":[
             {
                 "text":"You liar...! Hmpf.",
@@ -9068,7 +9070,7 @@
     },
     {
         "id":"ortholion_18d",
-        "message":"I would say that is a...very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days.",
+        "message":"I would say that is a ... very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days.",
         "replies":[
             {
                 "text":"So no reward...Uh, bye.",
@@ -9129,7 +9131,7 @@
     },
     {
         "id":"ortholion_20c",
-        "message":"Would you like your bones be used in some sort of ritual to make those potions? Because in winter, where big mammals, erumen lizards and other beasts hibernate, there's only one kind of bones useful for that, ours.",
+        "message":"Would you like your bones be used in some sort of ritual to make those potions? Because in winter, where big mammals, erumen lizards and other beasts hibernate, there's only one kind of bones useful for that: ours.",
         "replies":[
             {
                 "text":"N",

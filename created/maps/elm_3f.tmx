@@ -290,7 +290,7 @@
     <property name="spawngroup" value="elm_mine3"/>
    </properties>
   </object>
-  <object id="11" name="elm3f_ally1" type="spawn" x="96" y="64" width="96" height="64">
+  <object id="11" name="ortholion_guard9" type="spawn" x="96" y="64" width="96" height="64">
    <properties>
     <property name="spawngroup" value="ortholion_guard9"/>
    </properties>

@@ -527,7 +527,8 @@
         "description":"Gelatinous, stinky, but nutritious.",
         "useEffect":{
             "increaseCurrentHP":{
-                "min":0
+                "min":0,
+				"max":2
             },
             "conditionsSource":[
                 {

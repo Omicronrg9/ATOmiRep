@@ -288,12 +288,12 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
-  <object id="10" name="elm2_ally1" type="spawn" x="128" y="768" width="96" height="32">
+  <object id="10" name="ortholion_guard3a" type="spawn" x="128" y="768" width="96" height="32">
    <properties>
     <property name="spawngroup" value="ortholion_guard3"/>
    </properties>
   </object>
-  <object id="11" name="elm2_ally2" type="spawn" x="320" y="768" width="64" height="64">
+  <object id="11" name="ortholion_guard3b" type="spawn" x="320" y="768" width="64" height="64">
    <properties>
     <property name="spawngroup" value="ortholion_guard3"/>
    </properties>
@@ -314,7 +314,7 @@
     <property name="spawngroup" value="bwm_olm2"/>
    </properties>
   </object>
-  <object id="15" name="elm2_monster4" type="spawn" x="448" y="352" width="64" height="96">
+  <object id="15" name="ortholion_guard7" type="spawn" x="448" y="352" width="64" height="96">
    <properties>
     <property name="spawngroup" value="ortholion_guard7"/>
    </properties>

@@ -315,7 +315,7 @@
     <property name="spawngroup" value="ehrenfest"/>
    </properties>
   </object>
-  <object id="22" name="ortholion_guard1" type="spawn" x="96" y="864" width="96" height="32">
+  <object id="22" name="ortholion_guard1b" type="spawn" x="96" y="864" width="96" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ortholion_guard1"/>

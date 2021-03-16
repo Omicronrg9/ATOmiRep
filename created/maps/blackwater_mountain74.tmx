@@ -205,7 +205,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJztk8ENwCAMA5mi+6/AhlUflRDC5yTQXyMhHi0+O4R+tdaH9dS4f7F+Ro3x1mn9OQcxXNH/qzyUWTHJi8rmGOqM8n+SQRlXd6Ryk8+oJ6VJ/B2G8u706bub00wOpU+9obflNKrvt9oL14eI/g4nqu1mKzLD2Z5mep7Rr9xxlHED9RP7Fg==
+   eJztk1EKwCAMQz3F7n8Fbyh+DESaNLHub4UibJiXRu1Pa33pWev6Rf+MM8Zbt/X3ORgjKkU/YqC9+3fEy7w4DLQH+b/JYDNGZ4TmZj5VT0iT8SsM5D3TZ/8Zy50D6bNs2NvKNNyuZpHloOhXOKp2dreUO+xm6mTu6J+cscoY27z9aw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -247,6 +247,20 @@
   </object>
   <object id="10" name="bwm73_drop" type="container" x="128" y="288" width="32" height="32"/>
   <object id="11" name="bwm73_drop" type="container" x="704" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn" visible="0">
+  <object id="12" name="bwm74_monster1" type="spawn" x="256" y="192" width="256" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="venomfang_2"/>
+   </properties>
+  </object>
+  <object id="13" name="bwm74_monster2" type="spawn" x="256" y="288" width="256" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="tough_venomfang"/>
+   </properties>
+  </object>
   <object id="14" name="bwm74_monster3" type="spawn" x="640" y="384" width="96" height="128">
    <properties>
     <property name="quantity" value="2"/>
@@ -272,20 +286,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="12" name="bwm74_monster1" type="spawn" x="256" y="192" width="256" height="256">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="venomfang_2"/>
-   </properties>
-  </object>
-  <object id="13" name="bwm74_monster2" type="spawn" x="256" y="288" width="256" height="96">
-   <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tough_venomfang"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="8" name="Replace" visible="0"/>
 </map>

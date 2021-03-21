@@ -3,7 +3,6 @@
         "id":"bwm17_heights_1",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm17_heights_2",
                 "requires":[
                     {
@@ -38,7 +37,6 @@
         "id":"bwm17_heights2_1",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm17_heights2_2",
                 "requires":[
                     {
@@ -72,7 +70,6 @@
         "id":"bwm17_vine_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm17_vine_3",
                 "requires":[
                     {
@@ -83,7 +80,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"bwm17_vine_1"
             }
         ]
@@ -183,7 +179,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"bwm17_vine2_1"
             }
         ]
@@ -202,7 +197,6 @@
         "id":"bwm72_corpse1_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_corpse1_3",
                 "requires":[
                     {
@@ -213,7 +207,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_corpse1_1"
             }
         ]
@@ -272,7 +265,6 @@
         "id":"bwm72_corpse2_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_corpse2_3",
                 "requires":[
                     {
@@ -283,7 +275,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_corpse2_1"
             }
         ]
@@ -321,7 +312,6 @@
         "id":"bwm72_corpse3_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_corpse3_3",
                 "requires":[
                     {
@@ -332,7 +322,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_corpse3_1"
             }
         ]
@@ -388,7 +377,6 @@
         "id":"bwm72_torture_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_torture_3",
                 "requires":[
                     {
@@ -399,7 +387,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"bwm72_torture_1",
                 "requires":[
                     {
@@ -520,7 +507,6 @@
         "id":"ehrenfest_selector_2",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_49",
                 "requires":[
                     {
@@ -531,7 +517,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_conversation2_1",
                 "requires":[
                     {
@@ -542,7 +527,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_conversation2_1",
                 "requires":[
                     {
@@ -553,7 +537,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_46b",
                 "requires":[
                     {
@@ -564,7 +547,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_39c",
                 "requires":[
                     {
@@ -575,7 +557,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_38a",
                 "requires":[
                     {
@@ -586,7 +567,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_34",
                 "requires":[
                     {
@@ -597,7 +577,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_30c",
                 "requires":[
                     {
@@ -608,7 +587,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_25b",
                 "requires":[
                     {
@@ -619,7 +597,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_11",
                 "requires":[
                     {
@@ -630,7 +607,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_8",
                 "requires":[
                     {
@@ -641,7 +617,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_4",
                 "requires":[
                     {
@@ -652,7 +627,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_3b",
                 "requires":[
                     {
@@ -663,7 +637,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_2b2",
                 "requires":[
                     {
@@ -674,7 +647,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ehrenfest_0"
             }
         ]
@@ -1193,7 +1165,6 @@
         "id":"ortholion_guard_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard_0a",
                 "requires":[
                     {
@@ -1203,7 +1174,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard_0b",
                 "requires":[
                     {
@@ -1213,7 +1183,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard_0c",
                 "requires":[
                     {
@@ -1223,7 +1192,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard_0d"
             }
         ]
@@ -1705,7 +1673,6 @@
         "id":"ortholion_guard3_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard3_5",
                 "requires":[
                     {
@@ -4304,7 +4271,6 @@
         "id":"bwm30_ortholion_guards_selector",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"bwm30_ortholion_guards",
                 "requires":[
                     {
@@ -4339,7 +4305,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_gw_1"
             }
         ]
@@ -4660,7 +4625,6 @@
         "id":"prim_guard5_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"capvjern_22",
                 "requires":[
                     {
@@ -4671,7 +4635,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"capvjern_15",
                 "requires":[
                     {
@@ -4682,7 +4645,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"capvjern_1",
                 "requires":[
                     {
@@ -4693,7 +4655,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"prim_guard5_1"
             }
         ]
@@ -5064,7 +5025,6 @@
         "id":"ortholion_subdued_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_subdued_4",
                 "requires":[
                     {
@@ -5111,7 +5071,6 @@
         "id":"ortholion_subdued_s2",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_subdued_5",
                 "requires":[
                     {
@@ -5785,7 +5744,6 @@
         "id":"ortholion_checker1",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_checker1_1",
                 "requires":[
                     {
@@ -5796,7 +5754,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_checker1_1",
                 "requires":[
                     {
@@ -6035,7 +5992,6 @@
         "id":"elm2_passage2_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm2_passage2_1",
                 "requires":[
                     {
@@ -6046,7 +6002,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm2_passage2_2"
             }
         ]
@@ -6115,7 +6070,6 @@
         "id":"elm3_corpse_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm3_corpse_1",
                 "requires":[
                     {
@@ -6126,7 +6080,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm3_corpse_2"
             }
         ]
@@ -6208,7 +6161,6 @@
         "id":"venomfang_warning",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"venomfang_warning_1"
             }
         ]
@@ -6458,7 +6410,6 @@
         "id":"elm4_sign",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm4_sign1",
                 "requires":[
                     {
@@ -6475,7 +6426,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm4_sign2"
             }
         ]
@@ -6537,7 +6487,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm4_hole"
             }
         ]
@@ -6635,7 +6584,6 @@
         "id":"elm5_ore_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm5_ore_pbroken",
                 "requires":[
                     {
@@ -6650,7 +6598,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm5_ore_fail",
                 "requires":[
                     {
@@ -6660,7 +6607,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm5_ore_success"
             }
         ]
@@ -6751,7 +6697,6 @@
         "id":"elm5_ore_s2",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm5_ore_mined",
                 "requires":[
                     {
@@ -6762,7 +6707,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm5_ore"
             }
         ]
@@ -6812,7 +6756,6 @@
         "id":"ortholion_guard8",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard8_consumed",
                 "requires":[
                     {
@@ -6823,7 +6766,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard8_dead",
                 "requires":[
                     {
@@ -6835,7 +6777,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard8_1"
             }
         ]
@@ -6950,7 +6891,6 @@
         "id":"elm2f_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm2f_crack_success",
                 "requires":[
                     {
@@ -6960,7 +6900,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm2f_crack_failure"
             }
         ]
@@ -7105,7 +7044,6 @@
         "id":"elm2f_passage_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm2f_passage_2",
                 "requires":[
                     {
@@ -7116,7 +7054,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm2f_passage"
             }
         ]
@@ -7158,7 +7095,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm2f2_chest_1"
             }
         ]
@@ -7209,7 +7145,6 @@
         "id":"elm2f2_chest_s",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm2f2_chest_4",
                 "requires":[
                     {
@@ -7220,7 +7155,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm2f2_chest_3"
             }
         ],
@@ -7550,7 +7484,6 @@
         "id":"elm4f_up",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elmf4_up_1",
                 "requires":[
                     {
@@ -7592,7 +7525,6 @@
         "id":"elm4f_down",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm4f_down_1",
                 "requires":[
                     {
@@ -7979,7 +7911,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"kamelio_1"
             }
         ]
@@ -8173,7 +8104,6 @@
         "id":"elm5f_kamelio",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"elm5f_kamelio_d2",
                 "requires":[
                     {
@@ -8184,7 +8114,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"elm5f_kamelio_d",
                 "requires":[
                     {

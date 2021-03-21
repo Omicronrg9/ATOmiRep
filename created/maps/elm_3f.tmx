@@ -212,7 +212,7 @@
  </layer>
  <layer id="4" name="Above" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8oICJNPWMwgh2A5JeQTnizWAXJqxmIMBVWVT+Qlb62kcMUCEhnAcKDDY3smJJ46SkV0IgmcQ8RA44LEaaenLSFjoAAM/OBsY=
+   eJxjYBh8oICJNPWMwgh2A5JeQTnizWAXJqxmIMBVWVT+Qlb62kcMUCEhnAcKDDY3smJJ46SkV0IgmcQ8RAhcFMIUOyxGmhnkpC10AABIYwep
   </data>
  </layer>
  <layer id="5" name="Above_2" width="15" height="20">
@@ -227,10 +227,10 @@
  </layer>
  <layer id="7" name="Walkable" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEAMS5Ajl6YGDY1hMzBZx4+M3Cpw+UfbGahux2XndjcgAvgUkco/PCFMyG30CJ+sYULKfZSkibprZeYcCUlfklJA6TEIzHxiw2QGybIGABlBKJ4
+   eJzbKMbAsHEAMS5Ajl6YGDY1hMzBZx4+M3Cpw+UfbGahux2XndjcgAvgUkco/PCFMyG30CJ+sYULKfZSkibprZeYcCUlfklJA+T6jRRAbpggYwDOpqM/
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="8" name="Mapevents" visible="0">
   <object id="1" name="up" type="mapchange" x="448" y="128" width="32" height="64">
    <properties>
     <property name="map" value="elm_2f_3"/>
@@ -244,7 +244,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn">
+ <objectgroup id="9" name="Spawn" visible="0">
   <object id="3" name="elm3f_monster1" type="spawn" x="224" y="128" width="192" height="160">
    <properties>
     <property name="quantity" value="3"/>

@@ -134,11 +134,23 @@
         "message":"You find a hole next to a large rock which seems decently nailed on the floor.",
         "replies":[
             {
+                "text":"Maybe I should look around here or a little further up the mountain?",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"bwm17_vine",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Tie the vine to the rock.",
                 "nextPhraseID":"bwm17_vine2_2",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"inventoryRemove",
                         "requireID":"bwm17_vine",
                         "value":1
                     }
@@ -194,10 +206,131 @@
         ]
     },
     {
-        "id":"bwm72_corpse1_selector",
+        "id":"bwm72_corpse_n",
         "replies":[
             {
-                "nextPhraseID":"bwm72_corpse1_3",
+                "nextPhraseID":"bwm72_corpse_n_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_corpses",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwm72_corpse_n_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse_n_1",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_corpses"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_corpses",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse_n_2",
+        "message":"Nothing interesting here."
+    },
+    {
+        "id":"bwm72_corpse_w",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_corpse_w_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_corpses",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwm72_corpse_w_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse_w_1",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_corpses"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_corpses",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse_w_2",
+        "message":"You have already looked at this corpse."
+    },
+    {
+        "id":"bwm72_corpse_s",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_corpse_s_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_corpses",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwm72_corpse_s_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse_s_1",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_corpses"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_corpses",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"bwm72_corpse_s_2",
+        "message":"There's certainly nothing but rotten flesh and bones here."
+    },
+    {
+        "id":"bwm72_corpses",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_corpse3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwm72_corpse2_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -222,6 +355,13 @@
             {
                 "text":"Leave it be.",
                 "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":1
             }
         ]
     },
@@ -249,33 +389,6 @@
                 "rewardType":"actorCondition",
                 "rewardID":"poison_blood",
                 "value":5
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"bwm72_beginning",
-                "value":1
-            }
-        ]
-    },
-    {
-        "id":"bwm72_corpse1_3",
-        "message":"Nothing interesting here."
-    },
-    {
-        "id":"bwm72_corpse2_selector",
-        "replies":[
-            {
-                "nextPhraseID":"bwm72_corpse2_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":2
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"bwm72_corpse2_1"
             }
         ]
     },
@@ -291,6 +404,13 @@
                 "text":"Leave.",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":2
+            }
         ]
     },
     {
@@ -301,28 +421,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"bwm72_beginning",
                 "value":2
-            }
-        ]
-    },
-    {
-        "id":"bwm72_corpse2_3",
-        "message":"You have already looked at this corpse."
-    },
-    {
-        "id":"bwm72_corpse3_selector",
-        "replies":[
-            {
-                "nextPhraseID":"bwm72_corpse3_3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":3
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"bwm72_corpse3_1"
             }
         ]
     },
@@ -392,21 +490,28 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm72_beginning",
-                        "value":1
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":2
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
                         "value":3
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"bwm72_torture_0"
             }
         ]
+    },
+    {
+        "id":"bwm72_torture_0",
+        "message":"You don't feel good in this room. Something is utterly wrong here.",
+        "replies":[
+            {
+                "nextPhraseID":"bwm72_torture_0a",
+				"text":"N"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_torture_0a",
+        "message":"Keep looking around."
     },
     {
         "id":"bwm72_torture_3",
@@ -414,7 +519,17 @@
     },
     {
         "id":"bwm72_torture_1",
-        "message":"One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope. Someone has been tortured here, no doubt about it.",
+        "message":"One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm72_torture_1a"
+            }
+        ]
+    },
+    {
+        "id":"bwm72_torture_1a",
+        "message":"Someone has been tortured here, no doubt about it.",
         "replies":[
             {
                 "text":"Examine the scene.",
@@ -2021,16 +2136,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"bwm72_beginning",
-                "value":8
             }
         ]
     },
@@ -4022,6 +4127,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":31
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"elm_mine1"
             }
         ]
     },
@@ -4197,6 +4307,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"Omi2_bwm1",
                 "value":33
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ehrenfest",
+                "mapName":"elm_mine1"
             }
         ]
     },
@@ -4426,7 +4541,35 @@
     },
     {
         "id":"bwm30_ortholion_warning",
+        "replies":[
+            {
+                "nextPhraseID":"bwm30_ortholion_warning_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwm30_ortholion_warning_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm30_ortholion_warning_1",
         "message":"I should check out the cabin first."
+    },
+    {
+        "id":"bwm30_ortholion_warning_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm72_beginning",
+                "value":16
+            }
+        ]
     },
     {
         "id":"prim_tavern_guest4_37d",
@@ -4977,55 +5120,10 @@
         ]
     },
     {
-        "id":"ortholion_subdued_1",
-        "message":"Hmmm... Hmmm....",
-        "replies":[
-            {
-                "text":"Hey! I need to talk with the general, now!",
-                "nextPhraseID":"ortholion_subdued_2"
-            },
-            {
-                "text":"Step aside, lowly minion. I have business with your boss.",
-                "nextPhraseID":"ortholion_subdued_2"
-            }
-        ]
-    },
-    {
-        "id":"ortholion_subdued_2",
-        "message":"[The scout stares at you wich an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm]",
-        "switchToNPC":"ortholion_subdued",
-        "replies":[
-            {
-                "text":"Argh! What the...?",
-                "nextPhraseID":"F"
-            },
-            {
-                "text":"How you dare?! Prepare to die, Feygard scum.",
-                "nextPhraseID":"F"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"bleeding_wound",
-                "value":10
-            },
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"feebleness_minor",
-                "value":10
-            }
-        ]
-    },
-    {
-        "id":"ortholion_subdued_3",
-        "message":"[A slim girl stands in front of you. Her armor seems to be made from leather, but it seems to rigid, like frozen, just like her face. The Feygard coat of arms gleams in her suit, but it's overshadowed by her eyes, nailed in you]"
-    },
-    {
         "id":"ortholion_subdued_s",
         "replies":[
             {
-                "nextPhraseID":"ortholion_subdued_4",
+                "nextPhraseID":"ortholion_subdued_0",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -5052,8 +5150,8 @@
         ]
     },
     {
-        "id":"ortholion_subdued_4",
-        "message":"[You hear steps up in the mountain. It seems a Feygard soldier is guarding the cave entrance. General Ortholion must have already reached Blackwater Settlement]",
+        "id":"ortholion_subdued_0",
+        "message":"You hear steps up in the mountain. It seems a Feygard soldier is guarding the cave entrance. General Ortholion must have already reached Blackwater Settlement.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5064,6 +5162,67 @@
                 "rewardType":"spawnAll",
                 "rewardID":"ortholion_subdued",
                 "mapName":"blackwater_mountain32"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_1",
+        "switchToNPC":"ortholion_subdued",
+        "message":"Hmmm... Hmmm....",
+        "replies":[
+            {
+                "text":"Hey! I need to talk with the general, now!",
+                "nextPhraseID":"ortholion_subdued_2"
+            },
+            {
+                "text":"Step aside, lowly minion. I have business with your boss.",
+                "nextPhraseID":"ortholion_subdued_2"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_2",
+        "message":"The scout stares at you wich an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Argh! What the...?",
+                "nextPhraseID":"ortholion_subdued_2a"
+            },
+            {
+                "text":"How you dare?! Prepare to die, Feygard scum.",
+                "nextPhraseID":"ortholion_subdued_2a"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_2a",
+        "switchToNPC":"ortholion_subdued",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":10
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"feebleness_minor",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ortholion_subdued_3",
+        "message":"A slim girl stands in front of you. Her armor seems to be made from leather, but it seems to rigid, like frozen, just like her face. The Feygard coat of arms gleams in her suit, but it's overshadowed by her eyes, nailed in you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ortholion_subdued_1"
             }
         ]
     },
@@ -5146,6 +5305,13 @@
             },
             {
                 "nextPhraseID":"ortholion_13"
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":40
+                    }
+                ]
             },
             {
                 "nextPhraseID":"ortholion_9",
@@ -5220,18 +5386,7 @@
                 ]
             },
             {
-                "nextPhraseID":"ortholion_conversation2_1"
-            }
-        ]
-    },
-    {
-        "id":"ortholion_conversation2_1",
-        "message":"So you have come this far just to get rid of me...",
-        "switchToNPC":"ortholion",
-        "replies":[
-            {
-                "text":"-todo-",
-                "nextPhraseID":"ortholion_conversation2_2a",
+                "nextPhraseID":"ortholion_conversation2_1",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -5241,7 +5396,28 @@
                 ]
             },
             {
-                "text":"-todo-",
+                "nextPhraseID":"ortholion_conversation2_1"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_conversation2_1",
+        "message":"Ehrenfest, you have come this far just to get rid of me...",
+        "switchToNPC":"ortholion",
+        "replies":[
+            {
+                "text":"Ehrenfest, here I am to help you.",
+                "nextPhraseID":"ortholion_conversation2_2a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":33
+                    }
+                ]
+            },
+            {
+                "text":"Ortholion, beware! He is a dangerous lier!",
                 "nextPhraseID":"ortholion_conversation2_2b",
                 "requires":[
                     {
@@ -5306,10 +5482,11 @@
     },
     {
         "id":"ortholion_conversation2_5a",
-        "message":"My lord... A kid? You come with a kid accusing me of something I never heard about?",
+        "message":"A kid? You come with a kid accusing me of something I never heard about?",
         "switchToNPC":"ortholion",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"ortholion_conversation2_6a"
             }
         ]
@@ -5890,12 +6067,12 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard3a",
+                "rewardID":"ortholion_guard3",
                 "mapName":"blackwater_mountain10"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"ortholion_guard3b",
+                "rewardID":"ortholion_guard3a",
                 "mapName":"blackwater_mountain10"
             },
             {
@@ -6761,7 +6938,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"elm5_corpse",
-                        "value":50
+                        "value":1
                     }
                 ]
             },
@@ -6771,8 +6948,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"bwm72_beginning",
-                        "value":32,
-                        "negate":true
+                        "value":32
                     }
                 ]
             },
@@ -6783,7 +6959,8 @@
     },
     {
         "id":"ortholion_guard8_dead",
-        "message":"[He is no longer breathing]",
+		"switchToNPC":"none",
+        "message":"On the top of the stairs lies a dead soldier. He is no longer breathing.",
         "replies":[
             {
                 "text":"Leave.",
@@ -6805,7 +6982,7 @@
     },
     {
         "id":"ortholion_guard8_plunder",
-        "message":"[You try to put off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing]",
+        "message":"You try to put off the armor first but you soon discover both the man and the armor itself are covered by that glowing ore. You instantly stop grabbing it. The glowing ore is somehow growing.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6820,7 +6997,8 @@
     },
     {
         "id":"ortholion_guard8_consumed",
-        "message":"[From the soldier you met inside here, only dust remains]",
+		"switchToNPC":"none",
+        "message":"From the soldier you met inside here, only dust remains.",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -7232,10 +7410,8 @@
     },
     {
         "id":"ortholion_guard9_s",
-        "message":"",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard9_11",
                 "requires":[
                     {
@@ -7246,7 +7422,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard9_10a",
                 "requires":[
                     {
@@ -7257,7 +7432,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard9_3",
                 "requires":[
                     {
@@ -7268,7 +7442,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"ortholion_guard9_1"
             }
         ]
@@ -7441,7 +7614,7 @@
         "replies":[
             {
                 "text":"Hmpf, ok.",
-                "nextPhraseID":"ortholion_guard9_10b"
+                "nextPhraseID":"ortholion_guard9_11"
             },
             {
                 "text":"Maybe some other time.",
@@ -8411,34 +8584,6 @@
         ]
     },
     {
-        "id":"ortholion_celebration",
-        "replies":[
-            {
-                "nextPhraseID":"X",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":40
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ortholion_celebration_2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":41
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
         "id":"ortholion_guard10_s",
         "replies":[
             {
@@ -8510,6 +8655,27 @@
         "message":"[This guard drinks his jar of mead ceaselessly, ignoring your presence]"
     },
     {
+        "id":"ortholion_celebration",
+        "replies":[
+            {
+                "nextPhraseID":"ortholion_celebration_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":41
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm72_beginning",
+                        "value":40,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"ortholion_celebration_2",
         "replies":[
             {
@@ -8540,11 +8706,6 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"ortholion_guard11a",
-                "mapName":"elm_mine1"
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"guard5",
                 "mapName":"elm_mine1"
             },
             {
@@ -8607,20 +8768,6 @@
         ]
     },
     {
-        "id":"ortholion_15b",
-        "message":"And you do good. Trust should be neither easy to gain nor easy to lose.",
-        "replies":[
-            {
-                "text":"Yeah, yeah. Where's my reward for saving your life?",
-                "nextPhraseID":"ortholion_16a"
-            },
-            {
-                "text":"What will you do now?",
-                "nextPhraseID":"ortholion_15a"
-            }
-        ]
-    },
-    {
         "id":"ortholion_15a",
         "message":"I am sorry, but that is none of your concern. As I said you've lent me a hand when I was vulnerable. That won't be forgotten.",
         "replies":[
@@ -8631,6 +8778,20 @@
             {
                 "text":"You owe me a favour then.",
                 "nextPhraseID":"ortholion_16b"
+            }
+        ]
+    },
+    {
+        "id":"ortholion_15b",
+        "message":"And you do good. Trust should be neither easy to gain nor easy to lose.",
+        "replies":[
+            {
+                "text":"Yeah, yeah. Where's my reward for saving your life?",
+                "nextPhraseID":"ortholion_16a"
+            },
+            {
+                "text":"What will you do now?",
+                "nextPhraseID":"ortholion_15a"
             }
         ]
     },
@@ -9032,7 +9193,8 @@
         "message":"Hah! You really are either so brave or so dumb confessing that in a place full of Feygard soldiers.",
         "replies":[
             {
-                "text":"Those who don't believe will be eventually punished!"
+                "text":"Those who don't believe will be eventually punished!",
+                "nextPhraseID":"ortholion_19e"
             },
             {
                 "text":"You couldn't put a single tip on me!",

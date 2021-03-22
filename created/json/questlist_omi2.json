@@ -39,6 +39,25 @@
         ]
     },
     {
+        "id":"bwm72_corpses",
+        "showInLog":1,
+        "name":"Hidden: Corpses found",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Corpse north discovered "
+            },
+            {
+                "progress":2,
+                "logText":"Corpse west discovered"
+            },
+            {
+                "progress":3,
+                "logText":"Corpse south discovered"
+            },
+        ]
+    },
+    {
         "id":"bwm72_beginning",
         "showInLog":1,
         "name":"Hidden: events in bwm",
@@ -77,14 +96,14 @@
                 "logText":"Ehrenfest notices your presence in the mine and calls you."
             },
             {
-                "progress":10,
-                "logText":"Prim's Evoker info.",
-                "rewardExperience":75
-            },
-            {
                 "progress":9,
                 "logText":"Moyra's info.",
                 "rewardExperience":125
+            },
+            {
+                "progress":10,
+                "logText":"Prim's Evoker info.",
+                "rewardExperience":75
             },
             {
                 "progress":11,

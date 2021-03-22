@@ -250,7 +250,7 @@
  </layer>
  <layer id="2" name="Objects" width="19" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEUxWwCJIJllLRrCVAs+IVGRj05THlLioTZ4avKoTeAjTLDsh+COVXAc29IcvAcBML/iWL3SyQW2KB+uOA2A9qjpE8wo7ncqjqXwL5P3CYhQ56oXonyuFWAzILW1iQA7iB9twi0m2EAMhd6H7PV4TQPxWIMwOk/gee8AKF/ROo3As0NS+R7ECO0zdYzIqHugtkFiju0O1DNxtsPg53ichBsCgQTwG64RWaGlx+wSb+E+pmXGpgfPS8im4nTO1NPHELS0egvAqLJ3xmfceTJkHpCBbeyOkJm1kggC+fYUtH+MyCAXks8Ygr7LGZhRwGhvIIP3PJ40+TuMR/Qv0GShPI4QPCf0hwFygtcwH1c8oh0jOs/EK3H9kPPditgANYei4GmlUCxKWqCLNAbn+JhLnwxD0McKCpgZmFKz7xgZmKqHyQGeCygQpl1Q8ceZ5cs5BpbAAArRt2jg==
+   eJxjYMAEUxWwCJIJllLRrCVAs+IVGRj05THlLioTZ4avKoTeAjTLDsh+COVXAc29IcvAcBML/iWL3SyQW2JVIbQf1BwjeYQdz+VQ1b8E8n/gMAsd9EL1TpTDrQZkFrawIAdwA+25RaTbCAGQu9D9nq8IoX8qEGcGSP0PPOEFCvMnULkXaGpeItmBHKdvsJgVD3UXyCxQ3KHbh2422Hwc7hKRg2BRIJ4CdMMrNDW4/IJN/CfUzbjUwPjoeRXdTpjam3jiFpaOQHkVFk/4zPqOJ02C0hEsvJHTEzazQABfPsOWjvCZBQPyWOIRV9hjMws5DAzlEX7mksefJnGJ/4T6DZQmkMMHhP+Q4C5QWuYC6ueUQ6RnWPmFbj+yH3qwWwEHsPRcDDSrBIhLVRFmgdz+Eglz4Yl7GOBAUwMzC1d84gMzFVH5IDPAZQMVyqofOPI8uWYh09gAAJqndos=
   </data>
  </layer>
  <layer id="3" name="Objects_2" width="19" height="25" visible="0">
@@ -270,7 +270,7 @@
  </layer>
  <layer id="6" name="Walkable" width="19" height="25">
   <data encoding="base64" compression="zlib">
-   eJzNkssJADAIQ12k+0/jTr0WkRg/BYXSky8mqkdEl7+3JlmWhyrDQz2sB1Y745vRm2JNzsUy7B/tm9HL7hHpZVhedViVjKssb+bfHqf3+PMmkOdKXlHeHY/svCwr6mXZG1lRPhcBwUr0
+   eJzNkssJADAIQ12k+0/TnXrqRSTGHyiUnnwm0XtE7vL3q5NlMVEhntaIelgfkdksrytjhtWpi2Xo39s3My+6RzQvwrKqwspknGVZmqc9du9x8iaQ50xeXt4Vj6xeluX1suyNLC+fB848TMg=
   </data>
  </layer>
  <layer id="7" name="Above_2" width="19" height="25">
@@ -298,7 +298,7 @@
    </properties>
   </object>
   <object id="17" name="elm_drop2" type="container" x="160" y="352" width="32" height="32"/>
-  <object id="18" name="elm_drop3" type="container" x="160" y="128" width="32" height="32"/>
+  <object id="18" name="elm_drop3" type="container" x="160" y="96" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="9" name="Spawn">
   <object id="5" name="elm5_monster1" type="spawn" x="256" y="192" width="32" height="128">
@@ -351,7 +351,7 @@
     <property name="spawngroup" value="elm_mine1"/>
    </properties>
   </object>
-  <object id="14" name="ortholion_guard8" type="spawn" x="160" y="128" width="32" height="32">
+  <object id="14" name="ortholion_guard8" type="spawn" x="160" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="ortholion_guard8"/>
    </properties>
@@ -364,14 +364,6 @@
     <property name="requireId" value="bwm72_beginning"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="11"/>
-   </properties>
-  </object>
-  <object id="16" name="elm5_corpse" type="key" x="160" y="64" width="32" height="64">
-   <properties>
-    <property name="phrase" value="ortholion_guard8"/>
-    <property name="requireId" value="bwm72_beginning"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="32"/>
    </properties>
   </object>
  </objectgroup>

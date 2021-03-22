@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJyFk89Kw0AQxoeA5OBBs2kTetCL9RV8BG+efQJfQl/BR9Grlz5AmnjroSJ6qiBVQYtCaAXRGXaHnZ1N8IMhf+a3s/vtzgLEus0AjkqA4zLOnYr35wJgKWJS+NxV4t9b/P+AcVbaZyU41sIAfBqbu8F4c1yeAgwwhmnIt47bYFziXAeYH2McpnHtGpkamZmx49ZuXJeIm6P/GuN1FOaSIuRIG2S+HUfeFkMAI7jGccRQzVXm17B2+yJVYf4jC/+9Z+GeDZJw3mC8qkeMZKeqdpLbJ+291EpwdDYmj/1q3YsxX6NudnvH1+T16TWxfh0zL3ytqodlEdNksQetR7GuvvlJy3/mY+leIcmzfRJ9oNV29MIeet93/skH+56KXqD7J/3qviFd7Nr6fT5+1H/u0z6db9mzu+tg+IxOxN1nv/IsuNd4T+i7UfftRfXPtWP/AFzjcWk=
+   eJyFk89KxDAQxoeC9CCoSXdb9qAX9RV8BG+efQJfQl/BR9HrXnyAbuvNw4roaQVZFXRRLLuC6AzJkMm0xQ+G/plfJvmSCUBb1wbgoAA4LNq5Y/H+lAPMRVzlIXeRhPcG/99jnBTuWQqONbMAH9blxhivnstSgAHGMI35xnMrjHOcaxfzexj7abt2hUyFzI1145Z+XJeIm6L/CuNlFOeSPOZIK2S+PUfeZkMAK7jac8RQzYUJa1j6fZEqMf9u4n9vJt6zQRLPG41X9YiR7ETVTjL3pL2XWgiOzsZmbb9ad2LM56ibXd8MNXl9ek2sX89M81Cr7GFZxNSm7UHrQayrb37S/J/5WLpXSPJsH0UfaDUdvbCN3ne8f/LBvieiF+j+Sb+6b0hnW65+n48f8f9rI/Rpn07X3DnfdjB8Rkfi7rNfeRbca7wn9F2r+/as+ufSs3/96nJi
   </data>
  </layer>
  <layer id="3" name="Objects_1" width="10" height="30">
@@ -207,25 +207,25 @@
  </layer>
  <layer id="6" name="Top" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMbBViYNgmBGGHCuFXe4yAPDlgNhMDwxwgfiVJfbNHAfWBEv9Au2Dkga98A+0C6gEAULgGQQ==
+   eJxjYKAMbBViYNgmBGGHCuFXe4yAPDlgNhMDwxwgfiVJfbNHAfWBEv9Au2AUDGUAAIJTBT4=
   </data>
  </layer>
  <layer id="7" name="Walkable" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGGGAaorZZabkIGuNRiY5OjDhcgpJaQ+cSYR2z4YrOXkBuJCRtsbsZnLy69+NQRYx6x4UaK+8iNB1zq8ZkJk8OlB586fPbiU4crrVNLHSlpFADxM5Oz
+   eJzbKMbAsJGGGAaorZZabkIGuNRiY5OjDhcgpJaQ+cSYR2z4YrOXkBuJCRtsbsZnLy69+NQRYx6x4UaK+8iNB1zq8ZkJk8OlB586fPYS6w9S1OGyl5hwxhV2AAQAkuw=
   </data>
  </layer>
  <layer id="8" name="Walkable_2" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJGGGAaorZZabkIGuNRiY5OjDhcgpJaQ+cSYR2z4YrOXkBuJCRtsbsZnLy69+NQRYx6x4UaK+8iNB1zq8ZkJk8OlB586fPbiU4crrVNLHSlpFADxM5Oz
+   eJzbKMbAsJGGGAaorZZabkIGuNRiY5OjDhcgpJaQ+cSYR2z4YrOXkBuJCRtsbsZnLy69+NQRYx6x4UaK+8iNB1zq8ZkJk8OlB586fPYS6w9S1OGyl5hwxhV2AAQAkuw=
   </data>
  </layer>
- <layer id="9" name="Walkable_1" width="10" height="30" visible="0">
+ <layer id="9" name="Walkable_1" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFEjAyorQ6fWnLV4VJLrDpk9cg0vdShu5fU+EK3D90sfOK41NEyvKmhDpc+ctXRCxPjHnzhQqw6XOFIDXX43IGuFxsfn/kAYjudzg==
+   eJzbKMbAsJFEjAyorQ6fWnLV4VJLrDpk9cg0vdShu5fU+EK3D90sfOK41NEyvKmhDpc+ctXRC1PT3YTCj1S/khImuNyBrh8bH58dAAXboCM=
   </data>
  </layer>
- <objectgroup id="10" name="Mapevents">
+ <objectgroup id="10" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="64" y="928" width="64" height="32">
    <properties>
     <property name="map" value="blackwater_mountain14"/>
@@ -297,7 +297,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Spawn">
+ <objectgroup id="11" name="Spawn" visible="0">
   <object id="15" name="forestboar2" type="spawn" x="64" y="512" width="96" height="320">
    <properties>
     <property name="quantity" value="2"/>

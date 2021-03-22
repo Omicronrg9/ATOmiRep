@@ -212,17 +212,17 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="bwm72_corpse1_selector" type="script" x="224" y="160" width="32" height="32">
+  <object id="2" name="bwm72_corpse_n" type="script" x="224" y="160" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="3" name="bwm72_corpse2_selector" type="script" x="64" y="384" width="32" height="32">
+  <object id="3" name="bwm72_corpse_w" type="script" x="64" y="384" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="4" name="bwm72_corpse3_selector" type="script" x="256" y="448" width="32" height="32">
+  <object id="4" name="bwm72_corpse_s" type="script" x="256" y="448" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>

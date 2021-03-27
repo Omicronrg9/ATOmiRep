@@ -40,8 +40,8 @@
     },
     {
         "id":"bwm72_corpses",
-        "showInLog":1,
         "name":"Hidden: Corpses found",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
@@ -54,13 +54,13 @@
             {
                 "progress":3,
                 "logText":"Corpse south discovered"
-            },
+            }
         ]
     },
     {
         "id":"bwm72_beginning",
-        "showInLog":1,
         "name":"Hidden: events in bwm",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
@@ -287,7 +287,7 @@
             },
             {
                 "progress":22,
-                "logText":"One of the tavern regulars, possibly a Lorn's old partner, could not believe about the accident, maintaining Lorn has been climbing the mountains for longer he could remember. However, he does not feel alright to keep the conversation.",
+                "logText":"One of the tavern regulars, possibly Lorn's old partner, does not believe that Lorn's death was an accident, maintaining Lorn has been climbing the mountains for longer he could remember. However, he does not feel alright to keep the conversation.",
                 "rewardExperience":100
             },
             {
@@ -319,7 +319,7 @@
             },
             {
                 "progress":33,
-                "logText":"It's settled. Ehrenfest and I will reach blackwater Settlement and stop General Ortholion's evil plan.",
+                "logText":"It's settled. Ehrenfest and I will reach Blackwater Settlement and stop General Ortholion's evil plan.",
                 "rewardExperience":500
             },
             {
@@ -399,13 +399,13 @@
             },
             {
                 "progress":59,
-                "logText":"For my bravery, general Ortholion rewarded me with a lot of gold and told me to meet him in a couple of days.",
+                "logText":"For my bravery, General Ortholion rewarded me with a lot of gold and told me to meet him in a couple of days.",
                 "rewardExperience":4500,
                 "finishesQuest":1
             },
             {
                 "progress":60,
-                "logText":"For my bravery (and my greediness), general ortholion rewarded me with a lot of...junk. He might pay me better next time if I meet him in some days.",
+                "logText":"For my bravery (and my greediness), General Ortholion rewarded me with a lot of...junk. He might pay me better next time if I meet him in some days.",
                 "rewardExperience":4500,
                 "finishesQuest":1
             },
@@ -417,7 +417,7 @@
             },
             {
                 "progress":62,
-                "logText":"For my bravery and sense of honour, general ortholion gave me a beautiful necklace, symbol of his gratitude towards me. He also told me to come back in a few days, I should take advantage of it and ask him about all the events happened.",
+                "logText":"For my bravery and sense of honor, General Ortholion gave me a beautiful necklace, symbol of his gratitude towards me. He also told me to come back in a few days, I should take advantage of it and ask him about all the events happened.",
                 "rewardExperience":6000
             },
             {

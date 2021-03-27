@@ -2,7 +2,7 @@
     {
         "id":"panic",
         "iconID":"actorconditions_omi2:0",
-        "name":"panic",
+        "name":"Panic",
         "category":"mental",
         "roundEffect":{
             "visualEffectID":"blueSwirl",

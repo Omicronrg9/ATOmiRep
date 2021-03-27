@@ -86,7 +86,7 @@
     {
         "id":"bwm_olm_drop",
         "iconID":"items_misc:53",
-        "name":"thin amphibian skin",
+        "name":"Thin amphibian skin",
         "displaytype":"ordinary",
         "hasManualPrice":1,
         "baseMarketCost":15,
@@ -528,7 +528,7 @@
         "useEffect":{
             "increaseCurrentHP":{
                 "min":0,
-				"max":2
+                "max":2
             },
             "conditionsSource":[
                 {
@@ -871,7 +871,7 @@
     {
         "id":"ortholion_reward",
         "iconID":"items_necklaces_1:15",
-        "name":"Ortholion's Talisman",
+        "name":"Ortholion's talisman",
         "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":5836,
@@ -886,7 +886,8 @@
             "increaseBlockChance":12,
             "addedConditions":[
                 {
-                    "condition":"fear"
+                    "condition":"fear",
+                    "magnitude":-99
                 }
             ]
         }

@@ -9,7 +9,7 @@
                         "requireType":"questProgress",
                         "requireID":"bwm17_heights",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -141,7 +141,7 @@
                         "requireType":"questLatestProgress",
                         "requireID":"bwm17_vine",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -164,7 +164,7 @@
     },
     {
         "id":"bwm17_vine2_2",
-        "message":"Once tied, you strongly pull the improvised rope a copule of times against you. It seems resistant enough to help you climbing down the hole.",
+        "message":"Once tied, you give the improvised rope a couple of firm tugs. It seems stable enough to help you climb down the hole.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -175,7 +175,7 @@
     },
     {
         "id":"bwm70_sign",
-        "message":"Attention villagers: Climbing the mountain has been prohibited due to the recent, tragic events. All mountain patrol crews have been disbanded until further notice."
+        "message":"Attention villagers: Climbing the mountain has been prohibited due to the recent tragic events. All mountain patrol crews have been disbanded until further notice."
     },
     {
         "id":"bwm17_vine2_selector",
@@ -367,7 +367,7 @@
     },
     {
         "id":"bwm72_corpse1_2",
-        "message":"A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and manage to bite you before you shake it and get rid of them.",
+        "message":"A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and bite you before you shake them off.",
         "replies":[
             {
                 "text":"Ugh, great. This one had nothing but ugly spiders.",
@@ -394,7 +394,7 @@
     },
     {
         "id":"bwm72_corpse2_1",
-        "message":"Yet another corpse in the same state as the previous one. One of its tibiae seems fractured.",
+        "message":"Yet another corpse in the same state as the previous one. One of its legs seems violently fractured.",
         "replies":[
             {
                 "text":"Take a closer look.",
@@ -469,7 +469,7 @@
     },
     {
         "id":"bwm72_corpse3_3",
-        "message":"There's certainly nothing but rotten flesh and bones here."
+        "message":"There's nothing but rotten flesh and bones here."
     },
     {
         "id":"bwm72_torture_selector",
@@ -504,8 +504,8 @@
         "message":"You don't feel good in this room. Something is utterly wrong here.",
         "replies":[
             {
-                "nextPhraseID":"bwm72_torture_0a",
-				"text":"N"
+                "text":"N",
+                "nextPhraseID":"bwm72_torture_0a"
             }
         ]
     },
@@ -515,11 +515,11 @@
     },
     {
         "id":"bwm72_torture_3",
-        "message":"You throw another quick glance at the blood-stained chair. What an horrible scene."
+        "message":"You throw another quick glance at the blood-stained chair. What a horrible scene."
     },
     {
         "id":"bwm72_torture_1",
-        "message":"One of the chairs is moved apart from the rest. Numerous dried blood stains are all over it and over a rope.",
+        "message":"One of the chairs is moved apart from the rest. There are dried blood stains all over it. A blood-stained rope rests next to the chair.",
         "replies":[
             {
                 "text":"N",
@@ -539,7 +539,7 @@
     },
     {
         "id":"bwm72_torture_2",
-        "message":"After several minutes of careful but fruitless search, you decide to take one of the ropes that were presumably used by the torturer.",
+        "message":"After several minutes of careful but fruitless search, you decide to take one of the ropes as evidence of the torture.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -579,7 +579,7 @@
     },
     {
         "id":"bwm74_waterfall",
-        "message":"From this place you can spot a numerous couple of slopes the current follows loyally. Further away, the stream ends abruptly in what seems to be a waterfall and after that, just darkness.",
+        "message":"The path along the water's edge narrows here. Peering down the tunnel, it appears the stream ends abruptly in what seems to be a waterfall. After that, there's just darkness.",
         "replies":[
             {
                 "text":"N",
@@ -593,7 +593,7 @@
     },
     {
         "id":"bwm75_sign",
-        "message":"There's nothing written here anymore. The wood is rotten, dried and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here."
+        "message":"There's nothing written here anymore. The wood is rotten, dried, and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here."
     },
     {
         "id":"ehrenfest_selector",
@@ -772,7 +772,7 @@
         "switchToNPC":"ehrenfest",
         "replies":[
             {
-                "text":"Sorry sir, I am on a rush.",
+                "text":"Sorry sir, I am in a rush.",
                 "nextPhraseID":"ehrenfest_1a"
             },
             {
@@ -818,7 +818,7 @@
     },
     {
         "id":"ehrenfest_1b2",
-        "message":"I'll leave it be. But tell me, why that urge of going inside so quickly?",
+        "message":"I'll leave it be. But tell me, what is it that you find so urgent?",
         "replies":[
             {
                 "text":"I don't trust you, so nothing.",
@@ -839,7 +839,7 @@
         "message":"I see. But keep in mind that no one inside there will pay attention to you, whatever you say.",
         "replies":[
             {
-                "text":"How not?",
+                "text":"Why is that?",
                 "nextPhraseID":"ehrenfest_2b2"
             },
             {
@@ -939,7 +939,7 @@
         "message":"This is no place for kids.",
         "replies":[
             {
-                "text":"I will report your bad-manners to your chief.",
+                "text":"I will report your bad manners to your chief.",
                 "nextPhraseID":"X"
             },
             {
@@ -1017,7 +1017,7 @@
     },
     {
         "id":"prim_guard6_1",
-        "message":"The guard is mumbling something to itself and seems not to be either feeling your presence or ignoring you completely.",
+        "message":"The guard is mumbling something to himself and seems to be ignoring you completely.",
         "switchToNPC":"ortholion"
     },
     {
@@ -1043,7 +1043,7 @@
     },
     {
         "id":"ortholion_conversation_3",
-        "message":"Taxes are the solid pillar that maintain our and your lands. Other villages will rightly complain if we continue to be as amiable as before.",
+        "message":"Taxes are the solid pillar that maintain our and your lands. Other villages will rightly complain if we continue to allow this without repercussions.",
         "replies":[
             {
                 "text":"N",
@@ -1053,7 +1053,7 @@
     },
     {
         "id":"ortholion_conversation_5",
-        "message":"With all due respect, general, the problems our village is passing through are wider and more complex than a simple disagreement with the people of Blackwater Settlement.",
+        "message":"With all due respect, general, our problems here are wider and more complex than a simple disagreement with the people of Blackwater Settlement.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -1064,7 +1064,7 @@
     },
     {
         "id":"ortholion_conversation_6",
-        "message":"Yes...The mines are closed due to lack of workers. We are scarce of resources and isolated from the rest of the world because of the collapsed tunnels. On the other hand, monster attacks are increasing in frequency and proximity to the village.",
+        "message":"Yes...The mines are closed due to lack of workers. We are scarce of resources and isolated from the rest of the world because of the collapsed tunnels. Moreover, monster attacks are increasing in frequency and proximity to the village.",
         "switchToNPC":"prim_guard6",
         "replies":[
             {
@@ -1096,7 +1096,7 @@
     },
     {
         "id":"ortholion_conversation_8",
-        "message":"Then I will travel to Blackwater settlement. In the meanwhile, you must think about this offer:",
+        "message":"Then I will travel to Blackwater Settlement. In the meanwhile, you must think about this offer:",
         "replies":[
             {
                 "text":"N",
@@ -1106,7 +1106,7 @@
     },
     {
         "id":"ortholion_conversation_9",
-        "message":"Feygard will consider that the villagers of Prim will have fulfilled and exceeded their duties with the kingdom if - and only if - Prim leaves the full managment of the mines to the capital.",
+        "message":"Feygard will consider that the villagers of Prim will have fulfilled and exceeded their duties to the kingdom if - and only if - Prim leaves the full management of the mines to the capital.",
         "replies":[
             {
                 "text":"N",
@@ -1127,7 +1127,7 @@
     },
     {
         "id":"ortholion_conversation_11",
-        "message":"HOW YOU DARE TO INTERRUPT MY GENERAL?!",
+        "message":"HOW DARE YOU INTERRUPT THE GENERAL?!",
         "switchToNPC":"ortholion_guard1",
         "replies":[
             {
@@ -1138,7 +1138,7 @@
     },
     {
         "id":"ortholion_conversation_11a",
-        "message":"Guards of both sides get more and more tensed up.",
+        "message":"[A palpable tension falls over the room as the guards begin to shout.]",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1149,7 +1149,7 @@
     },
     {
         "id":"ortholion_conversation_12",
-        "message":"Calm down you all. Where's all that temperance of you, soldiers of the glorious Feygard?",
+        "message":"Calm down, all of you. Where is your temperance, soldiers of the glorious Feygard?",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -1160,7 +1160,7 @@
     },
     {
         "id":"ortholion_conversation_13",
-        "message":"I am leaving now. You have a few days to think about it, but I'm afraid this is the best solution. Feygard will also take charge of the rebuilding and cleaning tasks of the tunnel if you accept.",
+        "message":"I am leaving now. You have a few days to think about it, but I'm afraid this is the best solution. Feygard will also take charge of rebuilding and cleaning the mines if you accept.",
         "replies":[
             {
                 "text":"N",
@@ -1170,7 +1170,7 @@
     },
     {
         "id":"ortholion_conversation_14",
-        "message":"[surpressed anger] We will truly consider your proposal. Best of luck in your travel, general.",
+        "message":"[The guard seems to be barely surpressing his anger.] We will truly consider your proposal. Best of luck in your travels, general.",
         "switchToNPC":"prim_guard5",
         "rewards":[
             {
@@ -1264,10 +1264,10 @@
     },
     {
         "id":"ortholion_guard_1a",
-        "message":"Bah! I said I AM ON DUTY! ",
+        "message":"Bah! I said I AM ON DUTY!",
         "replies":[
             {
-                "text":"Ok, ok. Such boring...",
+                "text":"Ok, ok. How boring...",
                 "nextPhraseID":"X"
             },
             {
@@ -1320,7 +1320,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Of course. I am sometimes out there.",
+                "text":"Of course it is. I am sometimes out there.",
                 "nextPhraseID":"ortholion_guard_1b"
             }
         ]
@@ -1456,10 +1456,10 @@
     },
     {
         "id":"ortholion_guard_2c_cheese",
-        "message":"Cheese! It is rare to taste cheese out of home. In exchange, take this strawberries I gathered in the Stoutford outskirts. They are fresh, but I don't like its taste.",
+        "message":"Cheese! It is rare to taste cheese out of home. In exchange, take these strawberries I gathered near Stoutford. They are fresh, but I don't like the taste.",
         "replies":[
             {
-                "text":"So you already had food? I traveled long to bring you that cheese. Goodbye, hmpf.",
+                "text":"So you already had food? I traveled long to bring you that cheese. Hmpf.",
                 "nextPhraseID":"X"
             },
             {
@@ -1484,7 +1484,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"50 gold is a bargain to me. No worries.",
+                "text":"50 gold is a trifle to me. No worries.",
                 "nextPhraseID":"X"
             },
             {
@@ -1495,14 +1495,14 @@
     },
     {
         "id":"ortholion_guard_2c_meat",
-        "message":"Here, here! I won't be in shape for much time if you keep bringing me this. Take a couple of these \"Izthiel\" claws. They might keep you alive in case of exterme neccessity.",
+        "message":"Hear, hear! I won't be in shape for much longer if you keep bringing me such feasts. Take a couple of these \"Izthiel\" claws. They might keep you alive in case of exterme neccessity.",
         "replies":[
             {
                 "text":"I am grateful, sir. Have a nice day.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Don't stand at the same place the full beat if you want to get in shape. Bye.",
+                "text":"Don't stand in the same place for the full beat if you want to get in shape. Bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -1520,14 +1520,14 @@
     },
     {
         "id":"ortholion_guard_0d",
-        "message":"It's good to see vigorous youngsters wandering around here and there. You sure could become a soldier of Feygard.",
+        "message":"It's good to see vigorous youngsters wandering around here and there. You could become a soldier of Feygard someday.",
         "replies":[
             {
                 "text":"Thanks for the compliment, sir.",
                 "nextPhraseID":"ortholion_guard_1d"
             },
             {
-                "text":"And ending like you, guarding the outskirts of a village? Zero action jobs aren't my type.",
+                "text":"And end up like you, guarding the outskirts of a tiny village? Zero action jobs aren't my type.",
                 "nextPhraseID":"X"
             },
             {
@@ -1552,24 +1552,24 @@
     },
     {
         "id":"ortholion_guard_1d2",
-        "message":"The Shadow? Probably your parents inculcated those ideas to you. Let me tell you they are wrong. Followers of the shadow only promote chaos and anarchy.",
+        "message":"The Shadow? Probably your parents inculcated those ideas to you. Let me tell you, they are wrong. Followers of the Shadow only promote chaos and anarchy.",
         "replies":[
             {
-                "text":"Chaos and anarchy? Have you ever met with a priest of the shadow?",
+                "text":"Chaos and anarchy? Have you ever met a priest of the Shadow?",
                 "nextPhraseID":"ortholion_guard_2d"
             },
             {
-                "text":"Hmmm, probably your parents inculcated those ideas to you, but I won't try to change your mind. Bye.",
+                "text":"Hmmm, probably your parents inculcated those ideas to you. I won't try to change your mind. Bye.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"ortholion_guard_2d",
-        "message":"Oh yes. Good speakers with poison in their tongues. They conspire with the savages of the South against our righteous lord, just for putting some order in all the chaos left after the war.",
+        "message":"Oh yes. Good speakers with poison in their tongues. They conspire with the savages of the South against our righteous lord, just for restoring order in the wake of the chaos left after the war.",
         "replies":[
             {
-                "text":"Uh oh, I never saw it that way.",
+                "text":"Hmm, I never saw it that way.",
                 "nextPhraseID":"ortholion_guard_3d"
             },
             {
@@ -1584,7 +1584,7 @@
     },
     {
         "id":"ortholion_guard_3d",
-        "message":"Neither your shadow is trustworthy, this is the best advice I can give you.",
+        "message":"Your friends of the Shadow are not trustworthy. This is the best advice I can give you.",
         "replies":[
             {
                 "text":"May Shadow not be with you, then.",
@@ -1595,7 +1595,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"It'd better be. My shadow knows what I can do with unwanted ghosts.",
+                "text":"It'd better be. My Shadow knows what I can do with unwanted ghosts.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1609,10 +1609,10 @@
     },
     {
         "id":"ortholion_guard_3d2",
-        "message":"Whatever, kid. My round is ending and I don't like your tone. You will see how I am right when you got older.",
+        "message":"Whatever, kid. My shift is ending and I don't like your tone. You will see that I am right when you get older.",
         "replies":[
             {
-                "text":"Yeah, I won't waste my time anymore with a close-minded Feygard soldier. Bye.",
+                "text":"I won't waste my time anymore with a closed-minded Feygard soldier. Bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -1620,14 +1620,14 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Maybe, but I certainly won't see is myself as a Feygard soldier.",
+                "text":"Maybe, but I certainly don't see myself becoming a Feygard soldier.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"ortholion_guard_3d3",
-        "message":"Maybe you are right...But it's the duty of the shepherd getting rid of those black sheeps.",
+        "message":"Maybe you are right...But it's the duty of the shepherd to rid the flock of those black sheeps.",
         "replies":[
             {
                 "text":"Is your general a good shepherd?",
@@ -1655,7 +1655,7 @@
                 ]
             },
             {
-                "text":"I think I will leave you and your fanatism.",
+                "text":"I think I will leave you and your fanaticism.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1669,14 +1669,14 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Yes, pure fanatism. ",
+                "text":"Yes, pure fanaticism. ",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"ortholion_guard_2d2",
-        "message":"About to end for me. The people of this village is exaggerating. There are not so many monsters, they are just weak.",
+        "message":"About to end for me. The people of this village are exaggerating. There aren't so many monsters, they are just weak.",
         "replies":[
             {
                 "text":"N",
@@ -1689,7 +1689,7 @@
         "message":"These gornauds are no match for us, soldiers of the great Feygard.",
         "replies":[
             {
-                "text":"Said the heavily armored guy...",
+                "text":"Said the heavily armored soldier...",
                 "nextPhraseID":"ortholion_guard_4d2"
             },
             {
@@ -1722,14 +1722,14 @@
     },
     {
         "id":"ortholion_guard_5d2",
-        "message":"Not really. Guard patrolling tends to be a boring work, but someone has to do it. ",
+        "message":"Not really. Guard patrolling tends to be boring work, but someone has to do it.",
         "replies":[
             {
-                "text":"I see. Hope you finish it soon, sir. ",
+                "text":"I see. Hope you finish it soon, sir.",
                 "nextPhraseID":"ortholion_guard_6d"
             },
             {
-                "text":"Have you find anything...for me to play with?",
+                "text":"Have you found anything...for me to play with?",
                 "nextPhraseID":"ortholion_guard_6d2"
             }
         ]
@@ -1739,7 +1739,7 @@
         "message":"Your protection inside the village is granted by us. A kid like you does not need an armor, but some friends to play with.",
         "replies":[
             {
-                "text":"Bah, i give up. ",
+                "text":"Bah, I give up.",
                 "nextPhraseID":"X"
             },
             {
@@ -1772,7 +1772,7 @@
     },
     {
         "id":"ortholion_guard_7d",
-        "message":"I might have even some shiny gems...",
+        "message":"I might even have some shiny gems...",
         "replies":[
             {
                 "text":"I have tons, sorry.",
@@ -1859,7 +1859,7 @@
     },
     {
         "id":"ehrenfest_conversation_1a",
-        "message":"You and the other guy startled and stepped aside. Three man with Feygard distinctions were leaving the hall. You both kept silence.",
+        "message":"You and Ehrenfest are startled, and step aside. Three men with Feygard distinctions leave the hall. You remain silent as they pass.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1870,7 +1870,7 @@
     },
     {
         "id":"ehrenfest_conversation_2",
-        "message":"I will say it only once. No taverns, no exploring, no dramas with those untrained Prim guards and for the glory of our homeland don't pursue any injured monster.",
+        "message":"I will say it only once. No taverns, no exploring, no drama with those untrained Prim guards. And for the glory of our homeland, don't pursue any injured monster.",
         "switchToNPC":"ortholion_hidden",
         "replies":[
             {
@@ -1881,7 +1881,7 @@
     },
     {
         "id":"ehrenfest_conversation_3",
-        "message":"I have a bad feeling about all this. These villagers might hide something. Tell the mountain scouts to wait for me at the tunnel entrance, they will escort me up to Blackwater settlement.",
+        "message":"I have a bad feeling about all this. These villagers might be hiding something. Tell the mountain scouts to wait for me at the tunnel entrance, they will escort me up to Blackwater Settlement.",
         "replies":[
             {
                 "text":"N",
@@ -1944,7 +1944,7 @@
     },
     {
         "id":"ehrenfest_conversation_4a",
-        "message":"The three guys continue their way out of the village, completely ignoring your presence.",
+        "message":"The three men continue their way out of the village, completely ignoring your presence.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1955,11 +1955,11 @@
     },
     {
         "id":"ehrenfest_4",
-        "message":"*looks nervious*  I told you. Something big is about to happen and I believe it is somehow related with what you've seen up in the mountain.",
+        "message":"*looks nervious*  I told you. Something big is about to happen. I believe it is somehow related to what you've seen up in the mountain.",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
-                "text":"How did they reached this place?",
+                "text":"How did they reach this place?",
                 "nextPhraseID":"ehrenfest_5a"
             },
             {
@@ -1970,7 +1970,7 @@
     },
     {
         "id":"ehrenfest_5a",
-        "message":"I presume the same way as you did.",
+        "message":"I presume the same way you did.",
         "replies":[
             {
                 "text":"N",
@@ -1980,7 +1980,7 @@
     },
     {
         "id":"ehrenfest_5b",
-        "message":"'Cause I've seen you climbing up the mountain side and going down the hole, of course!\n\nI was waiting for your comeback.",
+        "message":"I've seen you climbing up the mountainside and going down the hole, of course!\n\nI was waiting for your return.",
         "replies":[
             {
                 "text":"All of this is getting too shady. I'd better leave.",
@@ -2141,7 +2141,7 @@
     },
     {
         "id":"ehrenfest_calling_1",
-        "message":"Someone is whispering: ""Psst, come! Come here!""\n\nThe voice is coming from the dining-room.",
+        "message":"Someone is whispering: \"Psst, come! Come here!\"\n\nThe voice is coming from the dining room.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2201,7 +2201,7 @@
     },
     {
         "id":"ehrenfest_10b",
-        "message":"I severly doubt they are there just for that.",
+        "message":"Hah! I seriously doubt they are here just for that.",
         "replies":[
             {
                 "text":"Are you accusing the great soldiers of Feygard of anything? I'd better leave.",
@@ -2215,10 +2215,10 @@
     },
     {
         "id":"ehrenfest_11",
-        "message":"Hello again my little friend. Here will be safe from prying ears.",
+        "message":"Hello again my little friend. We'll be safe from prying ears here.",
         "replies":[
             {
-                "text":"Care to explain your reasons to be here and stalk me?",
+                "text":"Care to explain your reasons for stalking me?",
                 "nextPhraseID":"ehrenfest_12"
             }
         ]
@@ -2253,7 +2253,7 @@
     },
     {
         "id":"ehrenfest_14",
-        "message":"The rumours were true. Those gornauds are not natural creatures, they made me have a really bad time.",
+        "message":"The rumors were true. Those gornauds are not natural creatures. They gave me a really hard time at first.",
         "replies":[
             {
                 "text":"Please go on.",
@@ -2281,7 +2281,7 @@
     },
     {
         "id":"ehrenfest_16",
-        "message":"Due to my exhaustion, I lied in a bed for days. I could hear the constant noise of the workers chatting, toasting with their mead jugs...",
+        "message":"Due to my exhaustion, I rested in bed for days. I could hear the constant noise of the workers chatting, toasting with their mead jugs...",
         "replies":[
             {
                 "text":"Have you finished?",
@@ -2295,7 +2295,7 @@
     },
     {
         "id":"ehrenfest_17",
-        "message":"But the day I got up, completely recovered, the first thing I noticed was precisely the absence of those noises. The rooms next to me was dirty and empty. No one was in the dining-room and the mine entrance was closed.",
+        "message":"But the day I got up, completely recovered, the first thing I noticed was precisely the absence of those noises. The rooms next to me were dirty and empty. No one was in the dining room. The mine entrance was closed.",
         "replies":[
             {
                 "text":"N",
@@ -2305,7 +2305,7 @@
     },
     {
         "id":"ehrenfest_18",
-        "message":"Arghest, the only guy left here pointed me out where the village was, so I decided to go and ask for my savior. Lamentably, he was no longer there.",
+        "message":"Arghest, the only man left here, pointed me towards Prim, so I decided to go and ask for my savior. Lamentably, he was no longer there.",
         "replies":[
             {
                 "text":"N",
@@ -2318,7 +2318,7 @@
         "message":"Some villagers said he and his patrol crew had left three days ago in search of a couple that climbed up the mountain. So I went to the local shop, I got some supplies and...",
         "replies":[
             {
-                "text":"Got any luck?",
+                "text":"Did you have any luck?",
                 "nextPhraseID":"ehrenfest_20a"
             },
             {
@@ -2329,7 +2329,7 @@
     },
     {
         "id":"ehrenfest_20b",
-        "message":"Are you gonna stop interrupting me? ",
+        "message":"Are you gonna stop interrupting me?",
         "replies":[
             {
                 "text":"If that makes you finish sooner...",
@@ -2343,7 +2343,7 @@
     },
     {
         "id":"ehrenfest_21",
-        "message":"Well. After nearly two days of restless searching, I figured out they could have returned, so I started to climb down.",
+        "message":"Well. After nearly two days of restless searching, I figured they may have already returned, so I started to climb down.",
         "replies":[
             {
                 "text":"N",
@@ -2353,7 +2353,7 @@
     },
     {
         "id":"ehrenfest_20a",
-        "message":"I suppose, if you want to call it like that.",
+        "message":"I suppose, if you want to call it that.",
         "replies":[
             {
                 "text":"N",
@@ -2373,7 +2373,7 @@
     },
     {
         "id":"ehrenfest_23",
-        "message":"Lorn lied next to me, just a few meters of distance. His armor was entirely covered by blood, which was flowing slowly to the ground, out of his body.",
+        "message":"Lorn lay next to me, just a few meters away. His armor was entirely covered in blood, flowing slowly to the ground out of his body.",
         "replies":[
             {
                 "text":"What about the campfire?",
@@ -2391,7 +2391,7 @@
     },
     {
         "id":"ehrenfest_24a",
-        "message":"There was a campfire, yes. Now I think about it, it could have belonged either to the couple or to the patrol crew.",
+        "message":"There was a campfire, yes. Now that I think about it, it could have belonged either to the couple or to the patrol crew.",
         "replies":[
             {
                 "text":"Was Lorn dead?",
@@ -2413,7 +2413,7 @@
             },
             {
                 "text":"Was Lorn dead when you found him?",
-                "nextPhraseID":"ehrenfest_24a"
+                "nextPhraseID":"ehrenfest_24c"
             },
             {
                 "text":"I found some dead bodies inside.",
@@ -2423,7 +2423,7 @@
     },
     {
         "id":"ehrenfest_24c",
-        "message":"Almost... I put his armor out. His injuries were severe. I tried to cure him using my potions but they weren't strong enough. He died, failing to express his latest thoughts with words.",
+        "message":"Almost... I put his armor out. His injuries were severe. I tried to cure him using my potions but they weren't strong enough. He died, failing to express his final thoughts in words.",
         "replies":[
             {
                 "text":"N",
@@ -2433,7 +2433,7 @@
     },
     {
         "id":"ehrenfest_24c2",
-        "message":"But everything he couldn't say with words was said by the terrifying glance he threw to that dark hole, just before his last breath.",
+        "message":"But everything he couldn't say with words was said by the terrified glance he threw to that dark hole, just before his last breath.",
         "replies":[
             {
                 "text":"What about the hole?",
@@ -2467,7 +2467,7 @@
         "message":"Anything more you can tell me about that place?",
         "replies":[
             {
-                "text":"Give me some time to remind.",
+                "text":"Give me some time to remember.",
                 "nextPhraseID":"ehrenfest_26b"
             },
             {
@@ -2482,14 +2482,14 @@
     },
     {
         "id":"ehrenfest_26a",
-        "message":"Tortured you say? That makes no sense!",
+        "message":"Tortured, you say? That makes no sense!",
         "replies":[
             {
                 "text":"That's what I saw.",
                 "nextPhraseID":"ehrenfest_27a"
             },
             {
-                "text":"I took some ropes to demonstrate what I saw to the guards...",
+                "text":"I took some ropes to prove what I saw to the guards...",
                 "nextPhraseID":"ehrenfest_27b",
                 "requires":[
                     {
@@ -2520,7 +2520,7 @@
     },
     {
         "id":"ehrenfest_27b",
-        "message":"...Just after witnessing my savior's death I ran away and came back to the village.",
+        "message":"...Just after witnessing my savior's death, I ran away and came back to the village.",
         "replies":[
             {
                 "text":"Did you tell the guards what you saw?",
@@ -2544,7 +2544,7 @@
         "message":"I tried, but they considered it an accident. My constant babbling did not help...",
         "replies":[
             {
-                "text":"Why the guards did not bury their partner?",
+                "text":"Why did the guards not bury their partner?",
                 "nextPhraseID":"ehrenfest_29a"
             },
             {
@@ -2569,14 +2569,14 @@
     },
     {
         "id":"ehrenfest_28b",
-        "message":"You are honestly right, but It's too late to come back...",
+        "message":"You are honestly right, but it's too late to go back...",
         "replies":[
             {
-                "text":"No, It's not.",
+                "text":"No, it's not.",
                 "nextPhraseID":"ehrenfest_29b"
             },
             {
-                "text":"You didn't bury him, but why the guards didn't either?",
+                "text":"You didn't bury him, but why didn't the guards either?",
                 "nextPhraseID":"ehrenfest_29a"
             }
         ]
@@ -2590,7 +2590,7 @@
                 "nextPhraseID":"ehrenfest_31a"
             },
             {
-                "text":"You should give me a reward just for hearing this whole story.",
+                "text":"You should give me a reward just for listening to this tripe.",
                 "nextPhraseID":"ehrenfest_31b"
             }
         ]
@@ -2600,14 +2600,14 @@
         "message":"[Ehrenfest stays quiet with his head down]",
         "replies":[
             {
-                "text":"So ... Why the guards did not bring Lorn's remains to the village?",
+                "text":"So ... Why didn't the guards bring Lorn's remains to the village?",
                 "nextPhraseID":"ehrenfest_29a"
             }
         ]
     },
     {
         "id":"ehrenfest_30b",
-        "message":"Sometimes. heh. But still, something that doesn't fit.",
+        "message":"Sometimes, heh. But still, something doesn't fit.",
         "replies":[
             {
                 "text":"Are you sure?",
@@ -2672,14 +2672,14 @@
         "message":"I'm afraid not.",
         "replies":[
             {
-                "text":"Ok, we talk later.",
+                "text":"Ok, we'll talk later.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"ehrenfest_31a",
-        "message":"We must gather information, I am convinced Lorn's death has to do with what you saw down the hole.",
+        "message":"We must gather information. I am convinced Lorn's death has to do with what you saw down the hole.",
         "replies":[
             {
                 "text":"N",
@@ -2689,7 +2689,7 @@
     },
     {
         "id":"ehrenfest_32a",
-        "message":"You will talk with the villagers, we have to find out what happened to Lorn's partners, about whom we know nothing yet.",
+        "message":"You will talk with the villagers of Prim. We have to find out what happened to Lorn's partners, about whom we know nothing yet.",
         "replies":[
             {
                 "text":"What will you do?",
@@ -2707,7 +2707,7 @@
     },
     {
         "id":"ehrenfest_33a",
-        "message":"I will ask in the inn about the couple who got lost and whose trace Lorn and his partners followed.",
+        "message":"I will ask in the inn about the missing couple that Lorn and his partners followed.",
         "replies":[
             {
                 "text":"I'd complain, but I prefer not to hear your explanation.",
@@ -2809,14 +2809,14 @@
                 "nextPhraseID":"moyra_10"
             },
             {
-                "text":"[Lie] I do",
+                "text":"[Lie] I do.",
                 "nextPhraseID":"moyra_10"
             }
         ]
     },
     {
         "id":"moyra_10",
-        "message":"I heard about Lorn's accident, but I didn't believe he fell off the mountain. \nHe is the most skilled guy when it comes up to climb up and down the mountain.",
+        "message":"I heard about Lorn's accident, but I don't believe he fell off the mountain. \nHe is the most skilled man I know when it comes to climbing the mountain.",
         "replies":[
             {
                 "text":"What about his partners?",
@@ -2868,7 +2868,7 @@
                 "nextPhraseID":"prim_commoner3_3"
             },
             {
-                "text":"People say he was so skilled climbing.",
+                "text":"People say he was quite skilled in climbing.",
                 "nextPhraseID":"prim_commoner3_4",
                 "requires":[
                     {
@@ -2896,7 +2896,7 @@
     },
     {
         "id":"prim_commoner3_4",
-        "message":"Was he? Well, I think he might had bad luck...",
+        "message":"Was he? Well, maybe he might've had bad luck...",
         "replies":[
             {
                 "text":"N",
@@ -2906,14 +2906,14 @@
     },
     {
         "id":"prim_commoner3_5",
-        "message":"You might ask in the Tavern. He was a regular there, like most guards.",
+        "message":"You might ask in the tavern. He was a regular there, like most guards.",
         "replies":[
             {
                 "text":"Thank you. Shadow be with you.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Finally some hint. Thank you.",
+                "text":"Finally, a hint. Thank you.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2932,7 +2932,7 @@
     },
     {
         "id":"prim_commoner4_4",
-        "message":"Lorn? Nothing, I barely know him, neither his comrades, Dualia and... No idea. \n\n What's wrong with him?",
+        "message":"Lorn? Nothing. I barely know him, or his comrades, Duala and...sorry, I forget the name. \n\nWhat's wrong with him?",
         "replies":[
             {
                 "text":"He was killed several days ago.",
@@ -2946,10 +2946,10 @@
     },
     {
         "id":"prim_commoner4_5a",
-        "message":"Oh. I'm sorry. May the shadow guide his way to a better world.",
+        "message":"Oh. I'm sorry. May the Shadow guide his way to a better world.",
         "replies":[
             {
-                "text":"Right, uhm...Don't you remember anything about him?",
+                "text":"Right, uhm...don't you remember anything about him?",
                 "nextPhraseID":"prim_commoner4_6"
             }
         ]
@@ -2966,7 +2966,7 @@
     },
     {
         "id":"prim_commoner4_6",
-        "message":"Uhm, well. I heard Lorn was popular among the children here in Prim because his scary stories about, you know, the monsters.",
+        "message":"Uhm, well. I heard Lorn was popular among the children here in Prim because of his scary stories about, you know, the monsters.",
         "replies":[
             {
                 "text":"Gonna ask some child. Thanks.",
@@ -3001,7 +3001,7 @@
     },
     {
         "id":"prim_commoner1_6",
-        "message":"Sorry child, I do not pay attention to the local gossip. Try luck asking someone else.",
+        "message":"Sorry child, I do not pay attention to the local gossip. Ask around.",
         "replies":[
             {
                 "text":"Thank you, Shadow be with you.",
@@ -3043,7 +3043,7 @@
     },
     {
         "id":"prim_tavern_guest4_5",
-        "message":"Th..then buy me an expensive one. Ha, ha. ",
+        "message":"Th..then buy me an expensive one. Ha, ha.",
         "replies":[
             {
                 "text":"Stop joking, Lorn is dead.",
@@ -3060,7 +3060,7 @@
         "message":"Lorn t...too? We will all die!",
         "replies":[
             {
-				"text":"N",
+                "text":"N",
                 "nextPhraseID":"prim_tavern_guest4_7"
             }
         ]
@@ -3070,7 +3070,7 @@
         "message":"Why? *sob* What have we d...done to deserve this!",
         "replies":[
             {
-                "text":"People say he fell off the mountain side.",
+                "text":"People say he fell off the mountainside.",
                 "nextPhraseID":"prim_tavern_guest4_8a"
             },
             {
@@ -3095,7 +3095,7 @@
     },
     {
         "id":"prim_tavern_guest4_8a",
-        "message":"Yeah, good one kid. *sob* Leave me alone.",
+        "message":"Yeah, good one kid. I'm not d...drunk enough to believe that! *sob* Leave me alone.",
         "replies":[
             {
                 "text":"As you wish, drunkard.",
@@ -3116,7 +3116,7 @@
                 "nextPhraseID":"prim_tavern_guest4_10"
             },
             {
-                "text":"I saw his corpse. It wasn't a monster neither a falling.",
+                "text":"I saw his corpse. It was neither a monster nor a fall.",
                 "nextPhraseID":"prim_tavern_guest4_11"
             }
         ]
@@ -3126,11 +3126,11 @@
         "message":"No, no, no. The monsters...They did it! They killed my friends!!",
         "replies":[
             {
-                "text":"We'll talk later, when you be less drunken and nervous.",
+                "text":"We'll talk later, when you're less drunken and nervous.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"No, neither gornauds nor a falling killed him.",
+                "text":"No, neither the gornauds nor a fall killed him.",
                 "nextPhraseID":"prim_tavern_guest4_11"
             }
         ]
@@ -3151,7 +3151,7 @@
     },
     {
         "id":"prim_tavern_guest4_12b",
-        "message":"WHAT?! *hits the table and gets up* \n\n Is that what we get in exchange of...?!",
+        "message":"WHAT?! *hits the table and gets up* \n\n Is that what we get in exchange for...?!",
         "replies":[
             {
                 "text":"N",
@@ -3161,7 +3161,7 @@
     },
     {
         "id":"prim_tavern_guest4_13",
-        "message":"...these years...Uuugh.\n\n[The smelly guy gets dizzy, sits down again next to the table and puts his head over his muscled arms]",
+        "message":"...these years...Uuugh.\n\n[The smelly guy gets dizzy, sits down again next to the table and rests his head on his muscled arms]",
         "replies":[
             {
                 "text":"You seem tired. We'll talk later.",
@@ -3292,7 +3292,7 @@
     },
     {
         "id":"prim_tavern_guest4_14a",
-        "message":"[The robust man is still tired and drunken, sat next to an unfinished jar of mead]",
+        "message":"[The robust man is still tired and drunken, next to an unfinished jar of mead]",
         "replies":[
             {
                 "text":"I'd better come back later.",
@@ -3313,7 +3313,7 @@
                 "nextPhraseID":"prim_tavern_guest4_12b"
             },
             {
-                "text":"The guards? Those lazy guys won't do anything.",
+                "text":"The guards? Those lazy fools won't do anything.",
                 "nextPhraseID":"prim_tavern_guest4_12b"
             }
         ]
@@ -3354,10 +3354,10 @@
     },
     {
         "id":"prim_tavern_guest4_16",
-        "message":"Do you mind bringing me a good and large bottle of water f...from the streams?",
+        "message":"Do you mind bringing me a good, large bottle of water f...from the streams?",
         "replies":[
             {
-                "text":"No, go buy yourself a bottle. ",
+                "text":"No, go buy yourself a bottle.",
                 "nextPhraseID":"X"
             },
             {
@@ -3379,7 +3379,7 @@
     },
     {
         "id":"prim_tavern_guest4_17a",
-        "message":"Yes, East of he..re. There's a hole. Under the mountain side...",
+        "message":"Yes, east of he..re. There's a hole. Under the mountainside...",
         "replies":[
             {
                 "text":"Sounds vague, but I'll try.",
@@ -3432,7 +3432,7 @@
                 ]
             },
             {
-                "text":"Where could I find the streams?",
+                "text":"Where can I find the streams?",
                 "nextPhraseID":"prim_tavern_guest4_18a"
             }
         ]
@@ -3602,7 +3602,7 @@
     },
     {
         "id":"prim_tavern_guest4_18b",
-        "message":"[The stout guy looks through the water you have brought to him. His eyes open widely. He starts to drink the water straight off and finishes in the blink of an eye, taking a deep breath just after putting the glass over the table]",
+        "message":"[The stout guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table]",
         "replies":[
             {
                 "text":"How was it?",
@@ -3698,7 +3698,7 @@
         "message":"Mountain patrol crews were created because of the monster activity. Some people still think they are somehow sent by the people from Blackwater Settlement...",
         "replies":[
             {
-                "text":"No. They are suffering a siege for even more powerful monsters.",
+                "text":"No. They are suffering a siege from even more powerful monsters.",
                 "nextPhraseID":"prim_tavern_guest4_24a",
                 "requires":[
                     {
@@ -3716,7 +3716,7 @@
     },
     {
         "id":"prim_tavern_guest4_24a",
-        "message":"I know! We faced white wyrms on the mountain heights. I'm afraid political problems is something leaders of each place must deal with. We at least tried to keep Prim safe from monster attacks.",
+        "message":"I know! We faced white wyrms on the mountain heights. I'm afraid the political problems are something leaders of each place must deal with. We at least tried to keep Prim safe from monster attacks.",
         "replies":[
             {
                 "text":"N",
@@ -3746,7 +3746,7 @@
     },
     {
         "id":"prim_tavern_guest4_25a",
-        "message":"But since the gornauds invaded the mountain sides, wolves went down to the fir forest and the path between Prim and the Elm mine got more and more unsafe.",
+        "message":"But since the gornauds invaded the mountainsides, wolves went down to the fir forest and the path between Prim and the Elm mine became more and more unsafe.",
         "replies":[
             {
                 "text":"N",
@@ -3756,7 +3756,7 @@
     },
     {
         "id":"prim_tavern_guest4_26b",
-        "message":"Attacks by wolves got more and more frequent. While we were taking care of the gornauds, miners died by packs of wolves.",
+        "message":"Wolf attacks became more and more frequent. While we were taking care of the gornauds, miners died to packs of wolves.",
         "replies":[
             {
                 "text":"N",
@@ -3786,7 +3786,7 @@
     },
     {
         "id":"prim_tavern_guest4_28",
-        "message":"Finally, like if a mastermind were behind all of this, a coordinated group of gornauds moved towards Prim from the East.",
+        "message":"Finally, as if a mastermind were behind all of this, a coordinated group of gornauds moved towards Prim from the east.",
         "replies":[
             {
                 "text":"N",
@@ -3796,7 +3796,7 @@
     },
     {
         "id":"prim_tavern_guest4_29",
-        "message":"We got rid of them, but at what cost...",
+        "message":"We got rid of them, but at what cost...?",
         "replies":[
             {
                 "text":"N",
@@ -3806,7 +3806,7 @@
     },
     {
         "id":"prim_tavern_guest4_30",
-        "message":"One of those beasts...Squashed Kirg's head with a single blow. We were...are always underestimating their intelligence.",
+        "message":"One of those beasts...squashed Kirg's head with a single blow. We were...are always underestimating their intelligence.",
         "replies":[
             {
                 "text":"N",
@@ -3816,7 +3816,7 @@
     },
     {
         "id":"prim_tavern_guest4_31",
-        "message":"I got severly injured when the mysterious disappearings started. The mine was the first place when it occurred. But then, some villagers disappeared too.",
+        "message":"I was severely injured when the mysterious disappearings started. The mine was the first place where it occurred. But then, some villagers disappeared too.",
         "replies":[
             {
                 "text":"N",
@@ -3826,7 +3826,7 @@
     },
     {
         "id":"prim_tavern_guest4_32",
-        "message":"Gornauds are smart, but kidnapping people?",
+        "message":"Gornauds may be smart, but kidnapping people?",
         "replies":[
             {
                 "text":"Hmm, you have a point there.",
@@ -3853,7 +3853,7 @@
         "message":"Lorn must have discovered something. Just a week or two ago we were right here bantering and chatting, trying to forget that horrible scene of Kirg's death.",
         "replies":[
             {
-                "text":"Why didn't you come along with them?",
+                "text":"Why didn't you go along with them?",
                 "nextPhraseID":"prim_tavern_guest4_34a"
             },
             {
@@ -3881,7 +3881,7 @@
     },
     {
         "id":"prim_tavern_guest4_34a",
-        "message":"I was too afflicted. Lorn thought I was not gonna focus in the exploration...",
+        "message":"I was too afflicted. Lorn thought I wouldn't be able to focus on the exploration...",
         "replies":[
             {
                 "text":"Did the mention anything at the tavern?",
@@ -3895,7 +3895,7 @@
     },
     {
         "id":"prim_tavern_guest4_34c",
-        "message":"No, I don't think so. He was so drunk, and me too! \n We passed the whole night singing, chatting, forgetting...",
+        "message":"No, I don't think so. He was so drunk, and me too!\nWe passed the whole night singing, chatting, forgetting...",
         "replies":[
             {
                 "text":"What about the missing couple?",
@@ -3908,11 +3908,11 @@
         "message":"What couple? I know nothing about a couple.",
         "replies":[
             {
-                "text":"A guy called Ehrenfest told me that was the mission.",
+                "text":"A man called Ehrenfest told me that Lorn was on a mission to find a missing couple.",
                 "nextPhraseID":"prim_tavern_guest4_36a"
             },
             {
-                "text":"I heard they were looking for a missing couple.",
+                "text":"I heard a rumor that they were looking for a missing couple.",
                 "nextPhraseID":"prim_tavern_guest4_36b"
             }
         ],
@@ -3926,7 +3926,7 @@
     },
     {
         "id":"prim_tavern_guest4_36b",
-        "message":"They went to the mountain side, just another patrol round...Who told you that? ",
+        "message":"Eh? No, no. They went to the mountainside, just another patrol round...Who told you that?",
         "replies":[
             {
                 "text":"Never mind. I really need to go.",
@@ -3940,7 +3940,7 @@
     },
     {
         "id":"prim_tavern_guest4_36a",
-        "message":"Ehrenfest? Who is he? What does he know? It's public domain guard patrols are not actively searching missing villagers due to lack of resources.",
+        "message":"Ehrenfest? Who is he? What does he know? It's common knowledge that guard patrols are not actively searching for missing villagers due to lack of resources.",
         "replies":[
             {
                 "text":"So he lied to me? Why?",
@@ -3954,7 +3954,7 @@
     },
     {
         "id":"prim_tavern_guest4_36c",
-        "message":"Look, you should leave this be, maybe this is too shady for a kid like you.",
+        "message":"Look, you should leave this be. Maybe this is too shady for a kid like you.",
         "replies":[
             {
                 "text":"I will discover the whole truth about this.",
@@ -3976,7 +3976,7 @@
                 "nextPhraseID":"prim_tavern_guest4_37b"
             },
             {
-                "text":"A couple of Gornauds aren't a problem for me. Why a thin man would?",
+                "text":"A few gornauds weren't a problem for me. I have nothing to fear from that thin man.",
                 "nextPhraseID":"prim_tavern_guest4_37c",
                 "requires":[
                     {
@@ -3990,10 +3990,10 @@
     },
     {
         "id":"prim_tavern_guest4_37a",
-        "message":"If that is your determination, I will not interfere. You're valiant, kid!",
+        "message":"If that is your decision, I will not interfere. You're valiant, kid!",
         "replies":[
             {
-                "text":"Thanks, shadow be with you.",
+                "text":"Thanks, Shadow be with you.",
                 "nextPhraseID":"X"
             },
             {
@@ -4018,7 +4018,7 @@
     },
     {
         "id":"prim_tavern_guest4_37c",
-        "message":"This is no joke, OK? If that guy has really something to do with the missing people or Lorn's death, He won't surely be just a \"thin man\".",
+        "message":"This is no joke, OK? If that guy has really something to do with the missing people or Lorn's death, he surely isn't just a \"thin man\".",
         "replies":[
             {
                 "text":"I'll keep that in mind. Thank you.",
@@ -4137,7 +4137,7 @@
     },
     {
         "id":"ehrenfest_40a",
-        "message":"It is, It will.",
+        "message":"It is, it will.",
         "replies":[
             {
                 "text":"You're still being shady, uh.",
@@ -4161,7 +4161,7 @@
     },
     {
         "id":"ehrenfest_39c",
-        "message":"It's time to put things in common.",
+        "message":"It's time to share what we've discovered.",
         "replies":[
             {
                 "text":"You are already aware of my information.",
@@ -4189,7 +4189,7 @@
     },
     {
         "id":"ehrenfest_41a",
-        "message":"Then, I've been the lucky one this time.",
+        "message":"Then, it seems I've been the lucky one this time.",
         "replies":[
             {
                 "text":"What did you find out?",
@@ -4280,11 +4280,11 @@
         "message":"That Feygard general said he was gonna climb up the mountain. We should follow him up to Blackwater Settlement and stop him.",
         "replies":[
             {
-                "text":"Stop him? You mean killing him?",
+                "text":"Stop him? You mean to kill him?",
                 "nextPhraseID":"ehrenfest_46a"
             },
             {
-                "text":"I'll love getting rid of that Feygard scum.",
+                "text":"I'd love to get rid of that Feygard scum.",
                 "nextPhraseID":"ehrenfest_46b"
             }
         ]
@@ -4447,7 +4447,7 @@
         "message":"What? What do you have to do with *cough*, him?",
         "replies":[
             {
-                "text":"[Lie]I have an important message to deliver him. It comes from Prim.",
+                "text":"[Lie] I have an important message to deliver him. It comes from Prim.",
                 "nextPhraseID":"ortholion_gw_3a"
             },
             {
@@ -4496,8 +4496,8 @@
     },
     {
         "id":"ortholion_gw_sleeping",
-		"switchToNPC":"none",
-        "message":"The scout is sleeping on the ground. His wounds don't seem to be that bad."
+        "message":"The scout is sleeping on the ground. His wounds don't seem to be that bad.",
+        "switchToNPC":"none"
     },
     {
         "id":"ortholion_gw_3c",
@@ -4532,11 +4532,11 @@
                 "rewardID":"Omi2_bwm1",
                 "value":35
             },
-			{
-				"rewardType":"removeSpawnArea",
-				"rewardID":"ortholion_guard_wounded",
-				"mapName":"blackwater_mountain31"
-			}
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"ortholion_guard_wounded",
+                "mapName":"blackwater_mountain31"
+            }
         ]
     },
     {
@@ -4623,7 +4623,7 @@
     },
     {
         "id":"prim_tavern_guest4_38c",
-        "message":"Hmm. Liars can be good guys too, but why lying on that? I hope not to have any future business with him!",
+        "message":"Hmm. Liars can be good guys too, but why lie about that? I hope not to have any future dealings with him!",
         "replies":[
             {
                 "text":"Do you remember anything more about Lorn's last mission?",
@@ -4633,7 +4633,7 @@
     },
     {
         "id":"prim_tavern_guest4_39a",
-        "message":"Oh, c'mon. \n\nThen what about beating up these guards? They didn't move a finger for my friend, and I won't forget that.",
+        "message":"Oh, c'mon. \n\nThen what about beating up those guards? They didn't move a finger for my friend, and I won't forget that.",
         "replies":[
             {
                 "text":"Sounds a bad idea, but let's do it.",
@@ -4867,6 +4867,7 @@
     {
         "id":"capvjern_6",
         "message":"How can you be so sure? Accidents occur! He could have fallen off during an attack or a rock slide.",
+        "switchToNPC":"prim_guard5",
         "replies":[
             {
                 "text":"N",
@@ -4877,6 +4878,7 @@
     {
         "id":"capvjern_7",
         "message":"This is what the guy who reported it told me, too! \n\nNow I'm starting to welcome those Feygard guys. There aren't attacks anymore since they guard the village.",
+        "switchToNPC":"prim_guard5",
         "replies":[
             {
                 "text":"N",
@@ -5167,8 +5169,8 @@
     },
     {
         "id":"ortholion_subdued_1",
-        "switchToNPC":"ortholion_subdued",
         "message":"Hmmm... Hmmm....",
+        "switchToNPC":"ortholion_subdued",
         "replies":[
             {
                 "text":"Hey! I need to talk with the general, now!",
@@ -5304,7 +5306,7 @@
                 ]
             },
             {
-                "nextPhraseID":"ortholion_13"
+                "nextPhraseID":"ortholion_13",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -6959,8 +6961,8 @@
     },
     {
         "id":"ortholion_guard8_dead",
-		"switchToNPC":"none",
         "message":"On the top of the stairs lies a dead soldier. He is no longer breathing.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Leave.",
@@ -6997,8 +6999,8 @@
     },
     {
         "id":"ortholion_guard8_consumed",
-		"switchToNPC":"none",
         "message":"From the soldier you met inside here, only dust remains.",
+        "switchToNPC":"none",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -8669,7 +8671,7 @@
                         "requireType":"questProgress",
                         "requireID":"bwm72_beginning",
                         "value":40,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -8842,7 +8844,7 @@
     },
     {
         "id":"ortholion_17",
-        "message":"Let me ask you a question. What in the world is most important to you? Pride and honor?, maybe power and richness?",
+        "message":"Let me ask you a question. What in the world is most important to you? Pride and honor? Maybe power and riches?",
         "replies":[
             {
                 "text":"I need some time to think about it.",
@@ -8861,7 +8863,7 @@
                 "nextPhraseID":"ortholion_18b"
             },
             {
-                "text":"I can't conceive a life without honour.",
+                "text":"I can't conceive a life without honor.",
                 "nextPhraseID":"ortholion_18c"
             },
             {
@@ -9010,7 +9012,7 @@
                 "nextPhraseID":"ortholion_18b"
             },
             {
-                "text":"My pride and my honour!",
+                "text":"My pride and my honor!",
                 "nextPhraseID":"ortholion_18c"
             },
             {
@@ -9035,11 +9037,11 @@
         "message":"Fine, it's all for you. Maybe this way you'll learn a lesson. Come see me in some days, you might be of use.",
         "replies":[
             {
-                "text":"A bag ful off junk necklaces and rings?! No way, trickster!",
+                "text":"A bag full of junk necklaces and rings?! No way, trickster!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I...Will.",
+                "text":"I...will.",
                 "nextPhraseID":"X"
             }
         ],
@@ -9072,7 +9074,7 @@
     },
     {
         "id":"ortholion_18c",
-        "message":"Good anwser! That is very inline with any good Feygard soldier thoughts. Since I owe you a favour, let me repay you with this bag of gold.",
+        "message":"Good anwser! That is very inline with any good Feygard soldier thoughts. Since I owe you a favor, let me repay you with this bag of gold.",
         "replies":[
             {
                 "text":"[Take the gold] Finally... ",
@@ -9121,7 +9123,7 @@
     },
     {
         "id":"ortholion_19d",
-        "message":"*retires its hand with the gold bag and makes a nod of approval* Good, good. I believe on your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude.\n\nWe'll talk later. Now we all need some rest.",
+        "message":"*retires its hand with the gold bag and makes a nod of approval* Good, good. I accept your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude.\n\nWe'll talk later. Now we all need some rest.",
         "replies":[
             {
                 "text":"Your debt is settled, sir.",
@@ -9163,7 +9165,7 @@
         "message":"I would say that is a ... very ignorant reply, but I will not judge you today. Go back home and spend some time with your people and your family; then come back. I will need people like you in a few days.",
         "replies":[
             {
-                "text":"So no reward...Uh, bye.",
+                "text":"So no reward...hmph, bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -9197,14 +9199,14 @@
                 "nextPhraseID":"ortholion_19e"
             },
             {
-                "text":"You couldn't put a single tip on me!",
+                "text":"You couldn't land a single hit on me!",
                 "nextPhraseID":"ortholion_19e"
             }
         ]
     },
     {
         "id":"ortholion_19e",
-        "message":"Look, this is simple. The shadow is the past. We, Feygard, are the future. Fanatism is never a good companion, but you are still young, you will need time to fully understand my words.",
+        "message":"Look, this is simple. The Shadow is the past. We, Feygard, are the future. Fanaticism is never a good companion, but you are still young, you will need time to fully understand my words.",
         "replies":[
             {
                 "text":"You forbid the use of Bonemeal!",
@@ -9218,11 +9220,11 @@
     },
     {
         "id":"ortholion_20b",
-        "message":"Everything isn't black or white. Taxes are needed in this great kingdom in order to keep the peace and travelling roads safe."
+        "message":"Not everything is black or white. Taxes are needed in this great kingdom in order to keep the peace and travelling roads safe."
     },
     {
         "id":"ortholion_20c",
-        "message":"Would you like your bones be used in some sort of ritual to make those potions? Because in winter, where big mammals, erumen lizards and other beasts hibernate, there's only one kind of bones useful for that: ours.",
+        "message":"Would you like your bones be used in some sort of ritual to make those potions? Because in winter, when big mammals, erumen lizards, and other beasts hibernate, there's only one kind of bones useful for that: ours.",
         "replies":[
             {
                 "text":"N",

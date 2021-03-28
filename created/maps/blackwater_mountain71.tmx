@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="12" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="10">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="12" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,27 +180,35 @@
  <tileset firstgid="7465" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7593" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../../../nutAndor/andors-trail/AndorsTrail/res/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <layer id="10" name="Base" width="12" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAEJzghmFhAS/WbOUlTv4UE9SC1xKqnlVpy1FNDD7EApmcziXpItYOe6rcQEX+Dyf0ggEs9ABC8KiE=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJyN0TEOgzAMBVDULRfw6bkCSSWyp53KGnKFLm1P0K1B2OLHJNDhS5F4duwwX7puhqSc0awZ8jmq7zroQz7bnCfEnfS/cSzHqXpvNn+FPgP7OxsMeukjuyTlv1T6yayRXWp9l+893y0+8h21voFtAu9N6V+09Y78DmLR9xyskbdseQu7SE1oePkHuPsbZjvyTtWgH8HbivdgP7T37sA/qJznzHtT97jzRHuvZ8cd0C/z6F0x/3q8o+V/RMC2sA==
+   eJyV0rEOgjAQBuCGjRfo0/MI0prArkySOAGbrsao7CZuXuNd+D3bqsMfSvr12qOMhTEjZKL01pgdpabxoOZ10G9o7CgniP9Sf8txHK/Wr8CvoU7NvqO05ZLg0Esd6WUCfyYzUx7g+/IV6SVmw3zFe4sfeA9tG67VSe/sgxN/J3ekXO1Sy4NFX3FkzYXX1Rkv31bW3PiuYl7uwCXOlvO+eL8D9A14F/EH8LP99D5TP7y3f/h9wruEl39An12esfPoXjG/etwj5Z+MTb25
   </data>
  </layer>
  <layer id="2" name="Objects" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYICA+5IMcGAmzsDgJs6AF+BS/5iJNPXIYDYTpvo1TKjqZdkZGOTZIez9UPUPhRD6nomhqsfnF5Da10DsiqTmOJB/QgzhlzVMCLU/oWqRATbzQWpDxCFqTYD4EdR9l5HcFoak5xtQPAXIN4VimL9hZrhhsQOk5zYQpyLpAdn7Eohd0NTPZULVYwaVuyQE8ZMpFvNBbj0shuo2ZHBbDJV/GIn/DWqHIdB8I6jf0c0/jKb/FJDvCFTrJAQJszQscQZy01Gg/DEg3iWG8C/I7J9imOpBdsDSBiieYXF7WgwRJ+jqYe4Cuf8bNM53i6GmTWx+MENyL8yv6Hpg6g9DwwfZ/SCwFosdl5HcA3M/TD0o/QMAGzVTFg==
+   eJyVUjsKAjEQHdJsv0XEQryBoLjbK7onEE+gXkq8wXoBLSyCn1pLC1FBEPsFO2dIYmZjFHwwsMm+N/MmMwAapyq8kVYAsgr8xDf+VfzH55iKT34uyvxaBFCP9PfK8M+x0zXiMv9XLzcJMMB/fcbZ4t1Oul5y4bhPqbkcofw8bxvjYvwdpOMPmabA+xGeExO2b+7Nr2E1Y6ahuneMnsefCac5Gh1hH+uekkB+8qqk1oRw9O4VO1tNE/O3TO9+fuXp6V06yO3G+s0mgZmRpzX+32AspOuXcj8DPqmG3Y2HdLPN2Ex8vvVFfgoz86Us72aoh5T5tb36GstXZg+4f8I8UOPA/HD/BNr/F/NeT1E=
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEh8WwCOIBqkL45S+jmXcJyGcURhW7CTXjkRB2+wWh6g+JYZqHrF4PyS2XgGxddgYGfXZM+zcD5bYAcYg4qpwZkO+GJga2A0ntbCYGhjNCmHYjA5jaTiZMu0HgMZo4DCCLrwGyg3GE7VygXIo4Qs8hQcLxhh5uB4H6HuPRMxfJLauZIO6BARMsYYTNDhhAD1OY2VuB/tsmBAl3GHAG8tNwmA/zoxkOeXTwUAhV/R1B7PGL7i5kgE89CKD7OQ1PnOGygxDAFa4AxgsrLQ==
+   eJxjYMAEh8WwCOIBqkL45S+jmXcJyGcURhW7CTXjkRB2+wWh6g+JYZqHy72XgGbpsjMw6LNj2r8ZKLcFi7vNxBkY3MQxxQ8D1YZAxWczMTCcEcJvNwx0MmHaDQKPmTDVoouvAbKDcYTtXCR1ID2HBAm7BT3cDgL1PcajB9mO1UwQ98CACZYwwmYHDKCHKczsrUD/bUPzozOB9AQCZjjsRwcPhVDV3xHEr34ulnjBlh6QAbqf0wjEGTY7CAFc4QoAy7MnnA==
   </data>
  </layer>
  <layer id="9" name="Top" width="12" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBajgiE0AoeAbruEx32Zkqh8fH45IkS8vejmEgLhWNQTCld0PXOZEGxGYcJ6ziD5RxCHelxuoxbA5cdQAnbi8h8ugM9/QxkAABc+Cxo=
+   eJxjYKAcHBajgiE0AoeAbrtEgvvw+eWIEOXuIQWQGq5zmRBsRmHC6s8g+UeQCPW0ALj8GCqJXz0x/kNWP1D+ozUAAMP9Cgg=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="12" height="20">
+ <layer id="4" name="Walkable" width="12" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsBGIQWCjGPF4oNTDADYxbHoIqSfGXaS4nRyzSVFPyG/E2kVrO4jViw0QG+bE2IPNTELuIjVOyI07cuIaXR8A0qSMtA==
   </data>

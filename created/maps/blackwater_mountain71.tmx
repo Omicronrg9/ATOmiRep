@@ -180,9 +180,6 @@
  <tileset firstgid="7465" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7593" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../nutAndor/andors-trail/AndorsTrail/res/drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer id="10" name="Base" width="12" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYMAEJzghmFhAS/WbOUlTv4UE9SC1xKqnlVpy1FNDD7EApmcziXpItYOe6rcQEX+Dyf0ggEs9ABC8KiE=

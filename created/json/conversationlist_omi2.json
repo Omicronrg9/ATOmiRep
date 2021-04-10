@@ -768,7 +768,7 @@
     },
     {
         "id":"ehrenfest_0",
-        "message":"Damn it, kid! Watch your step. You almost ran me over.",
+        "message":"Damn it, kid! Watch your step. You almost knocked me over.",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -885,7 +885,7 @@
     },
     {
         "id":"ehrenfest_3a",
-        "message":"Ok, kid. Do it, I'll wait here for your return, heh.",
+        "message":"Ok, kid. Do it, I'll wait here for your return, heh. By the way, my name is Ehenrfest.",
         "replies":[
             {
                 "text":"Do whatever you want, bye.",
@@ -1831,7 +1831,7 @@
     },
     {
         "id":"ehrenfest_3b",
-        "message":"This is not a good place to talk about this. But trust me, there is much at stake and Prim's situation is only going to get worse. Let me...",
+        "message":"This is not a good place to talk about this. But trust me, there is much at stake and Prim's situation is only going to get worse. Let me introduce myself. My name is Ehrenfest, and...",
         "replies":[
             {
                 "text":"N",

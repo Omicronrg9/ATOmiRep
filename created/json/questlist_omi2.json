@@ -240,31 +240,31 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"Down in a hole, in the mountain side near Prim I've found signs of a heinous torture. At least three corpses were there. I felt the urge of getting out of there as far as I could and report the events to someone in the village inmediately."
+                "logText":"Down in a hole, in the mountain side near Prim, I found signs of a heinous torture. At least three corpses were there. I felt the urge to get out of there as fast as I could and immediately report what I found to someone in the village."
             },
             {
                 "progress":6,
-                "logText":"A mysterious looking guy appeared on a sudden in my way to report the guards. He has recommended me not to tell them."
+                "logText":"A mysterious looking guy suddenly appeared in my way when I was headed to report to the guards. He has recommended that I should not tell them anything."
             },
             {
                 "progress":7,
-                "logText":"I ignored the advices of the strange guy that almost stumbled upon me. I must see some guards."
+                "logText":"I ignored the advice of the strange guy that I almost stumbled over. I must see some guards."
             },
             {
                 "progress":8,
-                "logText":"Somehow, a Feygard general and his men reached Prim. They are kind of extorting the people in charge to get the full control of the Elm mine."
+                "logText":"Somehow, a Feygard general and his men reached Prim. They are kind of extorting the people in charge to get full control of Elm mine."
             },
             {
                 "progress":9,
-                "logText":"The man in charge is not willing to hear me. They seem to have bigger problems right now. Maybe the guy I met earlier was right."
+                "logText":"The man in charge is not willing to listen to me. He says he has more important things to deal with. Maybe the guy I met earlier was right."
             },
             {
                 "progress":10,
-                "logText":"A Feygard general and two of his henchmen appeared. They must be up to no good."
+                "logText":"A Feygard general and two of his henchmen appeared. What are they up to?"
             },
             {
                 "progress":11,
-                "logText":"Ehrenfest is uneasy. He said we must meet in Elm mine, West of prim. We should talk no more about this inside the village."
+                "logText":"Ehrenfest is uneasy. He said we must meet in Elm mine, west of prim. We should talk no more about this inside the village."
             },
             {
                 "progress":15,
@@ -287,35 +287,35 @@
             },
             {
                 "progress":22,
-                "logText":"One of the tavern regulars, possibly Lorn's old partner, does not believe that Lorn's death was an accident, maintaining Lorn has been climbing the mountains for longer he could remember. However, he does not feel alright to keep the conversation.",
+                "logText":"One of the tavern regulars, possibly Lorn's old partner, does not believe that Lorn's death was an accident, maintaining Lorn has been climbing the mountains for longer he could remember. However, he does not feel comfortable to continue the conversation.",
                 "rewardExperience":100
             },
             {
                 "progress":23,
-                "logText":"Lorn's old partner asked me to bring a large bottle of cool water from the streams, down the hole East of Prim. I bet it is the same hole I've been earlier."
+                "logText":"Lorn's old partner asked me to bring a large bottle of cool water from the streams that are down the hole East of Prim. I bet it is the same hole I've been down earlier."
             },
             {
                 "progress":24,
-                "logText":"I've taken enough water for that drunkard. Time to leave this dark place.",
+                "logText":"I've collected enough water for that drunkard. Time to leave this dark place.",
                 "rewardExperience":800
             },
             {
                 "progress":25,
-                "logText":"I brought the cold water to Lorn's old partner. He seems to be better, and his intoxication has relieved.",
+                "logText":"I brought the cold water to Lorn's old partner. He seems to be better, and is less intoxicated.",
                 "rewardExperience":200
             },
             {
                 "progress":30,
-                "logText":"Jern doesn't know anything about a missing couple. How does a member of Lorn's crew ignore the mission of his group? Something does not fit again. I should visit Ehrenfest again.",
+                "logText":"Jern doesn't know anything about a missing couple. How does a member of Lorn's crew ignore the mission of his group? Again, something does not fit. I should visit Ehrenfest again.",
                 "rewardExperience":200
             },
             {
                 "progress":31,
-                "logText":"I decided to solve this situation by myself, as Ehrenfest proved not to be trustworthy enough."
+                "logText":"I decided to solve this situation myself, as Ehrenfest proved not to be trustworthy enough."
             },
             {
                 "progress":32,
-                "logText":"Despite Ehrenfest ostensible lies, I decided to give him a second chance."
+                "logText":"Despite Ehrenfest's ostensible lies, I decided to give him a second chance."
             },
             {
                 "progress":33,
@@ -324,7 +324,7 @@
             },
             {
                 "progress":34,
-                "logText":"I've found a severely wounded guy inside a mountain cabin. She claims having being attacked by a group of wyrms in a sudden. Ortholion and the other scout left her resting and departed to Blackwater Settlement."
+                "logText":"I've found a severely wounded man inside a mountain cabin. He claims to have been suddenly attacked by a group of wyrms. Ortholion and the other scout left him resting and departed to Blackwater Settlement."
             },
             {
                 "progress":35,
@@ -337,7 +337,7 @@
             },
             {
                 "progress":40,
-                "logText":"It seems Ehrenfest lied to me more than once. He's probably related with the missing people and Lorn's death. I must find General Ortholion and warn him about Ehrenfest.",
+                "logText":"It seems Ehrenfest lied to me more than once. He's probably connected with the missing people and Lorn's death. I must find General Ortholion and warn him about Ehrenfest.",
                 "rewardExperience":100
             },
             {
@@ -351,38 +351,38 @@
             },
             {
                 "progress":46,
-                "logText":"After a brief conversation with the general, he left Blackwater settlement in a rush to reach Elm mine. He seemed really worried about the mine, so he asked me to warn his soldiers, settled South of Prim."
+                "logText":"After a brief conversation with the general, he left Blackwater settlement in a rush to reach Elm mine. He seemed really worried about the mine, so he asked me to warn his soldiers, settled south of Prim."
             },
             {
                 "progress":47,
-                "logText":"I reported general's henchmen about his plans. Now, I should hurry up to the Elm mine.",
+                "logText":"I reported to the general's henchmen about his plans. Now, I should hurry to the Elm mine.",
                 "rewardExperience":300
             },
             {
                 "progress":48,
-                "logText":"Once in the mine I saw corpses and collapsed tunnels. I tried to go further away and reached some more tunnels. Fortunately, they were not collapsed, but there was something strange there that scared even the venomfangs. Something evil."
+                "logText":"Once in the mine I saw corpses and collapsed tunnels. I tried to go another way and reached some more tunnels. Fortunately, they were not collapsed, but there was something strange there that scared even the venomfangs. Something evil."
             },
             {
                 "progress":49,
-                "logText":"One of the unexploited areas of the mine had a walled up passage and lots of those strange glowing gems. They seem to consume living beings to grow and bring life to inanimated things or corpses. I must be really careful.",
+                "logText":"One of the unexploited areas of the mine had a walled up passage and lots of those strange glowing gems. They seem to consume living beings to grow and bring life to inanimated things or corpses. I must be very careful.",
                 "rewardExperience":250
             },
             {
                 "progress":50,
-                "logText":"It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able of engulfing live beings. I found the remaining Ortholion's henchman alive. He has gone all the way back to search for reinforcements. Hope they are better than those who neither dared to enter here.",
+                "logText":"It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able to engulf living beings. I found the last of Ortholion's henchman alive. He has gone back to search for reinforcements. I hope they are better than those who neither dared to enter here.",
                 "rewardExperience":600
             },
             {
                 "progress":51,
-                "logText":"Ended up trapped in a one-way path deep into a cavern below the Elm mine, General Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
+                "logText":"I ended up trapped on a one-way path deep in a cavern below the Elm mine. General Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
             },
             {
                 "progress":52,
-                "logText":"Ehrenfest reversed the situation using some kind of magic, seemingly unknown even for himself."
+                "logText":"Ehrenfest reversed the situation using some kind of magic, seemingly unknown even to himself."
             },
             {
                 "progress":53,
-                "logText":"Ehrenfest escaped again! General Ortholion is unconscious and the reinforcements didn't show up yet...",
+                "logText":"Ehrenfest escaped again! General Ortholion is unconscious and the reinforcements haven't shown up yet...",
                 "rewardExperience":1000
             },
             {
@@ -391,11 +391,11 @@
             },
             {
                 "progress":55,
-                "logText":"I got back to the Elm mine dining room. Despite saving general's life he's not eager to reward me. Maybe I should try again later when we both be more settled."
+                "logText":"I got back to the Elm mine dining room. Despite saving the general's life he's not eager to reward me. Maybe I should try again later when we are both more settled."
             },
             {
                 "progress":56,
-                "logText":"After going back to a safer place, General Ortholion asked me a question. \"What in the world is most important to you?\" I need to think about it before giving him a proper reply."
+                "logText":"After arriving back at a safer place, General Ortholion asked me a question. \"What is most important to you?\" I need to think about it before giving him my reply."
             },
             {
                 "progress":59,
@@ -417,12 +417,12 @@
             },
             {
                 "progress":62,
-                "logText":"For my bravery and sense of honor, General Ortholion gave me a beautiful necklace, symbol of his gratitude towards me. He also told me to come back in a few days, I should take advantage of it and ask him about all the events happened.",
+                "logText":"For my bravery and sense of honor, General Ortholion gave me a beautiful necklace, a symbol of his gratitude towards me. He also told me to come back in a few days, when I should ask him about all the events that have happened.",
                 "rewardExperience":6000
             },
             {
                 "progress":63,
-                "logText":"For my bravery and... Ignorance?, general ortholion gave me some days to rest and urged me to come back just after that.",
+                "logText":"For my bravery and... ignorance?, general Ortholion gave me a few days to rest and urged me to come back soon after that.",
                 "rewardExperience":10000
             }
         ]

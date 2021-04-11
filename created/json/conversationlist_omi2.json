@@ -1859,7 +1859,7 @@
     },
     {
         "id":"ehrenfest_conversation_1a",
-        "message":"You and Ehrenfest are startled, and step aside. Three men with Feygard distinctions leave the hall. You remain silent as they pass.",
+        "message":"You and Ehrenfest are startled, and step aside. Three men with Feygard insignia leave the hall. You remain silent as they pass.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1881,7 +1881,7 @@
     },
     {
         "id":"ehrenfest_conversation_3",
-        "message":"I have a bad feeling about all this. These villagers might be hiding something. Tell the mountain scouts to wait for me at the tunnel entrance, they will escort me up to Blackwater Settlement.",
+        "message":"I have a bad feeling about all this. These villagers might be hiding something. Tell the mountain scouts to wait for me at the tunnel entrance. They will escort me up to Blackwater Settlement.",
         "replies":[
             {
                 "text":"N",
@@ -1944,7 +1944,7 @@
     },
     {
         "id":"ehrenfest_conversation_4a",
-        "message":"The three men continue their way out of the village, completely ignoring your presence.",
+        "message":"The three men continue on their way out of the village, completely ignoring your presence.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1970,7 +1970,7 @@
     },
     {
         "id":"ehrenfest_5a",
-        "message":"I presume the same way you did.",
+        "message":"I assume the same way you did.",
         "replies":[
             {
                 "text":"N",
@@ -1994,7 +1994,7 @@
     },
     {
         "id":"ehrenfest_6a",
-        "message":"Look, this is not a safe place to talk. Meet me in the Elm mine, west of here, ok?",
+        "message":"Look, this is not a safe place to talk. Meet me in the Elm mine, west of here, OK?",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -2002,11 +2002,11 @@
                 "nextPhraseID":"ehrenfest_7a"
             },
             {
-                "text":"Ok, we meet there.",
+                "text":"OK, we will meet there.",
                 "nextPhraseID":"ehrenfest_7b"
             },
             {
-                "text":"I hope this won't get shadier.",
+                "text":"I hope this won't get any shadier.",
                 "nextPhraseID":"ehrenfest_7c"
             }
         ]
@@ -2023,7 +2023,7 @@
     },
     {
         "id":"ehrenfest_7a",
-        "message":"Ok, I'll be waiting for you there.",
+        "message":"OK, I'll be waiting for you there.",
         "replies":[
             {
                 "text":"Bye.",
@@ -2054,14 +2054,14 @@
     },
     {
         "id":"ehrenfest_7b",
-        "message":"Excellent. Try not to raise suspicion.",
+        "message":"Excellent. Try not to raise suspicions.",
         "replies":[
             {
                 "text":"You're the suspicious guy here.",
                 "nextPhraseID":"R"
             },
             {
-                "text":"Ok, bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"R"
             }
         ],

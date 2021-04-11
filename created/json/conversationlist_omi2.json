@@ -768,15 +768,15 @@
     },
     {
         "id":"ehrenfest_0",
-        "message":"Damn it, kid! Watch your step. You almost knocked me over.",
+        "message":"Damn it, kid! Watch your step. You almost knocked me over!",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
-                "text":"Sorry sir, I am in a rush.",
+                "text":"Sorry, I am in a hurry.",
                 "nextPhraseID":"ehrenfest_1a"
             },
             {
-                "text":"Watch my step? You'd better watch your tongue.",
+                "text":"Watch my step? You'd better watch your tongue!",
                 "nextPhraseID":"ehrenfest_1b"
             }
         ],
@@ -790,7 +790,7 @@
     },
     {
         "id":"ehrenfest_1a",
-        "message":"Uhm, what's the matter?",
+        "message":"Umm, what's the matter?",
         "replies":[
             {
                 "text":"As I said, I don't have time to talk. I need to report something important.",
@@ -801,7 +801,7 @@
                 "nextPhraseID":"ehrenfest_2a"
             },
             {
-                "text":"I have discovered something shady inside the mountain.",
+                "text":"I have discovered something suspicious inside the mountain.",
                 "nextPhraseID":"ehrenfest_2b"
             }
         ]
@@ -818,14 +818,14 @@
     },
     {
         "id":"ehrenfest_1b2",
-        "message":"I'll leave it be. But tell me, what is it that you find so urgent?",
+        "message":"I'll let it go. But tell me, what is it that you find so urgent?",
         "replies":[
             {
                 "text":"I don't trust you, so nothing.",
                 "nextPhraseID":"ehrenfest_2a"
             },
             {
-                "text":"I have information related to the recent disappearings.",
+                "text":"I have information related to the recent disappearances.",
                 "nextPhraseID":"ehrenfest_2b"
             },
             {
@@ -885,14 +885,14 @@
     },
     {
         "id":"ehrenfest_3a",
-        "message":"Ok, kid. Do it, I'll wait here for your return, heh. By the way, my name is Ehenrfest.",
+        "message":"O,K kid. Do it, and I'll wait here for your return, heh. By the way, my name is Ehenrfest.",
         "replies":[
             {
                 "text":"Do whatever you want, bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"OK, sir.",
+                "text":"OK.",
                 "nextPhraseID":"X"
             }
         ],

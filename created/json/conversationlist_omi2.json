@@ -2225,7 +2225,7 @@
     },
     {
         "id":"ehrenfest_12",
-        "message":"I definitely saw you by chance. Please, let me explain what happened.",
+        "message":"I only saw you by chance. Please, let me explain what happened.",
         "replies":[
             {
                 "text":"Sure, go on.",
@@ -2236,14 +2236,14 @@
                 "nextPhraseID":"ehrenfest_13a"
             },
             {
-                "text":"Go straight to the point.",
+                "text":"Get straight to the point.",
                 "nextPhraseID":"ehrenfest_13b"
             }
         ]
     },
     {
         "id":"ehrenfest_13a",
-        "message":"I arrived here several weeks ago for no particular reason. I am part of a family of explorers and travelers, and the story of a ruined tunnel infested by dangerous beasts was something I wanted to see with my own eyes.",
+        "message":"I arrived here several weeks ago for no particularly interesting reason. I am part of a family of explorers and travelers, and the story of a ruined tunnel infested by dangerous beasts was something I wanted to see with my own eyes.",
         "replies":[
             {
                 "text":"N",
@@ -2363,7 +2363,7 @@
     },
     {
         "id":"ehrenfest_22",
-        "message":"I fell off a cliff on a narrow path of the mountain side and ended up at the same plateau you climbed up, where the corpse was. I could not believe what I was seeing.",
+        "message":"I fell off a cliff on a narrow path on the mountain side and ended up at the same plateau you climbed up to, where the corpse was. I could not believe what I was seeing.",
         "replies":[
             {
                 "text":"N",
@@ -2423,7 +2423,7 @@
     },
     {
         "id":"ehrenfest_24c",
-        "message":"Almost... I put his armor out. His injuries were severe. I tried to cure him using my potions but they weren't strong enough. He died, failing to express his final thoughts in words.",
+        "message":"Almost... I took his armor off. His injuries were severe. I tried to cure him using my potions but they weren't strong enough. He died, failing to express his final thoughts in words.",
         "replies":[
             {
                 "text":"N",
@@ -2433,7 +2433,7 @@
     },
     {
         "id":"ehrenfest_24c2",
-        "message":"But everything he couldn't say with words was said by the terrified glance he threw to that dark hole, just before his last breath.",
+        "message":"But everything he couldn't say with words was said by the terrified glance he threw at that dark hole, just before his last breath.",
         "replies":[
             {
                 "text":"What about the hole?",
@@ -2450,7 +2450,7 @@
         "message":"Yes, I was about to ask you... Continue.",
         "replies":[
             {
-                "text":"The corpses were covered by cobweb, but I could see torture signs.",
+                "text":"The corpses were covered by cobwebs, but I could see signs of torture.",
                 "nextPhraseID":"ehrenfest_26a"
             }
         ],
@@ -2471,7 +2471,7 @@
                 "nextPhraseID":"ehrenfest_26b"
             },
             {
-                "text":"The corpses were covered by cobweb. They were probably tortured.",
+                "text":"The corpses were covered by cobwebs. They were probably tortured.",
                 "nextPhraseID":"ehrenfest_26a"
             }
         ]
@@ -2555,7 +2555,7 @@
     },
     {
         "id":"ehrenfest_29a",
-        "message":"Strange, isn't it? Really, they didn't really seem to care about Lorn, neither the other missing people. It was all monsters' fault and that's all.",
+        "message":"Strange, isn't it? Really, they didn't really seem to care about Lorn, or the other missing people. It was all the monsters' fault and that's all.",
         "replies":[
             {
                 "text":"There's something too shady in all of this.",
@@ -2689,7 +2689,7 @@
     },
     {
         "id":"ehrenfest_32a",
-        "message":"You will talk with the villagers of Prim. We have to find out what happened to Lorn's partners, about whom we know nothing yet.",
+        "message":"You will have to talk to the villagers of Prim. We have to find out what happened to Lorn's partners, about whom we know nothing yet.",
         "replies":[
             {
                 "text":"What will you do?",
@@ -2700,7 +2700,7 @@
                 "nextPhraseID":"ehrenfest_33b"
             },
             {
-                "text":"Fine. Let's go.",
+                "text":"Fine. I'll go.",
                 "nextPhraseID":"ehrenfest_33b"
             }
         ]
@@ -2728,7 +2728,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Same to you.",
+                "text":"Same on you.",
                 "nextPhraseID":"X"
             }
         ],

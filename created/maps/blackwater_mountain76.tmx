@@ -185,30 +185,30 @@
  </tileset>
  <layer id="1" name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlDEOwjAMRVE2DtEDwA3grL1CmoGFBZVsrC1XyEFIRCx9WbaTFoYnVWryX1K7ntzhMCk8Oyjr7sMX3BczIbMa2bG+T5VVYWY+yn3X5yTkR1iT4IzJySzw7GtGAp+Uz7O3MLM87gg1f082scBdguLge27HNnyP5YiK49WAezzkhcZ3onPucVAed/Tc4VHqOtgOrLXl2HIHdHjX7+D13loLyVEYlb6VXFJfjcJ/If2D5JJ86NGyex2I1gfk8Mq+fzpoHv7ikPoNHWV24Ozd6qD5fsqcneygeUwu3ldUX+38NN8vmavhQJdn2WPDIc13y2H1QE8dJIc1czkfZpp47w==
+   eJytlDEOgzAMRVG2HoIDtDdoz8oVQoYuXSrI1hV6hRykQY0ly/p2Au3wJCSS/xJsPLquGxXmBrZ1j/4L3xczIbMa2bG8T4VVYRI+yn2X5wTyI1uT2BmTwyzM50tGYj6UL7P3MIk86Qgl/0g2sbC7BMUh99xPdeQeyxEVx6uC9HiWFyrfic55xEF50tFyh+dW19528Fpbjj134A7v2h2y3ntrgRwbg9K3yIX6agD/BfoHyYV83KNltzo4Wh+Qwyv7/umgefiLA/Ubd9A8lK5WB833c+bisIPmMblkX1F9tfPTfL9mboaDu7zIHioONN8th9UDLXVADmvmSj5zQ3jL
   </data>
  </layer>
  <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzFVM1KAzEQHgbEiwebhSwFi3jXm/YF1F5ET9p7wfpSrW+giIi+gPhH30C9SEG0HgWpN2dIQsa4m26K4gfDZrOT+eabmQ1AdTRzgFb+fe8E/f4xJgQT2EFjEip476OxFHSEf1HujLnMr7fRmMOlBjiawKnR+2xajsea/76iABYsxxCL8xjq8vgu9jP5vFSwV+3zqAKp74bO7tK5vYi1yUbkt0rPg9xomgSu8XxmNLxpU4MyIPltWJ7bSF1CuBo7DVwDFL09bQCcNcxa2f2W5TinHl2oeHzZB6lBZeVnJMcVxb8WHLG5Yg3LqrhOd6RhYHWsK98H5tiaieci8UH+D2T7dLZLthbpCWu4J99Psna9WvxD9DzjEi6Xf1do6E15hzBfyOV4XP7jhHmKgefZ1a8pOFLmNQa+d+Q8/wWHxH9xyLujNpseczGYlZgO5lqagoPB/+oTzepA/eQY2Tv3NxFyvNer9+QLCrJnVg==
+   eJzFVM1KAzEQHgbEiwebhSwFi3jXk9oXUHsRPWnvgvWp9A0UEdEXEP/oG6gXKYjWoyD15gxJyBh300QUPxh2NzuZb76ZSQDS0S4BOuXXtWP060eYEUxgE41JqOB7H43lYEf4V+XOmCr8+wYac7jQAIdjODV6nzXL8dDw/xcUwIzlGGB1HgNdH9/FfiKf5wR70T6PFEh917R3i/ZtR6xLNiS/JXrulUbTOHCNpwuj4VWbGtQByW/V8txE6hLC1dhp4Bqg6O1JC+C0Zd6VXe9YjjPq0bmKx5d9kBpUUb9HclxS/CvBEZsr1jCvqut0Sxr6VseK8n1gjvWJeC4S7+R/T7ZLe3tky5GesIY78v0g6zbT4h+g5xnVcLn8e0LDYmL8Kr6Qy/G4/EcZ8xQDz7OrX1tw5MxrDHzvyHn+Cw6J/+KQd0djMj/mbHCGYjqYa+4HHAw+q480q331nWNo79zfRMjx1kzvyScDTGcF
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBKDYHRwWAyC8YHLaPJl4gwMbeKE7YSZewmPHZeR1GRIQjApdsxlwrQP3fxLUPEQNPNw2YHsDnR70O1ANh8EzIDmmQBxmjiqHY+B5t0UhNDo7kA3D90OZP5jqLtcgGYYCWH3B8h8Vzx2EBPnIOAINN9JCLc8sj8J2YEeTs8EMfUYCWM3SweLG2DmIdtBjJ9A4CEeP83Gkp7IsQMbYMLiP2raAUpfQkTaQS44DQ27OUyo4tSyAzn815FpB3J59VkStzpK7JjLhF+eGnaAAHrZiwscoMAOYuNMkJ10fch1AK3AVmCa3IYnT1MDHAWaf4xKdgAA6BpNsA==
+   eJxjYKAcHBKDYHRwWAyC8YHLaPJl4gwMbeKE7YSZewmPHZeR1GRIQjApdsxlwrQP3fxLUPEQNPNw2YHsDnR70O1ANh8EzIDmmQBxmjiqHY+B5t0UhNDo7kA3D90OZP5jqLtcgGYYCWH3B8h8Vzx2EBPnIOAINN9JCLc8sj8J2YEeTtiAkTB2cR0sboCZh2wHMX4CgYd4/DQbS3oixw5sgAmL/6hpByh9CRFpB7ngtBAkjOYwoYpTyw7k8F9Hph3I5dVnSdzqKLFjLhN+eWrYAQLoZS8ucIACO4iNM0F20vUh1wG0AluBaXIbnjxNDXAUaP4xKtkBABcnTVY=
   </data>
  </layer>
  <layer id="10" name="Top" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBajgiE0BnFMEDzQIJYJggcrSBFnYDAUoq6ZQyF9jIJRMApGATqgR9lFTTsABlkFoQ==
+   eJxjYKAcHBajgiE0BnFMEDzQIJYJggcrSBFnYDAUoq6ZQyF9jALCIFRyoF0wCkYBfQE9yi5q2gEAlscGDw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20">
+ <layer id="4" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEUD2oMA0PVfGQ7SLWHFD347KCGH9EBMXaQYic2QKw+Yu3CBYgxn1b+QZcjN57w2UVJvJCSxqhhBynpiRI7aB1WpJhJKzuQ/UdpWBGyA1e6oFbaIsYOANgyQeI=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="8" name="south2" type="mapchange" x="256" y="608" width="96" height="32">
    <properties>
     <property name="map" value="blackwater_mountain75"/>
@@ -224,7 +224,7 @@
   <object id="12" name="bwm73_drop" type="container" x="256" y="576" width="32" height="32"/>
   <object id="13" name="bwm73_drop" type="container" x="576" y="288" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="30" name="bwm76_monster1" type="spawn" x="64" y="128" width="288" height="384">
    <properties>
     <property name="active" value="false"/>

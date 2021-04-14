@@ -186,23 +186,20 @@
  <tileset firstgid="7593" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
  </tileset>
- <tileset firstgid="7629" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="36" columns="6">
-  <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
- </tileset>
- <tileset firstgid="7665" name="map_sign_ladder_omi2" tilewidth="32" tileheight="32" tilecount="32" columns="8">
+ <tileset firstgid="7629" name="map_sign_ladder_omi2" tilewidth="32" tileheight="32" tilecount="32" columns="8">
   <image source="../drawable/map_sign_ladder_omi2.png" width="256" height="128"/>
  </tileset>
- <tileset firstgid="7697" name="map_rock_3" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+ <tileset firstgid="7661" name="map_rock_3" tilewidth="32" tileheight="32" tilecount="30" columns="6">
   <image source="../drawable/map_rock_3.png" width="192" height="160"/>
  </tileset>
  <layer id="1" name="Ground" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJyFk70OwjAMhANMBMEbpOL9H4iFdCgdQpes/EggHBGr18Olww2J86XnnhODc63oKjqLLob6WkfFqlLLRl01GHvn+s0B7lG19b5c65mkbAR/FlvWfjeqrLt6piUvyuJ5ZhOw6GWJfUjtCazuW+zLO/f2y2wHuejeXnQgz9FgE+Tyr1+LLcq0PoVRmGMPLPeF/R83vzMwAMt9IWvNgJWH5RFnYI5Fj+gT2Y56tjzy/comegucr/UOV41z62bK4qynMP8Ot8L55nteWc4H3xqy1v+fy6foJvU7ecPZimGay5KU+QBt99wV
+   eJyFk70OwjAMhCOxFcEbROL9R5amQ+kQumTlZ4MN3gKEI9nqcbh0uCFxvvTcc1IMoRMdRa3o4GjQOiqpaq04ddPo7LX6zRHuMXV6X9F6IRmbwJ/H1nWznlTXvZ7pyIuxeJ7ZDCx6WWIvUrsCa/se+2pCeDfLbA+52N5GtCXPyWEz5PKvX4+tKrTex0mY4wAs94X971a/MzACy30h682Al4fnEWdgjkWP6BPZnnr2PPL9xmZ6C5yv9w5vojuxOOs5zr/Dh+ip543lfPCtIev9/7l8qk5SP5M3nK0Uv3NZkjEf1QDCQQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVkzEOgjAUhhsOYARNmOAAXsnJC+jsgNxATyCeQN3RI7A4GBd3jUKMJu7+L/aFppYW/+QPUPr1fy2PJBRiC7fV2KvvmbtG7diZ555DugRu9uHIpPc56rvDO3hoyJ5gzO8JMep+n3k+uYQL1LHH9Ym1XlpeCnYK7t0RIsQahXKGfZllYnNZD7FsYk9yz35cs7po3i38HdNF7DFyz9PHzkFzLqmSa9LZljJjiWsGrxp6yJTLSvFugP0uLCyfx0HpCcqcw4mhd7kvOFetMbNwTTWrNbo4nV3jfiOtc2FsZ/8R7VlnTeuzKq0f6VvS+VaWf0r9l1z1qj2k1sbjtn5x6QNUdVT1
+   eJyNUzEOglAMbRgcjaIJE17MyQuoqwPiCfQE4gnUuKKjCxFNnFw8geJk3G3Db/ipn/99yQvQ39dXSokCgC3yXwy96p51x/A/7dRz5xDGhjypPdV4zrzqPMX+nsg9sm+oOcJYuwMwaJXPnE8skLkPcMDrGWtdhF+M2gnqPk2AAGvk2gy7ysukTVU/pGWS9uaX56+w0kpQ3iP4jUmQdhe682Ts7tf7EjJVk2ZbKI8lXhPkqmaHTL6MGM8aPYCFRcvzuPpVnDznyMiwu7wX7Kv3mFh0dT3rPbp0UrvG+42i1L0N+2ublQ30zlJrqs/IxD7St6T5ZhaN/i+5+tV3SO+N47Z9ceEL1DRVsA==
   </data>
  </layer>
  <layer id="3" name="Objects_2" width="15" height="20">
@@ -212,20 +209,20 @@
  </layer>
  <layer id="4" name="Above" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8oICJNPWMwgh2A5JeQTnizWAXJqxmIMBVWVT+Qlb62kcMUCEhnAcKDDY3smJJ46SkV0IgmcQ8RAhcFMIUOyxGmhnkpC10AABIYwep
+   eJxjYBj6gFEYu/hbWeLNYMdhxkCDjWh+WMhKX/uIAnJUdwb1wSBzIysTphgp6ZUQSMZiPiXgohCm2GEx0swgK22hAQBOqge3
   </data>
  </layer>
  <layer id="5" name="Above_2" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C6QEJuoF0wCoYrAACD+gA3
+   eJxjYBgFo4C64IvsQLtgFAxXAACIzQES
   </data>
  </layer>
  <layer id="6" name="Top" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYICAw2IMeAE+eXL1XgaKX8Iih6wemzw+Mwm5BaYGm7qRphdX2BKjlxhAid5LFOiF2U1LvZSmP3SAKy8Qo5dYv1KiF5vbrssSp5eaAAAGGyXi
+   eJxjYICAw2IMeAE+eXL1XgaKX8IidxlJDJs8PjMJuQWmBpu6kaYXV9gSo5cYQIneSxTohdlNS72Upj90gCsvEKOXWL9Soheb2zbLEqeXmgAAN4slzg==
   </data>
  </layer>
- <layer id="7" name="Walkable" width="15" height="20">
+ <layer id="7" name="Walkable" width="15" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEAMS5Ajl6YGDY1hMzBZx4+M3Cpw+UfbGahux2XndjcgAvgUkco/PCFMyG30CJ+sYULKfZSkibprZeYcCUlfklJA+T6jRRAbpggYwDOpqM/
   </data>
@@ -296,7 +293,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Keys">
+ <objectgroup id="10" name="Keys" visible="0">
   <object id="12" name="elm3f_grow" type="key" x="224" y="64" width="32" height="64">
    <properties>
     <property name="phrase" value="ortholion_guard9_look"/>

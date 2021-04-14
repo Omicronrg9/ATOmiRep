@@ -201,7 +201,7 @@
  </layer>
  <layer id="3" name="Above" width="15" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdPBRC5bMykWEIEFwWwxSbJw6hM4UZGLKEsetz4GdgOIxFLwz4oLnnjiyCHUBAbwxQbwAO/yTg0NsvjqQGplcOIcYI9EcBAXth4B80bFfLoooToxcbIBRW6OAkCWGFD+AKK2IAKKw2yxJWhww2AtVvIlEPNsBJZloGAUkK9NICMKLln09CmGqQw3kjkeEni+RPfPFETLlATDwjp0kAQMYbdg==
+   eJxjYCAdPBRC5bMykWEIEFwWwxSbJw6hM4UZGLKEsetz4GdgOIxFLwz44HFPAAG9MUC9ATj0J+DQ2y+OpAamVw4hxgj0RwEBe2HgHzRsV8uiihOjFxsgFFbo4CSSvYTCCh/AFVbEAFBYbZYlrA4ZbASq30SiHmyAk8y0DAKSFOilBWBEyz+fhDDVIIfzRiLDTxbJn/jiiZhygZh4Rk6TAI87Gn0=
   </data>
  </layer>
  <layer id="4" name="Top" width="15" height="20">
@@ -224,7 +224,7 @@
    eJxjYBgF5ICNYqN6R/UOH73U0E8PAADZUgoc
   </data>
  </layer>
- <objectgroup id="8" name="Mapevents">
+ <objectgroup id="8" name="Mapevents" visible="0">
   <object id="1" name="elm4f_up" type="script" x="32" y="544" width="64" height="32">
    <properties>
     <property name="when" value="enter"/>

@@ -5557,7 +5557,7 @@
                 "nextPhraseID":"ortholion_conversation2_8a"
             },
             {
-                "text":"Hah. I always knew you were too much shady to be a good guy.",
+                "text":"Hah. I always knew you were far too shady to be an honest man.",
                 "nextPhraseID":"ortholion_conversation2_8a"
             }
         ]
@@ -5586,7 +5586,7 @@
     },
     {
         "id":"ortholion_conversation2_8a",
-        "message":"Ortholion! How much is your life worth? Hoy many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above me, and disappears in the blink of an eye]",
+        "message":"Ortholion! How much is your life worth? How many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above me, and disappears in the blink of an eye]",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -5594,7 +5594,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Uh, I got trickied.",
+                "text":"So, it was a trick...",
                 "nextPhraseID":"X"
             }
         ],
@@ -5613,7 +5613,7 @@
     },
     {
         "id":"ortholion_conversation2_2b",
-        "message":"I hoped someone else would take blame of this. But don't worry, soon we would be unstoppable.",
+        "message":"I hoped someone else would take blame of this. But don't worry, soon we shall be unstoppable.",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -5621,7 +5621,7 @@
                 "nextPhraseID":"ortholion_conversation2_3b"
             },
             {
-                "text":"Do you always talk that much, liar?",
+                "text":"Do you always talk this much, liar?",
                 "nextPhraseID":"ortholion_conversation2_3b"
             }
         ]
@@ -5786,10 +5786,10 @@
     },
     {
         "id":"ortholion_4d",
-        "message":"No. But It's quite obvious by the way he accused me.",
+        "message":"No. But it's quite obvious by the way he accused me.",
         "replies":[
             {
-                "text":"And what will you do, general slowness?",
+                "text":"And what will you do, General Slowness?",
                 "nextPhraseID":"ortholion_4c"
             },
             {
@@ -5804,7 +5804,7 @@
     },
     {
         "id":"ortholion_4a",
-        "message":"Hmm...Maybe. You came up this far after all. Go warn my soldiers. They are settled in the tunnel entrance, South of Prim.",
+        "message":"Hmm...Maybe. You came up this far after all. Go warn my soldiers. They are settled in the tunnel entrance, south of Prim.",
         "replies":[
             {
                 "text":"This is getting too complicated. I'd better leave.",
@@ -5836,7 +5836,7 @@
     },
     {
         "id":"ortholion_6a",
-        "message":"Then I'll oficially accuse you of betray and murder intent against a Feygard general. I'll bring you to Feygard and you will never see your family again.",
+        "message":"Then I'll officially accuse you of betrayal and attempted murder against a Feygard general. I'll bring you to Feygard and you will never see your family again.",
         "replies":[
             {
                 "text":"How you dare?! Prepare to die!",
@@ -5846,7 +5846,7 @@
     },
     {
         "id":"ortholion_7a",
-        "message":"*starts laughing after landing you to the ground effortlessly* \n\nLook, take this signet. With this, my soldiers settled outside the mining tunnel entrance will believe in your words. Tell them I went to the Elm mine.",
+        "message":"*The general effortlessly subdues you, and begins to laugh* \n\nLook, take this signet. With this, my soldiers stationed outside the mining tunnel entrance will believe your words. Tell them I went to the Elm mine.",
         "replies":[
             {
                 "text":"Hmpf...",
@@ -5877,7 +5877,7 @@
     },
     {
         "id":"ortholion_6b",
-        "message":"Take this, and show it to the soldiers settled on the mining tunnel entrance. Tell them I went to the Elm mine.",
+        "message":"Take this, and show it to the soldiers stationed near the mining tunnel entrance. Tell them I went to the Elm mine.",
         "replies":[
             {
                 "text":"Consider it done.",
@@ -7918,7 +7918,7 @@
     },
     {
         "id":"ehrenfest_50a",
-        "message":"Only if you were stronger...Maybe I could convince you to join us, *cough* but I have to admit my plan was blaming you of Ortholion's death.\n\nYou know, we're tired of you asking questions here and there, *cough* *cough*.",
+        "message":"If only you were stronger...Maybe I could convince you to join us, *cough* but I have to admit my plan was blaming you for Ortholion's death.\n\nYou know, we're tired of you asking questions here and there, *cough* *cough*.",
         "replies":[
             {
                 "text":"N",
@@ -7928,7 +7928,7 @@
     },
     {
         "id":"ehrenfest_50b",
-        "message":"Lodar, right. He sins of double moraility! His poisons killed hundreds, but he prefered to hide in that dirty forest and elude any responsibility like a retired farmer.",
+        "message":"Lodar, right. He sins of double morality! His poisons killed hundreds, but he prefers to hide in that dirty forest and escape any responsibility like a retired farmer.",
         "replies":[
             {
                 "text":"N",
@@ -7972,7 +7972,7 @@
     },
     {
         "id":"ehrenfest_53",
-        "message":"Ehrenfest jumps off the cliff, sinking in the dark streams, leaving you in the middle of a word.\n\nYou soon begin to hear steps. Someone's comming, might be the reinforcements?",
+        "message":"Ehrenfest jumps off the cliff, sinking in the dark streams, leaving you in the middle of a word.\n\nYou soon begin to hear steps. Someone's coming - maybe the Feygard reinforcements?",
         "switchToNPC":"unknown",
         "replies":[
             {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="18">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="18">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,108 +183,108 @@
  <tileset firstgid="7593" name="map_cavewall_5" tilewidth="32" tileheight="32" tilecount="36" columns="6">
   <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
  </tileset>
- <layer id="11" name="Base" width="35" height="20">
+ <layer id="11" name="Base" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJztkjsKgDAQBRe7HCL3P4CCsfADKoidnsGDGMlq1l9hYTZKBqaIjcNLAJ6j5N4yAqhQ1xxbBt0wotwtiQCYIiNHS4Fu94Rn12T6nz0xleZb40FLjrv0HrTU2pahY2Vp6IRVMbYs0I6vtLho9XEX2sPVRFu43y/tuCMWxoDlao8kbHTirU3+vvUMT2dIYw==
+   eJxjYECAHbKoeD8TA8MBKKYWQLfjItDsS1BMKzu2cDIwPGGCYGrasQ+K4eEF5VML7ASadQoJb5eFiB2hoR17of44RUM7DgPxUSqaDwMgs09wIvAOGtgBAsjmD7QdlLiBnv5AtofadiHbQat4RzYfF9jMCcFDGWBz/5Yh7icQINUPQ9XPAO6PSGM=
   </data>
  </layer>
- <layer id="1" name="Ground" width="35" height="20">
+ <layer id="1" name="Ground" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJytljtOw0AQhhd3SUFpV74GDRIV4gZwABAHQEjcAHoeokpJm6RwioCAOOIhY2hIGhRKIsSjBikdM/KMPJmsnQ0w0q/NZmc93/67cdYYY5qeMa2KMUkla+vQb4BkNOg7zH0IjFkArYDOg/GcppfnTlNd9Y2FpQP9+BcsnFdzlGbD6EJ7GWYsbWgfod9zZMF4Ebm8DldvNEsf2oOqMVvVrEWeIhbkTollGbRGPGfU8jpkjdiiIhbcF8kSW1hi4ujT9ztQ+wnm7ak9Yhb2p0t9Lds6mUWel1tgGar8HnHguAsLtzhnfc6YbaENapmrXsJyGuY1OYZenqdZ7iD/PszHh4rF5ovksrHg+UV1LCycw9oFhhPyZOCPs6Aky5AU+flnHN+nM6FZ0IvrMFvrjYUFGduiHuYfEcsn1Ej8SV728hDqReR7JMZtLOxFSixyLziQ8yIc9w736TjIfBlZWFivPvE6sGAd9ALziliQ84q843zcIzwvH1DnvYSlVbH7wpIsKXEwS2Rh4XlpmOdjfYxvP+N5K2FyZeFcybKkftM1b/LZIz8ff/Yz/dWXFtVOiCUhyeD3P8/XrJiPLJFY1yLkrAaZylj0uy4SDC4stnwXaRb5X+0aNpZp2lR+oAb+/7A0vOLzMMs5Kbo3FAW+y2wsTcXDz3RhwbOu708uLEW+MMvX/ORzbUzal2n3l1lY5L2t6JnSK8lS5gnqB18QnA4=
+   eJyllb1OwzAQgE23dGB0prwGCxIT4g3gAUA8ARJvADs/YsrISjqkAyAgQYBUCkvLgspIhPiZQerGnexTzOUSp8LSJ0d27j6fkzhJR6kE6AGPoVILwApwAVCj+aQlJzXjTQ7yxC2pc3MHttdO6cjgOp+hFolrYGgdy8Ca9ZzbfgTzYxaTC0i5c5v/ya55G3I+B0rtsr0iR+bEjAX4/iZ2HPP3g3aOkROzPqfUlsOG7clHz76w+SXHfaTUQ1TOF8wh1eH6yEHxxA7kPrY1TPRfB+I6Ckuqy2uc3+sqtd8tHVeQ49TJcwbXh9bxBbEDXV0H1X4AeVLoB4HpaZ47biHnZWRcSBaZ/ToKTR1TwUG8absOj2MIOW8i40LuIrNX+Dw+If6jwdEP5DoI/jzQheC9mBfbjzae9wZXG0fcqcZMdfnOvmjDf+qgc4TGl9h3hPHoSIOSRbhnNTQ0OfhZxdc1K9zBz17u8LHJ1o9MdLND+hZ9SHvkO997zBML70OdA9+Ruv+S5Pier94vuXgdbf8hvv+YW5vr8NXwC+C0Vkw=
   </data>
  </layer>
- <layer id="2" name="Objects" width="35" height="20">
+ <layer id="2" name="Objects" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJzNlLtKA0EUhsdtJDZmN2SXRIIgNlHsYkDr6AuYpFfU0k5LIXh5AdFGUmpjmuAjWKgYCViJEURtoukiiHaew5whk8nOZKNB/eEwy+4/s9+57DLGlfb4Ok+rSRWP+4N4vyOVpWr9Lcu+9z9YNuDc2xBju7A+A4cbgCUDcW33l6NktbOgLLe3MxpO73t0wjyPpLo7yrkJqlPJUC+xZ03jyUUYy0fMHGW7fXYrCcbGfHIUHGWpLwfkR+Ee7O8m+UK07g0xFhtkLA4xArE0YOZZhjOnaQbyhpl8cvh6Su8/lvz4LAnvnyCGmMSSBIYc+CZhzQLLgobHprqpM6OTrdRZ9BXrNQPvn4U4kXqKLFnyIPcF1U+nR4ezoK4Snc9HrU6/yoJyNPMgzwCyFGh/XMOELOsQdfC+aL6Jaqzznt9/BvvlEde528kiJOckhLUQdcEevfqwXILnIdbyyyy6GcP8TSyeUkf0Yj93yL/t8TnTSfhliZnHHOpKNAwsfmenu8xrEH+GcpDj3uYxp7CIehwq8/ITlhuffqsaB08qYF16FbLg/2ilS9Rs/s9CpejeKsQnsUwFyMOkMzjnHeIjQNSUOblzWxz9FPZG7nURrptwrzDM2FuUz4P6/TSj/edYDDO2FfZ/VpT4TN/yb0tl6aYveV2G8w==
+   eJxjYECAM+IMDGZA7CbOQDMw3OxwAeLHQrSzBx28BtrFJEaZGbJMEHoNE6bcWUEILQS1Iw+LGhAIFWZgCBPGbw/M/I2CCLFpwPA6IwthKwHteAxUUwdVxwmlJ3MxMEiyMzBIAbE0ECcx4rfnETT8N0PNXQa0I0wcIacJNFcLarYkkh2aQLNDgeq0gXQI0I5gAvYIovkXlr5A/rMEmmsFxKuRwhZkRwhUDcg9J6D+RQfyaGIPkdITchoWwhHeZuIItSA7GqH6pbDYdV4SUwxbPgGFmzjUvuNimHZgcysInATGwX2oHadlUe0Iw5EfQe7FZ4c4Dn+D9ISgmekCtecVUO4FGn6Nxw5cANld6PaEouE7ghDsimYHzP2zceQlZDsuEVGWqADVmJDhjxSg2lQC+DbQ/aZQs02gYmlA/BNqhy4O9x0Gyn8D4h9E4Nto8XBLDGE+MQAURshhORfI/gQUa+RnYPgsCglv9PT0SZR48xMFGBiaBbDLzUWyF1+apRZAt4MQAADaiWgb
   </data>
  </layer>
- <layer id="3" name="Above" width="35" height="20">
+ <layer id="3" name="Above" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYICAw2IMVAOUmkVNt1AKBotbLgPdcYlEt2QIMzCkClPfLaS44zIZ4YdNz34mBoYDUEwuIDX8QABb/F8EuuEJFNMTgNwSxMjAEAzEkYz41TKSGO/o6k/K4lePHJYbhRgYNgmRZh+54BIOewqh4geB9CES3NImTrmbQICdCvmMWm4hBlDDvfQCLTjCZS4V8x81woOcso5WYLDUWyAwmNxCbJrBlR5mU7nMJzfNxNOg7iE3nqgdJqQAUssAABs3If8=
+   eJxjYECAw2IMeAEheWIANcwYLHZkCDMwpAJxmDj1zb8MNP8SDn/g8t9lLOL7mRgYDkAxOsBlPj47sIlfBJr9BIpJAfj8F8TIwBAMxJGMxJnFKIzKPylLvN0bhRgYNgkRZw8IYAvnSzj0F0LFDwLpQyTYQSgNswvjlycG4It/YgE13EEqmEtiOsMH8LkfWzxTGwyX8pDYOMEV3rOJ1E9unMSTkGbIDS9i/UAKIDWtAwDhASTP
   </data>
  </layer>
- <layer id="10" name="Top" width="35" height="20">
+ <layer id="10" name="Top" width="25" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBVwWGygXYAAg8ktlwaRW0bBKBgFo2AUDD4AAHPBAps=
+   eJxjYBgFo2DwgcNiw8OOS3SwYxSMglEwCkAAAJHuAps=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="35" height="20" visible="0">
+ <layer id="4" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt01EKxDAIBFBP0ftfoTdcWBCCOM6o+WygbEmNeYprZvY+9l/nr7/78r0s5vy2eaLhs9yzoLgblmwhC6pjajnvQ6bKouwr/etaWC5ln+Vm8UptE2O0KPZoQPFbi9IXZYZQXPat+g+weZvOJ6tnkntiifervc3uYDV1TCjHmUfNq8Sz2pR5QWcrS+WpHtQT1lNmUc8ojoml6/GzlWFrYfmq99uWTn3Mv7F0Z1W1/AB9+y5z
+   eJzdk10KwCAMgz3F7n8FbzgGeyjSxKTqiwVh/vVL2tmf1vo/vsi+d45bGTFOMOL8JENZd/yyM+o64ilaqv4yBtO2wpj9QyMf+WY6q31lc+TdYSDts/xsn7FcHyh/Vht2X9HJ3pGioVILtQaKRjcq/tm5LK/Sx5W+R0alf45nhfECz/MDsg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="2" name="down1" type="mapchange" x="864" y="544" width="32" height="32">
+  <object id="2" name="down1" type="mapchange" x="544" y="544" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain74_h"/>
     <property name="place" value="up1"/>
    </properties>
   </object>
-  <object id="3" name="down2" type="mapchange" x="672" y="544" width="32" height="32">
+  <object id="3" name="down2" type="mapchange" x="352" y="544" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain74_h"/>
     <property name="place" value="up2"/>
    </properties>
   </object>
-  <object id="4" name="west1" type="mapchange" x="320" y="224" width="32" height="64">
+  <object id="4" name="west1" type="mapchange" x="0" y="224" width="32" height="64">
    <properties>
     <property name="map" value="blackwater_mountain75"/>
     <property name="place" value="east2"/>
    </properties>
   </object>
-  <object id="6" name="bwm74_waterfall" type="script" x="768" y="608" width="96" height="32">
+  <object id="6" name="bwm74_waterfall" type="script" x="448" y="608" width="96" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="7" name="bwm74_drop1" type="container" x="448" y="576" width="32" height="32"/>
-  <object id="8" name="north2" type="mapchange" x="416" y="0" width="32" height="32">
+  <object id="7" name="bwm74_drop1" type="container" x="128" y="576" width="32" height="32"/>
+  <object id="8" name="north2" type="mapchange" x="96" y="0" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain73"/>
     <property name="place" value="south2"/>
    </properties>
   </object>
-  <object id="9" name="north1" type="mapchange" x="512" y="0" width="32" height="32">
+  <object id="9" name="north1" type="mapchange" x="192" y="0" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain73"/>
     <property name="place" value="south1"/>
    </properties>
   </object>
-  <object id="10" name="bwm73_drop" type="container" x="448" y="288" width="32" height="32"/>
-  <object id="11" name="bwm73_drop" type="container" x="1024" y="320" width="32" height="32"/>
+  <object id="10" name="bwm73_drop" type="container" x="128" y="288" width="32" height="32"/>
+  <object id="11" name="bwm73_drop" type="container" x="704" y="320" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
-  <object id="12" name="bwm74_monster1" type="spawn" x="576" y="192" width="256" height="256">
+  <object id="12" name="bwm74_monster1" type="spawn" x="256" y="192" width="256" height="256">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="venomfang_2"/>
    </properties>
   </object>
-  <object id="13" name="bwm74_monster2" type="spawn" x="576" y="288" width="256" height="96">
+  <object id="13" name="bwm74_monster2" type="spawn" x="256" y="288" width="256" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="tough_venomfang"/>
    </properties>
   </object>
-  <object id="14" name="bwm74_monster3" type="spawn" x="960" y="384" width="96" height="128">
+  <object id="14" name="bwm74_monster3" type="spawn" x="640" y="384" width="96" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="kazaul_1"/>
    </properties>
   </object>
-  <object id="15" name="bwm74_monster4" type="spawn" x="800" y="160" width="256" height="64">
+  <object id="15" name="bwm74_monster4" type="spawn" x="480" y="160" width="256" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="bwm_olm"/>
    </properties>
   </object>
-  <object id="16" name="bwm74_monster5" type="spawn" x="384" y="384" width="256" height="192">
+  <object id="16" name="bwm74_monster5" type="spawn" x="64" y="384" width="256" height="192">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="bwm_olm"/>
    </properties>
   </object>
-  <object id="17" name="bwm74_monster6" type="spawn" x="384" y="192" width="96" height="96">
+  <object id="17" name="bwm74_monster6" type="spawn" x="64" y="192" width="96" height="96">
    <properties>
     <property name="quantity" value="1"/>
     <property name="spawngroup" value="bwm_olm"/>

@@ -223,7 +223,7 @@
     <property name="place" value="north1"/>
    </properties>
   </object>
-  <object id="4" name="south2" type="mapchange" x="128" y="608" width="32" height="32">
+  <object id="4" name="south2" type="mapchange" x="96" y="608" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain74"/>
     <property name="place" value="north2"/>

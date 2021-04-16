@@ -238,7 +238,7 @@
    </properties>
   </object>
   <object id="7" name="bwm74_drop1" type="container" x="448" y="576" width="32" height="32"/>
-  <object id="8" name="north2" type="mapchange" x="448" y="0" width="32" height="32">
+  <object id="8" name="north2" type="mapchange" x="416" y="0" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain73"/>
     <property name="place" value="south2"/>

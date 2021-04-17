@@ -100,7 +100,7 @@
     },
     {
         "id":"bwm17_vine_2",
-        "message":"Under all the rotten food there is a long vine all rolled up. It might be useful, so you decide to take it.",
+        "message":"Under all the rotten food, there is a long vine all rolled up. It might be useful, so you decide to take it.",
         "replies":[
             {
                 "text":"Leave",
@@ -885,7 +885,7 @@
     },
     {
         "id":"ehrenfest_3a",
-        "message":"O,K kid. Do it, and I'll wait here for your return, heh. By the way, my name is Ehenrfest.",
+        "message":"OK, kid. Do it, and I'll wait here for your return, heh. By the way, my name is Ehrenfest.",
         "replies":[
             {
                 "text":"Do whatever you want, bye.",
@@ -2555,7 +2555,7 @@
     },
     {
         "id":"ehrenfest_29a",
-        "message":"Strange, isn't it? Really, they didn't really seem to care about Lorn, or the other missing people. It was all the monsters' fault and that's all.",
+        "message":"Strange, isn't it? Really, they didn't seem to care about Lorn, or the other missing people. It was all the monsters' fault and that's all.",
         "replies":[
             {
                 "text":"There's something too shady in all of this.",
@@ -2728,7 +2728,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Same on you.",
+                "text":"Same to you.",
                 "nextPhraseID":"X"
             }
         ],
@@ -4035,7 +4035,7 @@
         "message":"You are right, but I didn't lie.",
         "replies":[
             {
-                "text":"How not?",
+                "text":"How is it not a lie?",
                 "nextPhraseID":"ehrenfest_36"
             }
         ]
@@ -4070,7 +4070,7 @@
     },
     {
         "id":"ehrenfest_38a",
-        "message":"I won't try to convince you. Now you must decide whether helping me or not. I won't ask twice, so make a choice wisely.",
+        "message":"I won't try to convince you. Now you must decide whether to help me or not. I won't ask twice, so make your choice wisely.",
         "replies":[
             {
                 "text":"I don't trust you. I will find my own way to solve this.",
@@ -4114,7 +4114,7 @@
         "message":"I see...Good luck, you'll need it.\n\n[Ehrenfest walks slowly out of the room] ",
         "replies":[
             {
-                "text":"You're still being shady, uh. Goodbye.",
+                "text":"You're still being shady, huh. Goodbye.",
                 "nextPhraseID":"R"
             },
             {
@@ -4140,7 +4140,7 @@
         "message":"It is, it will.",
         "replies":[
             {
-                "text":"You're still being shady, uh.",
+                "text":"You're still being shady, huh.",
                 "nextPhraseID":"R"
             }
         ]
@@ -4229,10 +4229,10 @@
     },
     {
         "id":"ehrenfest_42",
-        "message":"I strongly believe they're related with the disappearings.",
+        "message":"I strongly believe they're related to the disappearings.",
         "replies":[
             {
-                "text":"Why would do they?",
+                "text":"Why would they do this?",
                 "nextPhraseID":"ehrenfest_43"
             },
             {
@@ -4243,7 +4243,7 @@
     },
     {
         "id":"ehrenfest_43",
-        "message":"Put it this way. A weakened Prim will be easier to control. Although Lord Geomyr theorically reigns over the whole land, both isolated and southern lands have more independence. ",
+        "message":"Put it this way. A weakened Prim will be easier to control. Although Lord Geomyr theorically reigns over the whole land, his influence has its limits, as I'm sure you know well. Isolated regions like Prim have considerable independence.",
         "replies":[
             {
                 "text":"N",
@@ -4320,7 +4320,7 @@
         "message":"What else could we do?",
         "replies":[
             {
-                "text":"Maybe asking him?",
+                "text":"Maybe try asking him?",
                 "nextPhraseID":"ehrenfest_47"
             },
             {

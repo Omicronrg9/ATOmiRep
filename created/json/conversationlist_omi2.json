@@ -2847,14 +2847,14 @@
     },
     {
         "id":"moyra_12",
-        "message":"I told you everything I knew, sorry.",
+        "message":"I told you everything I know, sorry.",
         "replies":[
             {
                 "text":"Shadow be with you.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok, bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"X"
             }
         ]
@@ -3081,7 +3081,7 @@
     },
     {
         "id":"prim_tavern_guest4_8b",
-        "message":"[The robust guy ducks his head]",
+        "message":"[The muscular guy ducks his head]",
         "replies":[
             {
                 "text":"Pft, I'm wasting time. Bye.",
@@ -3126,7 +3126,7 @@
         "message":"No, no, no. The monsters...They did it! They killed my friends!!",
         "replies":[
             {
-                "text":"We'll talk later, when you're less drunken and nervous.",
+                "text":"We'll talk later, when you're less drunk and nervous.",
                 "nextPhraseID":"X"
             },
             {
@@ -3168,7 +3168,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Are you okay?",
+                "text":"Are you OK?",
                 "nextPhraseID":"prim_tavern_guest4_14b"
             }
         ],
@@ -3292,7 +3292,7 @@
     },
     {
         "id":"prim_tavern_guest4_14a",
-        "message":"[The robust man is still tired and drunken, next to an unfinished jar of mead]",
+        "message":"[The muscular man is still tired and drunk, next to an unfinished jar of mead]",
         "replies":[
             {
                 "text":"I'd better come back later.",
@@ -3323,7 +3323,7 @@
         "message":"Uuugh... I'm, I'm not. I drank too much mead. Day by day, since... since Kirg's dea...death.",
         "replies":[
             {
-                "text":"You'd better stop drinking. We talk later whenever you get better.",
+                "text":"You'd better stop drinking. We'll talk later when you get better.",
                 "nextPhraseID":"X"
             },
             {
@@ -3365,7 +3365,7 @@
                 "nextPhraseID":"prim_tavern_guest4_17a"
             },
             {
-                "text":"Ok, I'll be back with the water.",
+                "text":"OK, I'll be back with the water.",
                 "nextPhraseID":"X"
             }
         ],
@@ -3446,7 +3446,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok, bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"X"
             }
         ]
@@ -3456,7 +3456,7 @@
         "message":"Ag...Again?! East of here. Underground. Deep in those caverns.",
         "replies":[
             {
-                "text":"Hmpf, ok. Bye.",
+                "text":"Hmpf, OK. Bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -3602,7 +3602,7 @@
     },
     {
         "id":"prim_tavern_guest4_18b",
-        "message":"[The stout guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table]",
+        "message":"[The muscular guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table]",
         "replies":[
             {
                 "text":"How was it?",
@@ -3650,7 +3650,7 @@
         "message":"And all thanks to you! Tell me, what did you need?",
         "replies":[
             {
-                "text":"Anything you could tell me about Lorn and his partners. That'd be fine.",
+                "text":"Anything you could tell me about Lorn and his partners. That would help.",
                 "nextPhraseID":"prim_tavern_guest4_21b"
             },
             {
@@ -3671,7 +3671,7 @@
     },
     {
         "id":"prim_tavern_guest4_21c",
-        "message":"Have a good day then. I surely will!"
+        "message":"Have a good day then. Thanks!"
     },
     {
         "id":"prim_tavern_guest4_21b",
@@ -3685,7 +3685,7 @@
     },
     {
         "id":"prim_tavern_guest4_22",
-        "message":"Well, I was part of a patrol crew formed by five people. Kamelio, Kirg, Duala, Lorn and me.",
+        "message":"Well, I was part of a patrol crew formed of five people. Kamelio, Kirg, Duala, Lorn and me.",
         "replies":[
             {
                 "text":"N",
@@ -3726,7 +3726,7 @@
     },
     {
         "id":"prim_tavern_guest4_24b",
-        "message":"And that is not true. Or would they send monsters to their own dominion? Of course they wouldn't. There are monsters up there in the mountain heights too, possibly even more dangerous than gornauds.",
+        "message":"And that is not true. Why would they send monsters to their own dominion? Of course they wouldn't. There are monsters up there in the mountain heights too, possibly even more dangerous than gornauds.",
         "replies":[
             {
                 "text":"N",
@@ -3816,7 +3816,7 @@
     },
     {
         "id":"prim_tavern_guest4_31",
-        "message":"I was severely injured when the mysterious disappearings started. The mine was the first place where it occurred. But then, some villagers disappeared too.",
+        "message":"I was severely injured when the mysterious disappearances started. The mine was the first place where it occurred. But then, some villagers disappeared too.",
         "replies":[
             {
                 "text":"N",
@@ -3871,7 +3871,7 @@
     },
     {
         "id":"prim_tavern_guest4_34b",
-        "message":"Yes, someone behind the attacks and the following disappearings.",
+        "message":"Yes, someone behind the attacks and the following disappearances.",
         "replies":[
             {
                 "text":"N",
@@ -3884,7 +3884,7 @@
         "message":"I was too afflicted. Lorn thought I wouldn't be able to focus on the exploration...",
         "replies":[
             {
-                "text":"Did the mention anything at the tavern?",
+                "text":"Did they mention anything at the tavern?",
                 "nextPhraseID":"prim_tavern_guest4_34c"
             },
             {
@@ -3947,7 +3947,7 @@
                 "nextPhraseID":"prim_tavern_guest4_36c"
             },
             {
-                "text":"Uhm...I will ask him about this incoherence.",
+                "text":"Uhm...I will ask him about this inconsistency.",
                 "nextPhraseID":"prim_tavern_guest4_36c"
             }
         ]
@@ -3961,7 +3961,7 @@
                 "nextPhraseID":"prim_tavern_guest4_37a"
             },
             {
-                "text":"I'm determined to solve this, once for all.",
+                "text":"I'm determined to solve this, once and for all.",
                 "nextPhraseID":"prim_tavern_guest4_37d",
                 "requires":[
                     {
@@ -4651,14 +4651,14 @@
     },
     {
         "id":"prim_tavern_guest4_39b",
-        "message":"Hmm, not really. But we could surely ask in the guardhouse. I very well know they will talk. They better be!",
+        "message":"Hmm, not really. But we could surely ask in the guardhouse. I know very well they will talk. They had better!",
         "replies":[
             {
                 "text":"They'll be a nice warm-up.",
                 "nextPhraseID":"prim_tavern_guest4_40a"
             },
             {
-                "text":"Ok, let's try...Again.",
+                "text":"OK, let's try...Again.",
                 "nextPhraseID":"prim_tavern_guest4_40a"
             }
         ]
@@ -4804,7 +4804,7 @@
     },
     {
         "id":"capvjern_1",
-        "message":"C'mon! Dare to raise your sword!\n\nYou! You left my partners DIE! ",
+        "message":"C'mon! Dare to raise your sword!\n\nYou! You left my partners to DIE! ",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -4822,7 +4822,7 @@
     },
     {
         "id":"capvjern_2",
-        "message":"Stop, ok?! I'm really sorry, Jern! *sheathes his sword*\n\nWe were scared. That's all, ok?! Gornauds have been decimating us while you were in the tavern day and night.",
+        "message":"Stop, OK?! I'm really sorry, Jern! *sheathes his sword*\n\nWe were scared. That's all, OK?! Gornauds have been decimating us while you were in the tavern day and night.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -4844,7 +4844,7 @@
     },
     {
         "id":"capvjern_4",
-        "message":"*raises his hands* Drop it already! \n\nWe're getting more and more surrounded by those beasts, you know? Right now there's no point on worrying about somebody who fell off the mountain!",
+        "message":"*raises his hands* Drop it already! \n\nWe're getting more and more surrounded by those beasts, you know? Right now there's no point to worrying about somebody who fell off the mountain!",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -4855,7 +4855,7 @@
     },
     {
         "id":"capvjern_5",
-        "message":"Are you out of your mind? Lorn would never ever died by something like that!",
+        "message":"Are you out of your mind? Lorn would never have died from something like that!",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -4866,7 +4866,7 @@
     },
     {
         "id":"capvjern_6",
-        "message":"How can you be so sure? Accidents occur! He could have fallen off during an attack or a rock slide.",
+        "message":"How can you be so sure? Accidents happen! He could have fallen off during an attack or a rock slide.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -4877,7 +4877,7 @@
     },
     {
         "id":"capvjern_7",
-        "message":"This is what the guy who reported it told me, too! \n\nNow I'm starting to welcome those Feygard guys. There aren't attacks anymore since they guard the village.",
+        "message":"That is what the guy who reported it told me, too! \n\nNow I'm starting to welcome those Feygard guys. There aren't attacks anymore since they guard the village.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -4892,7 +4892,7 @@
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
-                "text":"Who reported you that?",
+                "text":"Who told you that?",
                 "nextPhraseID":"capvjern_9"
             }
         ]
@@ -4921,7 +4921,7 @@
     },
     {
         "id":"capvjern_11",
-        "message":"*puts an exhaustion face* Whatever...I neither know his name. Just another one of the very few visitors we receive here. He was wearing a blue cloak, I think.",
+        "message":"*puts on an exhausted face* Whatever...I don't know his name. Just another one of the very few visitors we receive here. He was wearing a blue cloak, I think.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -4943,18 +4943,18 @@
     },
     {
         "id":"capvjern_13",
-        "message":"This is serious. That guy might be behind the disappearings.",
+        "message":"This is serious. That guy might be behind the disappearances.",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
-                "text":"He has been in the mine during these days.",
+                "text":"He has been in the mine during these last few days.",
                 "nextPhraseID":"capvjern_14"
             }
         ]
     },
     {
         "id":"capvjern_14",
-        "message":"We should look after him. This Ehrenfest guy needs to clear up many things. ",
+        "message":"We should look for him. This Ehrenfest guy needs to clear up many things. ",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -4965,7 +4965,7 @@
     },
     {
         "id":"capvjern_15",
-        "message":"We're short of men, and we don't even know where he is right now.\n\n*Jern stares at you in the meanwhile*",
+        "message":"We're short of men, and we don't even know where he is right now.\n\n*Meanwhile Jern stares at you.*",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -4998,7 +4998,7 @@
     },
     {
         "id":"capvjern_16a",
-        "message":"Do you remember anything out of normal?",
+        "message":"Do you remember anything out of the normal?",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -5006,7 +5006,7 @@
                 "nextPhraseID":"capvjern_17a"
             },
             {
-                "text":"No...Apart from the need of not being heard by the Feygard soldiers.",
+                "text":"No...Apart from his need to not be heard by the Feygard soldiers.",
                 "nextPhraseID":"capvjern_17b"
             }
         ]
@@ -5042,7 +5042,7 @@
     },
     {
         "id":"capvjern_18b",
-        "message":"Seeking for their help seems not to be the worst idea right now.",
+        "message":"Asking for their help seems not to be the worst idea right now.",
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
@@ -5076,7 +5076,7 @@
         "switchToNPC":"prim_bar_regular",
         "replies":[
             {
-                "text":"I'm gonna rest some time. See you later.",
+                "text":"I'm gonna rest for a while. See you later.",
                 "nextPhraseID":"X"
             },
             {
@@ -5109,10 +5109,10 @@
     },
     {
         "id":"capvjern_22",
-        "message":"$playername, you must reach Blackwater Settlement get help from General Ortholion.",
+        "message":"$playername, you must reach Blackwater Settlement and get help from General Ortholion.",
         "replies":[
             {
-                "text":"Ok, bye.",
+                "text":"OK, bye.",
                 "nextPhraseID":"X"
             },
             {

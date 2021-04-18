@@ -29,7 +29,7 @@
                 "nextPhraseID":"moyra_3"
             },
             {
-                "text":"Do you know anything about the accdident with Lorn?",
+                "text":"Do you know anything about the accident with Lorn?",
                 "nextPhraseID":"moyra_12",
                 "requires":[
                     {

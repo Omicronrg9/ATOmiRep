@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="21">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="22">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -216,7 +216,7 @@
  </layer>
  <layer id="6" name="Walkable" width="19" height="25">
   <data encoding="base64" compression="zlib">
-   eJzNkssJADAIQx2i++/WTXrqRSTGHyiUnnwm0XtE7vL3q5NlMVEhntaIelgfkdksrytjhtWpi2Xo39s3My+6RzQvwrKqwspknGVZmqc9du9x8iaQ50xeXt4Vj6xeluX1suyNLC+fByFwXGw=
+   eJx7KMLA8HAIYBCgplkwgEscHRBrJjqbXH8QYzcpYUJILbH+JNYsarqLWDPQaWxxSqp7SI1HfPaRYhY2QIlZ5IQxuWZhczOt/UjteKRlmsDnZ3LCi1B4U+JHYt1LrFmE9BJr9mA0i1D4AAC8cl9L
   </data>
  </layer>
  <layer id="7" name="Above_2" width="19" height="25">
@@ -237,7 +237,7 @@
    </properties>
   </object>
   <object id="3" name="elm_drop1" type="container" x="320" y="288" width="32" height="32"/>
-  <object id="4" name="down" type="mapchange" x="96" y="64" width="32" height="64">
+  <object id="4" name="down" type="mapchange" x="128" y="64" width="32" height="64">
    <properties>
     <property name="map" value="elm_2f_1"/>
     <property name="place" value="up"/>

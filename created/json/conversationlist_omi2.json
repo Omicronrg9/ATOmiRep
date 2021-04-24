@@ -1138,7 +1138,7 @@
     },
     {
         "id":"ortholion_conversation_11a",
-        "message":"[A palpable tension falls over the room as the guards begin to shout.]",
+        "message":"A palpable tension falls over the room as the guards begin to shout.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -2515,6 +2515,18 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Yes, look at this blood-stained rope... Oh, I seem to have lost it. Just a second, I'll go and find it.",
+                "nextPhraseID":"ehrenfest_27b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm72_rope",
+                        "value":1,
+						"negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3292,6 +3304,7 @@
     },
     {
         "id":"prim_tavern_guest4_14a",
+        "switchToNPC":"none",
         "message":"[The muscular man is still tired and drunk, next to an unfinished jar of mead]",
         "replies":[
             {
@@ -3551,7 +3564,7 @@
     },
     {
         "id":"bwm_wellspring_2a",
-        "message":"[You fill the bottle with water]",
+        "message":"You fill the bottle with water.",
         "replies":[
             {
                 "text":"Pick up another bottle.",
@@ -3572,7 +3585,7 @@
     },
     {
         "id":"bwm_wellspring_2b",
-        "message":"[You fill another bottle]",
+        "message":"You fill another bottle.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3587,7 +3600,7 @@
     },
     {
         "id":"bwm_wellspring_2c",
-        "message":"[You fill a large bottle]",
+        "message":"You fill a large bottle.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3602,7 +3615,8 @@
     },
     {
         "id":"prim_tavern_guest4_18b",
-        "message":"[The muscular guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table]",
+        "switchToNPC":"none",
+        "message":"The muscular guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table.",
         "replies":[
             {
                 "text":"How was it?",
@@ -3619,6 +3633,7 @@
     },
     {
         "id":"prim_tavern_guest4_19",
+        "switchToNPC":"prim_bar_regular",
         "message":"Woah, I feel really good now.",
         "replies":[
             {
@@ -5495,8 +5510,8 @@
     },
     {
         "id":"ortholion_conversation2_5a2",
-        "message":"[Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow]",
-        "switchToNPC":"ortholion",
+        "message":"Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5564,7 +5579,8 @@
     },
     {
         "id":"ortholion_conversation2_6a2",
-        "message":"[Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow]",
+        "switchToNPC":"none",
+        "message":"Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow.",
         "replies":[
             {
                 "text":"N",
@@ -6165,7 +6181,7 @@
     },
     {
         "id":"elm2_passage1",
-        "message":"[There's a horrid smell inside that passage. On top of that, it's completely dark]"
+        "message":"There's a horrid smell inside that passage. On top of that, it's completely dark."
     },
     {
         "id":"elm2_passage2_s",
@@ -6187,7 +6203,7 @@
     },
     {
         "id":"elm2_passage2_1",
-        "message":"[Fortunately, the torch is still burning, but unfortunately, the passage is still collapsed]",
+        "message":"Fortunately, the torch is still burning, but unfortunately, the passage is still collapsed.",
         "replies":[
             {
                 "text":"Leave.",
@@ -6197,7 +6213,7 @@
     },
     {
         "id":"elm2_passage2_2",
-        "message":"[Another pitch black tunnel. This one has an old, consumed torch in the wall]",
+        "message":"Another pitch black tunnel. This one has an old, consumed torch in the wall.",
         "replies":[
             {
                 "text":"Replace it for a burning torch.",
@@ -6218,7 +6234,7 @@
     },
     {
         "id":"elm2_passage2_3",
-        "message":"[A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor]",
+        "message":"A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor.",
         "replies":[
             {
                 "text":"Yay, bones!",
@@ -6243,7 +6259,7 @@
     },
     {
         "id":"elm2_c1",
-        "message":"[This corpse is not old. It is probably one of the missing miners. He has a single large wound in his chest]"
+        "message":"This corpse is not old. It is probably one of the missing miners. He has a single large wound in his chest."
     },
     {
         "id":"elm3_corpse_s",
@@ -6269,7 +6285,7 @@
     },
     {
         "id":"elm3_corpse_2",
-        "message":"[Yet another corpse of a miner. This one seems to have been killed during job]",
+        "message":"Yet another corpse of a miner. This one seems to have been killed during job.",
         "replies":[
             {
                 "text":"Plunder the corpse.",
@@ -6287,7 +6303,7 @@
     },
     {
         "id":"elm3_corpse_3b",
-        "message":"[After a few seconds, you feel a little dumb talking with a corpse and leave]",
+        "message":"After a few seconds, you feel a little dumb talking with a corpse and leave.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6303,7 +6319,7 @@
     },
     {
         "id":"elm3_corpse_3a",
-        "message":"[Everything seems too old and stinky to be worth a penny, but after half a minute of search you see a strange pendant behind miner's shirt]",
+        "message":"Everything seems too old and stinky to be worth a penny, but after half a minute of search you see a strange pendant behind miner's shirt.",
         "replies":[
             {
                 "text":"I need to take a bath.",
@@ -6334,7 +6350,7 @@
     },
     {
         "id":"elm3_hole",
-        "message":"[This hole's smell is particular. The floor is limp, and you can see a bunch of olm larvae there. Searching here doesn't worth it]"
+        "message":"This hole's smell is particular. The floor is limp, and you can see a bunch of olm larvae there. Searching here isn't worth it."
     },
     {
         "id":"venomfang_warning",
@@ -6346,7 +6362,7 @@
     },
     {
         "id":"venomfang_warning_1",
-        "message":"[The passage in front of you isn't dark enough to ignore the constant dripping of the walls, limp and deformed. For some reason, animals don't get closer to you as you get closer to the tunnel, which is surprising and worrying at the same time]",
+        "message":"The passage in front of you isn't dark enough to ignore the constant dripping of the walls, limp and deformed. For some reason, animals don't get closer to you as you get closer to the tunnel, which is surprising and worrying at the same time.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6496,7 +6512,7 @@
     },
     {
         "id":"elm2_passage2b",
-        "message":"[There was a tunnel entrance here, but a landslide brought it down]"
+        "message":"There was a tunnel entrance here, but a landslide brought it down."
     },
     {
         "id":"ortholion_guard7",
@@ -6518,11 +6534,11 @@
     },
     {
         "id":"elm2_c2",
-        "message":"[Something horrible has happened in this mine. Did Ehrenfest do all of this?]"
+        "message":"Something horrible has happened in this mine. Did Ehrenfest do all of this?"
     },
     {
         "id":"elm2_c3",
-        "message":"[There's blood all over the wall! It's like something threw this guy against it with an enormous force. Unfortunately, there's nothing to plunder here]"
+        "message":"There's blood all over the wall! It's like something threw this guy against it with an enormous force. Unfortunately, there's nothing to plunder here."
     },
     {
         "id":"elm2_bed",
@@ -6530,7 +6546,7 @@
     },
     {
         "id":"elm2_chest",
-        "message":"[This large chest is locked with a simple but robust lock with a small keyhole in its center]",
+        "message":"This large chest is locked with a simple but robust lock with a small keyhole in its center.",
         "replies":[
             {
                 "text":"Use Jern's rusty key.",
@@ -6555,7 +6571,7 @@
     },
     {
         "id":"elm2_chest_open",
-        "message":"[Despite the rust, you introduce the key in the lock without major trouble. It results to fit well enough. The chest is now open]",
+        "message":"Despite the rust, you introduce the key in the lock without major trouble. It results to fit well enough. The chest is now open.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6566,7 +6582,7 @@
     },
     {
         "id":"elm2_chest_hit",
-        "message":"[The chest stays inmutable]",
+        "message":"The chest stays inmutable.",
         "replies":[
             {
                 "text":"Try again.",
@@ -6672,7 +6688,7 @@
     },
     {
         "id":"elm4_hole",
-        "message":"[The floor collapses below you, and you fall onto a muddy terrain]",
+        "message":"The floor collapses below you, and you fall onto a muddy terrain.",
         "replies":[
             {
                 "text":"Ouch!",
@@ -6708,7 +6724,7 @@
     },
     {
         "id":"elm5_ore",
-        "message":"[The scarce vegetation here, mostly moss, is strangely glued to that orange glowing ore]",
+        "message":"The scarce vegetation here, mostly moss, is strangely glued to that orange glowing ore.",
         "replies":[
             {
                 "text":"Touch the moss.",
@@ -6729,7 +6745,7 @@
     },
     {
         "id":"elm5_ore_glued",
-        "message":"[When you get your fingers closer to the moss, it somehow turns to dust. Your finger gets glued to the seemingly solid ore, but you rapidly take it off from there. It's not a serious injury, but you feel like that ore has taken away part of your life essence]",
+        "message":"When you get your fingers closer to the moss, it somehow turns to dust. Your finger gets glued to the seemingly solid ore, but you rapidly take it off from there. It's not a serious injury, but you feel like that ore has taken away part of your life essence.",
         "replies":[
             {
                 "text":"Uff, I need some rest.",
@@ -6792,7 +6808,7 @@
     },
     {
         "id":"elm5_ore_pbroken",
-        "message":"[You try to use a pickaxe you grabbed earlier, but it obviously breaks due to its excessive rust]",
+        "message":"You try to use a pickaxe you grabbed earlier, but it obviously breaks due to its excessive rust.",
         "replies":[
             {
                 "text":"Try again with another pick.",
@@ -6813,7 +6829,7 @@
     },
     {
         "id":"elm5_ore_fail",
-        "message":"[You get tired after a few strikes; the ore is still there]",
+        "message":"You get tired after a few strikes; the ore is still there.",
         "replies":[
             {
                 "text":"Use your hand",
@@ -6838,7 +6854,7 @@
     },
     {
         "id":"elm5_ore_success",
-        "message":"[After some minutes of intense mining you finally get a gem and put it in a safe pocket in your backpack]",
+        "message":"After some minutes of intense mining you finally get a gem and put it in a safe pocket in your backpack.",
         "replies":[
             {
                 "text":"Yay!",
@@ -6896,7 +6912,7 @@
     },
     {
         "id":"elm5_hole",
-        "message":"[There was a hole in the floor just below you and the rails. You stumble upon a crossbar and flat on your face, making the rails break]",
+        "message":"There was a hole in the floor just below you and the rails. You stumble upon a crossbar and flat on your face, making the rails break.",
         "replies":[
             {
                 "text":"Oh, c'mon!",
@@ -7042,7 +7058,7 @@
     },
     {
         "id":"elm2f_crack",
-        "message":"[There's some water dripping from the crack on the wall. Its sound is relaxing. You also hear a flow of water near you. This part of the mine hasn't been much explored]",
+        "message":"There's some water dripping from the crack on the wall. Its sound is relaxing. You also hear a flow of water near you. This part of the mine hasn't been much explored.",
         "replies":[
             {
                 "text":"Leave.",
@@ -7086,7 +7102,7 @@
     },
     {
         "id":"elm2f_crack_success",
-        "message":"[You patiently wait for the vial to be filled by the few water drops on the wall]",
+        "message":"You patiently wait for the vial to be filled by the few water drops on the wall.",
         "replies":[
             {
                 "text":"Leave.",
@@ -7125,7 +7141,7 @@
     },
     {
         "id":"elm2f_crack_failure",
-        "message":"[When the vial is half filled you realise its more mud than water. You discard the vial]",
+        "message":"When the vial is half filled you realise its more mud than water. You discard the vial.",
         "replies":[
             {
                 "text":"Leave.",
@@ -7177,7 +7193,7 @@
     },
     {
         "id":"elm2f_passage",
-        "message":"[There is a poor walled up passage behind these planks. This specific table was recently removed and put back. General might have passed through here]",
+        "message":"There is a poor walled up passage behind these planks. This specific table was recently removed and put back. General might have passed through here.",
         "replies":[
             {
                 "text":"Put the planks aside.",
@@ -7191,7 +7207,7 @@
     },
     {
         "id":"elm2f_passage_1",
-        "message":"[Once you pull off the wooden board a cold breeze leaks out from the dark corridor. A few seconds later, you hear multiple cracks on the ceiling. More of that glowing ore is growing in front of you...And it's getting closer!]",
+        "message":"Once you pull off the wooden board a cold breeze leaks out from the dark corridor. A few seconds later, you hear multiple cracks on the ceiling. More of that glowing ore is growing in front of you...And it's getting closer!",
         "replies":[
             {
                 "text":"Argh! I'm getting tired of this glowing thing.",
@@ -7281,7 +7297,7 @@
     },
     {
         "id":"elm2f2_chest_1",
-        "message":"[This chest has no keyhole. It may be worth taking a quick peek inside]",
+        "message":"This chest has no keyhole. It may be worth taking a quick peek inside.",
         "replies":[
             {
                 "text":"Open the chest.",
@@ -7295,7 +7311,7 @@
     },
     {
         "id":"elm2f2_chest_2",
-        "message":"[You try to open the chest but the lid is stuck]",
+        "message":"You try to open the chest but the lid is stuck.",
         "replies":[
             {
                 "text":"Leave.",
@@ -7309,7 +7325,7 @@
     },
     {
         "id":"elm2f2_chest_3",
-        "message":"[The lid is still stuck]",
+        "message":"The lid is still stuck.",
         "replies":[
             {
                 "text":"Try harder.",
@@ -7348,7 +7364,7 @@
     },
     {
         "id":"elm2f2_chest_4",
-        "message":"[You try pulling the lid again with all your strength. The chest finally tips over and all of its content gets dropped on the floor]",
+        "message":"You try pulling the lid again with all your strength. The chest finally tips over and all of its content gets dropped on the floor.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7608,7 +7624,7 @@
     },
     {
         "id":"elm3f_locked",
-        "message":"[The Feygard soldier you were trying to ignore wawes his hands brusquely, like warning you from some inminent danger]"
+        "message":"The Feygard soldier you were trying to ignore wawes his hands brusquely, like warning you from some inminent danger."
     },
     {
         "id":"ortholion_guard9_10b",
@@ -7743,7 +7759,7 @@
     },
     {
         "id":"elm4f5_locked",
-        "message":"[A couple of fences don't let you exit the tunnel this way. This place is clearly out of Elm mine's extension, who else has been here?]"
+        "message":"A couple of fences don't let you exit the tunnel this way. This place is clearly out of Elm mine's extension. Who else has been here?"
     },
     {
         "id":"elm4f3_cage",
@@ -8654,7 +8670,7 @@
     },
     {
         "id":"ortholion_guard10_4",
-        "message":"[This guard drinks his jar of mead ceaselessly, ignoring your presence]"
+        "message":"This guard drinks his jar of mead ceaselessly, ignoring your presence."
     },
     {
         "id":"ortholion_celebration",

@@ -191,22 +191,22 @@
  </tileset>
  <layer id="1" name="Ground" width="19" height="25">
   <data encoding="base64" compression="zlib">
-   eJyVlD1uwkAQhUciLcYFWAhLwdCkNvgIvkbSJUdNE0WizBHSkzJFdmVGPB5vvY6lJ//szLfe+SsqsyJoEXQgbS9rTUYFKbJ6UhtUij1Yc8H6XJo9P5q9BH2E59PabC/2YKVYr4HzBqyuGu5j2gpW/P6+HJTy+11d5d9a8W9oh7bOUDH2dWRxXpqL7Vc92DXCdidYXA8l3L/r6/ucbI/AStWD5w5ZPbDcTp0vrp83Zj+b29why30wRinWLPg81Pc2MeaL6taHc8MslX+M51M91BHmh/dgFl683lLf5Fiqz3Ad+ybHUn2WirdiReGFfcY16XF3P6wtVavYZ1iTvH+KhWfDs3BN8hxUrNxc8drlOTi1vhSL56A6+9isQdZYTStxrv19L/Kp5toUVpc4U064H8fzv6yxPKdYf0OkzYE=
+   eJyllD1uwkAQhUcirY0LsBCWYkND7YQjcI2kS46aJoqUMkeghzJFdmWPeDzeepFi6ck/O/uNd/7K2qwMmgc9kdpxrcuoJEXWgdQHVcIHqxCsr4XZy6PZa9BneP5emW2FD1aK9RY478Da18N9Sq1gxe8fi0Gpfb/Li/xbL/4N7dDWGSrGvo4szks32v40g10nbDeCxfVQwf3YXN4Lsn0GVqoePHfIOgDL7dT54vppbXZeX+cOWb4HY5RizcKeh+bWJsZ8Xl/v4dwwS+Uf47lrhjrC/LAPZuHF6z31TY6l+gzXsW9yLNVnKgZ+MSsKL+wzrkmPu+/D2lK1in2GNcn+Uyw8G56Fa5LnoGLl5orXLs/Be+tLsXgOqrNPzRp/3mZqWonrxt9xxqLvFGeKdc9/KKG//7Km8pxi/QEEes37
   </data>
  </layer>
  <layer id="2" name="Objects" width="19" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEK8WxCJIJdlLRrB1As4olGBicxTDlnkoRZ0aiDIQ+ATQrCMj+CuX3Ac19I8LA8BYL5hPFbhbILYUyEDoJao6bGMKO32j6/gL5PDjMQgcLoeqW4lEPMgtbWJAD5IFmvROhjlkgd6H7vVkCQvNKEGcGSD2PGO7wAoX5D6h7/6C5+y9SmkOOUwYsZhVD3QMyyw2Lfehmg83HEY8aohCsCcQrgG74h6YXl1+wifOKQt2MQw2Mj55X0e2EqX2LJ25h6QiUV5uR4geXWdx40py8KCK8kdMTNrNAAF8+w5aO8JkFA8ZY4hFX2GMzCzkMXMUQfpYTw58mcYmD4pIPmiaQwweEBUhwFygtywHVy4oi0jOs/EK3H9kPPditgANYem4HmtUBxJ0yCLNAbv8rgsByRJRfMjjCHld84gNr0coLkBngsoFEc7ABkBnY8jy5ZiHT2AAAyoZQ0Q==
+   eJxjYMAEK8WxCJIJdlLRrB1As4olGBicxTDlnkoRZ0aiDIQ+ATQrCMj+CuX3Ac19I8LA8BYL5hPFbhbILYUyEDoJao6bGMKO32j6/gL5PDjMQgcLoeqW4lEPMgtbWJAD5IFmvROhjlkgd6H7vVkCQvNKEGcGSD2PGO7wAoX5D6h7/6C5+y9SmkOOUwYsZhVD3QMyyw2Lfehmg83HEY8aohCsCcQrgG74h6YXl1+wifOKQt2MQw2Mj55X0e2EqX2LJ25h6QiUV5uR4geXWdx40py8KGregQEBHH7Hl8+wpSNc7kIGxljiEVfYYzMLOQxcxRB+lhPDnyZxiYPikg+aJtDDB1e4YHMXKC3LAdXLiiLSM6z8Qrcf2Q892K2AA1h6bgea1QHEnTIIs0Bu/yuCwHJElF8yWMIenJ9xxCc+sBatvACZgS2fkgNgZtDLLABF90/j
   </data>
  </layer>
- <layer id="3" name="Objects_2" width="19" height="25" visible="0">
+ <layer id="3" name="Objects_2" width="19" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUDDUgLzXQLhgFo2AUkAIA2mYAOg==
   </data>
  </layer>
  <layer id="4" name="Above" width="19" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEL6SwCJIJnlLRLHygWYI+9tALLBRlYFgCxEtFB9olmGAJGW66CE0HF2SIU/+IQLrJFmBgkKVCnFcDzbkHdJMuFcz6SqTfiAUvgeH8CglTAgzFiFN3kUb59bMIphiy316T4L8/VMwTfFjCZS6ZaUEBi1lriTQLPXxciIyvcmCaqwDiSqS0BzLrMVI81ggQZ9ZvUUjY/kUKX2zxRgjgCj8mKsWblTR1zAEBLyqaRQgAAH/EJGA=
+   eJxjYMAEL6SwCJIJnlLRLHygWYI+9tALLBRlYFgCxEtFB9olmGAJGW66CE0HF2SIU/+IQLrJFmBgkKVCnFcDzbkHdJMuFcz6SqTfiAUvgeH8CglTAgzFiFN3kcr5lRdoLz8QfxbBlEP222sS/PeHinmCD0u4zCUzLShgMWstkWahh48LkfFVDkxzFUBciZT2QGY9JiMef4tCwvYvUvhiizdCAFv4WUkzMDBRKd68pKljDr0BALtMJBw=
   </data>
  </layer>
  <layer id="5" name="Top" width="19" height="25">
@@ -214,9 +214,9 @@
    eJxjYECAzyIMVAO4zCLHDnqYxSRKPbOoAf5C3fMbj7uYSXAzIbXY/IIuBuOj0+hsbGFJrln43PpZBtU+SswiV54aZmGLG3LNIiYeB8KsVfi1kWQWOWpJyd/oZgmTUTbgMotYICFNPbM0sJhFS4Cenkkpp9ABrnKDGoDeZgEAPLUxew==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="19" height="25">
+ <layer id="6" name="Walkable" width="19" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJx7KMLA8HAIYBCgplkwgEscHRBrJjqbXH8QYzcpYUJILbH+JNYsarqLWDPQaWxxSqp7SI1HfPaRYhY2QIlZ5IQxuWZhczOt/UjteKRlmsDnZ3LCi1B4U+JHYt1LrFmE9BJr9mA0i1D4AAC8cl9L
+   eJzVksENACAIAx3C/XdzE+PDDwFpsT5sYiRGDwqO3tr4YC0pWVvRuRXKtHHVB5Kb6Ul2F/WJspR1oQy7ezNl62HneMrHsDzdsCo9rrIivfSonuPLP5H1hf0THiuKWY9ovSgre4uyVSzUk4I1AYPUXGw=
   </data>
  </layer>
  <layer id="7" name="Above_2" width="19" height="25">
@@ -246,7 +246,7 @@
   <object id="17" name="elm_drop2" type="container" x="160" y="352" width="32" height="32"/>
   <object id="18" name="elm_drop3" type="container" x="160" y="96" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="9" name="Spawn">
+ <objectgroup id="9" name="Spawn" visible="0">
   <object id="5" name="elm5_monster1" type="spawn" x="256" y="192" width="32" height="128">
    <properties>
     <property name="quantity" value="3"/>
@@ -313,7 +313,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="19" name="elm5_ore" type="replace" x="416" y="608" width="32" height="32">
    <properties>
     <property name="Above" value="Above_2"/>

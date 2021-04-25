@@ -593,7 +593,7 @@
     },
     {
         "id":"bwm75_sign",
-        "message":"There's nothing written here anymore. The wood is rotten, dried, and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. It must have been ages since someone put it here."
+        "message":"There's nothing written here anymore. The wood is rotten, dried, and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. \nIt must have been ages since someone put it here."
     },
     {
         "id":"ehrenfest_selector",
@@ -3445,6 +3445,57 @@
                 ]
             },
             {
+                "text":"Here you are, a nice little bottle of fresh water.",
+                "nextPhraseID":"prim_tavern_guest4_18c",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_water1_quest",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_water1_quest",
+                        "value":2,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_water2_quest",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I seem to have lost it anywhere.",
+                "nextPhraseID":"prim_tavern_guest4_18d",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Omi2_bwm1",
+                        "value":24
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_water1_quest",
+                        "value":1,
+						"negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bwm_water2_quest",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Where can I find the streams?",
                 "nextPhraseID":"prim_tavern_guest4_18a"
             }
@@ -3466,7 +3517,7 @@
     },
     {
         "id":"prim_tavern_guest4_18a",
-        "message":"Ag...Again?! East of here. Underground. Deep in those caverns.",
+        "message":"Ag...Again?! Are you drunk or me? East of here. Underground. Deep in those caverns.",
         "replies":[
             {
                 "text":"Hmpf, OK. Bye.",
@@ -3479,6 +3530,24 @@
         ]
     },
     {
+        "id":"prim_tavern_guest4_18c",
+        "message":"This little bottle? This is not enough, it evaporates before it reaches the stomach.\nBring at least 2 of these!",
+        "replies":[
+            {
+                "text":"Hmpf, OK.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'll bring more water, don't worry.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"prim_tavern_guest4_18d",
+        "message":"Oh, ow, my head!"
+    },
+    {
         "id":"bwm_wellspring_1",
         "message":"A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent.",
         "replies":[
@@ -3486,11 +3555,6 @@
                 "text":"Fill a bottle of water.",
                 "nextPhraseID":"bwm_wellspring_2a",
                 "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Omi2_bwm1",
-                        "value":23
-                    },
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"vial_empty3",
@@ -3500,12 +3564,6 @@
                         "requireType":"questProgress",
                         "requireID":"bwm72_beginning",
                         "value":12,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Omi2_bwm1",
-                        "value":24,
                         "negate":true
                     }
                 ]
@@ -3515,20 +3573,14 @@
                 "nextPhraseID":"bwm_wellspring_2b",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":12
-                    },
-                    {
                         "requireType":"inventoryRemove",
                         "requireID":"vial_empty3",
                         "value":1
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"Omi2_bwm1",
-                        "value":24,
-                        "negate":true
+                        "requireID":"bwm72_beginning",
+                        "value":12
                     }
                 ]
             },
@@ -3537,26 +3589,27 @@
                 "nextPhraseID":"bwm_wellspring_2c",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"Omi2_bwm1",
-                        "value":23
-                    },
-                    {
                         "requireType":"inventoryRemove",
                         "requireID":"vial_empty4",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"If you had an empty bottle with you, you could take some of this refreshing water with you.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"vial_empty3",
+                        "value":1,
+						"negate":true
                     },
                     {
-                        "requireType":"questProgress",
-                        "requireID":"bwm72_beginning",
-                        "value":12,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"Omi2_bwm1",
-                        "value":24,
-                        "negate":true
+                        "requireType":"inventoryKeep",
+                        "requireID":"vial_empty4",
+                        "value":1,
+						"negate":true
                     }
                 ]
             }

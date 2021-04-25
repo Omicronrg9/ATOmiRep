@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytV0mOwkAMbCk8gEVC4pXzAvgVXBCniDwg4TbXechgiVYcq7w1qctMEndXuexeKGXG7VRMbA7Lv/3Rjve+VwyM19Mg55Xx0/vbeFy+j8wZwch4uebK+S2uW/xc/ebIcnIP/vY5Xa/97PloeJ+Fli+H10Nr1Zbw+/FlrXpKWPlyTpmTluMU1Pjc6s/RNcqRGTMp/RKZ47GL80qPUGymrly3xUv7AOdG81v7FeG+w/o8rYPT+5FcJWe0p1DsuSvl0s35RDkJmsfILy0Wve+Bn1ofenuJ5qfHi/DTzf97ddSAtHs1p7hMjRG49gwy61dDi3bEW/ks788sT+mrdb+oz4jXq3UdU9cSge+DfLycazi1n10t5wCh1qN1fOs5i+4jCGveDyRf67rlsPRltEdi1/aCQB68xH1S7v+aT/J8186NyJr/dk9D81i9NTn9h/Twd/J7hIvQ8purT4z/B5V3fpw=
+   eJytV0uOwjAMjdQ5AHQkJE7JCZhbDRvEqqIHaNlxGcYaRXWt51/atylJnDz72flQyoLbuZj4+l5/h5Nt741XjIzX80GuK+3nv7HptO6PrBnBxHi5z5VzK34PuF315shybtHg1S+aT4b2WWjxcng1tFduCe/+/7tXPiWseDmnjEmLcQ76+Dzo7ege5cjMmZV6iazxOMZ5pUbINpNX7rfFS+cA50brW+cV4X7E/nm+jk7tR2KVnNGaQrbXrpSfboknyknQNEZ6abaofwB6anXonSWanh4vwqVbfnt51IB893JOdpkcI3DfM8jsXw0tviPeymdpf2VxSl2t90VtI14v13VO3UsEfg7y+XKt8dx+d7XcA4Saj9b5rfcseo8g7Pk+kHyt+5bD8i/je8R2by0IpMGrX/fJ81/TSd7v2r0R2fNbzzS0jlVbs1N/yB/eJ8cjXISW/1xDYv4H8e19pg==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="30">
@@ -203,7 +203,7 @@
    eJztlMENhTAMQ5mC/VdgQ65QYueZlhuRKvHV2E6c9B/79ohjv393Z8RQ3BV7/U3wVZA7xVHVovJV7UkPrj7licp1QbWVF5SD6BKc4nD1dprVXCo+kl/tO93ztM8qL+nX+af2zemt1CWRekx11f1brdl+Z2en+JSXzhfHTXVdv+p90Rklc+p66u7GvLe6Iyedc+JD9+3wKpdgO70KS7RIzSk27Xu1brL36i04v8n+03dCT6pL6p7RHXkrPeVf53XXL+FZEWQnZ+6dX2qHHZ763/1f/ef7cwIF+oAS
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="928" y="96" width="32" height="64">
    <properties>
     <property name="map" value="blackwater_mountain30"/>
@@ -317,7 +317,7 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Keys" visible="0">
-  <object id="19" name="ortholion_subdued_1" type="key" x="320" y="128" width="96" height="32">
+  <object id="19" name="ortholion_subdued_1" type="key" x="352" y="96" width="32" height="32">
    <properties>
     <property name="phrase" value="ortholion_subdued_3"/>
     <property name="requireId" value="bwm72_beginning"/>

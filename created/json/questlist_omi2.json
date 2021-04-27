@@ -2,7 +2,7 @@
     {
         "id":"Thieves04",
         "name":"Honor and plunder",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":5,
@@ -287,7 +287,7 @@
             },
             {
                 "progress":22,
-                "logText":"One of the tavern regulars, possibly Lorn's old partner, does not believe that Lorn's death was an accident, maintaining Lorn has been climbing the mountains for longer he could remember. However, he does not feel comfortable to continue the conversation.",
+                "logText":"One of the tavern regulars, possibly Lorn's old partner Jern, does not believe that Lorn's death was an accident, maintaining Lorn has been climbing the mountains for longer he could remember. However, he does not feel comfortable to continue the conversation.",
                 "rewardExperience":100
             },
             {
@@ -411,7 +411,7 @@
             },
             {
                 "progress":61,
-                "logText":"For my bravery (and my lack of honour), general ortholion rewarded me with a small bag of gold. He may have some news for me in a couple of days.",
+                "logText":"For my bravery (and my lack of honour), General Ortholion rewarded me with a small bag of gold. He may have some news for me in a couple of days.",
                 "rewardExperience":6000,
                 "finishesQuest":1
             },
@@ -422,7 +422,7 @@
             },
             {
                 "progress":63,
-                "logText":"For my bravery and... ignorance?, general Ortholion gave me a few days to rest and urged me to come back soon after that.",
+                "logText":"For my bravery and... ignorance?, General Ortholion gave me a few days to rest and urged me to come back soon after that.",
                 "rewardExperience":10000
             }
         ]

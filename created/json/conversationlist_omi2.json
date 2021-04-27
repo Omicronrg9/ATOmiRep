@@ -7313,7 +7313,7 @@
     },
     {
         "id":"elm2f2_sign",
-        "message":"The sign reads: \n\n\u2013 DO NOT THROW ITEMS TO THE POOL.\n\u2013 DO NOT SPLASH.\n\u2013 RELAX.\n\nSigned by Guthbered of Prim."
+        "message":"The sign reads:\n\n  \"DO NOT THROW ITEMS TO THE POOL\"\n  \"DO NOT SPLASH\"\n  \"RELAX\"\n\nSigned by Guthbered of Prim"
     },
     {
         "id":"elm2f2_pool",
@@ -7433,7 +7433,7 @@
     },
     {
         "id":"ortholion_guard9_1",
-        "message":"Be quiet. ",
+        "message":"Be quiet.",
         "replies":[
             {
                 "text":"What?",
@@ -9146,7 +9146,7 @@
     },
     {
         "id":"ortholion_18c",
-        "message":"Good anwser! That is very inline with any good Feygard soldier thoughts. Since I owe you a favor, let me repay you with this bag of gold.",
+        "message":"Good answer! That is very inline with any good Feygard soldier thoughts. Since I owe you a favor, let me repay you with this bag of gold.",
         "replies":[
             {
                 "text":"[Take the gold] Finally... ",

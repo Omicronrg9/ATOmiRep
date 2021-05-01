@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="10" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="26">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="31">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,12 +192,12 @@
  </layer>
  <layer id="2" name="Objects" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJx1k79Ow0AMxq0sGZCAu7SJOsDAn1fgEdiYeQKeglfgUWBlYSdN2BiKEExFqkqRoCoiokgIbN1Z53OST7KSnn/n83dxAdq6MwBHBcBx0c6divdZDjAXcZOH3GUS3htcf8I4K9yzFBxragFW1uWuMd48l6UAA4xhGvON59YYF3jWPuYPMA7Tdu0KmQqZe+v2fft+ukTcBP1XGItR3GuSxxxpjczPKHicDgGs4GrPEUM1lyb0sMd7bOBLzH+YuKd3E/cxSMK5WvpuiZHsWNVOMvdc2Xh9KTjqz2ax3y49ij2fo252YyvU5P50T6w/z0zyUKvsYVnE1KbtQetZ9NV3PmmucrOeuVkon42asRcxB1pdM7mD3ne9f/LBvsdiFqgX6VfPDel829XXPli/Yv1rM8xpn26N+84PHQx/oxPx32e/8lvwrPGd0O/axHf4qubnyrP/mUJ2qw==
+   eJx9k7FOw0AMhq0sGZCgdymJMsACvAKPwMbMzMBT8Ao8CqwsfYA0YWMoQjCBVJUiQVVERZEQ2Lqzzuck/JKV9Pydz//FBWjrxgAcFgBHRTt3It6nOcBMxCgPucskvK9w/QHjrHDPSnCsJwuwtC53jfHquSwFGGJspzG/8twa4wLP2sP8PsZB2q5dI1Mjc2vdvi/fT5eIm6D/GmNexr0mecyR1sh8l8GjVuM5YqjmwoQeTgduD3lnVZh/N3GNNxP3MUzCuVr6bomR7FjVTjL3XNp4fSE46s9msd8u3Ys9H2U3u7EVanJ/uifWr2cmeahV9bAsYhrT9qD1KPrqO580U7lpz9zMlU89D89iDrS6ZnIHve96/+SDfY/FLFAv0q+eG9L5wNXXPlg/Yv1zM8zpf6LvfNfB8Dc6Fv999iu/Bc8a3wn9bkx8hy9qfq48+wcca3Tu
   </data>
  </layer>
  <layer id="3" name="Objects_1" width="10" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQw38ESRO3S8i1Y2CUTBUAAAa0AIZ
+   eJxjYBgFxAImMcJqHokyMAgRoe4HUI0SEeqwgT+CxKn7RaS6UTAKiAXHBjhNAQC7GgVt
   </data>
  </layer>
  <layer id="4" name="Above" width="10" height="30">
@@ -205,7 +205,7 @@
    eJxjYECAw2IMBEE4EF9CUpcizsDgAsShQBwmjqr2CZK6o0IMDM+AfFOgGjc0dRh2ANWaQdWVszMwVABxJTumulQhiP1pQNwOlO8A4k4s6pDBL0n88jDwkkh1r5DUPWYiTg82ANMLsvcVAbtTmSBqCKm9JIRdfDYWdxJjLylqqWkWKeadIVIdKeATjnBEBtjcR2p6uCmI3zwYwBZ/hACx4YcNYIsjapgXy4Qqhg6Q0/gjaBwAABL5Mp4=
   </data>
  </layer>
- <layer id="6" name="Top" width="10" height="30">
+ <layer id="6" name="Top" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAMbBViYNgmBGGHCuFXe4yAPDlgNhMDwxwgfiVJfbNHAfWBEv9Au2AUDGUAAIJTBT4=
   </data>
@@ -222,7 +222,7 @@
  </layer>
  <layer id="9" name="Walkable_1" width="10" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFEjAyorQ6fWnLVUcNMmFpkml7q0N1Kanyh24duFj5xXOrICW9qq8MXf7j0EauOlHihJqbU3cjixIQfKemKWHX43IGuHxsfnx0AqKSieA==
+   eJzbKMbAsJFEjAyorQ6fWnLVUcNMmFpkmhJ1yPYRMg+bHnIwsl5c9qOLE+NOYsOb2urwxR8ufcSqIyVeqIkpdTeyODHhR0q6IlYdPneg68fGx2cHACgUobE=
   </data>
  </layer>
  <objectgroup id="10" name="Mapevents" visible="0">
@@ -318,6 +318,11 @@
     <property name="spawngroup" value="primwolf2"/>
    </properties>
   </object>
+  <object id="27" name="bwm17_worker" type="spawn" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="bwm17_worker"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="12" name="Keys" visible="0">
   <object id="57" name="bwm17_hole" type="key" x="288" y="320" width="32" height="32">
@@ -326,6 +331,14 @@
     <property name="requireId" value="bwm17_vine"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="26" name="bwm17_questenabled" type="key" x="160" y="256" width="32" height="64">
+   <properties>
+    <property name="phrase" value="bwm17_questenabled"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
  </objectgroup>
@@ -337,7 +350,7 @@
   </object>
   <object id="21" name="bwm17_vine:1" type="replace" x="256" y="832" width="32" height="32">
    <properties>
-    <property name="Objects" value="Objects_1"/>
+    <property name="Objects" value="Above"/>
    </properties>
   </object>
   <object id="22" name="bwm17_heights:1" type="replace" x="32" y="0" width="256" height="960">
@@ -372,6 +385,22 @@
     <property name="requireId" value="bwm17_heights"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="29" name="bwm17_questenabled1" type="replace" x="128" y="224" width="64" height="96">
+   <properties>
+    <property name="Objects" value="Objects_1"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="30" name="bwm17_questenabled2" type="replace" x="256" y="832" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_1"/>
+    <property name="requireId" value="bwm17_vine"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
    </properties>
   </object>
  </objectgroup>

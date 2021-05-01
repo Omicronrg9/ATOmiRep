@@ -35,6 +35,10 @@
             {
                 "progress":2,
                 "logText":"Vine placed."
+            },
+            {
+                "progress":3,
+                "logText":"Quest Climbing forbidden enabled."
             }
         ]
     },

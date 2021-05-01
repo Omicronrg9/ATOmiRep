@@ -271,6 +271,15 @@
         }
     },
     {
+        "id":"bwm17_worker",
+        "name":"Casterod",
+        "iconID":"monsters_ld1:16",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none",
+        "spawnGroup":"bwm17_worker",
+        "phraseID":"bwm17_worker"
+    },
+    {
         "id":"ehrenfest",
         "name":"Ehrenfest",
         "iconID":"monsters_tometik1:86",

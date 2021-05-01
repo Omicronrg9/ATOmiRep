@@ -1,5 +1,59 @@
 [
     {
+        "id":"bwm17_questenabled_check",
+        "replies":[
+            {
+                "nextPhraseID":"bwm17_questenabled_check_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"kazaul",
+                        "value":9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"bwm17_questenabled_check_1",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bwm17_worker",
+                "mapName":"blackwater_mountain70"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"bwm17_vine",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"bwm17_worker",
+        "message":"Hello child, if you came to climb the mountain here, then I have to disappoint you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm17_worker_1"
+            }
+        ]
+    },
+    {
+        "id":"bwm17_worker_1",
+        "message":"The ladder was in danger of collapsing. I'm fixing it right now. Come again later.",
+        "replies":[
+            {
+                "text":"OK, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bwm17_questenabled",
+        "message":"The ladder is under construction."
+    },
+    {
         "id":"bwm17_heights_1",
         "replies":[
             {
@@ -69,6 +123,17 @@
     {
         "id":"bwm17_vine_selector",
         "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bwm17_vine",
+                        "value":3,
+						"negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"bwm17_vine_3",
                 "requires":[

@@ -244,7 +244,7 @@
     <property name="when" value="round"/>
    </properties>
   </object>
-  <object id="6" name="venomfang_warning" type="script" x="288" y="352" width="96" height="32">
+  <object id="6" name="venomfang_warning" type="script" x="288" y="160" width="96" height="224">
    <properties>
     <property name="when" value="enter"/>
    </properties>

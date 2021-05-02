@@ -195,7 +195,7 @@
  </layer>
  <layer id="2" name="Objects" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJydlTFLAzEUx+NQQVuHG9TLnYd2tQp1rmK/gw6KgyAqVNDZa7UOBbFSBJcOLu4Kfol+B0cXURAXF11E8D2SeO9yuV7OPzwueZf88vLyLseYnY65eB5wu/G+F7XftTlprHLJzKoQ1pOc0wkY67lx1sCN3i8R1iYX1pC2xSMftUsej0/pJjDHdSrXb7lxH5W+VoO0denrKrVh/bPA/L7lJn3DWFdB8n0aQ2e9GJghyVsjg6NYAy1fk74wPMMfT7Rt1IXxTS3/d3J/yJpCbim+nq0wLsz7XClijYB/1he8TkpNZEmxyrIfptTCMG3L8Xpt4TmsW+YuTbR+d/1k7t5yxor6noE9Q75WSc4o95FH+awWGKt5oo9+7Ct9AKcI/jGwcUP+kflK4qvLuc9c+OuExQKxV8qiuWym3FlpfV00j6pO2+TbqziMLTpxluexTCG3S+I8AasBZ4WwMA/zFiyUisG0p0/of4FNOMxKPoxbkPtSrL7ccwHiGfXsWUoBYYWkzrPuLKqjaWGKtcPF81D686oo843f8hrPrgWTlh1h9NwU6zzn3XIhx4ekJv4b1wOwNrR/oWJV4S68t4ytR85nD+bsB3EW6jrHXfXHALv1k6ws/QK+MGwk
+   eJydlTFLw0AUx8+hgjYOGdRcYtCuVqHOVex30EFxEESFCjqbVutQECtFcHFwcVfwS/Q7OLqIgri46CKC73F35uVyMRf/8Gju5e733r17uTJmp0Mufve43fzAj5/ftDVZrIpjZlUJ61Gu6YaM9b0ka+DF7xcIa50La0rb4LGP2jlP5qd0DbEiOYfqWMZve0kflR6rSeLo0uMqdSD+SWh+3/bSvr9YF2H6fRZDZz0bmBHZTzOHo1gDrV7jgTA8w29fPNuoB/NbWv1v5f6QNYFcJxnPVpgX1n3GiVlD4J8OBK8bFmfSvCpybOqrPG3K+Xpv4TmsWtYuS7R/t4N07V4L5or6moI9Q72WSc0o94HH9ayVGKv7Yox+HCu9A6cM/hGwUUP9kflC8mvItU9c+BuExUKxV8qitWxl3FlZY120jqpPO+Tbq7qMzbtJlu+zXCG3R/I8AqsDZ4mwsA6zFiyUysG0pw8Yf4KNucxKAcybk/tSrCu55xLkM+zbs5RCwopIn+fdWVQHk8IUa4uL333pL6qyrDd+yys8vxdMWnSF0XNTrNOCd8uZnB+RnvhvXvfAWtP+CxWrBnfhnWVufXI+O7BmN0yyUJcF7qpfBthNkGbl6Qe4/Wzn
   </data>
  </layer>
  <layer id="3" name="Above" width="19" height="30">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="5" name="Walkable" width="19" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdkssNACEIRG3Douy/nT1tYozCfDgYSbgYfAwMo7c2gJwDqb+JVRk7ttqvghXNfHpDGawu1K/MJ9b76B4YXnZbrD6EpTKjUPWdtDq5Y1RwEa3rW9aXDcej/7+yZ1cXe0coM5pR9b5iRvRebtr9C6y13tXlMD4SEZSf
+   eJzdkssNACEIRG1ji7L/dva0ycYIzIeDkYSLwcfAMJ8xJpD/QOpPYnXGjq30i3SyrGzm6A1lsLpQvyqfWO+ze2B41W2x+hCWysxC1RdpdXLH6OAiWte3qi8bjkfff2XPri72jlBmNqPqfceM6L2ctPsbWGu9q8thvAjFlQU=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -240,7 +240,7 @@
   </object>
   <object id="6" name="elm2_c3" type="script" x="512" y="96" width="32" height="32"/>
   <object id="7" name="elm2_chest" type="container" x="512" y="384" width="32" height="64"/>
-  <object id="8" name="east" type="mapchange" x="576" y="96" width="32" height="64">
+  <object id="8" name="east" type="mapchange" x="576" y="96" width="32" height="32">
    <properties>
     <property name="map" value="elm_mine4"/>
     <property name="place" value="west"/>

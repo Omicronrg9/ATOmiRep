@@ -2353,7 +2353,7 @@
                 "nextPhraseID":"ehrenfest_17a"
             },
             {
-                "text":"...",
+                "text":"Obviously you needed the rest.",
                 "nextPhraseID":"ehrenfest_17"
             }
         ]
@@ -2365,6 +2365,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"ehrenfest_18"
+            }
+        ]
+    },
+    {
+        "id":"ehrenfest_17a",
+        "message":"[He seems to be completely absorbed by his own monologue]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ehrenfest_17"
             }
         ]
     },
@@ -2597,7 +2607,7 @@
     },
     {
         "id":"ehrenfest_27b",
-        "message":"...Just after witnessing my savior's death, I ran away and came back to the village.",
+        "message":"Just after witnessing my savior's death, I ran away and came back to the village.",
         "replies":[
             {
                 "text":"Did you tell the guards what you saw?",
@@ -2693,16 +2703,6 @@
             {
                 "text":"Indeed. There's something shady in all of this.",
                 "nextPhraseID":"ehrenfest_30a"
-            }
-        ]
-    },
-    {
-        "id":"ehrenfest_17a",
-        "message":"[He seems to be completely absorbed by his own monologue]",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"ehrenfest_17"
             }
         ]
     },
@@ -5895,7 +5895,7 @@
         "message":"*laughs quietly* Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind.",
         "replies":[
             {
-                "text":"...Ok, now that you're aware of the situation, I'd better leave.",
+                "text":"OK. Now that you're aware of the situation, I'd better leave.",
                 "nextPhraseID":"ortholion_5a"
             },
             {
@@ -6581,7 +6581,7 @@
         "message":"No way! I have a home to come back you know? And you probably too.",
         "replies":[
             {
-                "text":"Step aside then, you're on my way.",
+                "text":"Step aside then, you're in my way.",
                 "nextPhraseID":"X"
             },
             {
@@ -8302,7 +8302,7 @@
     },
     {
         "id":"kamelio_3c",
-        "message":"Everything. From where the shirne was to how to enter and pass through the pitch black tunnels.",
+        "message":"Everything. From where the shrine was to how to enter and pass through the pitch black tunnels.",
         "replies":[
             {
                 "text":"Who tortured you?",
@@ -8330,7 +8330,7 @@
     },
     {
         "id":"kamelio_4a",
-        "message":"He just wanted to know where an old shirne location. And I forgive him everything. He came back and freed Duala and me and gave us food and a marvelous elixir he called \"recovery potion\".\n\nNow my body is reborn and my mind is set free. I know what's wrong and what's right, and I know what I must do.",
+        "message":"He just wanted to know an old shrine's location. And I forgive him everything. He came back and freed Duala and me and gave us food and a marvelous elixir he called \"recovery potion\".\n\nNow my body is reborn and my mind is set free. I know what's wrong and what's right, and I know what I must do.",
         "replies":[
             {
                 "text":"Hmm, yeah sure. Goodbye.",
@@ -8467,7 +8467,7 @@
     },
     {
         "id":"ortholion_c2",
-        "message":"...Oh. Alright, we will chat later. Now we're going out of he...\n\nWatch out!",
+        "message":"Oh. Alright, we will chat later. Now we're going out of the...\n\nWATCH OUT!",
         "replies":[
             {
                 "text":"N",
@@ -8481,7 +8481,7 @@
         "switchToNPC":"kamelio2",
         "replies":[
             {
-                "text":"Aah! ",
+                "text":"Aah!",
                 "nextPhraseID":"X"
             },
             {
@@ -9082,7 +9082,7 @@
         "message":"Well, well. Look who's back.",
         "replies":[
             {
-                "text":"...",
+                "text":"Yup, here I am again.",
                 "nextPhraseID":"ortholion_17"
             },
             {
@@ -9100,7 +9100,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"...I'll think about it. Goodbye.",
+                "text":"I'll think about it. Goodbye.",
                 "nextPhraseID":"X"
             }
         ],
@@ -9370,6 +9370,7 @@
         ]
     },
     {
-        "id":"ortholion_21a"
+        "id":"ortholion_21a",
+        "message":"That sounds kind of true. You are a very persuasive speaker."
     }
 ]

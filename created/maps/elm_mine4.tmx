@@ -198,7 +198,7 @@
  </layer>
  <layer id="3" name="Objects" width="13" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBh6IFEat9xbcUzMJ0Ga+X+B6nlI1AMC9NbTjCccUNRLQvQ4S6KK35PFracOaLasBCT8/kLxOyDuwGMnKNwUgGbKy0LolyT6baIswo24/IYsvlmGgWGrDITdCNT7G499PFBzDwPVH5UhTu0/JDX41MNAHZHxQSzAFz+EwH9B6rkDBkDhksHHwOAGpCN4ITQMhPOi0jBwHskPokC9D4Duekei20B6/qHp4eRDsOcC2fOAmBuIefgYsIK/WOLvNVBMGqheBoceGEDON65Y0gYuEAYNi0wC5oPAZiqkHWx+JBcAAHgYL6c=
+   eJxjYBi84K04BPNJoIonSuPXAwKyErj1EwJ/gep5SNQDAvTW04wnHFDUS0L0OEuiit+Txa2nThoRhn+h+B0Qd+CxExRuCkAz5WUh9EsS/TZRFuFGXH5DFt8sw8CwVQbCbgTq/Y3HPh6ouYeB6o/KEKf2H5IafOphoI7I+CAW4IsfQuC/IPXcAQOgcMngY2BwA9IRvBAaBsJ5UWkYOI/kB1Gg3gdAd70j0W0gPf/Q9HDyIdhzgex5QMwNxDx8DFjBXyzx9xooJg1UL4NDDwwg5xtXLGkDFwiDhkUmAfNBYDMV0g42P5ILAM8+MAI=
   </data>
  </layer>
  <layer id="4" name="Above" width="13" height="30">
@@ -213,11 +213,11 @@
  </layer>
  <layer id="6" name="Walkable" width="13" height="30">
   <data encoding="base64" compression="zlib">
-   eJx7KM7A8HCQYlyA2npwmTMS9RACxOonN55J9Q85biNVLan+JicMKMXIdhMb3+TowacXPQzwpSlS9BBrDy63oYsT4x98egiFGy5AKKzJ0UPNOEXGAOxEGAg=
+   eJx7KM7A8HCQYlyAHL3k2D0S9RACxOonN55J9Q85biNVLan+JicMKMXIdhMb3+TowacXPQzwpSlS9BBrDy63oYsT4x98egiFGy5AKKzJ0UPNOEXGACRbGfg=
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="64">
+ <objectgroup id="7" name="Mapevents" visible="0">
+  <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="32">
    <properties>
     <property name="map" value="elm_mine2"/>
     <property name="place" value="east"/>
@@ -236,7 +236,7 @@
   </object>
   <object id="5" name="bwm73_drop" type="container" x="64" y="512" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="6" name="elm4_monster1" type="spawn" x="160" y="160" width="32" height="160">
    <properties>
     <property name="quantity" value="3"/>
@@ -261,7 +261,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Keys">
+ <objectgroup id="9" name="Keys" visible="0">
   <object id="10" name="elm4_sign" type="key" x="160" y="352" width="32" height="32">
    <properties>
     <property name="phrase" value="elm4_sign"/>
@@ -271,7 +271,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Replace">
+ <objectgroup id="10" name="Replace" visible="0">
   <object id="11" name="elm4_replace1" type="replace" x="64" y="320" width="64" height="32">
    <properties>
     <property name="Ground" value="Ground_2"/>

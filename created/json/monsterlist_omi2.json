@@ -391,6 +391,7 @@
         "id":"ortholion_subdued",
         "name":"Subdued Feygard mountain scout",
         "iconID":"monsters_omi2:11",
+        "unique":1,
         "maxHP":191,
         "maxAP":10,
         "monsterClass":"humanoid",

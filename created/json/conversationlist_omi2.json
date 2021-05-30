@@ -4950,6 +4950,11 @@
                 "rewardType":"deactivateSpawnArea",
                 "rewardID":"prim_tavern_guest4",
                 "mapName":"blackwater_mountain22"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"prim_guard5",
+                "mapName":"blackwater_mountain29"
             }
         ]
     },

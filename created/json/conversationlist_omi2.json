@@ -130,7 +130,7 @@
                         "requireType":"questProgress",
                         "requireID":"bwm17_vine",
                         "value":3,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2599,7 +2599,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"bwm72_rope",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -3099,14 +3099,14 @@
                 "nextPhraseID":"prim_tailor_3"
             },
             {
-                "text":"Ok, thanks anyway.",
+                "text":"OK, thanks anyway.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"prim_tailor_3",
-        "message":"*staring you comptemptuously* I also take various repairing orders, kid. Now get out of my shop."
+        "message":"*staring you comptemptuously* I also take various repair orders, kid. Now get out of my shop."
     },
     {
         "id":"prim_tavern_guest4_4",
@@ -3369,8 +3369,8 @@
     },
     {
         "id":"prim_tavern_guest4_14a",
-        "switchToNPC":"none",
         "message":"[The muscular man is still tired and drunk, next to an unfinished jar of mead]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I'd better come back later.",
@@ -3527,13 +3527,13 @@
                         "requireType":"inventoryKeep",
                         "requireID":"bwm_water1_quest",
                         "value":2,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"bwm_water2_quest",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3550,13 +3550,13 @@
                         "requireType":"inventoryKeep",
                         "requireID":"bwm_water1_quest",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"bwm_water2_quest",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3668,13 +3668,13 @@
                         "requireType":"inventoryKeep",
                         "requireID":"vial_empty3",
                         "value":1,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"vial_empty4",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -3733,8 +3733,8 @@
     },
     {
         "id":"prim_tavern_guest4_18b",
-        "switchToNPC":"none",
         "message":"The muscular guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"How was it?",
@@ -3751,8 +3751,8 @@
     },
     {
         "id":"prim_tavern_guest4_19",
-        "switchToNPC":"prim_bar_regular",
         "message":"Woah, I feel really good now.",
+        "switchToNPC":"prim_bar_regular",
         "replies":[
             {
                 "text":"What about a reward?",
@@ -5702,8 +5702,8 @@
     },
     {
         "id":"ortholion_conversation2_6a2",
-        "switchToNPC":"none",
         "message":"Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -6258,7 +6258,7 @@
         "message":"Hey, do you know what's happening here? These serious-looking soldiers entered the mine without permission.",
         "replies":[
             {
-                "text":"They're soldiers of Feygard. I come along them, don't worry.",
+                "text":"They're soldiers of Feygard. I came along with them. Don't worry.",
                 "nextPhraseID":"arghest_alert_2"
             },
             {
@@ -6272,18 +6272,18 @@
         "message":"You'd better telling me the truth. I will report it later.",
         "replies":[
             {
-                "text":"Have you seen a guy with a cloak over here?",
+                "text":"Have you seen a guy with a cloak around here?",
                 "nextPhraseID":"arghest_alert_3"
             },
             {
-                "text":"Yeah, whatever. We talk later.",
+                "text":"Yeah, whatever. We will talk later.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"arghest_alert_3",
-        "message":"I was taking a break in the beds over there, so no idea, sorry. No one usually comes here but you and those...Noisy soldiers.",
+        "message":"I was taking a break in the beds over there, so no idea. Sorry. No one usually comes here but you and those...noisy soldiers.",
         "replies":[
             {
                 "text":"Thank you for the information.",
@@ -8715,7 +8715,7 @@
     },
     {
         "id":"arghest_15",
-        "message":"Suit yourself... But no one else went there in weeks.",
+        "message":"Suit yourself... But no one else went in there in weeks.",
         "replies":[
             {
                 "text":"Thanks, bye.",

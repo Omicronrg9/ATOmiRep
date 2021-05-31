@@ -8,7 +8,7 @@
                 "nextPhraseID":"prim_tailor_1"
             },
             {
-                "text":"What do you know about Lorn's crew accident?",
+                "text":"What do you know about Lorn's crew's accident?",
                 "nextPhraseID":"prim_tailor_2",
                 "requires":[
                     {
@@ -25,5 +25,9 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"prim_tailor_1",
+        "message":"Sell? I'm sorry, my supplies are all out. Now that the traders do not come here anymore, I don't get my regular shipments. So at the moment, I have nothing to trade with you unfortunately."
     }
 ]

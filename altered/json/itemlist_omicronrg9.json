@@ -6,7 +6,7 @@
         "displaytype":"rare",
         "baseMarketCost":1994,
         "category":"gauntlet",
-        "description":"These gloves can be tied to your hands or even to other gloves, but don't allow the use of weapons simultaneously.",
+        "description":"These gloves can be used on your hands or even with other gloves, but they don't allow the use of weapons at the same time.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":3,

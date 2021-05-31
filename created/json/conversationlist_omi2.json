@@ -7395,7 +7395,7 @@
         "rewards":[
             {
                 "rewardType":"actorCondition",
-                "rewardID":"Requiescence",
+                "rewardID":"relax",
                 "value":1
             }
         ]

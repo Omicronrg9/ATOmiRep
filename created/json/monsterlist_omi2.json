@@ -391,9 +391,9 @@
         "id":"ortholion_subdued",
         "name":"Subdued Feygard mountain scout",
         "iconID":"monsters_omi2:11",
-        "unique":1,
         "maxHP":191,
         "maxAP":10,
+        "unique":1,
         "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -581,7 +581,7 @@
     },
     {
         "id":"elm_fiend2",
-        "name":"Ravenous glowing mudfriend",
+        "name":"Ravenous glowing mudfiend",
         "iconID":"monsters_omi2:18",
         "maxHP":111,
         "moveCost":7,

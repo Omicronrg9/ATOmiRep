@@ -74,9 +74,9 @@
         }
     },
     {
-        "id":"Requiescence",
+        "id":"relax",
         "iconID":"actorconditions_omi2:4",
-        "name":"relax",
+        "name":"Requiescence",
         "category":"mental",
         "isPositive":1,
         "roundEffect":{

@@ -8031,7 +8031,7 @@
     },
     {
         "id":"ortholion_unconscious",
-        "message":"The kick was such brutal Ortholion fell unconscious."
+        "message":"The kick was brutal that Ortholion fell unconscious."
     },
     {
         "id":"ehrenfest_49",
@@ -8587,7 +8587,7 @@
     },
     {
         "id":"ortholion_9",
-        "message":"*looks at you* This is humillating. How that guy...",
+        "message":"*looks at you* This is humillating. How did that guy...",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -8633,7 +8633,7 @@
                 "nextPhraseID":"R"
             },
             {
-                "text":"Are you sure you don't need escort?",
+                "text":"Are you sure you don't need an escort?",
                 "nextPhraseID":"ortholion_12"
             }
         ],
@@ -8941,14 +8941,14 @@
     },
     {
         "id":"ortholion_16a",
-        "message":"A reward? This does not work that way...What Feygard would think of my assassination? Who would be blamed of that?\n\nThe reward is I'm alive and no army will chase you.",
+        "message":"A reward? This does not work that way...What would Feygard would think of my assassination? Who would be blamed for that?\n\nThe reward is I'm alive and no army will chase you.",
         "replies":[
             {
                 "text":"*laughing* Do you think a few drunkards could beat me?",
                 "nextPhraseID":"ortholion_17a"
             },
             {
-                "text":"Hmpf, okay. Goodbye...",
+                "text":"Hmpf, OK. Goodbye...",
                 "nextPhraseID":"X"
             },
             {
@@ -9147,7 +9147,7 @@
     },
     {
         "id":"ortholion_16d",
-        "message":"I will ask you again. What in this world is the most important to you?",
+        "message":"I will ask you again. What in this world is most important to you?",
         "replies":[
             {
                 "text":"Gold, sweet gold.",
@@ -9230,7 +9230,7 @@
     },
     {
         "id":"ortholion_19c",
-        "message":"Surprised? That's how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
+        "message":"Should I be surprised? That's shows how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
         "replies":[
             {
                 "text":"You liar...! Hmpf.",
@@ -9265,7 +9265,7 @@
     },
     {
         "id":"ortholion_19d",
-        "message":"*retires its hand with the gold bag and makes a nod of approval* Good, good. I accept your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude.\n\nWe'll talk later. Now we all need some rest.",
+        "message":"*Withdraws his hand with the gold bag and makes a nod of approval* Good, good. I accept your choice. Since you said you are not going to accept gold, take this as a sign of my gratitude.\n\nWe'll talk later. Now we all need some rest.",
         "replies":[
             {
                 "text":"Your debt is settled, sir.",
@@ -9337,7 +9337,7 @@
         "message":"Hah! You really are either so brave or so dumb confessing that in a place full of Feygard soldiers.",
         "replies":[
             {
-                "text":"Those who don't believe will be eventually punished!",
+                "text":"Those who don't believe will eventually be punished!",
                 "nextPhraseID":"ortholion_19e"
             },
             {
@@ -9362,7 +9362,7 @@
     },
     {
         "id":"ortholion_20b",
-        "message":"Not everything is black or white. Taxes are needed in this great kingdom in order to keep the peace and travelling roads safe."
+        "message":"Not everything is black or white. Taxes are needed in this great kingdom in order to keep the peace and the roads safe."
     },
     {
         "id":"ortholion_20c",

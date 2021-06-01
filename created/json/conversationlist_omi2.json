@@ -1332,7 +1332,7 @@
         "message":"Bah! I said I AM ON DUTY!",
         "replies":[
             {
-                "text":"Ok, ok. How boring...",
+                "text":"OK, OK. How boring...",
                 "nextPhraseID":"X"
             },
             {
@@ -1399,7 +1399,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Ok, sir. Thank you for the advice.",
+                "text":"OK, sir. Thank you for the advice.",
                 "nextPhraseID":"X"
             },
             {
@@ -1413,7 +1413,7 @@
         "message":"Hey kid! Can you do me a favor?",
         "replies":[
             {
-                "text":"Have you seen my brother Andor? He looks similar to me.",
+                "text":"Have you seen my brother Andor? He looks a bit like me.",
                 "nextPhraseID":"ortholion_guard_1c"
             },
             {
@@ -1439,14 +1439,14 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"No...But tell me about the favor you were talking before.",
+                "text":"No...But tell me about the favor you were asking before.",
                 "nextPhraseID":"ortholion_guard_2c"
             }
         ]
     },
     {
         "id":"ortholion_guard_2c",
-        "message":"Well. Do you mind bringing me some food? I have not eaten anything decent since we arrived to this village.",
+        "message":"Well. Do you mind bringing me some food? I have not eaten anything decent since we arrived in this village.",
         "replies":[
             {
                 "text":"Go buy your own food.",
@@ -1486,7 +1486,7 @@
                 ]
             },
             {
-                "text":"What about a cooked meat?",
+                "text":"How about some cooked meat?",
                 "nextPhraseID":"ortholion_guard_2c_meat",
                 "requires":[
                     {
@@ -1524,7 +1524,7 @@
         "message":"Cheese! It is rare to taste cheese out of home. In exchange, take these strawberries I gathered near Stoutford. They are fresh, but I don't like the taste.",
         "replies":[
             {
-                "text":"So you already had food? I traveled long to bring you that cheese. Hmpf.",
+                "text":"So you already had food? I traveled a long to get that cheese. Hmpf.",
                 "nextPhraseID":"X"
             },
             {
@@ -1617,14 +1617,14 @@
     },
     {
         "id":"ortholion_guard_1d2",
-        "message":"The Shadow? Probably your parents inculcated those ideas to you. Let me tell you, they are wrong. Followers of the Shadow only promote chaos and anarchy.",
+        "message":"The Shadow? Probably your parents inculcated those ideas in you. Let me tell you, they are wrong. Followers of the Shadow only promote chaos and anarchy.",
         "replies":[
             {
                 "text":"Chaos and anarchy? Have you ever met a priest of the Shadow?",
                 "nextPhraseID":"ortholion_guard_2d"
             },
             {
-                "text":"Hmmm, probably your parents inculcated those ideas to you. I won't try to change your mind. Bye.",
+                "text":"Hmmm, probably your parents inculcated those ideas in you. I won't try to change your mind. Bye.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1642,7 +1642,7 @@
                 "nextPhraseID":"ortholion_guard_3d2"
             },
             {
-                "text":"Every flock has their black sheeps.",
+                "text":"Every flock has their black sheep.",
                 "nextPhraseID":"ortholion_guard_3d3"
             }
         ]
@@ -1652,7 +1652,7 @@
         "message":"Your friends of the Shadow are not trustworthy. This is the best advice I can give you.",
         "replies":[
             {
-                "text":"May Shadow not be with you, then.",
+                "text":"May the Shadow not be with you, then.",
                 "nextPhraseID":"X"
             },
             {
@@ -1692,14 +1692,14 @@
     },
     {
         "id":"ortholion_guard_3d3",
-        "message":"Maybe you are right...But it's the duty of the shepherd to rid the flock of those black sheeps.",
+        "message":"Maybe you are right...But it's the duty of the shepherd to rid the flock of those black sheep.",
         "replies":[
             {
                 "text":"Is your general a good shepherd?",
                 "nextPhraseID":"ortholion_guard_4d"
             },
             {
-                "text":"Maybe you are right too. How is the round going?",
+                "text":"Maybe you are right too. How is the patrol going?",
                 "nextPhraseID":"ortholion_guard_2d2"
             }
         ]
@@ -1768,7 +1768,7 @@
         "message":"Heh, you have a point there, kid.",
         "replies":[
             {
-                "text":"Have you seen anything out of normal?",
+                "text":"Have you seen anything out of the normal?",
                 "nextPhraseID":"ortholion_guard_5d2"
             },
             {
@@ -1787,7 +1787,7 @@
     },
     {
         "id":"ortholion_guard_5d2",
-        "message":"Not really. Guard patrolling tends to be boring work, but someone has to do it.",
+        "message":"I can't really. Guard patrolling tends to be boring work, but someone has to do it.",
         "replies":[
             {
                 "text":"I see. Hope you finish it soon, sir.",
@@ -1801,7 +1801,7 @@
     },
     {
         "id":"ortholion_guard_5d3",
-        "message":"Your protection inside the village is granted by us. A kid like you does not need an armor, but some friends to play with.",
+        "message":"Your protection inside the village is granted by us. A kid like you does not need armor, but some friends to play with.",
         "replies":[
             {
                 "text":"Bah, I give up.",
@@ -4562,7 +4562,7 @@
         "message":"*cough*, *cough* What the... *cough*. Go back home kid, quick. This place is *cough*, dangerous.",
         "replies":[
             {
-                "text":"Where can I find general Ortholion?",
+                "text":"Where can I find General Ortholion?",
                 "nextPhraseID":"ortholion_gw_2a"
             },
             {
@@ -4580,7 +4580,7 @@
         "message":"What? What do you have to do with *cough*, him?",
         "replies":[
             {
-                "text":"[Lie] I have an important message to deliver him. It comes from Prim.",
+                "text":"[Lie] I have an important message to deliver to him. It comes from Prim.",
                 "nextPhraseID":"ortholion_gw_3a"
             },
             {
@@ -4598,11 +4598,11 @@
                 "nextPhraseID":"ortholion_gw_3b"
             },
             {
-                "text":"Ok. That's everything I need to know. ",
+                "text":"OK. That's everything I need to know. ",
                 "nextPhraseID":"ortholion_gw_3c"
             },
             {
-                "text":"Feygard scum... Are you always such bigmouths? [Kill him]",
+                "text":"Feygard scum... Are you always such bigmouths? [Kill her]",
                 "nextPhraseID":"ortholion_gw_4"
             }
         ],
@@ -4621,7 +4621,7 @@
     },
     {
         "id":"ortholion_gw_3a",
-        "message":"I don't *cough*, think anybody would be that crazy to send a kid to a place like this. \n\n Sorry, *cough*, I don't have energy for holding up nonsense."
+        "message":"I don't *cough*, think anybody would be that crazy to send a kid to a place like this. \n\n Sorry, *cough*, I don't have the energy to listen to nonsense."
     },
     {
         "id":"ortholion_gw_3b",
@@ -4641,7 +4641,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Sweet dreams, idiot! [Kill him]",
+                "text":"Sweet dreams, idiot! [Kill her]",
                 "nextPhraseID":"ortholion_gw_4"
             }
         ]
@@ -5322,7 +5322,7 @@
     },
     {
         "id":"ortholion_subdued_2",
-        "message":"The scout stares at you wich an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm.",
+        "message":"The scout stares at you with an inconmensurable anger. Before you can react, she swings her dagger, opening a wound in your arm.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -5330,7 +5330,7 @@
                 "nextPhraseID":"ortholion_subdued_2a"
             },
             {
-                "text":"How you dare?! Prepare to die, Feygard scum.",
+                "text":"How dare you! Prepare to die, Feygard scum.",
                 "nextPhraseID":"ortholion_subdued_2a"
             }
         ]
@@ -6177,7 +6177,7 @@
     },
     {
         "id":"fms_2a",
-        "message":"Yeah, sure. We are here settled by command of General Orhtolion of Feygard. You have no business here.",
+        "message":"Yeah, sure. We are here posted by command of General Orhtolion of Feygard. You have no business here.",
         "replies":[
             {
                 "text":"*shows the signet* Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine.",
@@ -6198,7 +6198,7 @@
     },
     {
         "id":"fms_2b",
-        "message":"*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, general needs us!",
+        "message":"*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!",
         "replies":[
             {
                 "text":"N",
@@ -6526,18 +6526,18 @@
                 "nextPhraseID":"ortholion_guard3_3"
             },
             {
-                "text":"Ok, goodbye.",
+                "text":"OK, goodbye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"I'll handle myself.",
+                "text":"I can handle myself.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"ortholion_guard3_3",
-        "message":"Eh? No. We are...Uhm, keeping the rearguard safe. After all, this is the mine only entrance.",
+        "message":"Eh? No. We are...Uhm, the rearguard, keeping the others safe. After all, this is the mines only entrance.",
         "replies":[
             {
                 "text":"Yeah, sure. See you later, cowards.",
@@ -6565,25 +6565,25 @@
     },
     {
         "id":"ortholion_guard6_1",
-        "message":"*looks nervous* Kid! Go back now, it's really dangerous past here.",
+        "message":"*Looks nervous* Kid! Go back now, it's really dangerous past here.",
         "replies":[
             {
-                "text":"Come with me, we'll cover each other's back.",
+                "text":"Come with me, we'll cover each other's backs.",
                 "nextPhraseID":"ortholion_guard6_2"
             },
             {
-                "text":"Can you clear me the way then?",
+                "text":"Can you clear the way for me then?",
                 "nextPhraseID":"ortholion_guard6_2"
             },
             {
-                "text":"Where's general?",
+                "text":"Where's the general?",
                 "nextPhraseID":"ortholion_guard6_5"
             }
         ]
     },
     {
         "id":"ortholion_guard6_2",
-        "message":"No way! I have a home to come back you know? And you probably too.",
+        "message":"No way! I have a home to go back to you know? And you probably do too.",
         "replies":[
             {
                 "text":"Step aside then, you're in my way.",
@@ -6597,7 +6597,7 @@
     },
     {
         "id":"ortholion_guard6_3",
-        "message":"*stares at the tunnels* They're dark, stinky, and narrow. We were going to pass in line through them.\n\nBut seconds after the other scout entered, an horrible scream came from inside there... It was him, I'm sure!",
+        "message":"*stares at the tunnels* They're dark, stinky, and narrow. We were going to pass in line through them.\n\nBut seconds after the other scout entered, a horrible scream came from inside there... It was him, I'm sure!",
         "replies":[
             {
                 "text":"N",
@@ -8118,7 +8118,7 @@
         "switchToNPC":"unknown",
         "replies":[
             {
-                "text":"Check it out.",
+                "text":"Check who is coming.",
                 "nextPhraseID":"X"
             },
             {
@@ -8665,10 +8665,10 @@
     },
     {
         "id":"ortholion_guard3_5",
-        "message":"Ahem... General is waiting for you in the dining room.",
+        "message":"Ahem... the general is waiting for you in the dining room.",
         "replies":[
             {
-                "text":"General was waiting for you down in the mine.",
+                "text":"The general was waiting for you down in the mine.",
                 "nextPhraseID":"ortholion_guard3_6a"
             },
             {
@@ -8701,7 +8701,7 @@
     },
     {
         "id":"ortholion_guard3_6b",
-        "message":"No, I'm not.",
+        "message":"No, I do not.",
         "replies":[
             {
                 "text":"So cold...",
@@ -9230,7 +9230,7 @@
     },
     {
         "id":"ortholion_19c",
-        "message":"Should I be surprised? That's shows how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
+        "message":"Should I be surprised? That shows how valuable your word currently is. Come back in a few days and I may change my opinion if you're willing to help me.",
         "replies":[
             {
                 "text":"You liar...! Hmpf.",
@@ -9369,13 +9369,9 @@
         "message":"Would you like your bones be used in some sort of ritual to make those potions? Because in winter, when big mammals, erumen lizards, and other beasts hibernate, there's only one kind of bones useful for that: ours.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"ortholion_21a"
+                "text":"That sounds kind of true. You are a very persuasive speaker.",
+                "nextPhraseID":"X"
             }
         ]
-    },
-    {
-        "id":"ortholion_21a",
-        "message":"That sounds kind of true. You are a very persuasive speaker."
     }
 ]

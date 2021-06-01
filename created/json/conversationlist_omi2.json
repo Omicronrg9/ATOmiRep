@@ -1008,7 +1008,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I might have some information about the recent disappearings.",
+                "text":"I might have some information about the recent disappearances.",
                 "nextPhraseID":"prim_guard5_2"
             }
         ]
@@ -1029,14 +1029,14 @@
     },
     {
         "id":"prim_guard5_3a",
-        "message":"Look, I have more important things to do than babysitting a kid, ok?",
+        "message":"Look, I have more important things to do than babysitting a kid, OK?",
         "replies":[
             {
                 "text":"Bye.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Hmpf, when the gornauds get the village surrounded I'll be the one babysitting you all.",
+                "text":"Hmpf, when the gornauds get the village surrounded I'll be the one babysitting all of you.",
                 "nextPhraseID":"X"
             }
         ],
@@ -5136,7 +5136,7 @@
     },
     {
         "id":"capvjern_16a",
-        "message":"Do you remember anything out of the normal?",
+        "message":"Do you remember anything out of the odrinary?",
         "switchToNPC":"prim_guard5",
         "replies":[
             {
@@ -7138,7 +7138,7 @@
     },
     {
         "id":"ortholion_guard8_consumed",
-        "message":"From the soldier you met inside here, only dust remains.",
+        "message":"Of the soldier you met inside here, only dust remains.",
         "switchToNPC":"none",
         "rewards":[
             {
@@ -7595,7 +7595,7 @@
         "message":"Unbelievable...",
         "replies":[
             {
-                "text":"Where's general?",
+                "text":"Where's the general?",
                 "nextPhraseID":"ortholion_guard9_4"
             },
             {
@@ -7616,10 +7616,10 @@
     },
     {
         "id":"ortholion_guard9_5",
-        "message":"This no longer seems to be part of the Elm mine. Look at all these strange creatures... \n\nUh, I'm the only one that have gone this far. My partners must have discovered the right path.",
+        "message":"This no longer seems to be part of the Elm mine. Look at all these strange creatures... \n\nUh, I'm the only one that has gone this far. My partners must have discovered the right path.",
         "replies":[
             {
-                "text":"Half of your partners are dead and the other half are too scared to even going inside the mine.",
+                "text":"Half of your partners are dead and the other half are too scared to even go inside the mine.",
                 "nextPhraseID":"ortholion_guard9_6b"
             },
             {
@@ -7647,7 +7647,7 @@
                 "nextPhraseID":"ortholion_guard9_6b"
             },
             {
-                "text":"They were all consumed by those crystals you were amazed with.",
+                "text":"They were all consumed by those crystals that you were amazed by.",
                 "nextPhraseID":"ortholion_guard9_6b"
             }
         ]
@@ -7706,7 +7706,7 @@
     },
     {
         "id":"ortholion_guard9_9",
-        "message":"Ok...You're strong and valiant, but are you reliable enough?\n\nI will go all the way back and call for reinforcements. I want you to explore this cavern. If you find something too dangerous, please return to the mine, will you?",
+        "message":"OK...You're strong and valiant, but are you reliable enough?\n\nI will go all the way back and call for reinforcements. I want you to explore this cavern. If you find something too dangerous, please return to the mine, will you?",
         "replies":[
             {
                 "text":"That was my plan until you distracted me.",
@@ -7731,7 +7731,7 @@
                 "nextPhraseID":"R"
             },
             {
-                "text":"Whatever, step aside I'm leading the way!",
+                "text":"Whatever. Step aside, I'm leading the way!",
                 "nextPhraseID":"R"
             }
         ],
@@ -7757,7 +7757,7 @@
         "message":"Will you help me or not?",
         "replies":[
             {
-                "text":"Hmpf, ok.",
+                "text":"Hmpf, OK.",
                 "nextPhraseID":"ortholion_guard9_11"
             },
             {
@@ -8159,7 +8159,7 @@
         "message":"Hello, unfortunate soul. I'm Kamelio.",
         "replies":[
             {
-                "text":"Kamelio? You are one of those missing people in Prim!",
+                "text":"Kamelio? You are one of those missing people from Prim!",
                 "nextPhraseID":"kamelio_2a"
             },
             {
@@ -8181,7 +8181,7 @@
     },
     {
         "id":"kamelio_2c",
-        "message":"Ah...Yes. Don't worry, yo go first. *approaches you*",
+        "message":"Ah...Yes. Don't worry, you go first. *approaches you*",
         "replies":[
             {
                 "text":"For the shadow!",
@@ -8300,7 +8300,7 @@
                 "nextPhraseID":"kamelio_4a"
             },
             {
-                "text":"What Lorn told him?",
+                "text":"What did Lorn tell him?",
                 "nextPhraseID":"kamelio_3c"
             }
         ]
@@ -8321,10 +8321,10 @@
     },
     {
         "id":"kamelio_4b",
-        "message":"Escape? When the torturer came back, he behaved totally different. He freed us and brought us some food and recovery potions. Since then, I feel like I have reborn!\n\nAll my injuries were cured, and my mind was set free. Now I know the truth, and what I must do.",
+        "message":"Escape? When the torturer came back, he behaved totally different. He freed us and brought us some food and recovery potions. Since then, I feel like I have been reborn!\n\nAll my injuries were cured, and my mind was set free. Now I know the truth, and what I must do.",
         "replies":[
             {
-                "text":"You're starting to sound very murky. I'd better leave and seek help,",
+                "text":"You're starting to sound very weird. I'd better leave and seek help,",
                 "nextPhraseID":"kamelio_5a"
             },
             {
@@ -8335,7 +8335,7 @@
     },
     {
         "id":"kamelio_4a",
-        "message":"He just wanted to know an old shrine's location. And I forgive him everything. He came back and freed Duala and me and gave us food and a marvelous elixir he called \"recovery potion\".\n\nNow my body is reborn and my mind is set free. I know what's wrong and what's right, and I know what I must do.",
+        "message":"He just wanted to know an old shrine's location. And I forgive him everything. He came back and freed Duala and me and gave us food and a marvelous elixir he called a \"recovery potion\".\n\nNow my body is reborn and my mind is set free. I know what's wrong and what's right, and I know what I must do.",
         "replies":[
             {
                 "text":"Hmm, yeah sure. Goodbye.",
@@ -8349,7 +8349,7 @@
     },
     {
         "id":"kamelio_5a",
-        "message":"Not so fast. My mind is clear, you need to die now along that Feygard scum.",
+        "message":"Not so fast. My mind is clear, you need to die now along with that Feygard scum.",
         "replies":[
             {
                 "text":"Oh? Let's see if you can stand a single blow!",
@@ -8384,14 +8384,14 @@
     },
     {
         "id":"kamelio_5b",
-        "message":"Killing you first, then killing the guy over there. That's it.",
+        "message":"Kill you first, then kill the guy over there. That's it.",
         "replies":[
             {
-                "text":"Ok, you're completely out of your mind.",
+                "text":"OK, you're completely out of your mind.",
                 "nextPhraseID":"F"
             },
             {
-                "text":"Killing me? How you dare, die!",
+                "text":"Kill me? How dare you. Die!",
                 "nextPhraseID":"F"
             },
             {
@@ -8767,7 +8767,7 @@
         "message":"No! *looks at you* This is my beeeeeer, kid! *hic*",
         "replies":[
             {
-                "text":"Uh... How they did get drunk that fast?",
+                "text":"Uh... How he did get drunk that fast?",
                 "nextPhraseID":"X"
             },
             {
@@ -8785,7 +8785,7 @@
         "message":"H..Halt! *hic* Kids not allowed!",
         "replies":[
             {
-                "text":"This is my mine, how you dare?! Hmpf...",
+                "text":"I'll go where I please in this mine! Hmpf...",
                 "nextPhraseID":"X"
             },
             {

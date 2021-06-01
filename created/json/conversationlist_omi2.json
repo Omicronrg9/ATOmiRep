@@ -5136,7 +5136,7 @@
     },
     {
         "id":"capvjern_16a",
-        "message":"Do you remember anything out of the odrinary?",
+        "message":"Do you remember anything out of the ordinary?",
         "switchToNPC":"prim_guard5",
         "replies":[
             {

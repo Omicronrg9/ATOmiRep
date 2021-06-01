@@ -886,7 +886,7 @@
         "message":"I'll let it go. But tell me, what is it that you find so urgent?",
         "replies":[
             {
-                "text":"I don't trust you, so nothing.",
+                "text":"I don't trust you with something this important, so nothing.",
                 "nextPhraseID":"ehrenfest_2a"
             },
             {
@@ -894,7 +894,7 @@
                 "nextPhraseID":"ehrenfest_2b"
             },
             {
-                "text":"Sorry, I must go.",
+                "text":"Sorry, it's important, so I must go.",
                 "nextPhraseID":"ehrenfest_2a"
             }
         ]
@@ -4369,14 +4369,14 @@
                 "nextPhraseID":"ehrenfest_43"
             },
             {
-                "text":"That seems to be taken with a grain of salt.",
+                "text":"That has to be taken with a grain of salt.",
                 "nextPhraseID":"ehrenfest_43"
             }
         ]
     },
     {
         "id":"ehrenfest_43",
-        "message":"Put it this way. A weakened Prim will be easier to control. Although Lord Geomyr theorically reigns over the whole land, his influence has its limits, as I'm sure you know well. Isolated regions like Prim have considerable independence.",
+        "message":"Put it this way. A weakened Prim will be easier to control. Although Lord Geomyr theoretically reigns over the whole land, his influence has its limits, as I'm sure you know well. Isolated regions like Prim have considerable independence.",
         "replies":[
             {
                 "text":"N",
@@ -4386,7 +4386,7 @@
     },
     {
         "id":"ehrenfest_44",
-        "message":"It is well known there is an ancient chamber dedicated to worship the Shadow, which is probably Lord Geomyr's most powerful threat.",
+        "message":"It is well known there is an ancient chamber dedicated to worship of the Shadow, which is probably Lord Geomyr's most powerful threat.",
         "replies":[
             {
                 "text":"What should we do?",
@@ -5557,7 +5557,7 @@
                 ]
             },
             {
-                "text":"Ortholion, beware! He is a dangerous lier!",
+                "text":"Ortholion, beware! He is a dangerous liar!",
                 "nextPhraseID":"ortholion_conversation2_2b",
                 "requires":[
                     {
@@ -5589,7 +5589,7 @@
     },
     {
         "id":"ortholion_conversation2_3a",
-        "message":"Hmmm... What crimes, evil creature?\n\nOr you even dared to think you had a chance to trick a general of the glorious Feygard?!",
+        "message":"Hmmm... What crimes, evil creature?\n\nYou even dared to think you had a chance to trick a general of glorious Feygard?!",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -5656,11 +5656,11 @@
     },
     {
         "id":"ortholion_conversation2_6a",
-        "message":"Ok, you bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.",
+        "message":"OK, you have bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.",
         "switchToNPC":"ortholion",
         "replies":[
             {
-                "text":"These guards are no match for...",
+                "text":"Those guards are no match for...",
                 "nextPhraseID":"ortholion_conversation2_7a",
                 "requires":[
                     {
@@ -5687,7 +5687,7 @@
     },
     {
         "id":"ortholion_conversation2_7a",
-        "message":"Bah! This is enough. $playername, weren't you so strong?! Pathetic.\n\nYou only had to distract him and take the blame!",
+        "message":"Bah! This is enough. $playername. Weren't you so strong? Pathetic.\n\nYou only had to distract him and take the blame!",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -5752,7 +5752,7 @@
     },
     {
         "id":"ortholion_conversation2_2b",
-        "message":"I hoped someone else would take blame of this. But don't worry, soon we shall be unstoppable.",
+        "message":"I hoped someone else would take the blame for this. But don't worry, soon we shall be unstoppable.",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -5782,7 +5782,7 @@
     },
     {
         "id":"ortholion_conversation2_4b",
-        "message":"[People from the tavern start looking at the place where Ortholion and Ehrenfest were about to have a fight]\n\n*looks around* No...Not yet. Argh! You kid, betrayer! You are about to discover how wrong you have chosen!",
+        "message":"[People from the tavern start looking at the place where Ortholion and Ehrenfest are about to have a fight]\n\n*looks around* No...Not yet. Argh! You kid, betrayer! You are about to discover how wrongly you have chosen!",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -5834,7 +5834,7 @@
                 ]
             },
             {
-                "text":"I'm here to inform you about Ehrenfest. He's probably behind some disappearings in Prim.",
+                "text":"I'm here to inform you about Ehrenfest. He's probably behind some disappearances in Prim.",
                 "nextPhraseID":"ortholion_2b",
                 "requires":[
                     {
@@ -5848,7 +5848,7 @@
     },
     {
         "id":"ortholion_2b",
-        "message":"You mean that weakling is responsible of those missing people from Prim of whom I've been informed recently? ",
+        "message":"You mean that weakling is responsible of those missing people from Prim of whom I've been recently informed? ",
         "replies":[
             {
                 "text":"I do.",
@@ -5883,7 +5883,7 @@
     },
     {
         "id":"ortholion_3b2",
-        "message":"It's definitely something off with him. Another Shadow fanatic to get rid of, tsch.",
+        "message":"There's definitely something off with him. Another Shadow fanatic to get rid of, tsch.",
         "replies":[
             {
                 "text":"Shadow fanatic? Do you know him?",
@@ -5954,7 +5954,7 @@
                 "nextPhraseID":"ortholion_6b"
             },
             {
-                "text":"Ok, I will.",
+                "text":"OK, I will.",
                 "nextPhraseID":"ortholion_6b"
             }
         ]
@@ -5978,7 +5978,7 @@
         "message":"Then I'll officially accuse you of betrayal and attempted murder against a Feygard general. I'll bring you to Feygard and you will never see your family again.",
         "replies":[
             {
-                "text":"How you dare?! Prepare to die!",
+                "text":"How dare you?! Prepare to die!",
                 "nextPhraseID":"ortholion_7a"
             }
         ]
@@ -5992,7 +5992,7 @@
                 "nextPhraseID":"ortholion_8a"
             },
             {
-                "text":"Ok, ok. I will but please don't hurt me anymore.",
+                "text":"OK, OK. I will but please don't hurt me anymore.",
                 "nextPhraseID":"ortholion_8a"
             }
         ],
@@ -6053,7 +6053,7 @@
                 "nextPhraseID":"R"
             },
             {
-                "text":"Ok, ok! I'm going.",
+                "text":"OK, OK! I'm going.",
                 "nextPhraseID":"R"
             }
         ]
@@ -8042,7 +8042,7 @@
                 "nextPhraseID":"ehrenfest_50a"
             },
             {
-                "text":"So you're the guy whom Lodar told me about.",
+                "text":"So you're the guy that Lodar told me about.",
                 "nextPhraseID":"ehrenfest_50b",
                 "requires":[
                     {
@@ -8097,7 +8097,7 @@
                 "nextPhraseID":"ehrenfest_52"
             },
             {
-                "text":"How you dare!",
+                "text":"How dare you!",
                 "nextPhraseID":"ehrenfest_52"
             }
         ]

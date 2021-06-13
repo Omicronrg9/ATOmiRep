@@ -218,7 +218,7 @@
     <property name="spawngroup" value="fallhaven_citizen3"/>
    </properties>
   </object>
-  <object name="arensia" type="spawn" x="256" y="384" width="64" height="64">
+  <object name="arensia" type="spawn" x="192" y="320" width="96" height="96">
    <properties>
     <property name="spawngroup" value="arensia"/>
    </properties>

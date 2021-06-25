@@ -200,7 +200,7 @@
         "replies":[
             {
                 "text":"Maybe I should look around here or a little further up the mountain?",
-                "nextPhraseID":"X",
+                "nextPhraseID":"bwm17_vine2_1a",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -226,6 +226,10 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"bwm17_vine2_1a",
+        "message":"If I could find something like a rope, I could use it to lower myself into that hole."
     },
     {
         "id":"bwm17_vine2_2",
@@ -630,17 +634,110 @@
     },
     {
         "id":"bwm74_h_warning",
-        "message":"The very few rays of light that barely illuminate this small tunnel get lost in the inmense darkness of this hole. There's neither ropes nor vines that could help you to go down. Furthermore, you can neither figure out how far away the floor is.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"bwm74_h_warning_2"
+                "nextPhraseID":"bwm74_h_warning_2",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"bwm74_h_warning",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"bwm74_h_warning_1"
             }
         ]
     },
     {
+        "id":"bwm74_h_warning_1",
+        "message":"The very few rays of light that barely illuminate this small tunnel get lost in the inmense darkness of this hole.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm74_h_warning_1a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"bwm74_h_warning",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"bwm74_h_warning_1a",
+        "message":"There's neither ropes nor vines that could help you to go down. Furthermore, you can neither figure out how far away the floor is.",
+        "replies":[
+            {
+                "text":"Drop some pebble down the hole.",
+                "nextPhraseID":"bwm74_h_warning_1b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"Shout: Heeeellooo!",
+                "nextPhraseID":"bwm74_h_warning_1b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"Jump down.",
+                "nextPhraseID":"bwm74_h_warning_1c",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"Wait and listen.",
+                "nextPhraseID":"bwm74_h_warning_1b",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"Try to find a way down.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"bwm74_h_warning_1b",
+        "message":"Nothing happens."
+    },
+    {
+        "id":"bwm74_h_warning_1c",
+        "message":"Maybe not a good idea. You don't jump."
+    },
+    {
         "id":"bwm74_h_warning_2",
-        "message":"Assured of not being prepared to explore whatever would be down there, you decide to avoid the hole and continue your way to the other shore."
+        "message":"Assured of not being prepared to explore whatever would be down there, you decide to avoid the hole and continue your way to the other shore.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"bwm74_h_warning_3"
+            }
+        ]
+    },
+    {
+        "id":"bwm74_h_warning_3",
+        "message":"You should not waste any more time here. There are more urgent things to do."
     },
     {
         "id":"bwm74_waterfall",
@@ -4629,7 +4726,7 @@
     },
     {
         "id":"ortholion_gw_sleeping",
-        "message":"The scout is sleeping on the ground. His wounds don't seem to be that bad.",
+        "message":"The scout is sleeping on the ground. Her wounds don't seem to be that bad.",
         "switchToNPC":"none"
     },
     {
@@ -4648,7 +4745,7 @@
     },
     {
         "id":"ortholion_gw_4",
-        "message":"Wh..*cough* NO! \n\n [You manage to land a fatal blow to the already wounded soldier. Once you're sure she's dead, you set her body aside, out of the cabin]",
+        "message":"Wh..*cough* NO! \n\n [You manage to land a fatal blow to the already wounded Feygard scout. Once you're sure she's dead, you set her body aside, out of the cabin]",
         "replies":[
             {
                 "text":"One less. Good.",
@@ -6283,14 +6380,91 @@
     },
     {
         "id":"arghest_alert_3",
-        "message":"I was taking a break in the beds over there, so no idea. Sorry. No one usually comes here but you and those...noisy soldiers.",
+        "message":"I was taking a break in the beds over there, so no idea. Sorry. No one usually comes here but you and those ... noisy soldiers.",
         "replies":[
             {
-                "text":"Thank you for the information.",
+                "text":"Maybe you should take another break now?",
+                "nextPhraseID":"arghest_alert_4"
+            },
+            {
+                "text":"Can I do something for you?",
+                "nextPhraseID":"arghest_alert_5"
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert_4",
+        "message":"I'd prefer something to drink. No milk this time, better something to warm my body.",
+        "replies":[
+            {
+                "text":"What exactly are you thinking of?",
+                "nextPhraseID":"arghest_alert_5"
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert_5",
+        "message":"Once I had got a potion from some crazy old guy in a foreign wood. That would be great now. 'Lodar' he was called.",
+        "replies":[
+            {
+                "text":"Would you like this 'Potion of minor strength'?",
+                "nextPhraseID":"arghest_alert_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_str",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I have this 'Improved defense' potion. Here, take it.",
+                "nextPhraseID":"arghest_alert_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_def",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"What about his famous 'Perilous concoction'?",
+                "nextPhraseID":"arghest_alert_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_rnd",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert_8",
+        "message":"Really? Many many thanks - you make my old heart cry!",
+        "replies":[
+            {
+                "text":"[muttering] I hope so. The potion was expensive enough!",
+                "nextPhraseID":"arghest_alert_9"
+            }
+        ]
+    },
+    {
+        "id":"arghest_alert_9",
+        "message":"You may enter the mine now. But you have to find out for yourself, I won't go looking for you.",
+        "replies":[
+            {
+                "text":"Great.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Don't worry, we won't cause much trouble. ",
+                "text":"At last.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Don't worry, I won't cause too much trouble.",
                 "nextPhraseID":"X"
             }
         ],

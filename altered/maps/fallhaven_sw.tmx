@@ -218,11 +218,6 @@
     <property name="spawngroup" value="fallhaven_citizen3"/>
    </properties>
   </object>
-  <object name="arensia" type="spawn" x="192" y="320" width="96" height="96">
-   <properties>
-    <property name="spawngroup" value="arensia"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="NPCs, Monsters">
   <object height="32" name="fallhaven_lumberjack" type="spawn" width="32" x="416" y="256">
@@ -246,6 +241,11 @@
   <object height="32" name="vacor" type="spawn" width="32" x="128" y="128">
    <properties>
     <property name="spawngroup" value="vacor"/>
+   </properties>
+  </object>
+  <object name="arensia" type="spawn" x="192" y="320" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="arensia"/>
    </properties>
   </object>
  </objectgroup>

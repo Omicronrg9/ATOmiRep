@@ -223,6 +223,12 @@
     {
         "id":"gorwath_letter_50",
         "message":"Thanks a lot. Here's the letter. Go to Fallhaven and look for Arensia.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_52",
+                "text":"Fallhaven is a big city. How shall I find her?"
+            }
+        ],
         "rewards":[
             {
                 "value":15,
@@ -235,6 +241,10 @@
                 "rewardType":"giveItem"
             }
         ]
+    },
+    {
+        "id":"gorwath_letter_52",
+        "message":"She is the daughter of Jakrar the woodcutter, so she will surely live there."
     },
     {
         "id":"gorwath_love",

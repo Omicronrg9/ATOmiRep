@@ -1,0 +1,413 @@
+[
+    {
+        "id":"gorwath",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_done",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "value":30,
+                        "requireID":"postman"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gorwath_love",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "value":20,
+                        "requireID":"postman"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gorwath_tmp",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "value":10,
+                        "requireID":"postman"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gorwath_reject",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "value":5,
+                        "requireID":"postman"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gorwath_letter"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter",
+        "message":"Hey, Andor!",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_1",
+                "text":"I am not Andor. What do you want from him?"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_1",
+        "message":"Oh, Andor promised to meet me here. Who are you?",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_2",
+                "text":"My name is $playername. I'm looking for my brother too, he has been away for a while now."
+            },
+            {
+                "nextPhraseID":"X",
+                "text":"My name is none of your business. Get out of our property now!"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_2",
+        "message":"Oh dear, oh dear. This is a very personal matter. I don't want everyone to know about it.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_3",
+                "text":"I want to help you instead of my brother. Please tell me what's on your mind."
+            },
+            {
+                "nextPhraseID":"gorwath_letter_3",
+                "text":"I promise not to tell anyone."
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_3",
+        "message":"Really? That's very kind of you.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_10",
+                "text":"N"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_10",
+        "message":"You probably don't know me. I am Gorwath. I only recently moved to Crossglen to live with my aunt.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_11",
+                "text":"With Leta?"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_11",
+        "message":"Yes. You know her? Then you will also know how strict she can be. Sigh.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_12",
+                "text":"Indeed."
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_12",
+        "message":"I met someone at the last weekly market and I want to send them something.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_13",
+                "text":"Who is he?"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_13",
+        "message":"To be precise, I have a letter ... for ... a lovely girl.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_14",
+                "text":"Huh?"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_14",
+        "message":"Yes, she is the most beautiful girl in the world! Her name is Arensia.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_15",
+                "text":"Hm, I don't know anyone here by that name."
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_15",
+        "message":"Unfortunately she lives in Fallhaven. My aunt would never allow me to go there.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_16",
+                "text":"And how could I help you?"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_16",
+        "message":"Andor promised to bring her the letter. Maybe you could ...",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_20",
+                "text":"I could what?"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_20",
+        "message":"Would you be so kind to give her my letter?",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_50",
+                "text":"Yeah sure, why not?"
+            },
+            {
+                "nextPhraseID":"gorwath_letter_22",
+                "text":"No I'm busy. Good bye."
+            }
+        ],
+        "rewards":[
+            {
+                "value":10,
+                "rewardID":"postman",
+                "rewardType":"questProgress"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_22",
+        "message":"You really don't want to help me? Then I have no more hope.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_letter_50",
+                "text":"Now, now. Give me your precious letter, I'll do it."
+            },
+            {
+                "nextPhraseID":"gorwath_letter_24",
+                "text":"Sorry, but I have no time. I have to find my brother now."
+            },
+            {
+                "nextPhraseID":"gorwath_letter_24",
+                "text":"Grow up and solve your problems yourself. I'm not a postman!"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_24",
+        "message":"Good by then. I will not disturb you anymore.\n* Sob *",
+        "rewards":[
+            {
+                "value":12,
+                "rewardID":"postman",
+                "rewardType":"questProgress"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"gorwath",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_letter_50",
+        "message":"Thanks a lot. Here's the letter. Go to Fallhaven and look for Arensia.",
+        "rewards":[
+            {
+                "value":15,
+                "rewardID":"postman",
+                "rewardType":"questProgress"
+            },
+            {
+                "value":1,
+                "rewardID":"gorwath_letter",
+                "rewardType":"giveItem"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_love",
+        "message":"You are back! Did you find Arensia?",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_love_1",
+                "text":"Yes. I gave her the letter and she asked me to tell you that she loves you too."
+            }
+        ]
+    },
+    {
+        "id":"gorwath_love_1",
+        "message":"That's great! I'm so excited!",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_love_2",
+                "text":"N"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_love_2",
+        "message":"You have truly earned these gold pieces.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_exit",
+                "text":"Thank you."
+            }
+        ],
+        "rewards":[
+            {
+                "value":30,
+                "rewardID":"postman",
+                "rewardType":"questProgress"
+            },
+            {
+                "value":30,
+                "rewardID":"gold",
+                "rewardType":"giveItem"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_exit",
+        "message":"I will go now and prepare a present for lovely Arensia.",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_exit_1",
+                "text":"OK. Bye."
+            }
+        ]
+    },
+    {
+        "id":"gorwath_exit_1",
+        "message":"And when we get married, you will be of course invited.",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"gorwath",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_tmp",
+        "message":"Did you give her the letter yet?",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_tmp2",
+                "text":"Eh ... no. I thought, it wasn't that important."
+            }
+        ]
+    },
+    {
+        "id":"gorwath_tmp2",
+        "message":"Not that important?? I can barely breathe if I don't get her answer! Hurry now! Please, do."
+    },
+    {
+        "id":"gorwath_done",
+        "message":"Thanks again for your great help!",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_exit",
+                "text":"My pleasure."
+            }
+        ]
+    },
+    {
+        "id":"arensia",
+        "replies":[
+            {
+                "nextPhraseID":"arensia_done",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "value":20,
+                        "requireID":"postman"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"arensia_1"
+            }
+        ]
+    },
+    {
+        "id":"arensia_1",
+        "message":"Hello kid.",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"Hello."
+            },
+            {
+                "nextPhraseID":"arensia_letter",
+                "text":"I have a letter for you.",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "value":1,
+                        "requireID":"gorwath_letter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arensia_done",
+        "message":"What a beautiful day, isn't it?"
+    },
+    {
+        "id":"arensia_letter",
+        "message":"A letter? From whom?",
+        "replies":[
+            {
+                "nextPhraseID":"arensia_letter_10",
+                "text":"It is from Gorwath, of Crossgl..."
+            }
+        ]
+    },
+    {
+        "id":"arensia_letter_10",
+        "message":"Oh really? Give it to me - quickly!",
+        "replies":[
+            {
+                "nextPhraseID":"arensia_letter_20",
+                "text":"Here it is.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "value":1,
+                        "requireID":"gorwath_letter"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"arensia_letter_20",
+        "message":"[Reading]\n\nOh that's cute. Tell Gorwath I love him too.",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "text":"I'll be happy to tell him that."
+            }
+        ],
+        "rewards":[
+            {
+                "value":20,
+                "rewardID":"postman",
+                "rewardType":"questProgress"
+            }
+        ]
+    }
+] 

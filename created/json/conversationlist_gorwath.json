@@ -238,16 +238,26 @@
     },
     {
         "id":"gorwath_love",
-        "message":"That's great! I'm so excited!",
+        "message":"You are back! Did you find Arensia?",
         "replies":[
             {
                 "nextPhraseID":"gorwath_love_1",
-                "text":"N"
+                "text":"Yes. I gave her the letter and she asked me to tell you that she loves you too."
             }
         ]
     },
     {
         "id":"gorwath_love_1",
+        "message":"That's great! I'm so excited!",
+        "replies":[
+            {
+                "nextPhraseID":"gorwath_love_2",
+                "text":"N"
+            }
+        ]
+    },
+    {
+        "id":"gorwath_love_2",
         "message":"You have truly earned these gold pieces.",
         "replies":[
             {

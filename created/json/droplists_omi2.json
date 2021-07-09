@@ -1726,5 +1726,31 @@
                 }
             }
         ]
+    },
+    {
+        "id":"silver_bar",
+        "items":[
+            {
+                "itemID":"silver_bar",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"lead_bar",
+        "items":[
+            {
+                "itemID":"lead_bar",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

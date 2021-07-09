@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="22">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="23">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -214,7 +214,7 @@
    eJxjYECAzyIMVAO4zCLHDnqYxSRKPbOoAf5C3fMbj7uYSXAzIbXY/IIuBuOj0+hsbGFJrln43PpZBtU+SswiV54aZmGLG3LNIiYeB8KsVfi1kWQWOWpJyd/oZgmTUTbgMotYICFNPbM0sJhFS4Cenkkpp9ABrnKDGoDeZgEAPLUxew==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="19" height="25" visible="0">
+ <layer id="6" name="Walkable" width="19" height="25">
   <data encoding="base64" compression="zlib">
    eJzVksENACAIAx3C/XdzE+PDDwFpsT5sYiRGDwqO3tr4YC0pWVvRuRXKtHHVB5Kb6Ul2F/WJspR1oQy7ezNl62HneMrHsDzdsCo9rrIivfSonuPLP5H1hf0THiuKWY9ovSgre4uyVSzUk4I1AYPUXGw=
   </data>
@@ -245,6 +245,7 @@
   </object>
   <object id="17" name="elm_drop2" type="container" x="160" y="352" width="32" height="32"/>
   <object id="18" name="elm_drop3" type="container" x="160" y="96" width="32" height="32"/>
+  <object id="22" name="lead_bar" type="container" x="256" y="608" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="9" name="Spawn" visible="0">
   <object id="5" name="elm5_monster1" type="spawn" x="256" y="192" width="32" height="128">

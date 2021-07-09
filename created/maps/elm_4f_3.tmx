@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="16">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="17">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -239,6 +239,7 @@
    </properties>
   </object>
   <object id="4" name="elm_mushroom" type="container" x="32" y="96" width="32" height="32"/>
+  <object id="16" name="gold_bar" type="container" x="128" y="64" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
   <object id="5" name="elm4f3_monster1" type="spawn" x="352" y="384" width="32" height="64">

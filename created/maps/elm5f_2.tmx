@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="24" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="31">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="24" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="34">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -214,7 +214,7 @@
    eJylVNsJgDAMdAr3X6Eb+lvCPWNBsNLeIzlz3uc55NkuhDG/JRzsvsJFOlqtDKPlSGqJ/EwuhuO0JRrVGeaX3U90IM4ka5szKtOovgl+60FlE+1ZvhtNbrE6IMwGm2VXcTW4U9u9dz1W/G4uJfNR/T/tDGl7usnIpq/3ezO73RlVk3S2sx6q+aoy4/AnBtPNep/OY8eZZjHxhzQyPteXtHbKr+uP8qvqg/ATfQm+8uA8I1yXIZc3l48//USaGL7Tm3I7fFYbtVJ8dO8DumrmGQ==
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="320" y="928" width="96" height="32">
    <properties>
     <property name="map" value="elm5f_1"/>
@@ -247,6 +247,21 @@
    </properties>
   </object>
   <object id="7" name="ortholion_preceleb" type="script" x="320" y="896" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="31" name="gold_bar" type="container" x="160" y="32" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="32" name="silver_bar" type="container" x="160" y="672" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object id="33" name="lead_bar" type="container" x="608" y="576" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>

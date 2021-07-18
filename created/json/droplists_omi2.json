@@ -1559,6 +1559,35 @@
         ]
     },
     {
+        "id":"elm_miner4a",
+        "items":[
+            {
+                "itemID":"bone",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"oegyth",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":60,
+                    "max":180
+                }
+            }
+        ]
+    },
+    {
         "id":"elm4f5_herbs",
         "items":[
             {

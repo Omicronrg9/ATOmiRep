@@ -1,0 +1,154 @@
+[
+    {
+        "id":"brv_nondisplay",
+        "name":"brv_nondisplay",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"butcher state"
+            },
+            {
+                "progress":11,
+                "logText":"11=1 Employee is at home"
+            },
+            {
+                "progress":23,
+                "logText":"- Employee Msg 23"
+            },
+            {
+                "progress":22,
+                "logText":"- Employee Msg 22"
+            },
+            {
+                "progress":21,
+                "logText":"- Employee Msg 21"
+            },
+            {
+                "progress":23,
+                "logText":"- Employee Msg 23"
+            },
+            {
+                "progress":70,
+                "logText":"70=passage to river closed"
+            },
+            {
+                "progress":71,
+                "logText":"71=Stage-1 flood"
+            },
+            {
+                "progress":72,
+                "logText":"72=stage-2 flood"
+            },
+            {
+                "progress":73,
+                "logText":"73=stage-3 flood"
+            },
+            {
+                "progress":79,
+                "logText":"79=End flood"
+            },
+            {
+                "progress":80,
+                "logText":"80=Start flood"
+            },
+            {
+                "progress":81,
+                "logText":"81=Stage-1 flood"
+            },
+            {
+                "progress":82,
+                "logText":"82=stage-2 flood"
+            },
+            {
+                "progress":83,
+                "logText":"83=stage-3 flood"
+            },
+            {
+                "progress":87,
+                "logText":"87=flood pending"
+            },
+            {
+                "progress":88,
+                "logText":"88=drain pending"
+            },
+            {
+                "progress":89,
+                "logText":"89=End flood"
+            },
+            {
+                "progress":100,
+                "logText":"Leaving Brimhaven is forbidden"
+            },
+            {
+                "progress":110,
+                "logText":"Alkapoan told about the captain"
+            },
+            {
+                "progress":120,
+                "logText":"captain told about burning the letters"
+            },
+            {
+                "progress":130,
+                "logText":"showed money to shop owner"
+            },
+            {
+                "progress":138,
+                "logText":"Tember active"
+            },
+            {
+                "progress":139,
+                "logText":"Feygard patrol wall"
+            },
+            {
+                "progress":140,
+                "logText":"Movement blocked by the Feygard patrol"
+            },
+            {
+                "progress":141,
+                "logText":"Has met the Feygard patrol before"
+            },
+            {
+                "progress":142,
+                "logText":"Confiscated bonemeals"
+            },
+            {
+                "progress":143,
+                "logText":"Never true"
+            },
+            {
+                "progress":144,
+                "logText":"Told fortune teller about andor"
+            },
+            {
+                "progress":145,
+                "logText":"Fortune teller told about gold behind father's house - brv_fortune_hero_70"
+            },
+            {
+                "progress":146,
+                "logText":"Fortune teller found gold behind father's house",
+                "rewardExperience":500
+            },
+            {
+                "progress":147,
+                "logText":"brv_fortune_hero_130"
+            },
+            {
+                "progress":148,
+                "logText":"brv_fortune_hero_30"
+            },
+            {
+                "progress":149,
+                "logText":"brv_fortune_hero_10"
+            },
+            {
+                "progress":150,
+                "logText":"brv_fortune_andor_30"
+            },
+            {
+                "progress":151,
+                "logText":"brv_fortune_andor_10"
+            }
+        ]
+    }
+]

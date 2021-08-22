@@ -1,0 +1,64 @@
+[
+    {
+        "id":"guynmart_wise_112",
+        "message":"Do you bring bread and wine, together with my favorite cheddar?",
+        "replies":[
+            {
+                "text":"Yes, finally I got it. I hope the cheddar is still fresh after the long journey.",
+                "nextPhraseID":"guynmart_wise_200",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bread",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"charwood_cheddar",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"guynmart_wine",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"guynmart_wise_800"
+            }
+        ]
+    },
+    {
+        "id":"guynmart_wise_114",
+        "message":"Do you bring bread, cheese and wine?",
+        "replies":[
+            {
+                "text":"Yes, here you are. Enjoy it!",
+                "nextPhraseID":"guynmart_wise_150",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bread",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cheese",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"guynmart_wine",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"guynmart_wise_900"
+            }
+        ]
+    }
+]

@@ -45,7 +45,7 @@
     {
         "id":"bwm72_corpses",
         "name":"Hidden: Corpses found",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
@@ -64,7 +64,7 @@
     {
         "id":"bwm72_beginning",
         "name":"Hidden: events in bwm",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,

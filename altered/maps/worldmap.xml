@@ -235,6 +235,13 @@
     <map id="brimhaven3" x="457" y="265"/>
     <map id="brimhaven7" x="457" y="259"/>
     <map id="brimhaven8" x="426" y="290"/>
+    <map id="brimhaven_exit" x="457" y="296"/>
+    <map id="bogsten0" x="293" y="452"/>
+    <map id="bogsten5" x="282" y="447"/>
+    <map id="mywild18" x="168" y="459"/>
+    <map id="mywild19" x="192" y="459"/>
+    <map id="mywild20" x="217" y="455"/>
+    <map id="mywildcave" x="192" y="480"/>
     <map id="blackwater_mountain70" x="64" y="337"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>

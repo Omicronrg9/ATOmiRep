@@ -3042,7 +3042,7 @@
                 "nextPhraseID":"prim_commoner3_3"
             },
             {
-                "text":"People say he was quite skilled in climbing.",
+                "text":"People say he was quite skilled at climbing.",
                 "nextPhraseID":"prim_commoner3_4",
                 "requires":[
                     {
@@ -3203,7 +3203,7 @@
     },
     {
         "id":"prim_tailor_3",
-        "message":"*staring you comptemptuously* I also take various repair orders, kid. Now get out of my shop."
+        "message":"*Staring at you comptemptuously* I also take various repair orders, kid. Now get out of my shop."
     },
     {
         "id":"prim_tavern_guest4_4",
@@ -3966,7 +3966,7 @@
     },
     {
         "id":"prim_tavern_guest4_25b",
-        "message":"We tried to keep the threat in the mountains, but gornauds invaded mountain wolves' homes and forced them to establish in the small fir forest around Prim.",
+        "message":"We tried to keep the threat in the mountains, but gornauds invaded the mountain wolves' homes and forced them to establish in the small fir forest around Prim.",
         "replies":[
             {
                 "text":"N",
@@ -3986,7 +3986,7 @@
     },
     {
         "id":"prim_tavern_guest4_26b",
-        "message":"Wolf attacks became more and more frequent. While we were taking care of the gornauds, miners died to packs of wolves.",
+        "message":"Wolf attacks became more and more frequent. While we were taking care of the gornauds, miners died due to packs of wolves.",
         "replies":[
             {
                 "text":"N",
@@ -4853,7 +4853,7 @@
     },
     {
         "id":"prim_tavern_guest4_38c",
-        "message":"Hmm. Liars can be good guys too, but why lie about that? I hope not to have any future dealings with him!",
+        "message":"Hmm. Liars can be good guys too, but why lie about that? I hope to not have any future dealings with him!",
         "replies":[
             {
                 "text":"Do you remember anything more about Lorn's last mission?",

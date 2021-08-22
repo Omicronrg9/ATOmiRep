@@ -33,16 +33,6 @@
                 ]
             },
             {
-                "nextPhraseID":"gorwath_reject",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"postman",
-                        "value":5
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"gorwath_letter"
             }
         ]

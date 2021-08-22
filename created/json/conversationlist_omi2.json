@@ -7490,10 +7490,10 @@
     },
     {
         "id":"elm2f_passage",
-        "message":"There is a poor walled up passage behind these planks. This specific table was recently removed and put back. General might have passed through here.",
+        "message":"There is a poory walled up passage behind these planks. These boards were recently removed and put back. The General might have passed through here.",
         "replies":[
             {
-                "text":"Put the planks aside.",
+                "text":"Put the planks to the side.",
                 "nextPhraseID":"elm2f_passage_1"
             },
             {
@@ -7557,7 +7557,7 @@
     },
     {
         "id":"elm2f2_sign",
-        "message":"The sign reads:\n\n  \"DO NOT THROW ITEMS TO THE POOL\"\n  \"DO NOT SPLASH\"\n  \"RELAX\"\n\nSigned by Guthbered of Prim"
+        "message":"The sign reads:\n\n  \"DO NOT THROW ITEMS INTO THE POOL\"\n  \"DO NOT SPLASH\"\n  \"RELAX\"\n\nSigned by Guthbered of Prim"
     },
     {
         "id":"elm2f2_pool",
@@ -7924,7 +7924,7 @@
     },
     {
         "id":"elm3f_locked",
-        "message":"The Feygard soldier you were trying to ignore wawes his hands brusquely, like warning you from some inminent danger."
+        "message":"The Feygard soldier you were trying to ignore waves his hands brusquely, as though warning you away from some inminent danger."
     },
     {
         "id":"ortholion_guard9_10b",
@@ -8067,7 +8067,7 @@
     },
     {
         "id":"elm5f2_deep",
-        "message":"This pool is deeper than it seemed from further distance. You cannot swim."
+        "message":"This pool is deeper than it seemed from further away. You cannot swim."
     },
     {
         "id":"elm5f_final",
@@ -8141,7 +8141,7 @@
     },
     {
         "id":"ehrenvorth_6",
-        "message":"Wh...What...\n\n*Ehrenfest emits a brilliant flash of orangish light from his eyes, and the sword suddenly stops its way towards him, remaning suspended in the midair*",
+        "message":"Wh...What...\n\n*Ehrenfest emits a brilliant flash of orangish light from his eyes, and the sword suddenly stops its way towards him, remaning suspended in midair*",
         "replies":[
             {
                 "text":"N",
@@ -8162,7 +8162,7 @@
     },
     {
         "id":"ehrenvorth_8",
-        "message":"In the blink of an eye, Ortholion approaches Ehrenfest and draws his second sword. When the general is about to rapidly sever Ehrenfest's head, he reacts grabbing Ortholion's hand. \n\nDesperately, Ortholion tries to let his hand go, but It's Ehrenfest who stops grabbing and takes advantage of the moment to land a tremendous kick on the general's chest, unbelievably denting his armor and bouncing him against the wall. The sword falls to the ground, and Ehrenfest takes it.",
+        "message":"In the blink of an eye, Ortholion approaches Ehrenfest and draws his second sword. When the general is about to rapidly sever Ehrenfest's head, he reacts by grabbing Ortholion's hand. \n\nDesperately, Ortholion tries to get his hand free, but It's Ehrenfest who stops grabbing and takes advantage of the moment to land a tremendous kick on the general's chest, unbelievably denting his armor and bouncing him against the wall. The sword falls to the ground, and Ehrenfest takes it.",
         "switchToNPC":"unknown",
         "replies":[
             {
@@ -8200,12 +8200,12 @@
     },
     {
         "id":"ehrenvorth_9",
-        "message":"Interesting...So you hypocrites use weapons you yourself ban. Ha, ha! *coughs* \n\nUh...What's wrong with me...I'm sorry general, but you're no longer valuable. Why hunting a sheep when you can own the flock? \n\n*keeps staring at the sword, handling it with ease.*",
+        "message":"Interesting...So you hypocrites use weapons you yourself ban. Ha, ha! *coughs* \n\nUh...What's wrong with me...I'm sorry general, but you're no longer valuable. Why hunt a sheep when you can own the flock? \n\n*keeps staring at the sword, handling it with ease.*",
         "switchToNPC":"ehrenfest"
     },
     {
         "id":"ortholion_unconscious",
-        "message":"The kick was brutal that Ortholion fell unconscious."
+        "message":"The kick was so brutal that Ortholion fell unconscious."
     },
     {
         "id":"ehrenfest_49",

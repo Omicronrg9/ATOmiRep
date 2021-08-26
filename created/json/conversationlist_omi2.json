@@ -7490,7 +7490,7 @@
     },
     {
         "id":"elm2f_passage",
-        "message":"There is a poory walled up passage behind these planks. These boards were recently removed and put back. The General might have passed through here.",
+        "message":"There is a poorly walled up passage behind these planks. These boards were recently removed and put back. The General might have passed through here.",
         "replies":[
             {
                 "text":"Put the planks to the side.",
@@ -7924,7 +7924,7 @@
     },
     {
         "id":"elm3f_locked",
-        "message":"The Feygard soldier you were trying to ignore waves his hands brusquely, as though warning you away from some inminent danger."
+        "message":"The Feygard soldier you were trying to ignore waves his hands brusquely, as though warning you away from some imminent danger."
     },
     {
         "id":"ortholion_guard9_10b",

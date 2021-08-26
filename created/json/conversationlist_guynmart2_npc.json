@@ -64,11 +64,11 @@
         "message":"A bottle of red wine with it, of course. Ooooh!",
         "replies":[
             {
-                "text":"I'm slowly finding you outrageous. I'll have to leave now.",
+                "text":"I'm beginning to find your requests outrageous. I have to leave now.",
                 "nextPhraseID":"guynmart_wise_820"
             },
             {
-                "text":"All right, all right. I have understood you.",
+                "text":"OK, OK, I understand.",
                 "nextPhraseID":"guynmart_wise_830"
             }
         ]

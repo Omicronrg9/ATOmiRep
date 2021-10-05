@@ -6407,7 +6407,7 @@
         "message":"Once I had got a potion from some crazy old guy in a foreign wood. That would be great now. 'Lodar' he was called.",
         "replies":[
             {
-                "text":"Would you like this 'Potion of minor strength'?",
+                "text":"Would you like this 'Minor potion of strength'?",
                 "nextPhraseID":"arghest_alert_8",
                 "requires":[
                     {

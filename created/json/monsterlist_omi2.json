@@ -366,7 +366,8 @@
         "iconID":"monsters_omi2:12",
         "monsterClass":"humanoid",
         "movementAggressionType":"none",
-        "phraseID":"ortholion_guard_selector"
+        "phraseID":"ortholion_guard_selector",
+        "droplistID":"ortholion_guard2"
     },
     {
         "id":"ortholion_guard7",

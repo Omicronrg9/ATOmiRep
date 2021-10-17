@@ -381,6 +381,14 @@
     <property name="spawngroup" value="taylin"/>
    </properties>
   </object>
+  <object name="knights" type="spawn" x="448" y="416" width="192" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
+   </properties>
+  </object>
   <object id="15" name="patrol2_roaming" type="spawn" x="448" y="416" width="192" height="192">
    <properties>
     <property name="active" value="false"/>

@@ -5701,11 +5701,11 @@
         "switchToNPC":"ehrenfest",
         "replies":[
             {
-                "text":"-todo-",
+                "text":"Right! Ortholion must pay for killing innocent people from Prim!",
                 "nextPhraseID":"ortholion_conversation2_5a"
             },
             {
-                "text":"Gladly. Prepare to die!",
+                "text":"Gladly. Ortholion, prepare to die!",
                 "nextPhraseID":"ortholion_conversation2_5a2",
                 "requires":[
                     {
@@ -5730,30 +5730,18 @@
     },
     {
         "id":"ortholion_conversation2_5a2",
-        "message":"Just before starting to launch any attack, General Ortholion moves and disarms you with a single blow.",
+        "message":"General Ortholion ignores you and continues to speak to Ehrenfest.",
         "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"ortholion_conversation2_5a"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"actorCondition",
-                "rewardID":"confusion",
-                "value":75
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"bwm72_beginning",
-                "value":21
+                "nextPhraseID":"ortholion_conversation2_6a"
             }
         ]
     },
     {
         "id":"ortholion_conversation2_6a",
-        "message":"OK, you have bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.",
+        "message":"Ehrenfest, you have bothered me more than I am willing to abide. Blackwater Settlement guards will take care of you.",
         "switchToNPC":"ortholion",
         "replies":[
             {

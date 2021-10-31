@@ -8,6 +8,10 @@
                 "nextPhraseID":"moyra_2"
             },
             {
+                "text":"Who are you?",
+                "nextPhraseID":"moyra_3"
+            },
+            {
                 "text":"Do you know anything about the accident with Lorn?",
                 "nextPhraseID":"moyra_8",
                 "requires":[
@@ -23,10 +27,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"Who are you?",
-                "nextPhraseID":"moyra_3"
             },
             {
                 "text":"Do you know anything about the accident with Lorn?",

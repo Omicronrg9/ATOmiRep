@@ -3030,6 +3030,10 @@
             {
                 "text":"OK, bye.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Bah, useless kid.",
+                "nextPhraseID":"X"
             }
         ]
     },

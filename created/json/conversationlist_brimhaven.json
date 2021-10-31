@@ -7,7 +7,7 @@
                 "requires":[
                     {
                         "requireType":"random",
-                        "requireID":"1/100"
+                        "requireID":"1"
                     }
                 ]
             }
@@ -89,7 +89,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_patrol2_remove_1_bonemeals",
+                "nextPhraseID":"brv_patrol2_remove_2_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -99,7 +99,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_patrol2_remove_1_bonemeals",
+                "nextPhraseID":"brv_patrol2_remove_all_bonemeals",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -139,7 +139,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_patrol2_remove_1_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol2_remove_2_bonemeals_lodar",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -149,7 +149,7 @@
                 ]
             },
             {
-                "nextPhraseID":"brv_patrol2_remove_1_bonemeals_lodar",
+                "nextPhraseID":"brv_patrol2_stop_hero",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -160,6 +160,13 @@
             },
             {
                 "nextPhraseID":"brv_patrol2_stop_hero"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brv_nondisplay",
+                "value":142
             }
         ]
     },
@@ -209,7 +216,7 @@
         ]
     },
     {
-        "id":"brv_patrol2_remove_1_bonemeals",
+        "id":"brv_patrol2_remove_2_bonemeals",
         "replies":[
             {
                 "nextPhraseID":"brv_patrol2_remove_all_bonemeals"
@@ -269,7 +276,7 @@
         ]
     },
     {
-        "id":"brv_patrol2_remove_1_bonemeals_lodar",
+        "id":"brv_patrol2_remove_2_bonemeals_lodar",
         "replies":[
             {
                 "nextPhraseID":"brv_patrol2_remove_all_bonemeals"
@@ -288,11 +295,6 @@
         "message":"Stop in the name of Feygard!\n\n[The soldiers approach and search your belongings]",
         "switchToNPC":"patrol2_captain",
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brv_nondisplay",
-                "value":142
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brv_nondisplay",
@@ -376,7 +378,7 @@
     },
     {
         "id":"brv_patrol2_bonemeals_removed",
-        "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nAnd we have to arrest you of course. Report to prison! Now!.",
+        "message":"What's this? Smells like Bonemeal!\n\nBonemeal is illegal and forbidden by the law of Feygard. I will have to confiscate it.\n[He gives you back all your belongings but keeps the Bonemeals]\n\nAnd we have to arrest you of course. Report to prison! Now!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -456,7 +458,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"remgard_prison",
-                        "value":10
+                        "value":5
                     },
                     {
                         "requireType":"questProgress",
